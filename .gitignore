@@ -1,0 +1,22 @@
+# Local agent/editor state
+**/.claude/
+**/.gstack/
+.idea/
+.vscode/
+
+# Python and test caches
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Credentials and local files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.tmp
+~$*
+

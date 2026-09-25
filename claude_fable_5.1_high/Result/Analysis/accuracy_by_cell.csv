@@ -1,0 +1,28 @@
+﻿task,task_title,variant,variant_title,setting,setting_title,correct,total,accuracy_pct,unknown
+obfus_fol,Obfus FOL,base,Base,zero_shot,Zero-shot,44,50,88.0,0
+obfus_fol,Obfus FOL,base,Base,few_shot,Few-shot,45,50,90.0,0
+obfus_fol,Obfus FOL,base,Base,cot,CoT,45,50,90.0,0
+obfus_fol,Obfus FOL,obfuscation,Obfuscation,zero_shot,Zero-shot,41,50,82.0,0
+obfus_fol,Obfus FOL,obfuscation,Obfuscation,few_shot,Few-shot,43,50,86.0,0
+obfus_fol,Obfus FOL,obfuscation,Obfuscation,cot,CoT,40,50,80.0,0
+obfus_blood_relation,Obfus Blood Relation,base,Base,zero_shot,Zero-shot,35,50,70.0,0
+obfus_blood_relation,Obfus Blood Relation,base,Base,few_shot,Few-shot,34,50,68.0,0
+obfus_blood_relation,Obfus Blood Relation,base,Base,cot,CoT,31,50,62.0,0
+obfus_blood_relation,Obfus Blood Relation,obfuscation_l1,Obfuscation L1,zero_shot,Zero-shot,24,50,48.0,0
+obfus_blood_relation,Obfus Blood Relation,obfuscation_l1,Obfuscation L1,few_shot,Few-shot,26,50,52.0,0
+obfus_blood_relation,Obfus Blood Relation,obfuscation_l1,Obfuscation L1,cot,CoT,28,50,56.00000000000001,0
+obfus_blood_relation,Obfus Blood Relation,obfuscation_l2,Obfuscation L2,zero_shot,Zero-shot,22,50,44.0,0
+obfus_blood_relation,Obfus Blood Relation,obfuscation_l2,Obfuscation L2,few_shot,Few-shot,20,50,40.0,0
+obfus_blood_relation,Obfus Blood Relation,obfuscation_l2,Obfuscation L2,cot,CoT,22,50,44.0,0
+obfus_number_series,Obfus Number Series,base,Base,zero_shot,Zero-shot,33,50,66.0,0
+obfus_number_series,Obfus Number Series,base,Base,few_shot,Few-shot,29,50,57.99999999999999,0
+obfus_number_series,Obfus Number Series,base,Base,cot,CoT,31,50,62.0,0
+obfus_number_series,Obfus Number Series,obfuscation,Obfuscation,zero_shot,Zero-shot,20,50,40.0,0
+obfus_number_series,Obfus Number Series,obfuscation,Obfuscation,few_shot,Few-shot,15,50,30.0,0
+obfus_number_series,Obfus Number Series,obfuscation,Obfuscation,cot,CoT,14,50,28.000000000000004,0
+obfus_direction_sense,Obfus Direction Sense,base,Base,zero_shot,Zero-shot,30,50,60.0,0
+obfus_direction_sense,Obfus Direction Sense,base,Base,few_shot,Few-shot,28,50,56.00000000000001,0
+obfus_direction_sense,Obfus Direction Sense,base,Base,cot,CoT,35,50,70.0,0
+obfus_direction_sense,Obfus Direction Sense,obfuscation,Obfuscation,zero_shot,Zero-shot,20,50,40.0,0
+obfus_direction_sense,Obfus Direction Sense,obfuscation,Obfuscation,few_shot,Few-shot,24,50,48.0,0
+obfus_direction_sense,Obfus Direction Sense,obfuscation,Obfuscation,cot,CoT,24,50,48.0,0

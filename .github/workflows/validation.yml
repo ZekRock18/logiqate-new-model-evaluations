@@ -1,0 +1,26 @@
+name: validate-results
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  completed-runs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate every completed model folder
+        shell: bash
+        run: |
+          mapfile -t runners < <(find . -mindepth 2 -maxdepth 2 -name run_row_by_row.py -print | sort)
+          test "${#runners[@]}" -gt 0
+          for runner in "${runners[@]}"; do
+            echo "Validating ${runner}"
+            python -X utf8 "${runner}" status --strict
+          done

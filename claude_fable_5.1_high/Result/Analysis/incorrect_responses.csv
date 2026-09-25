@@ -1,0 +1,548 @@
+﻿model,workbook,sheet,row_number,response_id,task,item_id,variant,setting,gold_answer,model_response,normalized_gold,normalized_response,is_correct,response_status
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,63,000CA78E3DEC5B5F,obfus_direction_sense,obfus_direction_sense-0048,obfuscation,cot,LA,LG,LA,LG,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,144,009A56365ECACA43,obfus_blood_relation,obfus_blood_relation-0006,obfuscation_l2,zero_shot,Brother-in-law,brother,BROTHERINLAW,BROTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,46,0228EF8466E05615,obfus_blood_relation,obfus_blood_relation-0054,base,zero_shot,Uncle,brother,UNCLE,BROTHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,66,02AA52D061B13F1A,obfus_number_series,obfus_number_series-0102,obfuscation,zero_shot,48,99,48,99,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,2,0332285C38D1AB1B,obfus_number_series,obfus_number_series-0182,base,few_shot,1236,1186,1236,1186,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,121,03CD6A0A13379C72,obfus_blood_relation,obfus_blood_relation-0037,base,cot,One,2,ONE,,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,146,04A37347E06889E6,obfus_blood_relation,obfus_blood_relation-0101,obfuscation_l2,few_shot,Daughter,sister,DAUGHTER,SISTER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,49,0558B19B38CBC94D,obfus_blood_relation,obfus_blood_relation-0101,obfuscation_l2,cot,Daughter,sister,DAUGHTER,SISTER,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,58,0578F0407A2E047E,obfus_fol,obfus_fol-0072,obfuscation,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,3,05A6C31CE55D8A63,obfus_blood_relation,obfus_blood_relation-0031,obfuscation_l2,cot,Two,3,TWO,,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,56,063E9D7BC3D2F4B2,obfus_direction_sense,obfus_direction_sense-0051,base,cot,South,0 m,SOUTH,0 KM,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,67,077B0CF1D186E8C3,obfus_direction_sense,obfus_direction_sense-0114,obfuscation,zero_shot,"0,0",At starting point,"0,0",AT STARTING POINT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,33,078793F78C51B854,obfus_number_series,obfus_number_series-0117,base,cot,31,141,31,141,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,82,08367F8B728803C4,obfus_direction_sense,obfus_direction_sense-0081,base,zero_shot,8.75 km,10.91 km,8.75 KM,10.91 KM,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,26,08C065045CCDDF75,obfus_direction_sense,obfus_direction_sense-0119,obfuscation,cot,9 m East,9.49 m South-East,"9 KM, EAST","9.49 KM, SOUTHEAST",False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,39,08F24E00F2C3F47A,obfus_number_series,obfus_number_series-0209,obfuscation,zero_shot,190,71,190,71,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,44,094026DE8FAD16C7,obfus_blood_relation,obfus_blood_relation-0031,obfuscation_l2,zero_shot,Two,4,TWO,,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,few_shot,35,09E8BF70A9914C99,obfus_fol,obfus_fol-0046,base,few_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,56,0A281D8F73FB691C,obfus_blood_relation,obfus_blood_relation-0104,base,zero_shot,Wife,brother-in-law,WIFE,BROTHERINLAW,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,94,0BA4AA36F2AB7C11,obfus_direction_sense,obfus_direction_sense-0114,obfuscation,few_shot,"0,0",0 km,"0,0",0 KM,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,few_shot,59,0BF4605F0FD7FC67,obfus_fol,obfus_fol-0099,base,few_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,149,0C54F5CA187B99A2,obfus_blood_relation,obfus_blood_relation-0031,obfuscation_l1,cot,Two,4,TWO,,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,50,0D3DE007B4686063,obfus_fol,obfus_fol-0013,base,cot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,1,0D66CC8FD7CFAB30,obfus_number_series,obfus_number_series-0207,base,few_shot,150,18000,150,18000,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,12,0E59FFF872BFC927,obfus_fol,obfus_fol-0096,obfuscation,cot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,70,0FE305552324784A,obfus_blood_relation,obfus_blood_relation-0054,obfuscation_l2,zero_shot,Uncle,father,UNCLE,FATHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,30,103B88ABECAC2FE6,obfus_number_series,obfus_number_series-0296,base,few_shot,524,526,524,526,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,79,1087B81FA81DE1C8,obfus_fol,obfus_fol-0086,obfuscation,cot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,96,10E562A00E5F7616,obfus_number_series,obfus_number_series-0024,base,zero_shot,224.25,251.8,25,8,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,95,11DD02D0CAEF8EC6,obfus_number_series,obfus_number_series-0180,obfuscation,zero_shot,1825,9,1825,9,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,75,128C39F38C88FA4D,obfus_blood_relation,obfus_blood_relation-0006,obfuscation_l1,zero_shot,Brother-in-law,son,BROTHERINLAW,SON,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,55,13AFCC0EA3A9E3E7,obfus_blood_relation,obfus_blood_relation-0041,obfuscation_l2,cot,Can't be determined,niece,CANTBEDETERMINED,NIECE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,11,13CE9895814F8A38,obfus_blood_relation,obfus_blood_relation-0031,base,cot,Two,3,TWO,,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,39,1433CF8461F05802,obfus_number_series,obfus_number_series-0285,obfuscation,few_shot,2766,152,2766,152,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,3,1496158DA55EB103,obfus_direction_sense,obfus_direction_sense-0000,obfuscation,zero_shot,"8.94 km, North-East",8.94 km South-West,"8.94 KM, NORTHEAST","8.94 KM, SOUTHWEST",False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,87,152619F2086C2D27,obfus_blood_relation,obfus_blood_relation-0032,obfuscation_l1,zero_shot,Niece,granddaughter,NIECE,GRANDDAUGHTER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,86,156F09FC2FBCDAF9,obfus_number_series,obfus_number_series-0285,obfuscation,zero_shot,2766,228,2766,228,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,80,15C087CF64BA508D,obfus_blood_relation,obfus_blood_relation-0031,obfuscation_l1,few_shot,Two,4,TWO,,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,63,15E02568FDE1510F,obfus_number_series,obfus_number_series-0191,obfuscation,zero_shot,16,14,16,14,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,94,177A3B7664EE8C84,obfus_number_series,obfus_number_series-0104,obfuscation,zero_shot,105,767 771,105,771,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,111,17DD44FAC28925BB,obfus_blood_relation,obfus_blood_relation-0092,obfuscation_l1,cot,Cousin,brother,COUSIN,BROTHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,61,18A1D939D9541EC4,obfus_number_series,obfus_number_series-0271,obfuscation,few_shot,193,159,193,159,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,1,19768FDC2E474E13,obfus_fol,obfus_fol-0013,obfuscation,cot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,75,19A46B49DC3984BE,obfus_blood_relation,obfus_blood_relation-0078,obfuscation_l2,few_shot,Himself,brother,HIMSELF,BROTHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,2,1A5456055867251A,obfus_direction_sense,obfus_direction_sense-0109,obfuscation,few_shot,Returns to origin,North-West,RETURNS TO ORIGIN,NORTHWEST,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,118,1B5272F471A3664E,obfus_blood_relation,obfus_blood_relation-0078,obfuscation_l2,zero_shot,Himself,brother,HIMSELF,BROTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,107,1B68388175783B29,obfus_blood_relation,obfus_blood_relation-0050,obfuscation_l2,cot,Mother,aunt,MOTHER,AUNT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,69,1B9577869033F56C,obfus_number_series,obfus_number_series-0152,base,few_shot,4841,4836,4841,4836,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,67,1BC9F6B8CEAEE764,obfus_fol,obfus_fol-0099,obfuscation,cot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,35,1CB320B2CC77C444,obfus_number_series,obfus_number_series-0285,base,zero_shot,2766,764,2766,764,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,128,1DDEC0472FB3942E,obfus_blood_relation,obfus_blood_relation-0085,obfuscation_l2,cot,Aunt,no relation,AUNT,NORELATION,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,129,1E43F204FF0A0C79,obfus_blood_relation,obfus_blood_relation-0086,obfuscation_l1,cot,Great-grandfather,uncle,GREATGRANDFATHER,UNCLE,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,83,1EFC6D598658B731,obfus_number_series,obfus_number_series-0056,obfuscation,few_shot,168,174,168,174,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,31,1FFEA07734A2F5DC,obfus_number_series,obfus_number_series-0180,obfuscation,cot,1825,1020,1825,1020,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,89,20154717985538D1,obfus_number_series,obfus_number_series-0019,obfuscation,cot,3944,3640,3944,3640,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,61,2020596782AC1619,obfus_number_series,obfus_number_series-0024,obfuscation,zero_shot,224.25,227.5,25,5,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,50,2091897A5AC3B619,obfus_blood_relation,obfus_blood_relation-0012,obfuscation_l1,cot,Aunt,mother,AUNT,MOTHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,27,20B64B4A2B15DC0D,obfus_direction_sense,obfus_direction_sense-0105,base,cot,5 km,"5 km, South-West",5 KM,"5 KM, SOUTHWEST",False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,141,20F96C9DD86F7C46,obfus_blood_relation,obfus_blood_relation-0021,base,zero_shot,Maternal uncle,uncle,MATERNALUNCLE,UNCLE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,41,218696916F047E46,obfus_blood_relation,obfus_blood_relation-0104,obfuscation_l1,cot,Wife,brother-in-law,WIFE,BROTHERINLAW,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,80,21A847C2E49F6507,obfus_number_series,obfus_number_series-0024,base,cot,224.25,224,25,224,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,66,21BB21083F3BAF2E,obfus_direction_sense,obfus_direction_sense-0049,obfuscation,cot,14m,14.14 m,14 KM,14.14 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,53,21D00F275F4A1435,obfus_number_series,obfus_number_series-0087,base,few_shot,113,106,113,106,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,14,21E64CDACA8E2DD2,obfus_number_series,obfus_number_series-0225,base,few_shot,-33,-30,-33,-30,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,60,228A4289FD902526,obfus_direction_sense,obfus_direction_sense-0067,obfuscation,zero_shot,6.32 km SW,6 km West,"6.32 KM, SOUTHWEST","6 KM, WEST",False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,27,22B5A41F78908D9A,obfus_blood_relation,obfus_blood_relation-0069,obfuscation_l1,few_shot,Niece,aunt,NIECE,AUNT,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,25,23711F1B3179454B,obfus_direction_sense,obfus_direction_sense-0072,obfuscation,cot,North,"21.21 m, South-West",NORTH,"21.21 KM, SOUTHWEST",False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,15,242DD2F1CC8966E3,obfus_blood_relation,obfus_blood_relation-0097,obfuscation_l2,cot,Father,grandfather,FATHER,GRANDFATHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,51,2460C5AEC6283ECC,obfus_blood_relation,obfus_blood_relation-0054,obfuscation_l2,cot,Uncle,father,UNCLE,FATHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,100,25404196ECF57259,obfus_blood_relation,obfus_blood_relation-0004,obfuscation_l1,zero_shot,Sister,daughter,SISTER,DAUGHTER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,59,25701A03F0CE4978,obfus_blood_relation,obfus_blood_relation-0021,base,cot,Maternal uncle,uncle,MATERNALUNCLE,UNCLE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,16,25F686E298B44C69,obfus_blood_relation,obfus_blood_relation-0012,obfuscation_l2,cot,Aunt,brother,AUNT,BROTHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,44,2601DA5DCC54BB24,obfus_number_series,obfus_number_series-0089,obfuscation,zero_shot,234,511,234,511,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,118,26880D2DE501CA7F,obfus_blood_relation,obfus_blood_relation-0061,obfuscation_l2,cot,Sister,son,SISTER,SON,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,33,27D6AECD364D7429,obfus_direction_sense,obfus_direction_sense-0028,obfuscation,zero_shot,North,South-East,NORTH,SOUTHEAST,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,3,28138E7F5E4DD1F3,obfus_blood_relation,obfus_blood_relation-0085,obfuscation_l1,zero_shot,Aunt,sister,AUNT,SISTER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,87,289282C24DF52772,obfus_direction_sense,obfus_direction_sense-0114,base,few_shot,"0,0",0 km,"0,0",0 KM,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,25,2983574C53AAA089,obfus_blood_relation,obfus_blood_relation-0089,obfuscation_l1,few_shot,Husband,father,HUSBAND,FATHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,58,29A409768F98AE94,obfus_number_series,obfus_number_series-0209,base,zero_shot,190,130,190,130,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,67,2A784ABC0A61EE94,obfus_number_series,obfus_number_series-0104,base,zero_shot,105,107,105,107,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,11,2ABEC0D833E13231,obfus_direction_sense,obfus_direction_sense-0057,base,cot,West,0 m,WEST,0 KM,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,93,2B14221A752C96D8,obfus_direction_sense,obfus_direction_sense-0120,obfuscation,few_shot,8 km West,"6.32 km, North-West","8 KM, WEST","6.32 KM, NORTHWEST",False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,69,2B29FF4CD96F782B,obfus_number_series,obfus_number_series-0234,base,cot,30,32,30,32,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,114,2BB04EA9B88E49DD,obfus_blood_relation,obfus_blood_relation-0069,obfuscation_l2,zero_shot,Niece,aunt,NIECE,AUNT,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,132,2BB92631E8AB10EF,obfus_blood_relation,obfus_blood_relation-0072,obfuscation_l1,cot,Mother,grandmother,MOTHER,GRANDMOTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,147,2CD9066BAB0BE77E,obfus_blood_relation,obfus_blood_relation-0030,base,cot,Can't be determined,3,CANTBEDETERMINED,,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,98,2D2C7E9C1278967C,obfus_direction_sense,obfus_direction_sense-0011,obfuscation,cot,North-West,South-West,NORTHWEST,SOUTHWEST,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,47,2E79EA68657E4DBD,obfus_blood_relation,obfus_blood_relation-0030,obfuscation_l1,few_shot,Can't be determined,3,CANTBEDETERMINED,,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,96,2EDA62090C90D27C,obfus_blood_relation,obfus_blood_relation-0030,obfuscation_l1,zero_shot,Can't be determined,3,CANTBEDETERMINED,,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,66,2F0EB67AABCBC6B2,obfus_blood_relation,obfus_blood_relation-0072,obfuscation_l2,cot,Mother,son,MOTHER,SON,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,51,2F95D35249B3F8FB,obfus_number_series,obfus_number_series-0081,obfuscation,few_shot,262,154,262,154,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,34,3063ABFE76B15F23,obfus_direction_sense,obfus_direction_sense-0048,base,cot,LA,AQ,LA,AQ,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,61,30683D9D8D0E4E3D,obfus_direction_sense,obfus_direction_sense-0050,obfuscation,cot,0,0 meters,0,"0 KM, ETERS",False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,18,309B012043137909,obfus_direction_sense,obfus_direction_sense-0025,base,few_shot,South-East,North-East,SOUTHEAST,NORTHEAST,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,21,30ADFA6165A51F6B,obfus_direction_sense,obfus_direction_sense-0054,obfuscation,zero_shot,0,0 m,0,0 KM,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,13,317327D0D6DAF1A2,obfus_direction_sense,obfus_direction_sense-0051,obfuscation,few_shot,South,At starting point,SOUTH,AT STARTING POINT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,12,318B8081EB14D1C1,obfus_number_series,obfus_number_series-0024,obfuscation,few_shot,224.25,251.8,25,8,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,25,31A19BCA8CB78894,obfus_direction_sense,obfus_direction_sense-0071,obfuscation,few_shot,West,North,WEST,NORTH,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,78,31A2646F268D5BC2,obfus_blood_relation,obfus_blood_relation-0037,obfuscation_l1,cot,One,2,ONE,,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,59,321E8810A19241F9,obfus_blood_relation,obfus_blood_relation-0031,obfuscation_l2,few_shot,Two,4,TWO,,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,79,327D75622A49864B,obfus_direction_sense,obfus_direction_sense-0022,obfuscation,few_shot,South.,North,SOUTH,NORTH,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,27,330BED3F6E0A3416,obfus_number_series,obfus_number_series-0117,obfuscation,few_shot,31,117,31,117,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,31,332B9122AABAFB92,obfus_direction_sense,obfus_direction_sense-0081,base,few_shot,8.75 km,10.91 km,8.75 KM,10.91 KM,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,80,336D4BC84D66514F,obfus_blood_relation,obfus_blood_relation-0095,obfuscation_l1,zero_shot,"Sister-in-law""",aunt,SISTERINLAW,AUNT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,42,33D028F14EE9663B,obfus_number_series,obfus_number_series-0081,obfuscation,cot,262,83,262,83,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,56,33F1F392D8881B53,obfus_direction_sense,obfus_direction_sense-0057,obfuscation,few_shot,West,North-West,WEST,NORTHWEST,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,38,33FECE1301A070D0,obfus_blood_relation,obfus_blood_relation-0037,obfuscation_l1,few_shot,One,1,ONE,,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,14,342E32332F71C640,obfus_blood_relation,obfus_blood_relation-0089,obfuscation_l2,zero_shot,Husband,great-grandson,HUSBAND,GREATGRANDSON,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,100,34B1DC9034807259,obfus_blood_relation,obfus_blood_relation-0023,obfuscation_l1,few_shot,Daughter,niece,DAUGHTER,NIECE,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,39,34BBD4BF66A165F8,obfus_direction_sense,obfus_direction_sense-0038,obfuscation,few_shot,"5 km,North-East","16.28 km, North-West","5 KM, NORTHEAST","16.28 KM, NORTHWEST",False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,62,35A96CB0CE7094D8,obfus_number_series,obfus_number_series-0207,obfuscation,few_shot,150,25200,150,25200,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,16,36808A4B899949EE,obfus_number_series,obfus_number_series-0089,base,few_shot,234,243,234,243,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,2,379F22C107B9CD22,obfus_direction_sense,obfus_direction_sense-0028,obfuscation,cot,North,East,NORTH,EAST,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,87,384A1C7803AF12F4,obfus_direction_sense,obfus_direction_sense-0025,obfuscation,zero_shot,South-East,South,SOUTHEAST,SOUTH,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,33,38A5308AAB89AEEC,obfus_fol,obfus_fol-0013,obfuscation,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,84,38CC27C8B716165D,obfus_direction_sense,obfus_direction_sense-0063,obfuscation,cot,South,0 m,SOUTH,0 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,28,38F445E1765E0C21,obfus_number_series,obfus_number_series-0104,obfuscation,few_shot,105,107,105,107,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,34,391A7BD30A3C4707,obfus_blood_relation,obfus_blood_relation-0069,obfuscation_l1,cot,Niece,aunt,NIECE,AUNT,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,106,3A3D26B605D4ABF7,obfus_blood_relation,obfus_blood_relation-0069,base,zero_shot,Niece,aunt,NIECE,AUNT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,70,3B1AF7EBB0EF0D1B,obfus_number_series,obfus_number_series-0236,obfuscation,few_shot,594,588,594,588,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,68,3B3A42CC58923F61,obfus_blood_relation,obfus_blood_relation-0072,obfuscation_l1,zero_shot,Mother,brother,MOTHER,BROTHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,2,3B55342B01A5D22E,obfus_direction_sense,obfus_direction_sense-0011,obfuscation,zero_shot,North-West,South-West,NORTHWEST,SOUTHWEST,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,20,3BE47CC4D6C26F6D,obfus_number_series,obfus_number_series-0152,obfuscation,zero_shot,4841,24242,4841,24242,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,137,3C5AE68694AB42F4,obfus_blood_relation,obfus_blood_relation-0095,base,cot,"Sister-in-law""",wife,SISTERINLAW,WIFE,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,54,3D2367FEA81F2E85,obfus_number_series,obfus_number_series-0087,base,cot,113,106,113,106,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,122,3D7E41FCBFBB7537,obfus_blood_relation,obfus_blood_relation-0012,obfuscation_l2,zero_shot,Aunt,brother,AUNT,BROTHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,12,3DA5462300C94AC9,obfus_number_series,obfus_number_series-0087,obfuscation,cot,113,126,113,126,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,145,3E68513396B9B9AC,obfus_blood_relation,obfus_blood_relation-0021,obfuscation_l2,cot,Maternal uncle,uncle,MATERNALUNCLE,UNCLE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,23,3E9A89729ADDF70A,obfus_blood_relation,obfus_blood_relation-0006,obfuscation_l2,few_shot,Brother-in-law,brother,BROTHERINLAW,BROTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,5,3F9DA1C3C95DE189,obfus_blood_relation,obfus_blood_relation-0032,obfuscation_l2,zero_shot,Niece,granddaughter,NIECE,GRANDDAUGHTER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,71,3FFA892CC696C889,obfus_number_series,obfus_number_series-0182,obfuscation,few_shot,1236,2926,1236,2926,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,52,404832606BEEDC1E,obfus_fol,obfus_fol-0023,obfuscation,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,77,409317144A1B87B6,obfus_number_series,obfus_number_series-0242,obfuscation,zero_shot,96,90,96,90,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,36,41412AED381BEAC3,obfus_number_series,obfus_number_series-0191,obfuscation,few_shot,16,14,16,14,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,148,416D7F2634690FA9,obfus_blood_relation,obfus_blood_relation-0085,obfuscation_l2,zero_shot,Aunt,sister,AUNT,SISTER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,37,41B8E0E55C4130B5,obfus_number_series,obfus_number_series-0245,base,cot,885,808,885,808,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,94,435D27645987CE18,obfus_direction_sense,obfus_direction_sense-0050,base,zero_shot,0,"0 m, At starting point",0,"0 KM, AT",False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,8,43B1F6EEC80618C9,obfus_number_series,obfus_number_series-0207,obfuscation,zero_shot,150,57600,150,57600,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,63,441817FFD5DED5B1,obfus_number_series,obfus_number_series-0180,base,few_shot,1825,1705,1825,1705,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,83,4494912A71BA5561,obfus_direction_sense,obfus_direction_sense-0072,base,few_shot,North,South,NORTH,SOUTH,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,116,44D8D5975CE4F131,obfus_blood_relation,obfus_blood_relation-0033,base,few_shot,Grandson,son,GRANDSON,SON,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,94,460AE8CA8A25D4A7,obfus_fol,obfus_fol-0116,base,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,85,46152E15B04713E9,obfus_blood_relation,obfus_blood_relation-0037,obfuscation_l2,zero_shot,One,1,ONE,,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,57,47B9A1856237F5D2,obfus_number_series,obfus_number_series-0271,obfuscation,cot,193,159,193,159,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,87,47C65CC2368A53EA,obfus_number_series,obfus_number_series-0210,obfuscation,cot,71,279,71,279,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,63,4AC424E64168BFCF,obfus_number_series,obfus_number_series-0233,obfuscation,cot,441,115,441,115,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,42,4BFE17CF9EF1AF39,obfus_blood_relation,obfus_blood_relation-0095,obfuscation_l2,zero_shot,"Sister-in-law""",mother,SISTERINLAW,MOTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,61,4C0313A3324E9F44,obfus_blood_relation,obfus_blood_relation-0086,obfuscation_l2,few_shot,Great-grandfather,grandfather,GREATGRANDFATHER,GRANDFATHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,125,4C1F8DA490017CEF,obfus_blood_relation,obfus_blood_relation-0104,obfuscation_l1,zero_shot,Wife,brother-in-law,WIFE,BROTHERINLAW,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,104,4C460F9496506EEB,obfus_blood_relation,obfus_blood_relation-0032,obfuscation_l1,cot,Niece,granddaughter,NIECE,GRANDDAUGHTER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,15,4D2BCA5D59A2E816,obfus_direction_sense,obfus_direction_sense-0105,base,zero_shot,5 km,5 km South-West,5 KM,"5 KM, SOUTHWEST",False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,98,4D3D7B1942F9AEAC,obfus_direction_sense,obfus_direction_sense-0050,base,few_shot,0,0 m,0,0 KM,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,144,4EB2B5663F50D4FE,obfus_blood_relation,obfus_blood_relation-0078,obfuscation_l2,cot,Himself,brother,HIMSELF,BROTHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,54,4FD421658C532220,obfus_number_series,obfus_number_series-0234,base,few_shot,30,32,30,32,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,41,4FF703509D13EB3D,obfus_number_series,obfus_number_series-0182,obfuscation,cot,1236,1373,1236,1373,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,17,502B4934403B6032,obfus_direction_sense,obfus_direction_sense-0022,base,few_shot,South.,North,SOUTH,NORTH,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,74,50592B63CAB3ED57,obfus_blood_relation,obfus_blood_relation-0086,obfuscation_l2,cot,Great-grandfather,grandfather,GREATGRANDFATHER,GRANDFATHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,81,50FCA3A8BA25F3FC,obfus_direction_sense,obfus_direction_sense-0067,base,cot,6.32 km SW,"6 km, West","6.32 KM, SOUTHWEST","6 KM, WEST",False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,54,51872B322E7DCE3F,obfus_direction_sense,obfus_direction_sense-0071,base,few_shot,West,At starting point,WEST,AT STARTING POINT,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,88,51D00A659C2730BD,obfus_blood_relation,obfus_blood_relation-0078,base,cot,Himself,brother,HIMSELF,BROTHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,44,526F166D618D23B2,obfus_number_series,obfus_number_series-0242,obfuscation,few_shot,96,79,96,79,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,47,52CC82839971F227,obfus_direction_sense,obfus_direction_sense-0101,obfuscation,cot,4.123 km,5 km,4.123 KM,5 KM,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,4,53001A5AECC0CC84,obfus_blood_relation,obfus_blood_relation-0084,obfuscation_l1,zero_shot,Sister,daughter,SISTER,DAUGHTER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,80,535508A664CCA330,obfus_direction_sense,obfus_direction_sense-0014,base,few_shot,North,East,NORTH,EAST,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,24,535E78122FAD370D,obfus_direction_sense,obfus_direction_sense-0052,obfuscation,cot,South,0 m,SOUTH,0 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,41,53764D2849AE27CF,obfus_number_series,obfus_number_series-0298,obfuscation,zero_shot,146,85,146,85,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,51,54EDAB3B59174D03,obfus_blood_relation,obfus_blood_relation-0028,base,zero_shot,Father,grandmother,FATHER,GRANDMOTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,71,55168869431D363A,obfus_blood_relation,obfus_blood_relation-0021,obfuscation_l2,zero_shot,Maternal uncle,great-grandfather,MATERNALUNCLE,GREATGRANDFATHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,63,55331DE1274FE958,obfus_direction_sense,obfus_direction_sense-0081,obfuscation,zero_shot,8.75 km,10.91 km,8.75 KM,10.91 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,1,55A127DABE79B0C3,obfus_number_series,obfus_number_series-0296,obfuscation,zero_shot,524,281,524,281,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,19,55CFE84AD249AD34,obfus_number_series,obfus_number_series-0190,base,cot,15,8,15,8,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,37,55D804B0985F425B,obfus_number_series,obfus_number_series-0210,obfuscation,zero_shot,71,11,71,11,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,142,56160DDAE716976D,obfus_blood_relation,obfus_blood_relation-0021,obfuscation_l2,few_shot,Maternal uncle,uncle,MATERNALUNCLE,UNCLE,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,90,5620712A1D285412,obfus_direction_sense,obfus_direction_sense-0063,base,few_shot,South,West,SOUTH,WEST,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,73,569B0C172831CFCA,obfus_blood_relation,obfus_blood_relation-0069,obfuscation_l2,cot,Niece,aunt,NIECE,AUNT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,4,56F507CEE68DA665,obfus_number_series,obfus_number_series-0233,obfuscation,zero_shot,441,99,441,99,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,79,573A88DA0445F2F2,obfus_direction_sense,obfus_direction_sense-0057,base,zero_shot,West,At starting point,WEST,AT STARTING POINT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,62,576DE6170534B151,obfus_number_series,obfus_number_series-0236,obfuscation,cot,594,336,594,336,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,97,5785A7F93DD0BBC4,obfus_blood_relation,obfus_blood_relation-0092,obfuscation_l2,zero_shot,Cousin,father,COUSIN,FATHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,31,57C967CFFF9ABA2B,obfus_number_series,obfus_number_series-0234,base,zero_shot,30,22,30,22,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,30,582F822AC72B4CC0,obfus_number_series,obfus_number_series-0056,obfuscation,cot,168,136.5,168,5,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,18,58C6C1CF3630AA9B,obfus_number_series,obfus_number_series-0087,base,zero_shot,113,95,113,95,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,143,59B82E5415A2D09A,obfus_blood_relation,obfus_blood_relation-0078,base,few_shot,Himself,brother,HIMSELF,BROTHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,1,5A442FECF3CE07C9,obfus_direction_sense,obfus_direction_sense-0063,base,zero_shot,South,West,SOUTH,WEST,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,65,5A56DDEA19C1A8CB,obfus_fol,obfus_fol-0023,base,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,12,5A5F41ECCB6319B7,obfus_blood_relation,obfus_blood_relation-0031,base,zero_shot,Two,4,TWO,,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,38,5ABA4A8379B1DD41,obfus_number_series,obfus_number_series-0102,obfuscation,cot,48,99,48,99,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,63,5AE70FE4280E3554,obfus_direction_sense,obfus_direction_sense-0101,base,few_shot,4.123 km,5 km West,4.123 KM,"5 KM, WEST",False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,86,5B55D89521655402,obfus_number_series,obfus_number_series-0152,obfuscation,cot,4841,123456,4841,123456,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,27,5C9177AAF6B7C5FC,obfus_direction_sense,obfus_direction_sense-0052,obfuscation,few_shot,South,"15.81 km, North-East",SOUTH,"15.81 KM, NORTHEAST",False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,123,5DA1D44DA4F0C973,obfus_blood_relation,obfus_blood_relation-0078,obfuscation_l1,cot,Himself,brother-in-law,HIMSELF,BROTHERINLAW,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,52,5DB5FE88ABB51883,obfus_blood_relation,obfus_blood_relation-0010,obfuscation_l2,few_shot,Mother,aunt,MOTHER,AUNT,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,37,5DC26F632C35982D,obfus_blood_relation,obfus_blood_relation-0061,obfuscation_l1,zero_shot,Sister,brother,SISTER,BROTHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,73,5E083BF5D1A59676,obfus_direction_sense,obfus_direction_sense-0072,base,zero_shot,North,At starting point,NORTH,AT STARTING POINT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,74,5F2581A3FC57ADFE,obfus_number_series,obfus_number_series-0102,base,cot,48,220,48,220,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,70,5F597953A85B2886,obfus_direction_sense,obfus_direction_sense-0038,obfuscation,zero_shot,"5 km,North-East","16.28 km, North-West","5 KM, NORTHEAST","16.28 KM, NORTHWEST",False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,8,5FE2E0CA369EA842,obfus_number_series,obfus_number_series-0285,base,few_shot,2766,228,2766,228,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,88,5FE53E6A182A1582,obfus_blood_relation,obfus_blood_relation-0004,obfuscation_l1,few_shot,Sister,grandmother,SISTER,GRANDMOTHER,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,8,6009A9EAC048A73C,obfus_fol,obfus_fol-0078,obfuscation,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,9,60572DC2E8DA6096,obfus_blood_relation,obfus_blood_relation-0004,obfuscation_l1,cot,Sister,grandmother,SISTER,GRANDMOTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,76,61EDEF0A27F9F7D8,obfus_blood_relation,obfus_blood_relation-0078,obfuscation_l1,zero_shot,Himself,brother,HIMSELF,BROTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,66,62683850B762D63E,obfus_blood_relation,obfus_blood_relation-0058,obfuscation_l2,few_shot,Daughter in law,sister-in-law,DAUGHTERINLAW,SISTERINLAW,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,92,62CF1AEE98756F31,obfus_number_series,obfus_number_series-0105,obfuscation,cot,987,604,987,604,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,32,645414FA658C5D89,obfus_fol,obfus_fol-0046,base,cot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,9,646874B27E5D8137,obfus_blood_relation,obfus_blood_relation-0041,obfuscation_l2,zero_shot,Can't be determined,granddaughter,CANTBEDETERMINED,GRANDDAUGHTER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,17,6571FBCC6932E62C,obfus_number_series,obfus_number_series-0147,obfuscation,few_shot,182,306,182,306,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,46,65C8C5297C181FDE,obfus_number_series,obfus_number_series-0298,base,zero_shot,146,-34,146,-34,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,31,65FE9843B008DD64,obfus_blood_relation,obfus_blood_relation-0019,base,zero_shot,Grandmother,mother,GRANDMOTHER,MOTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,56,665BC2E769508DC4,obfus_blood_relation,obfus_blood_relation-0069,obfuscation_l2,few_shot,Niece,aunt,NIECE,AUNT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,38,67075943755A5391,obfus_number_series,obfus_number_series-0242,base,few_shot,96,79,96,79,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,10,673195FE60623B6E,obfus_direction_sense,obfus_direction_sense-0054,base,zero_shot,0,0 m,0,0 KM,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,13,679D31F01041A977,obfus_blood_relation,obfus_blood_relation-0072,base,few_shot,Mother,son,MOTHER,SON,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,43,67ACEB3F8E5BBBB8,obfus_number_series,obfus_number_series-0070,obfuscation,few_shot,305,1188,305,1188,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,58,67D6722EF8231A5C,obfus_number_series,obfus_number_series-0069,obfuscation,few_shot,131,135,131,135,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,33,68776ED92AA65999,obfus_direction_sense,obfus_direction_sense-0026,base,few_shot,West,North-West,WEST,NORTHWEST,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,97,68E4AC299FFFE71B,obfus_number_series,obfus_number_series-0056,base,cot,168,171,168,171,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,57,69238D4A47153618,obfus_direction_sense,obfus_direction_sense-0025,obfuscation,cot,South-East,West,SOUTHEAST,WEST,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,27,6A07AF2FBC32E4C8,obfus_blood_relation,obfus_blood_relation-0101,obfuscation_l2,zero_shot,Daughter,sister,DAUGHTER,SISTER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,70,6A4D99320196BF60,obfus_blood_relation,obfus_blood_relation-0041,obfuscation_l2,few_shot,Can't be determined,great-grandfather,CANTBEDETERMINED,GREATGRANDFATHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,11,6BD4999E99728BF0,obfus_number_series,obfus_number_series-0207,obfuscation,cot,150,25200,150,25200,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,84,6BE894DC27C2F13A,obfus_blood_relation,obfus_blood_relation-0023,obfuscation_l1,cot,Daughter,granddaughter,DAUGHTER,GRANDDAUGHTER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,31,6CBCB281FCE295A8,obfus_blood_relation,obfus_blood_relation-0041,base,few_shot,Can't be determined,nephew,CANTBEDETERMINED,NEPHEW,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,13,6CC34BE063630211,obfus_direction_sense,obfus_direction_sense-0114,base,cot,"0,0",0 km,"0,0",0 KM,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,146,6CE0712D6D82A371,obfus_blood_relation,obfus_blood_relation-0089,obfuscation_l2,cot,Husband,grandson,HUSBAND,GRANDSON,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,19,6EADD54AD349E5C6,obfus_direction_sense,obfus_direction_sense-0101,base,zero_shot,4.123 km,5 km West,4.123 KM,"5 KM, WEST",False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,88,6ED4A7D8506230E0,obfus_number_series,obfus_number_series-0207,base,cot,150,25200,150,25200,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,40,70F5E25B07A4654B,obfus_number_series,obfus_number_series-0298,base,cot,146,-119,146,-119,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,63,71F794209321297F,obfus_blood_relation,obfus_blood_relation-0054,obfuscation_l1,zero_shot,Uncle,brother,UNCLE,BROTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,35,720776475AB900FF,obfus_blood_relation,obfus_blood_relation-0085,obfuscation_l1,few_shot,Aunt,sister,AUNT,SISTER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,71,72D0068EC62C1506,obfus_blood_relation,obfus_blood_relation-0024,obfuscation_l2,cot,Son,mother,SON,MOTHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,22,74062CC0654616E8,obfus_number_series,obfus_number_series-0019,base,cot,3944,1487,3944,1487,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,58,75013926B04B7F20,obfus_direction_sense,obfus_direction_sense-0052,base,zero_shot,South,At starting point,SOUTH,AT STARTING POINT,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,32,75A48F3E7511317E,obfus_blood_relation,obfus_blood_relation-0037,obfuscation_l2,few_shot,One,2,ONE,,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,5,76708C663E186094,obfus_direction_sense,obfus_direction_sense-0054,obfuscation,cot,0,0 m,0,0 KM,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,23,76B0476A2119E31F,obfus_direction_sense,obfus_direction_sense-0107,obfuscation,zero_shot,8 km west from the starting point.,8 km,"8 KM, WEST",8 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,74,77099D1299176BB6,obfus_number_series,obfus_number_series-0298,base,few_shot,146,-44,146,-44,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,4,770CED2B40ECE206,obfus_direction_sense,obfus_direction_sense-0107,obfuscation,few_shot,8 km west from the starting point.,8 km,"8 KM, WEST",8 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,21,7915159970E70BB6,obfus_number_series,obfus_number_series-0081,obfuscation,zero_shot,262,154,262,154,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,100,7981C4360038569B,obfus_direction_sense,obfus_direction_sense-0063,obfuscation,zero_shot,South,West,SOUTH,WEST,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,8,7B3ABAE9A727858A,obfus_number_series,obfus_number_series-0230,obfuscation,cot,17,6,17,6,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,93,7BD585FC2233162A,obfus_number_series,obfus_number_series-0044,obfuscation,cot,220,148,220,148,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,50,7C57F5D8A82BB326,obfus_direction_sense,obfus_direction_sense-0105,obfuscation,few_shot,5 km,5 km South-West,5 KM,"5 KM, SOUTHWEST",False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,80,7CE2569A05002BDE,obfus_number_series,obfus_number_series-0209,obfuscation,few_shot,190,131,190,131,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,6,7F0465C704A9D728,obfus_number_series,obfus_number_series-0147,obfuscation,zero_shot,182,Mercury Earth Venus,182,MERCURY EARTH VENUS,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,9,7F54E0D837508060,obfus_direction_sense,obfus_direction_sense-0067,base,few_shot,6.32 km SW,6 km West,"6.32 KM, SOUTHWEST","6 KM, WEST",False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,50,7F73B6896E27DB05,obfus_number_series,obfus_number_series-0066,base,few_shot,126,120,126,120,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,135,80824AE994D48E84,obfus_blood_relation,obfus_blood_relation-0051,obfuscation_l1,zero_shot,Wife,sister-in-law,WIFE,SISTERINLAW,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,4,80C2D83A5DB72706,obfus_number_series,obfus_number_series-0104,obfuscation,cot,105,107,105,107,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,70,815E7F9E749169C5,obfus_direction_sense,obfus_direction_sense-0073,base,cot,0,0 m,0,0 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,78,8203850C893D4564,obfus_number_series,obfus_number_series-0102,base,few_shot,48,177,48,177,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,82,8224A99215CA1A6F,obfus_direction_sense,obfus_direction_sense-0105,base,few_shot,5 km,"4.24 km, North-East",5 KM,"4.24 KM, NORTHEAST",False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,100,82EA829AF4056F8B,obfus_number_series,obfus_number_series-0262,obfuscation,zero_shot,411,243,411,243,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,few_shot,36,834B76776EA314BF,obfus_fol,obfus_fol-0072,base,few_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,83,835BD10E258C43FF,obfus_direction_sense,obfus_direction_sense-0120,obfuscation,cot,8 km West,"6.32 km, North-West","8 KM, WEST","6.32 KM, NORTHWEST",False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,73,845F963EB332ED82,obfus_direction_sense,obfus_direction_sense-0083,obfuscation,cot,5.29 km,8.72 km,5.29 KM,8.72 KM,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,96,84BBA64FDBCFD350,obfus_blood_relation,obfus_blood_relation-0069,base,cot,Niece,aunt,NIECE,AUNT,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,58,84F1E92133BE3B4D,obfus_direction_sense,obfus_direction_sense-0052,base,few_shot,South,West,SOUTH,WEST,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,55,8514F8681AE86B67,obfus_number_series,obfus_number_series-0102,obfuscation,few_shot,48,8,48,8,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,50,85F9F3EB51BF9DFD,obfus_direction_sense,obfus_direction_sense-0109,base,zero_shot,Returns to origin,at starting point,RETURNS TO ORIGIN,AT STARTING POINT,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,99,86099CE1BA0382B7,obfus_blood_relation,obfus_blood_relation-0046,obfuscation_l2,zero_shot,Son,grandson,SON,GRANDSON,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,21,862E178A5291DA30,obfus_number_series,obfus_number_series-0049,obfuscation,few_shot,622,910,622,910,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,105,8646F65C7FD4E5A3,obfus_blood_relation,obfus_blood_relation-0036,obfuscation_l1,few_shot,Brother-in-law,husband,BROTHERINLAW,HUSBAND,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,136,86AA30024886B651,obfus_blood_relation,obfus_blood_relation-0036,base,few_shot,Brother-in-law,sister-in-law,BROTHERINLAW,SISTERINLAW,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,98,874357DB06A93E33,obfus_number_series,obfus_number_series-0180,obfuscation,few_shot,1825,1700,1825,1700,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,75,876312186A5B6EBF,obfus_number_series,obfus_number_series-0105,obfuscation,few_shot,987,949,987,949,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,few_shot,50,8786A545FA17AD58,obfus_fol,obfus_fol-0099,obfuscation,few_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,18,880C03A29D08E9BD,obfus_blood_relation,obfus_blood_relation-0061,base,cot,Sister,brother,SISTER,BROTHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,17,8814BC44591227F4,obfus_number_series,obfus_number_series-0089,obfuscation,cot,234,243,234,243,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,51,88A2281299CB4699,obfus_direction_sense,obfus_direction_sense-0109,obfuscation,zero_shot,Returns to origin,at starting point,RETURNS TO ORIGIN,AT STARTING POINT,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,13,88A34A293E442B35,obfus_fol,obfus_fol-0046,obfuscation,cot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,135,8903FC38AAFAB44B,obfus_blood_relation,obfus_blood_relation-0072,obfuscation_l1,few_shot,Mother,son,MOTHER,SON,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,45,89E83C5180C434B9,obfus_direction_sense,obfus_direction_sense-0026,base,zero_shot,West,North,WEST,NORTH,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,139,8A24F8825A7DE44E,obfus_blood_relation,obfus_blood_relation-0034,obfuscation_l2,few_shot,Aunt,daughter,AUNT,DAUGHTER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,113,8AB1AD629EA1CDE0,obfus_blood_relation,obfus_blood_relation-0021,obfuscation_l1,few_shot,Maternal uncle,uncle,MATERNALUNCLE,UNCLE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,78,8BDC1D03CB3032FA,obfus_blood_relation,obfus_blood_relation-0092,obfuscation_l2,few_shot,Cousin,brother,COUSIN,BROTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,130,8C114E5EFAFD34E8,obfus_blood_relation,obfus_blood_relation-0051,obfuscation_l1,few_shot,Wife,sister,WIFE,SISTER,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,few_shot,68,8C6D15CB919E8E71,obfus_fol,obfus_fol-0051,obfuscation,few_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,49,8C8E972E70C07729,obfus_direction_sense,obfus_direction_sense-0109,obfuscation,cot,Returns to origin,0 m,RETURNS TO ORIGIN,0 KM,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,141,8D0D82BF6F6258B0,obfus_blood_relation,obfus_blood_relation-0046,obfuscation_l1,cot,Son,husband,SON,HUSBAND,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,2,8D73C870ADAB90C1,obfus_number_series,obfus_number_series-0285,obfuscation,cot,2766,94,2766,94,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,92,8D87F384E78B20EE,obfus_blood_relation,obfus_blood_relation-0058,obfuscation_l2,zero_shot,Daughter in law,grandmother,DAUGHTERINLAW,GRANDMOTHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,49,8DC16580AF4989FA,obfus_direction_sense,obfus_direction_sense-0101,obfuscation,few_shot,4.123 km,"5.00 km, West",4.123 KM,"5.00 KM, WEST",False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,99,8E326766CF921B38,obfus_fol,obfus_fol-0009,obfuscation,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,58,8E657BF21DE9F0CC,obfus_blood_relation,obfus_blood_relation-0006,obfuscation_l2,cot,Brother-in-law,brother,BROTHERINLAW,BROTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,117,8E819A0CD9C45B71,obfus_blood_relation,obfus_blood_relation-0037,base,few_shot,One,2,ONE,,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,82,8EDF64BD4328C0B5,obfus_blood_relation,obfus_blood_relation-0097,base,cot,Father,brother,FATHER,BROTHER,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,few_shot,90,8F43EA308BDA065F,obfus_fol,obfus_fol-0013,obfuscation,few_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,36,8F764D0CD9893BF1,obfus_blood_relation,obfus_blood_relation-0028,base,cot,Father,grandfather,FATHER,GRANDFATHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,44,8F967031640F91A8,obfus_number_series,obfus_number_series-0024,obfuscation,cot,224.25,225.75,25,75,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,89,90C1D3AA078DD192,obfus_direction_sense,obfus_direction_sense-0052,base,cot,South,0 m,SOUTH,0 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,79,914E06968E93AFE0,obfus_number_series,obfus_number_series-0271,obfuscation,zero_shot,193,158,193,158,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,9,92302CB5B9863B67,obfus_number_series,obfus_number_series-0271,base,cot,193,211,193,211,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,41,932F111D040AB323,obfus_direction_sense,obfus_direction_sense-0057,base,few_shot,West,At starting point,WEST,AT STARTING POINT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,82,9374223C6EEFB34E,obfus_number_series,obfus_number_series-0081,base,zero_shot,262,190,262,190,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,87,93B8F91CFF747B42,obfus_blood_relation,obfus_blood_relation-0004,obfuscation_l2,cot,Sister,grandmother,SISTER,GRANDMOTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,134,943861E4E4262B16,obfus_blood_relation,obfus_blood_relation-0052,obfuscation_l1,zero_shot,Daughter-in-law,mother-in-law,DAUGHTERINLAW,MOTHERINLAW,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,27,94CA5CF5B528E319,obfus_blood_relation,obfus_blood_relation-0023,obfuscation_l2,cot,Daughter,niece,DAUGHTER,NIECE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,64,95EE81F9E8CB23E9,obfus_blood_relation,obfus_blood_relation-0059,obfuscation_l2,few_shot,Sister of Father-in-law,aunt,SISTEROFFATHERINLAW,AUNT,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,122,9682065B0818AC43,obfus_blood_relation,obfus_blood_relation-0061,obfuscation_l2,few_shot,Sister,brother,SISTER,BROTHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,100,96BC620950613252,obfus_direction_sense,obfus_direction_sense-0005,obfuscation,few_shot,East,North,EAST,NORTH,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,114,9818F8601FA2DEAB,obfus_blood_relation,obfus_blood_relation-0036,obfuscation_l2,cot,Brother-in-law,father-in-law,BROTHERINLAW,FATHERINLAW,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,86,98AC696C12FE5692,obfus_number_series,obfus_number_series-0089,obfuscation,few_shot,234,243,234,243,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,98,98CF0F35303A07C7,obfus_number_series,obfus_number_series-0296,obfuscation,cot,524,38,524,38,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,115,99794DFEA750BC54,obfus_blood_relation,obfus_blood_relation-0028,base,few_shot,Father,grandfather,FATHER,GRANDFATHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,111,998E91F5697BD005,obfus_blood_relation,obfus_blood_relation-0051,obfuscation_l2,zero_shot,Wife,sister-in-law,WIFE,SISTERINLAW,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,36,99AA16655D67C514,obfus_number_series,obfus_number_series-0102,base,zero_shot,48,175,48,175,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,67,99DBAD34F16AC708,obfus_number_series,obfus_number_series-0298,obfuscation,cot,146,1,146,1,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,55,9A13D179547C70AF,obfus_number_series,obfus_number_series-0089,base,cot,234,243,234,243,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,39,9A6085EA054AB41E,obfus_number_series,obfus_number_series-0195,obfuscation,cot,392,254,392,254,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,93,9A683F364A5193AB,obfus_blood_relation,obfus_blood_relation-0095,base,few_shot,"Sister-in-law""",wife,SISTERINLAW,WIFE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,79,9AAB8A1B44FAF006,obfus_blood_relation,obfus_blood_relation-0036,obfuscation_l2,few_shot,Brother-in-law,daughter,BROTHERINLAW,DAUGHTER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,68,9AC569D6CD8A33FA,obfus_direction_sense,obfus_direction_sense-0071,obfuscation,cot,West,South,WEST,SOUTH,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,82,9B9B2DFC28A15D35,obfus_number_series,obfus_number_series-0242,base,cot,96,79,96,79,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,65,9BC3B26765CFFA96,obfus_direction_sense,obfus_direction_sense-0051,base,zero_shot,South,At starting point,SOUTH,AT STARTING POINT,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,35,9C21B645925E2492,obfus_blood_relation,obfus_blood_relation-0024,base,cot,Son,nephew,SON,NEPHEW,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,53,9C2B57DFDF0B077F,obfus_direction_sense,obfus_direction_sense-0001,obfuscation,cot,"7.07 km, North-East",7.07 km,"7.07 KM, NORTHEAST",7.07 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,5,9D2436A709BFC5C1,obfus_number_series,obfus_number_series-0262,obfuscation,cot,411,243,411,243,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,102,9D394F39656364B3,obfus_blood_relation,obfus_blood_relation-0021,base,few_shot,Maternal uncle,uncle,MATERNALUNCLE,UNCLE,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,71,9D3F8FCEB48557E9,obfus_direction_sense,obfus_direction_sense-0054,obfuscation,few_shot,0,0 m,0,0 KM,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,34,9D4E6CE99CD5E897,obfus_blood_relation,obfus_blood_relation-0089,obfuscation_l1,zero_shot,Husband,son-in-law,HUSBAND,SONINLAW,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,28,9D97544412D57E3F,obfus_direction_sense,obfus_direction_sense-0025,obfuscation,few_shot,South-East,South,SOUTHEAST,SOUTH,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,91,9E6030FD768A4F5A,obfus_direction_sense,obfus_direction_sense-0050,obfuscation,zero_shot,0,At starting point,0,AT STARTING POINT,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,12,9EDB88F91ECD8922,obfus_direction_sense,obfus_direction_sense-0086,obfuscation,few_shot,0 m,"0 m, At starting point",0 KM,"0 KM, AT",False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,78,9F62B4BBE2562FAD,obfus_blood_relation,obfus_blood_relation-0034,obfuscation_l2,zero_shot,Aunt,great-granddaughter,AUNT,GREATGRANDDAUGHTER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,97,9FC8A12B7487366E,obfus_number_series,obfus_number_series-0210,obfuscation,few_shot,71,69,71,69,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,72,9FE58D25719C7BE9,obfus_direction_sense,obfus_direction_sense-0086,obfuscation,zero_shot,0 m,"0 m, At starting point",0 KM,"0 KM, AT",False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,73,A0587C48E984C323,obfus_number_series,obfus_number_series-0207,base,zero_shot,150,18000,150,18000,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,31,A082038ED12E79AD,obfus_direction_sense,obfus_direction_sense-0120,obfuscation,zero_shot,8 km West,15.23 km North-West,"8 KM, WEST","15.23 KM, NORTHWEST",False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,62,A11A683E421AB417,obfus_direction_sense,obfus_direction_sense-0119,obfuscation,zero_shot,9 m East,"9.49 m, South-East","9 KM, EAST","9.49 KM, SOUTHEAST",False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,35,A137257C032D40CB,obfus_number_series,obfus_number_series-0006,obfuscation,cot,397,269,397,269,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,48,A238AEB647FDFB73,obfus_fol,obfus_fol-0102,obfuscation,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,101,A26577C5DE74650D,obfus_blood_relation,obfus_blood_relation-0072,base,zero_shot,Mother,father,MOTHER,FATHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,29,A2A0227DB1220701,obfus_direction_sense,obfus_direction_sense-0071,base,cot,West,0 m,WEST,0 KM,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,54,A2ACD59D508FDEBA,obfus_direction_sense,obfus_direction_sense-0114,base,zero_shot,"0,0",At starting point,"0,0",AT STARTING POINT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,18,A2E0623F7F814D44,obfus_number_series,obfus_number_series-0117,obfuscation,cot,31,117,31,117,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,96,A3183DDDAF1BBC09,obfus_fol,obfus_fol-0099,base,cot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,16,A407595AEEA1C1F2,obfus_blood_relation,obfus_blood_relation-0052,obfuscation_l1,few_shot,Daughter-in-law,daughter,DAUGHTERINLAW,DAUGHTER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,10,A46F3E42EEE68302,obfus_direction_sense,obfus_direction_sense-0051,base,few_shot,South,"30 m, East",SOUTH,"30 KM, EAST",False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,76,A4B4A8B02FCF14DD,obfus_direction_sense,obfus_direction_sense-0067,base,zero_shot,6.32 km SW,"6 km, West","6.32 KM, SOUTHWEST","6 KM, WEST",False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,92,A4BA29D9CEF47C13,obfus_direction_sense,obfus_direction_sense-0090,base,few_shot,4.45 blocks,"4.45 blocks, East","4.45 KM, S","4.45 KM, EAST",False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,65,A517C5DC2A21DB7F,obfus_blood_relation,obfus_blood_relation-0062,base,zero_shot,Mother,aunt,MOTHER,AUNT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,29,A5A28373337645D5,obfus_number_series,obfus_number_series-0087,obfuscation,few_shot,113,126,113,126,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,87,A63A66844D90F3F4,obfus_number_series,obfus_number_series-0236,obfuscation,zero_shot,594,582,594,582,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,80,A651A86E6E7092F8,obfus_direction_sense,obfus_direction_sense-0073,obfuscation,zero_shot,0,80 meters West,0,"80 KM, ETERS",False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,99,A78703B3EBDEAF5A,obfus_direction_sense,obfus_direction_sense-0050,obfuscation,few_shot,0,0 meters,0,"0 KM, ETERS",False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,91,A82AF6CE818C5F8C,obfus_number_series,obfus_number_series-0245,obfuscation,zero_shot,885,704,885,704,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,36,A8B1BBB1E326A187,obfus_direction_sense,obfus_direction_sense-0005,base,few_shot,East,South-West,EAST,SOUTHWEST,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,142,A977A163B26428B1,obfus_blood_relation,obfus_blood_relation-0032,obfuscation_l2,cot,Niece,granddaughter,NIECE,GRANDDAUGHTER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,74,AA526797E8F46331,obfus_blood_relation,obfus_blood_relation-0072,obfuscation_l2,zero_shot,Mother,brother,MOTHER,BROTHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,47,AA9AF24EA05EDC6C,obfus_number_series,obfus_number_series-0104,base,few_shot,105,107,105,107,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,93,AAAF1588DCA5C5FE,obfus_direction_sense,obfus_direction_sense-0057,obfuscation,zero_shot,West,North-West,WEST,NORTHWEST,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,21,AAC8CF8CEB2D68F0,obfus_blood_relation,obfus_blood_relation-0030,obfuscation_l2,few_shot,Can't be determined,3,CANTBEDETERMINED,,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,82,AAF896905BAE88D0,obfus_number_series,obfus_number_series-0233,obfuscation,few_shot,441,1234,441,1234,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,68,ABB0AADEB10A6D47,obfus_direction_sense,obfus_direction_sense-0099,base,zero_shot,0 m,"0 m, At starting point",0 KM,"0 KM, AT",False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,37,ABDE063DDDCBDD74,obfus_direction_sense,obfus_direction_sense-0119,obfuscation,few_shot,9 m East,"9.49 m, South-East","9 KM, EAST","9.49 KM, SOUTHEAST",False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,65,AC48871241D55095,obfus_blood_relation,obfus_blood_relation-0069,base,few_shot,Niece,aunt,NIECE,AUNT,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,119,ACC12113FEE8F4FB,obfus_blood_relation,obfus_blood_relation-0046,base,cot,Son,mother,SON,MOTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,81,ACE0B8E3A39BCC31,obfus_blood_relation,obfus_blood_relation-0104,base,cot,Wife,sister-in-law,WIFE,SISTERINLAW,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,39,AD212E77B44635AA,obfus_blood_relation,obfus_blood_relation-0028,obfuscation_l2,cot,Father,son,FATHER,SON,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,55,AD9C237FC2E88E48,obfus_blood_relation,obfus_blood_relation-0085,obfuscation_l2,few_shot,Aunt,sister,AUNT,SISTER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,31,ADEDC11E665F39DE,obfus_direction_sense,obfus_direction_sense-0063,base,cot,South,West,SOUTH,WEST,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,59,AE80F25645247FDE,obfus_direction_sense,obfus_direction_sense-0083,base,zero_shot,5.29 km,8.72 km,5.29 KM,8.72 KM,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,3,AE957E14E3B50CFA,obfus_blood_relation,obfus_blood_relation-0060,obfuscation_l2,few_shot,Cousin,sister,COUSIN,SISTER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,25,AE9791CD5CBECA34,obfus_direction_sense,obfus_direction_sense-0052,obfuscation,zero_shot,South,South-East,SOUTH,SOUTHEAST,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,50,AF4733D67E64693A,obfus_blood_relation,obfus_blood_relation-0065,obfuscation_l2,few_shot,Granddaughter,grandfather,GRANDDAUGHTER,GRANDFATHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,30,AF5A4EC272BEF679,obfus_direction_sense,obfus_direction_sense-0005,obfuscation,cot,East,West,EAST,WEST,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,56,B1A9036CC668F574,obfus_number_series,obfus_number_series-0234,obfuscation,few_shot,30,10,30,10,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,62,B1B1088996CFF180,obfus_blood_relation,obfus_blood_relation-0037,obfuscation_l2,cot,One,2,ONE,,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,82,B1E6ED2959C86957,obfus_blood_relation,obfus_blood_relation-0041,base,zero_shot,Can't be determined,niece,CANTBEDETERMINED,NIECE,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,42,B264C91B8214F6D6,obfus_fol,obfus_fol-0061,base,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,24,B2AB91587AA3DAB5,obfus_fol,obfus_fol-0072,base,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,74,B35069DFFBD66BB0,obfus_blood_relation,obfus_blood_relation-0030,base,few_shot,Can't be determined,3,CANTBEDETERMINED,,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,73,B480729974AD9100,obfus_blood_relation,obfus_blood_relation-0060,obfuscation_l1,zero_shot,Cousin,brother,COUSIN,BROTHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,94,B492704A93B2548A,obfus_direction_sense,obfus_direction_sense-0067,obfuscation,cot,6.32 km SW,"6 km, West","6.32 KM, SOUTHWEST","6 KM, WEST",False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,50,B5A8E7822E09CF77,obfus_direction_sense,obfus_direction_sense-0043,obfuscation,cot,North-East,South,NORTHEAST,SOUTH,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,26,B63DC2E883A000E8,obfus_blood_relation,obfus_blood_relation-0021,obfuscation_l1,zero_shot,Maternal uncle,uncle,MATERNALUNCLE,UNCLE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,93,B7C3F74A3E3BD5F2,obfus_blood_relation,obfus_blood_relation-0059,obfuscation_l2,cot,Sister of Father-in-law,aunt,SISTEROFFATHERINLAW,AUNT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,73,B841A4125C46F29D,obfus_number_series,obfus_number_series-0019,base,few_shot,3944,1487,3944,1487,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,74,B84F4A235B76761C,obfus_direction_sense,obfus_direction_sense-0024,obfuscation,zero_shot,West,East,WEST,EAST,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,44,B874CA8E881EEE67,obfus_direction_sense,obfus_direction_sense-0114,obfuscation,cot,"0,0",0 m,"0,0",0 KM,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,55,B8909D0D9BD15C49,obfus_direction_sense,obfus_direction_sense-0048,obfuscation,few_shot,LA,LG,LA,LG,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,119,B95D778F80C618FD,obfus_blood_relation,obfus_blood_relation-0041,obfuscation_l1,few_shot,Can't be determined,father,CANTBEDETERMINED,FATHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,24,B98D751E63FB384B,obfus_number_series,obfus_number_series-0117,obfuscation,zero_shot,31,151,31,151,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,85,B9FC2D0A4CBF57DF,obfus_blood_relation,obfus_blood_relation-0085,obfuscation_l1,cot,Aunt,no relation,AUNT,NORELATION,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,36,BA3E2B191ECACB26,obfus_fol,obfus_fol-0072,obfuscation,cot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,49,BB3868519B5B4436,obfus_number_series,obfus_number_series-0056,base,zero_shot,168,172,168,172,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,7,BB45ECCB4297A39B,obfus_fol,obfus_fol-0046,base,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,63,BB54D08275D43385,obfus_blood_relation,obfus_blood_relation-0031,base,few_shot,Two,3,TWO,,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,34,BBD9A5B7CF2913B3,obfus_direction_sense,obfus_direction_sense-0099,obfuscation,few_shot,0 m,0 meters,0 KM,"0 KM, ETERS",False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,few_shot,16,BC64081147D92022,obfus_fol,obfus_fol-0009,obfuscation,few_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,76,BD250141E1319A1F,obfus_blood_relation,obfus_blood_relation-0041,base,cot,Can't be determined,nephew,CANTBEDETERMINED,NEPHEW,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,31,BE50E9100EF58755,obfus_fol,obfus_fol-0051,obfuscation,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,84,BEEDBDA908B1394A,obfus_direction_sense,obfus_direction_sense-0000,base,zero_shot,"8.94 km, North-East","10.00 km, North-East","8.94 KM, NORTHEAST","10.00 KM, NORTHEAST",False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,112,BEF1536E6192246F,obfus_blood_relation,obfus_blood_relation-0041,obfuscation_l1,cot,Can't be determined,nephew,CANTBEDETERMINED,NEPHEW,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,83,BFB96102640A60E5,obfus_blood_relation,obfus_blood_relation-0032,obfuscation_l2,few_shot,Niece,granddaughter,NIECE,GRANDDAUGHTER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,150,C045672013B80EFF,obfus_blood_relation,obfus_blood_relation-0084,obfuscation_l2,cot,Sister,cousin,SISTER,COUSIN,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,71,C1E2873EA1C9905F,obfus_blood_relation,obfus_blood_relation-0051,obfuscation_l2,few_shot,Wife,sister-in-law,WIFE,SISTERINLAW,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,38,C1F958C4372292C7,obfus_number_series,obfus_number_series-0087,obfuscation,zero_shot,113,104,113,104,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,10,C34D985DA184837E,obfus_blood_relation,obfus_blood_relation-0092,obfuscation_l1,few_shot,Cousin,brother,COUSIN,BROTHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,44,C34F24775F899372,obfus_direction_sense,obfus_direction_sense-0072,obfuscation,few_shot,North,At starting point,NORTH,AT STARTING POINT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,23,C39DEE02156B587B,obfus_number_series,obfus_number_series-0056,obfuscation,zero_shot,168,171,168,171,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,70,C3AD1210FBF7BAFF,obfus_number_series,obfus_number_series-0049,obfuscation,zero_shot,622,910,622,910,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,11,C453BC818004506A,obfus_fol,obfus_fol-0066,obfuscation,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,17,C4AC7D525A61B63C,obfus_fol,obfus_fol-0054,obfuscation,cot,FALSE,TRUE,FALSE,TRUE,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,74,C519CC49FCA45DDC,obfus_direction_sense,obfus_direction_sense-0101,base,cot,4.123 km,5 km,4.123 KM,5 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,34,C5B09F369C8C75ED,obfus_number_series,obfus_number_series-0262,obfuscation,few_shot,411,243,411,243,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,60,C60818A5DB988588,obfus_number_series,obfus_number_series-0190,obfuscation,few_shot,15,18,15,18,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,7,C60C8F94EA00156E,obfus_number_series,obfus_number_series-0180,base,zero_shot,1825,1675,1825,1675,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,34,C640504289CEF2E2,obfus_fol,obfus_fol-0023,obfuscation,cot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,150,C74F6A1FD57D0FEB,obfus_blood_relation,obfus_blood_relation-0037,base,zero_shot,One,2,ONE,,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,26,C79906A3A4D1CDBB,obfus_blood_relation,obfus_blood_relation-0050,base,few_shot,Mother,son,MOTHER,SON,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,47,C83EB6D3AEFBCA8D,obfus_direction_sense,obfus_direction_sense-0000,obfuscation,few_shot,"8.94 km, North-East","8.94 km South-West, facing West","8.94 KM, NORTHEAST","8.94 KM, SOUTHWEST",False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,40,C92D690DF57B0EDD,obfus_direction_sense,obfus_direction_sense-0083,obfuscation,zero_shot,5.29 km,8.72 km,5.29 KM,8.72 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,6,C9DEDA032B327C98,obfus_number_series,obfus_number_series-0298,obfuscation,few_shot,146,1,146,1,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,45,C9E5792AD4B2D63A,obfus_number_series,obfus_number_series-0195,obfuscation,few_shot,392,84,392,84,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,90,CA8585771DA1058E,obfus_number_series,obfus_number_series-0105,base,cot,987,981,987,981,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,56,CAB44E2F274B8196,obfus_direction_sense,obfus_direction_sense-0095,obfuscation,zero_shot,4.64 km,4.85 km,4.64 KM,4.85 KM,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,81,CADCF95CE270F3E2,obfus_direction_sense,obfus_direction_sense-0054,base,few_shot,0,0 m,0,0 KM,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,96,CB4BCA608EEC72AD,obfus_direction_sense,obfus_direction_sense-0109,base,few_shot,Returns to origin,0 m,RETURNS TO ORIGIN,0 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,76,CBAB448553838FE5,obfus_number_series,obfus_number_series-0158,obfuscation,few_shot,38,11,38,11,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,2,CBB09A07CA87B257,obfus_blood_relation,obfus_blood_relation-0059,obfuscation_l1,few_shot,Sister of Father-in-law,grandaunt,SISTEROFFATHERINLAW,GRANDAUNT,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,few_shot,72,CBB3EDFC25C12461,obfus_fol,obfus_fol-0066,obfuscation,few_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,25,CBC448F6C30318AC,obfus_number_series,obfus_number_series-0147,obfuscation,cot,182,348,182,348,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,110,CC4B703EEF41EE86,obfus_blood_relation,obfus_blood_relation-0095,obfuscation_l2,few_shot,"Sister-in-law""",daughter-in-law,SISTERINLAW,DAUGHTERINLAW,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,61,CE4B1CD532FA2450,obfus_direction_sense,obfus_direction_sense-0028,obfuscation,few_shot,North,East,NORTH,EAST,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,21,CEA87F5D4B070516,obfus_fol,obfus_fol-0023,base,cot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,1,CF1C82FD43CE7266,obfus_number_series,obfus_number_series-0190,obfuscation,cot,15,18,15,18,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,15,CFC166C5BFACBB90,obfus_number_series,obfus_number_series-0296,obfuscation,few_shot,524,595,524,595,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,140,CFF4E0ECA0153B4E,obfus_blood_relation,obfus_blood_relation-0028,obfuscation_l2,zero_shot,Father,mother,FATHER,MOTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,145,D0035EE0FD4939F0,obfus_blood_relation,obfus_blood_relation-0036,obfuscation_l1,zero_shot,Brother-in-law,son,BROTHERINLAW,SON,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,105,D01398CC304544FB,obfus_blood_relation,obfus_blood_relation-0028,obfuscation_l1,cot,Father,great grandfather,FATHER,GREATGRANDFATHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,60,D0B73C29A27B92F9,obfus_blood_relation,obfus_blood_relation-0072,base,cot,Mother,son,MOTHER,SON,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,69,D0C6D9A687E69300,obfus_direction_sense,obfus_direction_sense-0073,base,zero_shot,0,"0 m, At starting point",0,"0 KM, AT",False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,104,D1514CC5FD338EBD,obfus_blood_relation,obfus_blood_relation-0023,obfuscation_l2,few_shot,Daughter,sister,DAUGHTER,SISTER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,77,D2A28FD95ED07142,obfus_direction_sense,obfus_direction_sense-0067,obfuscation,few_shot,6.32 km SW,"6 km, West","6.32 KM, SOUTHWEST","6 KM, WEST",False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,72,D2DDE08CF888B143,obfus_blood_relation,obfus_blood_relation-0092,base,cot,Cousin,brother,COUSIN,BROTHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,15,D34E69A619F4FDEC,obfus_number_series,obfus_number_series-0285,base,cot,2766,764,2766,764,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,62,D3EF9DCB621FF18F,obfus_blood_relation,obfus_blood_relation-0084,obfuscation_l1,few_shot,Sister,mother,SISTER,MOTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,60,D3F151486EADCBF4,obfus_blood_relation,obfus_blood_relation-0092,base,few_shot,Cousin,brother,COUSIN,BROTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,76,D3FF6AFC376179BB,obfus_blood_relation,obfus_blood_relation-0089,obfuscation_l2,few_shot,Husband,father,HUSBAND,FATHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,111,D4432E66110BD6EC,obfus_blood_relation,obfus_blood_relation-0086,obfuscation_l1,few_shot,Great-grandfather,grandfather,GREATGRANDFATHER,GRANDFATHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,100,D47C8363417F2E17,obfus_number_series,obfus_number_series-0146,obfuscation,cot,25,22,25,22,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,45,D499657E5EDAE46B,obfus_blood_relation,obfus_blood_relation-0050,base,cot,Mother,aunt,MOTHER,AUNT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,99,D5311FFD6AA85905,obfus_number_series,obfus_number_series-0066,obfuscation,few_shot,126,198,126,198,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,48,D5F179F26E76FF41,obfus_blood_relation,obfus_blood_relation-0059,obfuscation_l1,cot,Sister of Father-in-law,aunt,SISTEROFFATHERINLAW,AUNT,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,66,D6396EA6255647EC,obfus_direction_sense,obfus_direction_sense-0073,base,few_shot,0,0 m,0,0 KM,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,54,D6A2B0D6AEDEA843,obfus_blood_relation,obfus_blood_relation-0059,base,cot,Sister of Father-in-law,mother-in-law,SISTEROFFATHERINLAW,MOTHERINLAW,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,52,D8580A4681A30938,obfus_blood_relation,obfus_blood_relation-0069,obfuscation_l1,zero_shot,Niece,sister,NIECE,SISTER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,74,D8BFC66282258C86,obfus_number_series,obfus_number_series-0190,obfuscation,zero_shot,15,18,15,18,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,27,D8F9018C86053DE6,obfus_fol,obfus_fol-0096,obfuscation,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,71,D96899BD33F994FC,obfus_direction_sense,obfus_direction_sense-0051,obfuscation,cot,South,"100 m, South-West",SOUTH,"100 KM, SOUTHWEST",False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,10,D977B53EB7CD93B4,obfus_direction_sense,obfus_direction_sense-0050,base,cot,0,0 m,0,0 KM,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,97,D9884A861F2EA06C,obfus_direction_sense,obfus_direction_sense-0101,obfuscation,zero_shot,4.123 km,"5.00 km, West",4.123 KM,"5.00 KM, WEST",False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,142,DA3E3C28F842A027,obfus_blood_relation,obfus_blood_relation-0004,obfuscation_l2,zero_shot,Sister,aunt,SISTER,AUNT,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,80,DA7E2085E5C93BF5,obfus_direction_sense,obfus_direction_sense-0109,base,cot,Returns to origin,0 m,RETURNS TO ORIGIN,0 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,77,DA8060B9DB210DD7,obfus_number_series,obfus_number_series-0245,obfuscation,cot,885,91,885,91,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,53,DA8BE41A459B3B1D,obfus_blood_relation,obfus_blood_relation-0030,obfuscation_l1,cot,Can't be determined,3,CANTBEDETERMINED,,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,20,DADF1AE4407C39A5,obfus_number_series,obfus_number_series-0271,base,few_shot,193,189,193,189,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,32,DAF090985B378651,obfus_number_series,obfus_number_series-0234,obfuscation,cot,30,9,30,9,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,98,DB058F72E47FFEE4,obfus_blood_relation,obfus_blood_relation-0030,obfuscation_l2,zero_shot,Can't be determined,3,CANTBEDETERMINED,,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,81,DB9C033AF704B6DF,obfus_direction_sense,obfus_direction_sense-0099,obfuscation,zero_shot,0 m,0 meters,0 KM,"0 KM, ETERS",False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,35,DBA80D2FBFC81F19,obfus_fol,obfus_fol-0060,obfuscation,cot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,46,DBFABDB2ADFAB2FE,obfus_direction_sense,obfus_direction_sense-0022,obfuscation,zero_shot,South.,West,SOUTH,WEST,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,22,DC881957E1C6D48B,obfus_number_series,obfus_number_series-0135,obfuscation,zero_shot,103,99,103,99,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,zero_shot,41,DCDE816E17D6C0EA,obfus_fol,obfus_fol-0013,base,zero_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,16,DCF22558D82CFA65,obfus_fol,obfus_fol-0009,obfuscation,cot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,42,DD388DB0D04ED29B,obfus_number_series,obfus_number_series-0105,base,zero_shot,987,1041,987,1041,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,41,DD898B0156A7913B,obfus_direction_sense,obfus_direction_sense-0057,obfuscation,cot,West,North-West,WEST,NORTHWEST,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,57,DE221BA66460954F,obfus_blood_relation,obfus_blood_relation-0095,obfuscation_l1,cot,"Sister-in-law""",aunt,SISTERINLAW,AUNT,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,123,DEFCD00CFEAAE08D,obfus_blood_relation,obfus_blood_relation-0084,obfuscation_l2,zero_shot,Sister,cousin,SISTER,COUSIN,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,24,DF6756D791197819,obfus_number_series,obfus_number_series-0105,base,few_shot,987,1041,987,1041,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,69,DFB12910A50D80C0,obfus_blood_relation,obfus_blood_relation-0097,obfuscation_l1,zero_shot,Father,son,FATHER,SON,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,109,DFC44CC067EE488E,obfus_blood_relation,obfus_blood_relation-0059,obfuscation_l2,zero_shot,Sister of Father-in-law,aunt,SISTEROFFATHERINLAW,AUNT,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,26,DFEDE8779CF479C4,obfus_number_series,obfus_number_series-0067,obfuscation,cot,25,44,25,44,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,33,E1052C4012ECBEF0,obfus_blood_relation,obfus_blood_relation-0078,obfuscation_l1,few_shot,Himself,brother,HIMSELF,BROTHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,57,E196C3A3DA461B07,obfus_direction_sense,obfus_direction_sense-0043,obfuscation,zero_shot,North-East,North,NORTHEAST,NORTH,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,16,E19D199A732FC140,obfus_blood_relation,obfus_blood_relation-0060,obfuscation_l2,zero_shot,Cousin,uncle,COUSIN,UNCLE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,7,E226BBCA6DFB046E,obfus_blood_relation,obfus_blood_relation-0029,obfuscation_l1,few_shot,Brother,cousin,BROTHER,COUSIN,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,129,E2A6EF2CF7F80891,obfus_blood_relation,obfus_blood_relation-0054,obfuscation_l2,few_shot,Uncle,father,UNCLE,FATHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,41,E2FF4CA90F3903D6,obfus_direction_sense,obfus_direction_sense-0119,base,zero_shot,9 m East,9 m West,"9 KM, EAST","9 KM, WEST",False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,44,E3272FF40956A9C1,obfus_direction_sense,obfus_direction_sense-0051,obfuscation,zero_shot,South,7.07 km South-West,SOUTH,"7.07 KM, SOUTHWEST",False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,20,E346E049410726A6,obfus_direction_sense,obfus_direction_sense-0005,obfuscation,zero_shot,East,South,EAST,SOUTH,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,42,E385B080221A7F02,obfus_direction_sense,obfus_direction_sense-0073,obfuscation,cot,0,164.92 m,0,164.92 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,28,E46C047E4EEED714,obfus_number_series,obfus_number_series-0190,base,zero_shot,15,10,15,10,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,120,E5597D5291336727,obfus_blood_relation,obfus_blood_relation-0060,obfuscation_l1,cot,Cousin,brother,COUSIN,BROTHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,52,E5F5C482AE663925,obfus_direction_sense,obfus_direction_sense-0072,base,cot,North,0 m,NORTH,0 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,70,E69107D5DD3B110D,obfus_number_series,obfus_number_series-0168,obfuscation,cot,11052,38,11052,38,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,48,E6CCC943C8FD21B4,obfus_blood_relation,obfus_blood_relation-0059,base,zero_shot,Sister of Father-in-law,mother-in-law,SISTEROFFATHERINLAW,MOTHERINLAW,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,90,E6E63FDCF487BA8C,obfus_number_series,obfus_number_series-0242,base,zero_shot,96,90,96,90,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,41,E735E39FE636424C,obfus_blood_relation,obfus_blood_relation-0029,obfuscation_l1,zero_shot,Brother,father,BROTHER,FATHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,144,E9316922B1448DCE,obfus_blood_relation,obfus_blood_relation-0050,obfuscation_l2,few_shot,Mother,sister,MOTHER,SISTER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,76,E931972DC2E2D097,obfus_number_series,obfus_number_series-0184,obfuscation,cot,30,96,30,96,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,few_shot,19,E97077ACE0EF5461,obfus_fol,obfus_fol-0013,base,few_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,96,EA3B05AB443E6F31,obfus_direction_sense,obfus_direction_sense-0105,obfuscation,zero_shot,5 km,5.00 km,5 KM,5.00 KM,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,21,EABDA46490D56F0A,obfus_direction_sense,obfus_direction_sense-0000,obfuscation,cot,"8.94 km, North-East",16 km,"8.94 KM, NORTHEAST",16 KM,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,84,EB484BCC53E2C6CE,obfus_number_series,obfus_number_series-0180,base,cot,1825,293,1825,293,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,35,ED5B99D3F2F0F484,obfus_number_series,obfus_number_series-0168,obfuscation,few_shot,11052,11046,11052,11046,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,19,ED8F82C43AD1D762,obfus_blood_relation,obfus_blood_relation-0095,obfuscation_l2,cot,"Sister-in-law""",daughter-in-law,SISTERINLAW,DAUGHTERINLAW,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,3,EE1992F855D7562A,obfus_number_series,obfus_number_series-0168,obfuscation,zero_shot,11052,775 775 342 771 669,11052,669,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,cot,85,EED7CA7C8C9CF147,obfus_fol,obfus_fol-0072,base,cot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,12,EEDF7C11FDC5C428,obfus_number_series,obfus_number_series-0195,base,zero_shot,392,448,392,448,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,31,EEF4A23C8DA7D1EA,obfus_number_series,obfus_number_series-0152,obfuscation,few_shot,4841,5985830,4841,5985830,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,28,F0277FF326E60480,obfus_blood_relation,obfus_blood_relation-0030,obfuscation_l2,cot,Can't be determined,3,CANTBEDETERMINED,,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,118,F2EA0CA6534C970D,obfus_blood_relation,obfus_blood_relation-0095,obfuscation_l1,few_shot,"Sister-in-law""",aunt,SISTERINLAW,AUNT,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,72,F380A940BD78622B,obfus_blood_relation,obfus_blood_relation-0059,base,few_shot,Sister of Father-in-law,sister,SISTEROFFATHERINLAW,SISTER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,18,F39CCB81C3571B2B,obfus_direction_sense,obfus_direction_sense-0054,base,cot,0,0 m,0,0 KM,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,21,F43499B5206BF472,obfus_direction_sense,obfus_direction_sense-0063,obfuscation,few_shot,South,West,SOUTH,WEST,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,24,F4350B9F838EC540,obfus_number_series,obfus_number_series-0081,base,cot,262,154,262,154,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,101,F4A8A406E514B3ED,obfus_blood_relation,obfus_blood_relation-0029,obfuscation_l1,cot,Brother,father,BROTHER,FATHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,96,F4BDBB6BBC6C6863,obfus_number_series,obfus_number_series-0024,base,few_shot,224.25,225.75,25,75,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,91,F59340DE81A5155D,obfus_blood_relation,obfus_blood_relation-0104,obfuscation_l1,few_shot,Wife,brother-in-law,WIFE,BROTHERINLAW,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,18,F5A084B1E9F4502C,obfus_number_series,obfus_number_series-0081,base,few_shot,262,191,262,191,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,79,F5B16A07EB64F10B,obfus_blood_relation,obfus_blood_relation-0030,base,zero_shot,Can't be determined,3,CANTBEDETERMINED,,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,cot,75,F5DBDF20A7114F79,obfus_direction_sense,obfus_direction_sense-0038,obfuscation,cot,"5 km,North-East","16.28 km, North-West","5 KM, NORTHEAST","16.28 KM, NORTHWEST",False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,20,F6499C4063E56B3F,obfus_blood_relation,obfus_blood_relation-0084,obfuscation_l2,few_shot,Sister,daughter,SISTER,DAUGHTER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,23,F67DFAD9F54EB19A,obfus_number_series,obfus_number_series-0242,obfuscation,cot,96,79,96,79,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,98,F6DD5C0BA458C5A1,obfus_blood_relation,obfus_blood_relation-0097,obfuscation_l2,few_shot,Father,grandfather,FATHER,GRANDFATHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,70,F70799CCF0E9B03F,obfus_direction_sense,obfus_direction_sense-0073,obfuscation,few_shot,0,0 m,0,0 KM,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,68,F73B18B16560C385,obfus_blood_relation,obfus_blood_relation-0072,obfuscation_l2,few_shot,Mother,brother,MOTHER,BROTHER,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,few_shot,46,F7C777B01C093C99,obfus_direction_sense,obfus_direction_sense-0086,base,few_shot,0 m,0 meters,0 KM,"0 KM, ETERS",False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,128,F83C71DB63049DFF,obfus_blood_relation,obfus_blood_relation-0012,obfuscation_l1,few_shot,Aunt,mother,AUNT,MOTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,113,F87B39132B82ADB1,obfus_blood_relation,obfus_blood_relation-0095,base,zero_shot,"Sister-in-law""",wife,SISTERINLAW,WIFE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,8,F87E4B05AC78642E,obfus_blood_relation,obfus_blood_relation-0050,obfuscation_l2,zero_shot,Mother,sister,MOTHER,SISTER,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,few_shot,89,F8B79941BDA3E0DF,obfus_fol,obfus_fol-0023,base,few_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,106,F9166E8C1F3352CB,obfus_blood_relation,obfus_blood_relation-0021,obfuscation_l1,cot,Maternal uncle,uncle,MATERNALUNCLE,UNCLE,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,86,F93B903CC9909671,obfus_direction_sense,obfus_direction_sense-0071,base,zero_shot,West,At starting point,WEST,AT STARTING POINT,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,116,F95684F2EAE2A33C,obfus_blood_relation,obfus_blood_relation-0037,obfuscation_l1,zero_shot,One,2,ONE,,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,73,FA040D23E9C54AA0,obfus_number_series,obfus_number_series-0104,base,cot,105,107,105,107,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,133,FA33A0B66585323C,obfus_blood_relation,obfus_blood_relation-0061,base,few_shot,Sister,brother,SISTER,BROTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,143,FACAB0D16F742852,obfus_blood_relation,obfus_blood_relation-0101,base,cot,Daughter,niece,DAUGHTER,NIECE,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,few_shot,18,FAD0CECBB47FF857,obfus_fol,obfus_fol-0072,obfuscation,few_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,cot,61,FB066867431EB46F,obfus_blood_relation,obfus_blood_relation-0034,obfuscation_l2,cot,Aunt,granddaughter,AUNT,GRANDDAUGHTER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,cot,50,FB1D39AD164C8DED,obfus_number_series,obfus_number_series-0191,obfuscation,cot,16,14,16,14,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,57,FB600BD857CE0B3F,obfus_number_series,obfus_number_series-0070,obfuscation,zero_shot,305,270,305,270,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,34,FBC8191EC4CE0136,obfus_number_series,obfus_number_series-0105,obfuscation,zero_shot,987,771 670 670,987,670,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,86,FBEC53CD1F156B69,obfus_blood_relation,obfus_blood_relation-0078,base,zero_shot,Himself,brother,HIMSELF,BROTHER,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,138,FBF382B2670B26CC,obfus_blood_relation,obfus_blood_relation-0041,obfuscation_l1,zero_shot,Can't be determined,uncle,CANTBEDETERMINED,UNCLE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,7,FCDE9AEA51645C5A,obfus_blood_relation,obfus_blood_relation-0012,obfuscation_l1,zero_shot,Aunt,sister,AUNT,SISTER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,41,FD20FBB90976261C,obfus_number_series,obfus_number_series-0262,base,few_shot,411,409,411,409,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,21,FD446D45922241B1,obfus_blood_relation,obfus_blood_relation-0031,obfuscation_l1,zero_shot,Two,4,TWO,,False,answered
+Claude Fable 5.1 High,04_LogiQAte_Direction_Sense_50.csv,zero_shot,27,FDFAC294FF2AAF1D,obfus_direction_sense,obfus_direction_sense-0071,obfuscation,zero_shot,West,North-East,WEST,NORTHEAST,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,28,FE4D1B148F0D64D2,obfus_blood_relation,obfus_blood_relation-0059,obfuscation_l1,zero_shot,Sister of Father-in-law,sister-in-law,SISTEROFFATHERINLAW,SISTERINLAW,False,answered
+Claude Fable 5.1 High,01_LogiQAte_FOL_50.csv,few_shot,78,FE7F0F376CAFF6B3,obfus_fol,obfus_fol-0023,obfuscation,few_shot,TRUE,FALSE,TRUE,FALSE,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,few_shot,11,FEFD7CE867819249,obfus_blood_relation,obfus_blood_relation-0058,obfuscation_l1,few_shot,Daughter in law,sister-in-law,DAUGHTERINLAW,SISTERINLAW,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,few_shot,26,FF18FC2B69824AD3,obfus_number_series,obfus_number_series-0135,obfuscation,few_shot,103,97,103,97,False,answered
+Claude Fable 5.1 High,02_LogiQAte_Blood_Relation_50.csv,zero_shot,147,FF602E199A1DCCD0,obfus_blood_relation,obfus_blood_relation-0024,obfuscation_l2,zero_shot,Son,mother,SON,MOTHER,False,answered
+Claude Fable 5.1 High,03_LogiQAte_Number_Series_50.csv,zero_shot,72,FF8754C62BB36F1F,obfus_number_series,obfus_number_series-0089,base,zero_shot,234,243,234,243,False,answered

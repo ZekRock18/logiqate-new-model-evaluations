@@ -1,0 +1,13 @@
+rank,model,zero_shot_degradation_pct,few_shot_degradation_pct,cot_degradation_pct,mean_degradation_pct,source
+1,GPT-5,-27.0,-20.2,-18.7,-21.97,paper
+2,o4-mini,-21.4,-22.7,-22.0,-22.03,paper
+3,Qwen QwQ-32B,-27.5,-23.3,-26.1,-25.63,paper
+4,Claude Fable 5.1 High,-28.46,-24.84,-29.18,-27.49,this_run
+5,Llama-4-Maverick-17B,-24.8,-42.6,-39.1,-35.50,paper
+6,Claude 4.5 Haiku,-48.2,-43.3,-34.8,-42.10,paper
+7,Gemma-3-27B-IT,-39.3,-44.9,-43.5,-42.57,paper
+8,Gemini 2.5 Pro,-42.9,-46.3,-40.5,-43.23,paper
+9,Claude 3.7 Sonnet,-47.5,-41.6,-48.7,-45.93,paper
+10,GPT-4o,-47.6,-47.2,-49.4,-48.07,paper
+11,GPT-4o-mini,-51.3,-48.9,-50.6,-50.27,paper
+
