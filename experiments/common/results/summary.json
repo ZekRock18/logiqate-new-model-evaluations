@@ -1,0 +1,44 @@
+{
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "expected_evaluations": 1035,
+  "completed_evaluations": 1035,
+  "missing_evaluations": 0,
+  "missing_keys": [],
+  "status_counts": {
+    "answered": 1009,
+    "parse_failure": 6,
+    "no_consensus": 20
+  },
+  "failure_count": 26,
+  "number_series_non_equivalent_ids": [],
+  "special_metrics": {
+    "self_consistency": {
+      "evaluations": 135,
+      "agreement_counts": {
+        "unanimous": 82,
+        "majority": 33,
+        "none": 20
+      },
+      "agreement_rate_pct": 85.1852
+    },
+    "self_verification_cove": {
+      "evaluations": 135,
+      "answer_changed": 18,
+      "answer_change_rate_pct": 13.3333,
+      "incorrect_to_correct": 1,
+      "correction_rate_pct": 0.7407,
+      "correct_to_incorrect": 11
+    }
+  },
+  "api_usage": {
+    "api_calls": 1440,
+    "prompt_tokens": 298609,
+    "completion_tokens": 332202,
+    "total_tokens": 630811,
+    "estimated_cost_usd": 0.176515,
+    "finish_reason_counts": {
+      "stop": 1427,
+      "length": 13
+    }
+  }
+}

@@ -1,0 +1,6 @@
+condition,task,variant,base_source_condition,base_correct,base_total,base_accuracy_pct,obfuscated_correct,obfuscated_total,obfuscated_accuracy_pct,signed_base_minus_obf_gap_pp,absolute_gap_pp,relative_obfuscation_change_pct
+self_consistency,obfus_fol,obfuscation,self_consistency,13,15,86.6667,8,15,53.3333,33.3334,33.3334,-38.4616
+self_consistency,obfus_blood_relation,obfuscation_l1,self_consistency,10,15,66.6667,9,15,60.0,6.6667,6.6667,-10.0
+self_consistency,obfus_blood_relation,obfuscation_l2,self_consistency,10,15,66.6667,6,15,40.0,26.6667,26.6667,-40.0
+self_consistency,obfus_number_series,obfuscation,self_consistency,12,15,80.0,4,15,26.6667,53.3333,53.3333,-66.6666
+self_consistency,obfus_direction_sense,obfuscation,self_consistency,11,15,73.3333,11,15,73.3333,0.0,0.0,0.0

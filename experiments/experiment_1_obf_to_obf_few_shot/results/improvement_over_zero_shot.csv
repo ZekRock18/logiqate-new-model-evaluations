@@ -1,0 +1,6 @@
+condition,task,variant,method_correct,total,method_accuracy_pct,control_correct,control_accuracy_pct,improvement_pp
+obf_to_obf_few_shot,obfus_fol,obfuscation,10,15,66.6667,5,33.3333,33.3334
+obf_to_obf_few_shot,obfus_blood_relation,obfuscation_l1,5,15,33.3333,8,53.3333,-20.0
+obf_to_obf_few_shot,obfus_blood_relation,obfuscation_l2,5,15,33.3333,6,40.0,-6.6667
+obf_to_obf_few_shot,obfus_number_series,obfuscation,1,15,6.6667,2,13.3333,-6.6666
+obf_to_obf_few_shot,obfus_direction_sense,obfuscation,5,15,33.3333,4,26.6667,6.6666

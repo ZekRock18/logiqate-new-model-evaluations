@@ -1,0 +1,37 @@
+{
+  "version": "v2",
+  "final_marker": "FINAL_ANSWER:",
+  "task_instructions": {
+    "obfus_fol": "Determine whether the conclusion is logically entailed by the premises. The final answer must be exactly TRUE or FALSE.",
+    "obfus_blood_relation": "Determine the requested family relationship. The final answer must be one relationship label only.",
+    "obfus_number_series": "Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.",
+    "obfus_direction_sense": "Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit."
+  },
+  "condition_instructions": {
+    "zero_shot_control": "Solve the problem without examples or additional mitigation steps.",
+    "analogical_prompting": "First construct or recall one structurally similar problem, solve that analogy, identify the transferable structure, and then solve the target. Keep the analogy concise and do not assume facts absent from the target.",
+    "normalize_then_solve": "Rewrite the input into the simplest logically equivalent form. Check explicitly that no fact, polarity, quantifier, or relationship changed. Then solve the normalized problem.",
+    "structured_decomposition": "Extract every atomic relation or movement, represent the intermediate state after each step, compose the steps in order, and then answer the question.",
+    "chain_of_thought": "Reason step by step. Decode obfuscation first, derive the answer, and perform one concise sanity check before giving the final answer.",
+    "rereading_s2a": "Read the input twice. On the second reading, restate only logically relevant facts, omit distracting presentation, and solve using only the isolated facts.",
+    "self_consistency": "Produce one independent solution path. Do not imitate or anticipate other paths. Reason concisely and end with the required final marker.",
+    "self_verification_cove": "Produce an initial solution with concise reasoning. List the key assumptions or transformations that a verifier should check, then give the initial final answer."
+  },
+  "task_specific_method_instructions": {
+    "structured_decomposition": {
+      "obfus_blood_relation": "Represent each explicit relationship as a directed kinship link before composing the chain.",
+      "obfus_direction_sense": "Normalize every turn and displacement, track coordinates and facing direction separately, and calculate the final state."
+    },
+    "explicit_task_instructions": {
+      "obfus_number_series": "Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.",
+      "obfus_direction_sense": "Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement."
+    }
+  },
+  "templates": {
+    "single": "{condition_instruction}\n\n{task_specific_instruction}\n\n{task_instruction}\n\nTARGET PROBLEM\n{question}\n\nKeep the entire response under 250 words. You may show concise reasoning. End with a separate line in exactly this form:\nFINAL_ANSWER: <answer>",
+    "zero_shot": "{task_instruction}\n\nTARGET PROBLEM\n{question}\n\nDo not show reasoning. The entire response must be exactly one line:\nFINAL_ANSWER: <answer>",
+    "obf_to_obf_few_shot": "The following solved examples come from the obfuscated distribution. Learn the task from them.\n\n{demonstrations}\n\n{task_instruction}\n\nTARGET PROBLEM\n{question}\n\nDo not show reasoning. The entire response must be exactly one line:\nFINAL_ANSWER: <answer>",
+    "base_to_obf_paired_few_shot": "Each demonstration links a clean problem to its logically equivalent obfuscated form. Both forms have the same answer. Learn this invariance and apply it to the target obfuscated problem.\n\n{demonstrations}\n\n{task_instruction}\n\nTARGET OBFUSCATED PROBLEM\n{question}\n\nDo not show reasoning. The entire response must be exactly one line:\nFINAL_ANSWER: <answer>",
+    "cove_verification": "Act as an independent verifier. Re-read the target problem and audit the initial solution below. Check decoding, logical equivalence, intermediate relations or movements, arithmetic, and answer format as applicable. Do not merely repeat the initial reasoning. Correct it if needed.\n\nTARGET PROBLEM\n{question}\n\nINITIAL SOLUTION\n{initial_response}\n\n{task_instruction}\n\nKeep the entire verification under 250 words. Briefly state the verification result, then end with a separate line exactly as:\nFINAL_ANSWER: <verified answer>"
+  }
+}

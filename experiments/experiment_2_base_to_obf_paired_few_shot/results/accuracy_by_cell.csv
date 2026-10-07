@@ -1,0 +1,6 @@
+condition,task,task_title,variant,correct,total,accuracy_pct,response_or_consensus_failures
+base_to_obf_paired_few_shot,obfus_blood_relation,Blood Relation,obfuscation_l1,6,15,40.0,0
+base_to_obf_paired_few_shot,obfus_blood_relation,Blood Relation,obfuscation_l2,4,15,26.6667,0
+base_to_obf_paired_few_shot,obfus_direction_sense,Direction Sense,obfuscation,5,15,33.3333,0
+base_to_obf_paired_few_shot,obfus_fol,FOL,obfuscation,10,15,66.6667,0
+base_to_obf_paired_few_shot,obfus_number_series,Number Series,obfuscation,1,15,6.6667,0

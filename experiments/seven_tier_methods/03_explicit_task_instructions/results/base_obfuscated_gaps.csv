@@ -1,0 +1,3 @@
+condition,task,variant,base_source_condition,base_correct,base_total,base_accuracy_pct,obfuscated_correct,obfuscated_total,obfuscated_accuracy_pct,signed_base_minus_obf_gap_pp,absolute_gap_pp,relative_obfuscation_change_pct
+explicit_task_instructions,obfus_number_series,obfuscation,explicit_task_instructions,13,15,86.6667,5,15,33.3333,53.3334,53.3334,-61.5385
+explicit_task_instructions,obfus_direction_sense,obfuscation,explicit_task_instructions,8,15,53.3333,9,15,60.0,-6.6667,6.6667,12.5001

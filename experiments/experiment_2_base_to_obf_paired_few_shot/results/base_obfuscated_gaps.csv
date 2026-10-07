@@ -1,0 +1,6 @@
+condition,task,variant,base_source_condition,base_correct,base_total,base_accuracy_pct,obfuscated_correct,obfuscated_total,obfuscated_accuracy_pct,signed_base_minus_obf_gap_pp,absolute_gap_pp,relative_obfuscation_change_pct
+base_to_obf_paired_few_shot,obfus_fol,obfuscation,zero_shot_control,11,15,73.3333,10,15,66.6667,6.6666,6.6666,-9.0908
+base_to_obf_paired_few_shot,obfus_blood_relation,obfuscation_l1,zero_shot_control,9,15,60.0,6,15,40.0,20.0,20.0,-33.3333
+base_to_obf_paired_few_shot,obfus_blood_relation,obfuscation_l2,zero_shot_control,9,15,60.0,4,15,26.6667,33.3333,33.3333,-55.5555
+base_to_obf_paired_few_shot,obfus_number_series,obfuscation,zero_shot_control,11,15,73.3333,1,15,6.6667,66.6666,66.6666,-90.909
+base_to_obf_paired_few_shot,obfus_direction_sense,obfuscation,zero_shot_control,6,15,40.0,5,15,33.3333,6.6667,6.6667,-16.6667

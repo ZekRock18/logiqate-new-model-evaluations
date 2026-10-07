@@ -1,0 +1,4 @@
+condition,task,variant,base_source_condition,paired_total,both_correct,base_only_correct,obfuscated_only_correct,both_wrong,base_correct_total,paired_retention_pct
+normalize_then_solve,obfus_fol,obfuscation,normalize_then_solve,15,5,7,1,2,12,41.6667
+normalize_then_solve,obfus_blood_relation,obfuscation_l1,normalize_then_solve,15,7,3,0,5,10,70.0
+normalize_then_solve,obfus_blood_relation,obfuscation_l2,normalize_then_solve,15,5,5,1,4,10,50.0

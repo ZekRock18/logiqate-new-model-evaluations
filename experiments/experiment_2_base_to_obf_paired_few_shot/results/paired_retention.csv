@@ -1,0 +1,6 @@
+condition,task,variant,base_source_condition,paired_total,both_correct,base_only_correct,obfuscated_only_correct,both_wrong,base_correct_total,paired_retention_pct
+base_to_obf_paired_few_shot,obfus_fol,obfuscation,zero_shot_control,15,7,4,3,1,11,63.6364
+base_to_obf_paired_few_shot,obfus_blood_relation,obfuscation_l1,zero_shot_control,15,5,4,1,5,9,55.5556
+base_to_obf_paired_few_shot,obfus_blood_relation,obfuscation_l2,zero_shot_control,15,4,5,0,6,9,44.4444
+base_to_obf_paired_few_shot,obfus_number_series,obfuscation,zero_shot_control,15,1,10,0,4,11,9.0909
+base_to_obf_paired_few_shot,obfus_direction_sense,obfuscation,zero_shot_control,15,4,2,1,8,6,66.6667

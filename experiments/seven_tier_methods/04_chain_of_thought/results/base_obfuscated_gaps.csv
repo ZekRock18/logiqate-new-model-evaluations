@@ -1,0 +1,6 @@
+condition,task,variant,base_source_condition,base_correct,base_total,base_accuracy_pct,obfuscated_correct,obfuscated_total,obfuscated_accuracy_pct,signed_base_minus_obf_gap_pp,absolute_gap_pp,relative_obfuscation_change_pct
+chain_of_thought,obfus_fol,obfuscation,chain_of_thought,12,15,80.0,9,15,60.0,20.0,20.0,-25.0
+chain_of_thought,obfus_blood_relation,obfuscation_l1,chain_of_thought,10,15,66.6667,9,15,60.0,6.6667,6.6667,-10.0
+chain_of_thought,obfus_blood_relation,obfuscation_l2,chain_of_thought,10,15,66.6667,4,15,26.6667,40.0,40.0,-60.0
+chain_of_thought,obfus_number_series,obfuscation,chain_of_thought,12,15,80.0,4,15,26.6667,53.3333,53.3333,-66.6666
+chain_of_thought,obfus_direction_sense,obfuscation,chain_of_thought,7,15,46.6667,7,15,46.6667,0.0,0.0,0.0

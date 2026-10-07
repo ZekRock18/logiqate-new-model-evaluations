@@ -1,0 +1,6 @@
+condition,task,variant,method_correct,total,method_accuracy_pct,control_correct,control_accuracy_pct,improvement_pp
+chain_of_thought,obfus_fol,obfuscation,9,15,60.0,5,33.3333,26.6667
+chain_of_thought,obfus_blood_relation,obfuscation_l1,9,15,60.0,8,53.3333,6.6667
+chain_of_thought,obfus_blood_relation,obfuscation_l2,4,15,26.6667,6,40.0,-13.3333
+chain_of_thought,obfus_number_series,obfuscation,4,15,26.6667,2,13.3333,13.3334
+chain_of_thought,obfus_direction_sense,obfuscation,7,15,46.6667,4,26.6667,20.0

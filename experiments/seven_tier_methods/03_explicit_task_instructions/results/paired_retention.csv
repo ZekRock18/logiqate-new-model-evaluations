@@ -1,0 +1,3 @@
+condition,task,variant,base_source_condition,paired_total,both_correct,base_only_correct,obfuscated_only_correct,both_wrong,base_correct_total,paired_retention_pct
+explicit_task_instructions,obfus_number_series,obfuscation,explicit_task_instructions,15,5,8,0,2,13,38.4615
+explicit_task_instructions,obfus_direction_sense,obfuscation,explicit_task_instructions,15,8,0,1,6,8,100.0

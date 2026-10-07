@@ -1,0 +1,4 @@
+condition,task,variant,base_source_condition,paired_total,both_correct,base_only_correct,obfuscated_only_correct,both_wrong,base_correct_total,paired_retention_pct
+structured_decomposition,obfus_blood_relation,obfuscation_l1,structured_decomposition,15,8,2,1,4,10,80.0
+structured_decomposition,obfus_blood_relation,obfuscation_l2,structured_decomposition,15,5,5,1,4,10,50.0
+structured_decomposition,obfus_direction_sense,obfuscation,structured_decomposition,15,7,1,1,6,8,87.5

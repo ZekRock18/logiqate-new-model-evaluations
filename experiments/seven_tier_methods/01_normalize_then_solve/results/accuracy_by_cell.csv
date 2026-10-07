@@ -1,0 +1,6 @@
+condition,task,task_title,variant,correct,total,accuracy_pct,response_or_consensus_failures
+normalize_then_solve,obfus_blood_relation,Blood Relation,base,10,15,66.6667,0
+normalize_then_solve,obfus_blood_relation,Blood Relation,obfuscation_l1,7,15,46.6667,0
+normalize_then_solve,obfus_blood_relation,Blood Relation,obfuscation_l2,6,15,40.0,0
+normalize_then_solve,obfus_fol,FOL,base,12,15,80.0,0
+normalize_then_solve,obfus_fol,FOL,obfuscation,6,15,40.0,0

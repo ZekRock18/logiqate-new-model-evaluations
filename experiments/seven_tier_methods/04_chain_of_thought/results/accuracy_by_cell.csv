@@ -1,0 +1,10 @@
+condition,task,task_title,variant,correct,total,accuracy_pct,response_or_consensus_failures
+chain_of_thought,obfus_blood_relation,Blood Relation,base,10,15,66.6667,0
+chain_of_thought,obfus_blood_relation,Blood Relation,obfuscation_l1,9,15,60.0,0
+chain_of_thought,obfus_blood_relation,Blood Relation,obfuscation_l2,4,15,26.6667,0
+chain_of_thought,obfus_direction_sense,Direction Sense,base,7,15,46.6667,0
+chain_of_thought,obfus_direction_sense,Direction Sense,obfuscation,7,15,46.6667,0
+chain_of_thought,obfus_fol,FOL,base,12,15,80.0,0
+chain_of_thought,obfus_fol,FOL,obfuscation,9,15,60.0,0
+chain_of_thought,obfus_number_series,Number Series,base,12,15,80.0,1
+chain_of_thought,obfus_number_series,Number Series,obfuscation,4,15,26.6667,2

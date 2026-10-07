@@ -1,0 +1,6 @@
+condition,task,variant,base_source_condition,paired_total,both_correct,base_only_correct,obfuscated_only_correct,both_wrong,base_correct_total,paired_retention_pct
+chain_of_thought,obfus_fol,obfuscation,chain_of_thought,15,9,3,0,3,12,75.0
+chain_of_thought,obfus_blood_relation,obfuscation_l1,chain_of_thought,15,8,2,1,4,10,80.0
+chain_of_thought,obfus_blood_relation,obfuscation_l2,chain_of_thought,15,3,7,1,4,10,30.0
+chain_of_thought,obfus_number_series,obfuscation,chain_of_thought,15,4,8,0,3,12,33.3333
+chain_of_thought,obfus_direction_sense,obfuscation,chain_of_thought,15,6,1,1,7,7,85.7143

@@ -11,6 +11,17 @@ folder with the prompts, raw submitted answers, and scored analysis.
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
 | Claude Fable 5.1 High | 1,350/1,350 | 59.48% | -28.46% | -24.84% | -29.18% | [Open report](claude_fable_5.1_high/Result/Analysis/REPORT.md) |
 
+## Prompt-mitigation experiments
+
+The [`experiments/`](experiments/) section contains the completed 15-item-per-task
+prompt-mitigation study on `deepseek-ai/DeepSeek-V4.1-Flash`. It includes the
+three supervisor-assigned experiments, all seven Tier 1 prompting methods, the
+matched zero-shot control, executed notebooks, aggregate results, public sample
+metadata, versioned prompt templates and validation code.
+
+The public package intentionally excludes credentials, private scoring
+manifests, row-level gold-answer files and raw provider transcripts.
+
 Fable has the **4th-smallest mean degradation of 11 models** when placed beside
 the ten models reported in the paper. The full ranked table and comparison
 limitations are in [PAPER_COMPARISON.md](claude_fable_5.1_high/Result/Analysis/PAPER_COMPARISON.md).
@@ -86,4 +97,3 @@ runs should be described as an extension—not a strict reproduction of the
 paper's protocol.
 
 No API keys or credentials are included in this repository.
-

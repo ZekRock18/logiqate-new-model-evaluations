@@ -1,0 +1,6 @@
+condition,task,task_title,variant,correct,total,accuracy_pct,response_or_consensus_failures
+structured_decomposition,obfus_blood_relation,Blood Relation,base,10,15,66.6667,0
+structured_decomposition,obfus_blood_relation,Blood Relation,obfuscation_l1,9,15,60.0,0
+structured_decomposition,obfus_blood_relation,Blood Relation,obfuscation_l2,6,15,40.0,0
+structured_decomposition,obfus_direction_sense,Direction Sense,base,8,15,53.3333,0
+structured_decomposition,obfus_direction_sense,Direction Sense,obfuscation,8,15,53.3333,0

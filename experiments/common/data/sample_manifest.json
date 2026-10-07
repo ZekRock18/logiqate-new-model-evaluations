@@ -1,0 +1,138 @@
+{
+  "source_seed": 20260925,
+  "selection_seed": 20261006,
+  "questions_per_task": 15,
+  "demonstrations_per_task": 2,
+  "tasks": {
+    "obfus_fol": {
+      "variants": [
+        "base",
+        "obfuscation"
+      ],
+      "test_item_ids": [
+        "obfus_fol-0013",
+        "obfus_fol-0018",
+        "obfus_fol-0024",
+        "obfus_fol-0036",
+        "obfus_fol-0046",
+        "obfus_fol-0057",
+        "obfus_fol-0063",
+        "obfus_fol-0066",
+        "obfus_fol-0075",
+        "obfus_fol-0078",
+        "obfus_fol-0079",
+        "obfus_fol-0086",
+        "obfus_fol-0096",
+        "obfus_fol-0109",
+        "obfus_fol-0116"
+      ],
+      "demonstration_item_ids": [
+        "obfus_fol-0009",
+        "obfus_fol-0093"
+      ],
+      "number_series_blocks": null
+    },
+    "obfus_blood_relation": {
+      "variants": [
+        "base",
+        "obfuscation_l1",
+        "obfuscation_l2"
+      ],
+      "test_item_ids": [
+        "obfus_blood_relation-0006",
+        "obfus_blood_relation-0008",
+        "obfus_blood_relation-0011",
+        "obfus_blood_relation-0019",
+        "obfus_blood_relation-0026",
+        "obfus_blood_relation-0028",
+        "obfus_blood_relation-0030",
+        "obfus_blood_relation-0033",
+        "obfus_blood_relation-0036",
+        "obfus_blood_relation-0041",
+        "obfus_blood_relation-0053",
+        "obfus_blood_relation-0054",
+        "obfus_blood_relation-0060",
+        "obfus_blood_relation-0078",
+        "obfus_blood_relation-0084"
+      ],
+      "demonstration_item_ids": [
+        "obfus_blood_relation-0031",
+        "obfus_blood_relation-0046"
+      ],
+      "number_series_blocks": null
+    },
+    "obfus_number_series": {
+      "variants": [
+        "base",
+        "obfuscation"
+      ],
+      "test_item_ids": [
+        "obfus_number_series-0006",
+        "obfus_number_series-0012",
+        "obfus_number_series-0032",
+        "obfus_number_series-0056",
+        "obfus_number_series-0069",
+        "obfus_number_series-0117",
+        "obfus_number_series-0147",
+        "obfus_number_series-0168",
+        "obfus_number_series-0180",
+        "obfus_number_series-0191",
+        "obfus_number_series-0207",
+        "obfus_number_series-0230",
+        "obfus_number_series-0233",
+        "obfus_number_series-0285",
+        "obfus_number_series-0296"
+      ],
+      "demonstration_item_ids": [
+        "obfus_number_series-0190",
+        "obfus_number_series-0234"
+      ],
+      "number_series_blocks": {
+        "obfus_number_series-0006": 1,
+        "obfus_number_series-0012": 1,
+        "obfus_number_series-0032": 1,
+        "obfus_number_series-0056": 1,
+        "obfus_number_series-0069": 1,
+        "obfus_number_series-0117": 2,
+        "obfus_number_series-0147": 2,
+        "obfus_number_series-0168": 2,
+        "obfus_number_series-0180": 2,
+        "obfus_number_series-0191": 2,
+        "obfus_number_series-0207": 3,
+        "obfus_number_series-0230": 3,
+        "obfus_number_series-0233": 3,
+        "obfus_number_series-0285": 3,
+        "obfus_number_series-0296": 3
+      }
+    },
+    "obfus_direction_sense": {
+      "variants": [
+        "base",
+        "obfuscation"
+      ],
+      "test_item_ids": [
+        "obfus_direction_sense-0000",
+        "obfus_direction_sense-0001",
+        "obfus_direction_sense-0002",
+        "obfus_direction_sense-0003",
+        "obfus_direction_sense-0011",
+        "obfus_direction_sense-0024",
+        "obfus_direction_sense-0043",
+        "obfus_direction_sense-0049",
+        "obfus_direction_sense-0052",
+        "obfus_direction_sense-0067",
+        "obfus_direction_sense-0079",
+        "obfus_direction_sense-0085",
+        "obfus_direction_sense-0086",
+        "obfus_direction_sense-0092",
+        "obfus_direction_sense-0107"
+      ],
+      "demonstration_item_ids": [
+        "obfus_direction_sense-0022",
+        "obfus_direction_sense-0099"
+      ],
+      "number_series_blocks": null
+    }
+  },
+  "note": "Public split metadata only; correct answers are intentionally excluded."
+}

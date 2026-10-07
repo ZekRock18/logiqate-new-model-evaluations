@@ -1,0 +1,4 @@
+condition,task,variant,base_source_condition,base_correct,base_total,base_accuracy_pct,obfuscated_correct,obfuscated_total,obfuscated_accuracy_pct,signed_base_minus_obf_gap_pp,absolute_gap_pp,relative_obfuscation_change_pct
+structured_decomposition,obfus_blood_relation,obfuscation_l1,structured_decomposition,10,15,66.6667,9,15,60.0,6.6667,6.6667,-10.0
+structured_decomposition,obfus_blood_relation,obfuscation_l2,structured_decomposition,10,15,66.6667,6,15,40.0,26.6667,26.6667,-40.0
+structured_decomposition,obfus_direction_sense,obfuscation,structured_decomposition,8,15,53.3333,8,15,53.3333,0.0,0.0,0.0

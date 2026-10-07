@@ -1,0 +1,6 @@
+condition,task,task_title,variant,correct,total,accuracy_pct,response_or_consensus_failures
+analogical_prompting,obfus_blood_relation,Blood Relation,obfuscation_l1,9,15,60.0,0
+analogical_prompting,obfus_blood_relation,Blood Relation,obfuscation_l2,6,15,40.0,0
+analogical_prompting,obfus_direction_sense,Direction Sense,obfuscation,6,15,40.0,0
+analogical_prompting,obfus_fol,FOL,obfuscation,6,15,40.0,0
+analogical_prompting,obfus_number_series,Number Series,obfuscation,3,15,20.0,0

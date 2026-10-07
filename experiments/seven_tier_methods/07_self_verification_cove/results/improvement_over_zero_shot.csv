@@ -1,0 +1,6 @@
+condition,task,variant,method_correct,total,method_accuracy_pct,control_correct,control_accuracy_pct,improvement_pp
+self_verification_cove,obfus_fol,obfuscation,7,15,46.6667,5,33.3333,13.3334
+self_verification_cove,obfus_blood_relation,obfuscation_l1,7,15,46.6667,8,53.3333,-6.6666
+self_verification_cove,obfus_blood_relation,obfuscation_l2,6,15,40.0,6,40.0,0.0
+self_verification_cove,obfus_number_series,obfuscation,1,15,6.6667,2,13.3333,-6.6666
+self_verification_cove,obfus_direction_sense,obfuscation,8,15,53.3333,4,26.6667,26.6666
