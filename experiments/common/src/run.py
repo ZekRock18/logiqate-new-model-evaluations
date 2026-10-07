@@ -547,7 +547,7 @@ def run_condition(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Run resumable October 6 mitigation experiments")
+    parser = argparse.ArgumentParser(description="Run resumable LogiQAte mitigation experiments")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--condition", choices=CONDITION_ORDER)
     group.add_argument("--all", action="store_true")

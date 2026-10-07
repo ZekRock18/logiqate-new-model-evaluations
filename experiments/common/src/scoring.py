@@ -355,7 +355,7 @@ def _write_report(summary: dict, cells: list[dict], improvements: list[dict], ga
     }
     assigned_rows = [r for r in improvements if r["condition"] in assigned]
     lines = [
-        "# October 6 Prompt-Mitigation Results",
+        "# Prompt-Mitigation Results",
         "",
         f"Model: `{summary['model']}`. Completed {summary['completed_evaluations']}/"
         f"{summary['expected_evaluations']} evaluation units; missing: {summary['missing_evaluations']}.",
@@ -479,7 +479,7 @@ def score_results(model: str = DEFAULT_MODEL) -> dict:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Score the October 6 mitigation runs")
+    parser = argparse.ArgumentParser(description="Score the LogiQAte mitigation runs")
     parser.add_argument("--model", default=DEFAULT_MODEL)
     args = parser.parse_args()
     print(json.dumps(score_results(args.model), indent=2))

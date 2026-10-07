@@ -28,7 +28,7 @@ def execute_notebooks(pattern: str = "*.ipynb") -> list[str]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Execute October 6 notebooks in filename order")
+    parser = argparse.ArgumentParser(description="Execute mitigation notebooks in filename order")
     parser.add_argument("--pattern", default="*.ipynb")
     args = parser.parse_args()
     paths = execute_notebooks(args.pattern)

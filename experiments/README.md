@@ -1,6 +1,6 @@
 # Prompt-Mitigation Experiments
 
-This directory contains the October 6 prompt-level mitigation study for LogiQAte using `deepseek-ai/DeepSeek-V4.1-Flash` through DeepInfra.
+This directory contains the prompt-level mitigation study for LogiQAte using `deepseek-ai/DeepSeek-V4.1-Flash` through DeepInfra.
 
 ## Scope
 

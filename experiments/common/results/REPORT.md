@@ -1,4 +1,4 @@
-# October 6 Prompt-Mitigation Results
+# Prompt-Mitigation Results
 
 Model: `deepseek-ai/DeepSeek-V4.1-Flash`. Completed 1035/1035 evaluation units; missing: 0.
 
