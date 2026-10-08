@@ -30,3 +30,7 @@ The zero-shot control used the same 15 item IDs per task and evaluated every bas
 ## Reproducibility notes
 
 The original inference workspace also contained a private scoring manifest and append-only raw provider transcripts. They are deliberately not published here. The source references those local inputs for full reruns; this public package is sufficient to audit the protocol, prompts, notebooks and aggregate results without releasing private answer material.
+
+The public test suite validates the packaged manifest, matrix design, method
+mapping, prompt-template coverage, result totals, aggregate cells and notebook
+structure without requiring any private input.

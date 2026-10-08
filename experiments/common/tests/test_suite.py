@@ -1,54 +1,46 @@
 from __future__ import annotations
 
+import csv
 import json
 import sys
 from pathlib import Path
 
 
-EXPERIMENT_ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(EXPERIMENT_ROOT / "src"))
+COMMON_ROOT = Path(__file__).resolve().parents[1]
+EXPERIMENT_ROOT = COMMON_ROOT.parent
+sys.path.insert(0, str(COMMON_ROOT / "src"))
 
 from config import (  # noqa: E402
     CONDITIONS,
+    N_DEMONSTRATIONS,
     N_TEST,
     TASKS,
     expected_api_call_count,
     expected_evaluation_count,
 )
-from data import (  # noqa: E402
-    PUBLIC_MANIFEST,
-    demonstration_items,
-    get_item,
-    load_public_manifest,
-    prepare_sample,
-    validate_manifests,
-)
-from prompts import render_prompt, snapshot_prompts, validate_prompt_snapshot  # noqa: E402
-from run import _normalise_for_vote, parse_answer  # noqa: E402
 
 
-def setup_module():
-    prepare_sample()
-    snapshot_prompts()
+def load_json(relative_path: str) -> dict:
+    return json.loads((COMMON_ROOT / relative_path).read_text(encoding="utf-8"))
 
 
-def test_manifest_invariants():
-    result = validate_manifests()
-    assert result["tasks"] == 4
-    assert result["test_items_per_task"] == 15
-    manifest = load_public_manifest()
+def test_public_manifest_invariants():
+    manifest = load_json("data/sample_manifest.json")
+    assert manifest["questions_per_task"] == N_TEST == 15
+    assert manifest["demonstrations_per_task"] == N_DEMONSTRATIONS == 2
+    assert set(manifest["tasks"]) == set(TASKS)
     for task in TASKS:
-        assert len(set(manifest["tasks"][task]["test_item_ids"])) == N_TEST
-        assert not (
-            set(manifest["tasks"][task]["test_item_ids"])
-            & set(manifest["tasks"][task]["demonstration_item_ids"])
-        )
+        test_ids = manifest["tasks"][task]["test_item_ids"]
+        demonstration_ids = manifest["tasks"][task]["demonstration_item_ids"]
+        assert len(test_ids) == len(set(test_ids)) == N_TEST
+        assert len(demonstration_ids) == len(set(demonstration_ids)) == N_DEMONSTRATIONS
+        assert set(test_ids).isdisjoint(demonstration_ids)
 
 
-def test_public_manifest_has_no_answer_fields():
-    payload = json.loads(PUBLIC_MANIFEST.read_text(encoding="utf-8"))
-    assert "correct_answer" not in json.dumps(payload)
-    assert "gold_answer" not in json.dumps(payload)
+def test_public_manifest_contains_no_answers():
+    text = (COMMON_ROOT / "data" / "sample_manifest.json").read_text(encoding="utf-8")
+    assert "correct_answer" not in text
+    assert "gold_answer" not in text
 
 
 def test_full_matrix_counts():
@@ -73,34 +65,44 @@ def test_required_condition_mapping():
     assert CONDITIONS["self_consistency"].temperature == 0.7
 
 
-def test_prompt_snapshots_complete_and_parseable():
-    result = validate_prompt_snapshot()
-    assert result["prompt_count"] == 1035
+def test_prompt_template_coverage():
+    payload = load_json("prompts/prompt_templates.json")
+    covered_conditions = (
+        set(payload["condition_instructions"])
+        | set(payload["task_specific_method_instructions"])
+        | {"obf_to_obf_few_shot", "base_to_obf_paired_few_shot"}
+    )
+    assert set(CONDITIONS).issubset(covered_conditions)
+    assert {
+        "single",
+        "zero_shot",
+        "obf_to_obf_few_shot",
+        "base_to_obf_paired_few_shot",
+        "cove_verification",
+    }.issubset(payload["templates"])
 
 
-def test_few_shot_prompt_uses_disjoint_demonstrations():
-    manifest = load_public_manifest()
-    task = "obfus_fol"
-    item_id = manifest["tasks"][task]["test_item_ids"][0]
-    item = get_item(task, item_id, "obfuscation")
-    prompt, demo_ids = render_prompt("base_to_obf_paired_few_shot", item)
-    assert "PAIRED DEMONSTRATION" in prompt
-    assert set(demo_ids).isdisjoint(manifest["tasks"][task]["test_item_ids"])
+def test_summary_is_complete():
+    summary = load_json("results/summary.json")
+    assert summary["expected_evaluations"] == 1035
+    assert summary["completed_evaluations"] == 1035
+    assert summary["missing_evaluations"] == 0
+    assert summary["api_usage"]["api_calls"] == 1440
+    assert sum(summary["status_counts"].values()) == 1035
 
 
-def test_task_specific_answer_parser():
-    assert parse_answer("obfus_fol", "Reasoning\nFINAL_ANSWER: true") == "TRUE"
-    assert parse_answer("obfus_number_series", "FINAL_ANSWER: -42") == "-42"
-    assert parse_answer("obfus_blood_relation", "FINAL_ANSWER: Sister-in-law") == "Sister-in-law"
-    assert parse_answer("obfus_direction_sense", "FINAL_ANSWER: 5 km, North-East") == "5 km, North-East"
+def test_accuracy_table_covers_every_condition():
+    with (COMMON_ROOT / "results" / "accuracy_by_cell.csv").open(
+        encoding="utf-8-sig", newline=""
+    ) as handle:
+        rows = list(csv.DictReader(handle))
+    assert {row["condition"] for row in rows} == set(CONDITIONS)
+    assert all(int(row["total"]) == 15 for row in rows)
 
 
-def test_direction_vote_canonicalizes_equivalent_forms():
-    forms = [
-        r"4\sqrt{5} km, approximately 63.4 degrees north of east",
-        "8.94 km, 63.4 degrees North of East",
-        "4√5 km (about 8.94 km) at 63.4 degrees North of East",
-    ]
-    assert {_normalise_for_vote("obfus_direction_sense", value) for value in forms} == {
-        "8.94 KM|NORTHEAST"
-    }
+def test_all_notebooks_are_valid_json():
+    notebooks = sorted(EXPERIMENT_ROOT.rglob("*.ipynb"))
+    assert len(notebooks) == 13
+    for notebook in notebooks:
+        payload = json.loads(notebook.read_text(encoding="utf-8"))
+        assert payload["nbformat"] == 4

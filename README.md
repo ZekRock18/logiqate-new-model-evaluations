@@ -22,6 +22,10 @@ metadata, versioned prompt templates and validation code.
 The public package intentionally excludes credentials, private scoring
 manifests, row-level gold-answer files and raw provider transcripts.
 
+The version-controlled [project wiki](wiki/Home.md) provides a guided index to
+the protocol, all ten methods, results, reproducibility controls, public logs
+and the complete public-artifact inventory.
+
 Fable has the **4th-smallest mean degradation of 11 models** when placed beside
 the ten models reported in the paper. The full ranked table and comparison
 limitations are in [PAPER_COMPARISON.md](claude_fable_5.1_high/Result/Analysis/PAPER_COMPARISON.md).

@@ -41,6 +41,10 @@ On the common 75 obfuscated inputs, the zero-shot control scored 25/75. Experime
 
 [`common/`](common/) contains the zero-shot control, protocol, public manifest, versioned templates, aggregate tables, executed preparation/scoring notebooks, implementation source and tests.
 
+[`logs/`](logs/) contains the public execution ledger, completion summary and
+validation record. The repository-level [`wiki/`](../wiki/Home.md) indexes all
+documentation and artifacts.
+
 ## Public-release boundary
 
 This package intentionally excludes API credentials, private scoring manifests, row-level gold-answer files and raw provider transcripts. Aggregate tables retain all failures in their denominators.
