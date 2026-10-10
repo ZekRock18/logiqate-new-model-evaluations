@@ -1,0 +1,251 @@
+dataset,variant,setting,row_number,response_id,ground_truth,prediction,correct,error,ground_truth_clean,prediction_clean
+FOL,obfuscation,zero_shot,51,605365A270FD52AB,false,false,True,,false,false
+FOL,obfuscation,zero_shot,52,404832606BEEDC1E,false,true,False,,false,true
+FOL,obfuscation,zero_shot,53,35D50601BB7F7AF5,true,true,True,,true,true
+FOL,obfuscation,zero_shot,54,58994DF26E347328,false,false,True,,false,false
+FOL,obfuscation,zero_shot,55,17D02905EDAC2313,true,true,True,,true,true
+FOL,obfuscation,zero_shot,56,1B296263D54E3A82,false,false,True,,false,false
+FOL,obfuscation,zero_shot,57,27584BC575A85FB0,false,false,True,,false,false
+FOL,obfuscation,zero_shot,58,0578F0407A2E047E,false,true,False,,false,true
+FOL,obfuscation,zero_shot,59,3233D1870DC87426,false,"let $p(x)$ be ""x is among the most active players in major tennis"". let $r(x)$ be ""x is ranked highly by the wta"". let $l_i(x)$ be ""x lost to iga świątek"". let $f(x)$ be ""x is a female tennis player at roland garros 2022"". let $m(x)$ be ""x is a male tennis player at roland garros 2022"". let $l_n(x)$ be ""x lost to rafael nadal"". the premises are: 1. $\neg (\neg p(x) \rightarrow r(x))$ for all $x$. this is equivalent to $\neg (\neg (\neg p(x)) \lor r(x)) = \neg (p(x) \lor r(x)) = \neg p(x) \land \neg r(x)$. so, for all $x$, $x$ is not among the most active players and $x$ is not ranked highly by the wta. specifically, for coco gauff ($c$): $\neg p(c)$ and $\neg r(c)$. 2. $\neg r(x) \rightarrow \neg l_i(x)$ for all $x$. since $\neg r(c)$ is true from (1), we have $\neg l_i(c)$. so, coco gauff did not lose to iga świątek. 3. $\neg \exists x (f(x) \land \neg l_i(x))$. this means for all $x$, if $f(x)$ then $l_i(x)$. (every female player at rg 2022 lost to iga świątek). 4. $\neg (\neg \exists x f(x) \land \neg \exists x m(x))$. this means $\exists x f(x) \lor \exists x m(x)$. (at least one player exists). 5. $\neg \exists x (m(x) \land \neg l_n(x))$. this means for all $x$, if $m(x)$ then $l_n(x)$. (every male player at rg 2022 lost to rafael nadal). 6. if $c$ is a player for whom $\neg (\neg r(c) \lor \",False,,false,"let $p(x)$ be ""x is among the most active players in major tennis"". let $r(x)$ be ""x is ranked highly by the wta"". let $l_i(x)$ be ""x lost to iga świątek"". let $f(x)$ be ""x is a female tennis player at roland garros 2022"". let $m(x)$ be ""x is a male tennis player at roland garros 2022"". let $l_n(x)$ be ""x lost to rafael nadal"". the premises are: 1. $\neg (\neg p(x) \rightarrow r(x))$ for all $x$. this is equivalent to $\neg (\neg (\neg p(x)) \lor r(x)) = \neg (p(x) \lor r(x)) = \neg p(x) \land \neg r(x)$. so, for all $x$, $x$ is not among the most active players and $x$ is not ranked highly by the wta. specifically, for coco gauff ($c$): $\neg p(c)$ and $\neg r(c)$. 2. $\neg r(x) \rightarrow \neg l_i(x)$ for all $x$. since $\neg r(c)$ is true from (1), we have $\neg l_i(c)$. so, coco gauff did not lose to iga świątek. 3. $\neg \exists x (f(x) \land \neg l_i(x))$. this means for all $x$, if $f(x)$ then $l_i(x)$. (every female player at rg 2022 lost to iga świątek). 4. $\neg (\neg \exists x f(x) \land \neg \exists x m(x))$. this means $\exists x f(x) \lor \exists x m(x)$. (at least one player exists). 5. $\neg \exists x (m(x) \land \neg l_n(x))$. this means for all $x$, if $m(x)$ then $l_n(x)$. (every male player at rg 2022 lost to rafael nadal). 6. if $c$ is a player for whom $\neg (\neg r(c) \lor \"
+FOL,obfuscation,zero_shot,60,948AC412B08B9FFC,false,true,False,,false,true
+FOL,obfuscation,zero_shot,61,6D88351246C8A533,false,false,True,,false,false
+FOL,obfuscation,zero_shot,62,F8CAAF8DD5F4229E,true,false,False,,true,false
+FOL,obfuscation,zero_shot,63,CDADD2CCD7846009,true,true,True,,true,true
+FOL,obfuscation,zero_shot,64,F955131DDA8F6003,false,false,True,,false,false
+FOL,obfuscation,zero_shot,65,5A56DDEA19C1A8CB,false,true,False,,false,true
+FOL,obfuscation,zero_shot,66,6ABF33FF4FBDB407,false,true,False,,false,true
+FOL,obfuscation,zero_shot,67,C9842BE3D2654E72,true,true,True,,true,true
+FOL,obfuscation,zero_shot,68,E34092DEF71114F0,false,true,False,,false,true
+FOL,obfuscation,zero_shot,69,B0C09FF4B939D53D,false,"1. identify - entities: susan, john, lga airport, ""another airport"", ""same location"". - predicates: arrivesat(x, y), departsfrom(x, y), originatesfrom(x, y), fliesto(x, y). - facts: 1. $\neg (\neg \text{arrivesat}(\text{susan}, \text{lga}) \land \neg \text{departsfrom}(\text{susan}, \text{another}))$ - simplifies to: $\text{arrivesat}(\text{susan}, \text{lga}) \lor \text{departsfrom}(\text{susan}, \text{another})$ 2. $\neg \exists x (\text{departsfrom}(x, l) \land \text{arrivesat}(x, l))$ - simplifies to: no one departs from and arrives at the same location. 3. $\neg (\neg \text{originatesfrom}(\text{john}, \text{lga}))$ - simplifies to: $\text{originatesfrom}(\text{john}, \text{lga})$ - conclusion: $\text{fliesto}(\text{john}, \text{lga})$ 2. structure - from fact 3, john originates his journey from lga. this means john starts at lga. - the conclusion states john flies *to* lga. - fact 2 states that no one can depart from and arrive at the same location. - if john originates from lga, he departs from lga. - if he were to fly *to* lga, he would arrive at lga. - this would mean he both departs from and arrives at lga, which violates fact 2. - therefore, john cannot fly to lga if he originates from lga (under the constraint that one cannot depart and arrive at the same place). - alternatively, ""originates from"" implies the start point. ""flies to"" implies the destination. - let's re-read carefully. - premise 3: john originates from lga. - conclusion: john flies",False,,false,"1. identify - entities: susan, john, lga airport, ""another airport"", ""same location"". - predicates: arrivesat(x, y), departsfrom(x, y), originatesfrom(x, y), fliesto(x, y). - facts: 1. $\neg (\neg \text{arrivesat}(\text{susan}, \text{lga}) \land \neg \text{departsfrom}(\text{susan}, \text{another}))$ - simplifies to: $\text{arrivesat}(\text{susan}, \text{lga}) \lor \text{departsfrom}(\text{susan}, \text{another})$ 2. $\neg \exists x (\text{departsfrom}(x, l) \land \text{arrivesat}(x, l))$ - simplifies to: no one departs from and arrives at the same location. 3. $\neg (\neg \text{originatesfrom}(\text{john}, \text{lga}))$ - simplifies to: $\text{originatesfrom}(\text{john}, \text{lga})$ - conclusion: $\text{fliesto}(\text{john}, \text{lga})$ 2. structure - from fact 3, john originates his journey from lga. this means john starts at lga. - the conclusion states john flies *to* lga. - fact 2 states that no one can depart from and arrive at the same location. - if john originates from lga, he departs from lga. - if he were to fly *to* lga, he would arrive at lga. - this would mean he both departs from and arrives at lga, which violates fact 2. - therefore, john cannot fly to lga if he originates from lga (under the constraint that one cannot depart and arrive at the same place). - alternatively, ""originates from"" implies the start point. ""flies to"" implies the destination. - let's re-read carefully. - premise 3: john originates from lga. - conclusion: john flies"
+FOL,obfuscation,zero_shot,70,FF0424AED09E8838,true,true,True,,true,true
+FOL,obfuscation,zero_shot,71,E34A52D1FBE4BC5C,false,false,True,,false,false
+FOL,obfuscation,zero_shot,72,3CC61F8C53F71DC6,false,false,True,,false,false
+FOL,obfuscation,zero_shot,73,38D31829646EC84E,false,false,True,,false,false
+FOL,obfuscation,zero_shot,74,D9CCBB72FB7F6D75,false,true,False,,false,true
+FOL,obfuscation,zero_shot,75,9C228AAA30177D1F,false,false,True,,false,false
+FOL,obfuscation,zero_shot,76,78B2FD90FC5A9083,false,false,True,,false,false
+FOL,obfuscation,zero_shot,77,80572B0B4017F74F,false,false,True,,false,false
+FOL,obfuscation,zero_shot,78,AA2CC0E5CE81E90F,true,true,True,,true,true
+FOL,obfuscation,zero_shot,79,E19B395EC4D7CE5B,true,true,True,,true,true
+FOL,obfuscation,zero_shot,80,FE2080D5EEB9332C,true,true,True,,true,true
+FOL,obfuscation,zero_shot,81,3DC6C74802EF9888,true,true,True,,true,true
+FOL,obfuscation,zero_shot,82,8E49DDBDE3CAD54E,true,true,True,,true,true
+FOL,obfuscation,zero_shot,83,2D97772776DB120D,false,false,True,,false,false
+FOL,obfuscation,zero_shot,84,1896E2506E622439,true,true,True,,true,true
+FOL,obfuscation,zero_shot,85,9D17EDB9B88B4B7A,true,true,True,,true,true
+FOL,obfuscation,zero_shot,86,1081BABB01811048,true,true,True,,true,true
+FOL,obfuscation,zero_shot,87,FE374FDA150C19A9,false,false,True,,false,false
+FOL,obfuscation,zero_shot,88,565051FA90D515BA,false,false,True,,false,false
+FOL,obfuscation,zero_shot,89,6115199E894858C5,false,false,True,,false,false
+FOL,obfuscation,zero_shot,90,5CEB7BA5ADF927A0,true,false,False,,true,false
+FOL,obfuscation,zero_shot,91,CF13FC0067D4BDA3,false,true,False,,false,true
+FOL,obfuscation,zero_shot,92,314BB08CE029937A,true,true,True,,true,true
+FOL,obfuscation,zero_shot,93,1C5355167C656261,true,true,True,,true,true
+FOL,obfuscation,zero_shot,94,460AE8CA8A25D4A7,false,true,False,,false,true
+FOL,obfuscation,zero_shot,95,54A1C71BDB8E210C,true,"i will follow the structured decomposition process to analyze the logical problem. **1. identify** * **entities:** individuals, travelers, ceremonies (weddings), john, paris, july, offspring, attendance, honeymoon. * **key terms/definitions:** * ""devoid of offspring"" = no children. * ""exempt from hosting a wedding"" = does not host a wedding. * ""venturing to paris for a wedding"" = travel to paris for a wedding. * ""ceremony unassociated with paris in july"" = wedding not in paris and not in july? or (not in paris) and (not in july)? the phrasing ""unassociated with paris in july"" is ambiguous. let's look at the structure: ""for every ceremony unassociated with paris in july"". usually, this means $\neg (paris \land july)$ or $(\neg paris) \land (\neg july)$. let's assume standard logical parsing: ""unassociated with [paris in july]"" likely means $\neg (paris \land july)$. however, looking at the conclusion, it mentions ""travel to paris for his honeymoon"". the premise talks about ""venturing to paris for a wedding"". * ""ample attendance"" = well-attended. * ""conjugal ties"" = marriage/wedding. * ""avoids both paris and conjugal ties"" = $\neg paris \land \neg wedding$. let's formalize the premises step-by-step. **premise 1:** ""not all individuals devoid of offspring are exempt from hosting a wedding."" * let $n(x)$: $x$ has no offspring. * let $h(x)$: $x$ hosts a wedding. * ""exempt from hosting"" = $\neg h(x)$. * ""not all $n$ are $\neg h$"" $\equiv \neg \forall x (n(x) \rightarrow \neg h(x)) \equiv \exists x (n(x) \land h(x))$. * this is a general existential statement. it doesn't directly constrain john unless john is that specific individual, which isn't stated. **premise 2:** ""the negation of some travelers not venturing to paris for a wedding implies their attendance",False,,true,"i will follow the structured decomposition process to analyze the logical problem. **1. identify** * **entities:** individuals, travelers, ceremonies (weddings), john, paris, july, offspring, attendance, honeymoon. * **key terms/definitions:** * ""devoid of offspring"" = no children. * ""exempt from hosting a wedding"" = does not host a wedding. * ""venturing to paris for a wedding"" = travel to paris for a wedding. * ""ceremony unassociated with paris in july"" = wedding not in paris and not in july? or (not in paris) and (not in july)? the phrasing ""unassociated with paris in july"" is ambiguous. let's look at the structure: ""for every ceremony unassociated with paris in july"". usually, this means $\neg (paris \land july)$ or $(\neg paris) \land (\neg july)$. let's assume standard logical parsing: ""unassociated with [paris in july]"" likely means $\neg (paris \land july)$. however, looking at the conclusion, it mentions ""travel to paris for his honeymoon"". the premise talks about ""venturing to paris for a wedding"". * ""ample attendance"" = well-attended. * ""conjugal ties"" = marriage/wedding. * ""avoids both paris and conjugal ties"" = $\neg paris \land \neg wedding$. let's formalize the premises step-by-step. **premise 1:** ""not all individuals devoid of offspring are exempt from hosting a wedding."" * let $n(x)$: $x$ has no offspring. * let $h(x)$: $x$ hosts a wedding. * ""exempt from hosting"" = $\neg h(x)$. * ""not all $n$ are $\neg h$"" $\equiv \neg \forall x (n(x) \rightarrow \neg h(x)) \equiv \exists x (n(x) \land h(x))$. * this is a general existential statement. it doesn't directly constrain john unless john is that specific individual, which isn't stated. **premise 2:** ""the negation of some travelers not venturing to paris for a wedding implies their attendance"
+FOL,obfuscation,zero_shot,96,003AF192C5205303,false,false,True,,false,false
+FOL,obfuscation,zero_shot,97,042DF9325759B97A,false,false,True,,false,false
+FOL,obfuscation,zero_shot,98,E884ED4DAF63DD3F,false,false,True,,false,false
+FOL,obfuscation,zero_shot,99,8E326766CF921B38,false,true,False,,false,true
+FOL,obfuscation,zero_shot,100,8B9208626EC082BF,false,false,True,,false,false
+Blood_Relation,obfuscation_l1,zero_shot,51,54EDAB3B59174D03,grandmother,grandfather,False,,grandmother,grandfather
+Blood_Relation,obfuscation_l1,zero_shot,52,D8580A4681A30938,sister,aunt,False,,sister,aunt
+Blood_Relation,obfuscation_l1,zero_shot,53,73CFC6AB22B7E409,granddaughter,grandfather,False,,granddaughter,grandfather
+Blood_Relation,obfuscation_l1,zero_shot,54,404D09F484CDFFA9,grandson,grandson,True,,grandson,grandson
+Blood_Relation,obfuscation_l1,zero_shot,55,621CC78242A4B7BE,mother,mother,True,,mother,mother
+Blood_Relation,obfuscation_l1,zero_shot,56,0A281D8F73FB691C,brother-in-law,brother,False,,brother-in-law,brother
+Blood_Relation,obfuscation_l1,zero_shot,57,3CD5D003DF91468E,great-grandfather,grandfather,False,,great-grandfather,grandfather
+Blood_Relation,obfuscation_l1,zero_shot,58,C497BE3749968F8D,great-grandfather,b is the father of e,False,,great-grandfather,b is the father of e
+Blood_Relation,obfuscation_l1,zero_shot,59,0655A40CD2286CD8,cousin,cousin,True,,cousin,cousin
+Blood_Relation,obfuscation_l1,zero_shot,60,B01C0614D9580AEC,cousin,uncle,False,,cousin,uncle
+Blood_Relation,obfuscation_l1,zero_shot,61,2318BC377B47A52C,sister,sister,True,,sister,sister
+Blood_Relation,obfuscation_l1,zero_shot,62,9973871BD774A477,wife,sister,False,,wife,sister
+Blood_Relation,obfuscation_l1,zero_shot,63,71F794209321297F,brother,father,False,,brother,father
+Blood_Relation,obfuscation_l1,zero_shot,64,1459EB0C33645ED3,granddaughter,granddaughter,True,,granddaughter,granddaughter
+Blood_Relation,obfuscation_l1,zero_shot,65,A517C5DC2A21DB7F,aunt,aunt,True,,aunt,aunt
+Blood_Relation,obfuscation_l1,zero_shot,66,82A5E1CB52005E84,aunt,aunt,True,,aunt,aunt
+Blood_Relation,obfuscation_l1,zero_shot,67,B0922E6A5849A2EB,brother,brother,True,,brother,brother
+Blood_Relation,obfuscation_l1,zero_shot,68,3B3A42CC58923F61,brother,father,False,,brother,father
+Blood_Relation,obfuscation_l1,zero_shot,69,DFB12910A50D80C0,son,her brother,False,,son,her brother
+Blood_Relation,obfuscation_l1,zero_shot,70,0FE305552324784A,father,father,True,,father,father
+Blood_Relation,obfuscation_l1,zero_shot,71,55168869431D363A,great-grandfather,brother,False,,great-grandfather,brother
+Blood_Relation,obfuscation_l1,zero_shot,72,5BAA01E8D95F724E,grandfather,j,False,,grandfather,j
+Blood_Relation,obfuscation_l1,zero_shot,73,B480729974AD9100,brother,uncle,False,,brother,uncle
+Blood_Relation,obfuscation_l1,zero_shot,74,AA526797E8F46331,brother,brother,True,,brother,brother
+Blood_Relation,obfuscation_l1,zero_shot,75,128C39F38C88FA4D,son,brother,False,,son,brother
+Blood_Relation,obfuscation_l1,zero_shot,76,61EDEF0A27F9F7D8,brother,s,False,,brother,s
+Blood_Relation,obfuscation_l1,zero_shot,77,1727307E896A90D4,grandson,grandson,True,,grandson,grandson
+Blood_Relation,obfuscation_l1,zero_shot,78,9F62B4BBE2562FAD,great-granddaughter,brother,False,,great-granddaughter,brother
+Blood_Relation,obfuscation_l1,zero_shot,79,F5B16A07EB64F10B,3,3,True,,3,3
+Blood_Relation,obfuscation_l1,zero_shot,80,336D4BC84D66514F,aunt,aunt,True,,aunt,aunt
+Blood_Relation,obfuscation_l1,zero_shot,81,0700F86A35410C13,mother,mother,True,,mother,mother
+Blood_Relation,obfuscation_l1,zero_shot,82,B1E6ED2959C86957,niece,nephew,False,,niece,nephew
+Blood_Relation,obfuscation_l1,zero_shot,83,EADDF97CAC49C102,brother-in-law,brother,False,,brother-in-law,brother
+Blood_Relation,obfuscation_l1,zero_shot,84,9D917F4498D2F8FA,grandson,grandson,True,,grandson,grandson
+Blood_Relation,obfuscation_l1,zero_shot,85,46152E15B04713E9,1,2,False,,1,2
+Blood_Relation,obfuscation_l1,zero_shot,86,FBEC53CD1F156B69,brother,s,False,,brother,s
+Blood_Relation,obfuscation_l1,zero_shot,87,152619F2086C2D27,granddaughter,granddaughter,True,,granddaughter,granddaughter
+Blood_Relation,obfuscation_l1,zero_shot,88,A6A6069D23DF125A,granddaughter,granddaughter,True,,granddaughter,granddaughter
+Blood_Relation,obfuscation_l1,zero_shot,89,A8EFBFED6FD76B8A,son,son,True,,son,son
+Blood_Relation,obfuscation_l1,zero_shot,90,C2E9E4C6B519B440,brother,brother,True,,brother,brother
+Blood_Relation,obfuscation_l1,zero_shot,91,8AC819C8FEEEC2FB,father,brother,False,,father,brother
+Blood_Relation,obfuscation_l1,zero_shot,92,8D87F384E78B20EE,grandmother,granddaughter,False,,grandmother,granddaughter
+Blood_Relation,obfuscation_l1,zero_shot,93,8361B0E22FDE7205,sister,sister,True,,sister,sister
+Blood_Relation,obfuscation_l1,zero_shot,94,883760E586209DE3,granddaughter,granddaughter,True,,granddaughter,granddaughter
+Blood_Relation,obfuscation_l1,zero_shot,95,46850AE180A3C198,daughter-in-law,mother-in-law,False,,daughter-in-law,mother-in-law
+Blood_Relation,obfuscation_l1,zero_shot,96,2EDA62090C90D27C,3,3,True,,3,3
+Blood_Relation,obfuscation_l1,zero_shot,97,5785A7F93DD0BBC4,father,uncle,False,,father,uncle
+Blood_Relation,obfuscation_l1,zero_shot,98,DB058F72E47FFEE4,3,3,True,,3,3
+Blood_Relation,obfuscation_l1,zero_shot,99,86099CE1BA0382B7,grandson,brother,False,,grandson,brother
+Blood_Relation,obfuscation_l1,zero_shot,100,25404196ECF57259,daughter,sister,False,,daughter,sister
+Blood_Relation,obfuscation_l2,zero_shot,101,A26577C5DE74650D,father,brother,False,,father,brother
+Blood_Relation,obfuscation_l2,zero_shot,102,07EF5591616A5314,daughter,sister,False,,daughter,sister
+Blood_Relation,obfuscation_l2,zero_shot,103,1062F0B4A21FF41B,brother,brother,True,,brother,brother
+Blood_Relation,obfuscation_l2,zero_shot,104,777AD611C46295A3,father,father,True,,father,father
+Blood_Relation,obfuscation_l2,zero_shot,105,D6177347F2700F59,brother,nephew,False,,brother,nephew
+Blood_Relation,obfuscation_l2,zero_shot,106,3A3D26B605D4ABF7,aunt,cousin,False,,aunt,cousin
+Blood_Relation,obfuscation_l2,zero_shot,107,CBA415997025E0D8,brother,brother,True,,brother,brother
+Blood_Relation,obfuscation_l2,zero_shot,108,13CE491CFD6EE16B,mother,aunt,False,,mother,aunt
+Blood_Relation,obfuscation_l2,zero_shot,109,DFC44CC067EE488E,aunt,mother,False,,aunt,mother
+Blood_Relation,obfuscation_l2,zero_shot,110,8AAE0F62510F4312,daughter,sister,False,,daughter,sister
+Blood_Relation,obfuscation_l2,zero_shot,111,998E91F5697BD005,sister-in-law,sister,False,,sister-in-law,sister
+Blood_Relation,obfuscation_l2,zero_shot,112,FE46E896805319E3,mother,mother,True,,mother,mother
+Blood_Relation,obfuscation_l2,zero_shot,113,F87B39132B82ADB1,wife,sister,False,,wife,sister
+Blood_Relation,obfuscation_l2,zero_shot,114,2BB04EA9B88E49DD,aunt,cousin,False,,aunt,cousin
+Blood_Relation,obfuscation_l2,zero_shot,115,A1CA646EF6178994,brother-in-law,brother,False,,brother-in-law,brother
+Blood_Relation,obfuscation_l2,zero_shot,116,F95684F2EAE2A33C,2,zero,False,,2,zero
+Blood_Relation,obfuscation_l2,zero_shot,117,FF1E0BCAE635AEFB,brother,brother,True,,brother,brother
+Blood_Relation,obfuscation_l2,zero_shot,118,1B5272F471A3664E,brother,s,False,,brother,s
+Blood_Relation,obfuscation_l2,zero_shot,119,112766228F381CE7,wife,brother,False,,wife,brother
+Blood_Relation,obfuscation_l2,zero_shot,120,FE54A0DF16D6A308,grandfather,grandfather,True,,grandfather,grandfather
+Blood_Relation,obfuscation_l2,zero_shot,121,76EDB1DAC5163A34,sister,sister,True,,sister,sister
+Blood_Relation,obfuscation_l2,zero_shot,122,3D7E41FCBFBB7537,brother,sister,False,,brother,sister
+Blood_Relation,obfuscation_l2,zero_shot,123,DEFCD00CFEAAE08D,cousin,aunt,False,,cousin,aunt
+Blood_Relation,obfuscation_l2,zero_shot,124,DACDDD83A29CFC3D,husband,husband,True,,husband,husband
+Blood_Relation,obfuscation_l2,zero_shot,125,4C1F8DA490017CEF,brother-in-law,brother,False,,brother-in-law,brother
+Blood_Relation,obfuscation_l2,zero_shot,126,BB9A471699128AD7,daughter-in-law,granddaughter,False,,daughter-in-law,granddaughter
+Blood_Relation,obfuscation_l2,zero_shot,127,AE3F0BCFD9AF4AAA,brother,brother,True,,brother,brother
+Blood_Relation,obfuscation_l2,zero_shot,128,C48EF0079CD176D1,mother,mother,True,,mother,mother
+Blood_Relation,obfuscation_l2,zero_shot,129,3BF7182877B5F7EE,grandson,grandson,True,,grandson,grandson
+Blood_Relation,obfuscation_l2,zero_shot,130,4F9FD182B2EEDCE6,father,father,True,,father,father
+Blood_Relation,obfuscation_l2,zero_shot,131,4124AD24F8A48FE9,grandmother,grandmother,True,,grandmother,grandmother
+Blood_Relation,obfuscation_l2,zero_shot,132,6035647664598B51,aunt,aunt,True,,aunt,aunt
+Blood_Relation,obfuscation_l2,zero_shot,133,69719BED85C5A1C9,grandson,grandson,True,,grandson,grandson
+Blood_Relation,obfuscation_l2,zero_shot,134,943861E4E4262B16,mother-in-law,mother,False,,mother-in-law,mother
+Blood_Relation,obfuscation_l2,zero_shot,135,80824AE994D48E84,sister-in-law,mother,False,,sister-in-law,mother
+Blood_Relation,obfuscation_l2,zero_shot,136,6444CCDDD2633D7A,aunt,sister,False,,aunt,sister
+Blood_Relation,obfuscation_l2,zero_shot,137,19D38506BD72F780,aunt,aunt,True,,aunt,aunt
+Blood_Relation,obfuscation_l2,zero_shot,138,FBF382B2670B26CC,uncle,son,False,,uncle,son
+Blood_Relation,obfuscation_l2,zero_shot,139,BA8B35C41D532319,daughter-in-law,granddaughter,False,,daughter-in-law,granddaughter
+Blood_Relation,obfuscation_l2,zero_shot,140,CFF4E0ECA0153B4E,mother,grandfather,False,,mother,grandfather
+Blood_Relation,obfuscation_l2,zero_shot,141,20F96C9DD86F7C46,uncle,father,False,,uncle,father
+Blood_Relation,obfuscation_l2,zero_shot,142,DA3E3C28F842A027,aunt,niece,False,"RateLimitError(""Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3kg7sfee25afxe4antqsftw` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199555, Requested 599. Please try again in 1m6.527999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"")",aunt,niece
+Blood_Relation,obfuscation_l2,zero_shot,143,A3F83B842D0A73F9,grandson,son,False,,grandson,son
+Blood_Relation,obfuscation_l2,zero_shot,144,009A56365ECACA43,brother,brother,True,,brother,brother
+Blood_Relation,obfuscation_l2,zero_shot,145,D0035EE0FD4939F0,son,brother,False,,son,brother
+Blood_Relation,obfuscation_l2,zero_shot,146,3A8FFEE3A6F2C622,father,father,True,,father,father
+Blood_Relation,obfuscation_l2,zero_shot,147,FF602E199A1DCCD0,mother,brother,False,,mother,brother
+Blood_Relation,obfuscation_l2,zero_shot,148,416D7F2634690FA9,sister,grandfather,False,,sister,grandfather
+Blood_Relation,obfuscation_l2,zero_shot,149,84B51353FC3437B7,mother,aunt,False,,mother,aunt
+Blood_Relation,obfuscation_l2,zero_shot,150,C74F6A1FD57D0FEB,2,zero,False,,2,zero
+Direction_Sense,obfuscation,zero_shot,51,88A2281299CB4699,at starting point,north,False,,at starting point,north
+Direction_Sense,obfuscation,zero_shot,52,85BC55487EF7E2E1,7.07 km north-east,13 km north-east,False,,7.07 km north-east,13 km north-east
+Direction_Sense,obfuscation,zero_shot,53,818FA87D2BFFAF59,west,south,False,,west,south
+Direction_Sense,obfuscation,zero_shot,54,A2ACD59D508FDEBA,at starting point,at the starting point,False,,at starting point,at the starting point
+Direction_Sense,obfuscation,zero_shot,55,001F41419FFF5F30,north-west,south-west,False,,north-west,south-west
+Direction_Sense,obfuscation,zero_shot,56,CAB44E2F274B8196,4.85 km,5.385 km,False,,4.85 km,5.385 km
+Direction_Sense,obfuscation,zero_shot,57,E196C3A3DA461B07,north,south,False,,north,south
+Direction_Sense,obfuscation,zero_shot,58,75013926B04B7F20,at starting point,south,False,,at starting point,south
+Direction_Sense,obfuscation,zero_shot,59,AE80F25645247FDE,8.72 km,4 km,False,,8.72 km,4 km
+Direction_Sense,obfuscation,zero_shot,60,228A4289FD902526,6 km west,6 km west,True,,6 km west,6 km west
+Direction_Sense,obfuscation,zero_shot,61,C571AEEC8935B8C1,west,east,False,,west,east
+Direction_Sense,obfuscation,zero_shot,62,A11A683E421AB417,"9.49 m, south-east","12 m, south",False,,"9.49 m, south-east","12 m, south"
+Direction_Sense,obfuscation,zero_shot,63,55331DE1274FE958,10.91 km,10.4 km,False,,10.91 km,10.4 km
+Direction_Sense,obfuscation,zero_shot,64,D8D0ECF1A79F9319,4.64 km,2√5 km,False,,4.64 km,2√5 km
+Direction_Sense,obfuscation,zero_shot,65,9BC3B26765CFFA96,at starting point,south,False,,at starting point,south
+Direction_Sense,obfuscation,zero_shot,66,47E5B03090244470,5 km north-east,√109 km north-east,False,,5 km north-east,√109 km north-east
+Direction_Sense,obfuscation,zero_shot,67,077B0CF1D186E8C3,at starting point,north,False,,at starting point,north
+Direction_Sense,obfuscation,zero_shot,68,ABB0AADEB10A6D47,"0 m, at starting point",0 m,False,,"0 m, at starting point",0 m
+Direction_Sense,obfuscation,zero_shot,69,D0C6D9A687E69300,"0 m, at starting point",0 meters,False,,"0 m, at starting point",0 meters
+Direction_Sense,obfuscation,zero_shot,70,5F597953A85B2886,"16.28 km, north-west",10 km north,False,,"16.28 km, north-west",10 km north
+Direction_Sense,obfuscation,zero_shot,71,0ECD877D626DD3E4,4.64 km,5 km,False,"RateLimitError(""Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3kg7sfee25afxe4antqsftw` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199707, Requested 608. Please try again in 2m16.08s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"")",4.64 km,5 km
+Direction_Sense,obfuscation,zero_shot,72,9FE58D25719C7BE9,"0 m, at starting point",0 m,False,,"0 m, at starting point",0 m
+Direction_Sense,obfuscation,zero_shot,73,5E083BF5D1A59676,at starting point,west,False,,at starting point,west
+Direction_Sense,obfuscation,zero_shot,74,B84F4A235B76761C,east,west,False,,east,west
+Direction_Sense,obfuscation,zero_shot,75,E83B948D2E623FFD,west,west,True,,west,west
+Direction_Sense,obfuscation,zero_shot,76,A4B4A8B02FCF14DD,"6 km, west",6 km west,False,,"6 km, west",6 km west
+Direction_Sense,obfuscation,zero_shot,77,AEF6222FAEFFF0D6,north,east,False,,north,east
+Direction_Sense,obfuscation,zero_shot,78,5027E0DCEF12B051,south,south,True,,south,south
+Direction_Sense,obfuscation,zero_shot,79,573A88DA0445F2F2,at starting point,west,False,,at starting point,west
+Direction_Sense,obfuscation,zero_shot,80,A651A86E6E7092F8,80 meters west,50 meters,False,,80 meters west,50 meters
+Direction_Sense,obfuscation,zero_shot,81,DB9C033AF704B6DF,0 meters,0 m,False,,0 meters,0 m
+Direction_Sense,obfuscation,zero_shot,82,08367F8B728803C4,10.91 km,10.1 km,False,,10.91 km,10.1 km
+Direction_Sense,obfuscation,zero_shot,83,95A218ED49654954,"3 km, west",3 km west,False,,"3 km, west",3 km west
+Direction_Sense,obfuscation,zero_shot,84,BEEDBDA908B1394A,"10.00 km, north-east",10 km north-east,False,,"10.00 km, north-east",10 km north-east
+Direction_Sense,obfuscation,zero_shot,85,857E8A8E00FA630A,"11.66 km, north-east",10.77 km north-east,False,,"11.66 km, north-east",10.77 km north-east
+Direction_Sense,obfuscation,zero_shot,86,F93B903CC9909671,at starting point,west,False,,at starting point,west
+Direction_Sense,obfuscation,zero_shot,87,384A1C7803AF12F4,south,north,False,,south,north
+Direction_Sense,obfuscation,zero_shot,88,7C3BEA9D4D477EBC,14 m,10 m,False,,14 m,10 m
+Direction_Sense,obfuscation,zero_shot,89,CE66B313ACC10919,14.14 km north-east,15 km north,False,,14.14 km north-east,15 km north
+Direction_Sense,obfuscation,zero_shot,90,DC78C34287314210,east,south,False,,east,south
+Direction_Sense,obfuscation,zero_shot,91,9E6030FD768A4F5A,40 m,100 m,False,,40 m,100 m
+Direction_Sense,obfuscation,zero_shot,92,8D30C0DE64158A8C,"7.81 km, north-east",7.81 km north-east,False,,"7.81 km, north-east",7.81 km north-east
+Direction_Sense,obfuscation,zero_shot,93,AAAF1588DCA5C5FE,north-west,north,False,,north-west,north
+Direction_Sense,obfuscation,zero_shot,94,435D27645987CE18,"0 m, at starting point",0 meters,False,,"0 m, at starting point",0 meters
+Direction_Sense,obfuscation,zero_shot,95,D576DFE6D22153EC,"7.07 km, north-east",14 km north-east,False,,"7.07 km, north-east",14 km north-east
+Direction_Sense,obfuscation,zero_shot,96,EA3B05AB443E6F31,5.00 km,0 km,False,,5.00 km,0 km
+Direction_Sense,obfuscation,zero_shot,97,D9884A861F2EA06C,"5.00 km, west",5 km west,False,,"5.00 km, west",5 km west
+Direction_Sense,obfuscation,zero_shot,98,DE064F7BF4A3D371,4.64 km,3.606 km,False,,4.64 km,3.606 km
+Direction_Sense,obfuscation,zero_shot,99,36266196D363BF67,"8 km, west",8 km west,False,,"8 km, west",8 km west
+Direction_Sense,obfuscation,zero_shot,100,7981C4360038569B,west,south,False,,west,south
+Number_Series,obfuscation,zero_shot,51,A0F2412EB212A240,25,25,True,,25,25
+Number_Series,obfuscation,zero_shot,52,C9D76BEF7DD494C5,71,10,False,,71,10
+Number_Series,obfuscation,zero_shot,53,0585CD57C0F621B2,220,234,False,,220,234
+Number_Series,obfuscation,zero_shot,54,65AEF26A8934BA3E,37,1,False,,37,1
+Number_Series,obfuscation,zero_shot,55,982374A08894BA4D,397,385,False,,397,385
+Number_Series,obfuscation,zero_shot,56,25B865259C303CCC,12,10,False,,12,10
+Number_Series,obfuscation,zero_shot,57,FB600BD857CE0B3F,300,108,False,,300,108
+Number_Series,obfuscation,zero_shot,58,29A409768F98AE94,130,155,False,,130,155
+Number_Series,obfuscation,zero_shot,59,C84EA1B8AFCC6781,397,337,False,,397,337
+Number_Series,obfuscation,zero_shot,60,F4857CD98AE632FD,17,11,False,,17,11
+Number_Series,obfuscation,zero_shot,61,2020596782AC1619,227,100,False,,227,100
+Number_Series,obfuscation,zero_shot,62,331DBCC7B13DB148,524,135,False,,524,135
+Number_Series,obfuscation,zero_shot,63,15E02568FDE1510F,14,5,False,,14,5
+Number_Series,obfuscation,zero_shot,64,31CB5C5F89E1C729,162,162,True,,162,162
+Number_Series,obfuscation,zero_shot,65,F2755BE5BE39748D,38,38,True,,38,38
+Number_Series,obfuscation,zero_shot,66,02AA52D061B13F1A,99,1,False,,99,1
+Number_Series,obfuscation,zero_shot,67,2A784ABC0A61EE94,107,93,False,,107,93
+Number_Series,obfuscation,zero_shot,68,759B31870BEC722A,12,12,True,,12,12
+Number_Series,obfuscation,zero_shot,69,DFDD2AEDBF9B38AB,11052,11050,False,,11052,11050
+Number_Series,obfuscation,zero_shot,70,C3AD1210FBF7BAFF,910,1,False,,910,1
+Number_Series,obfuscation,zero_shot,71,CB3D06FDBAC0105F,16,18,False,,16,18
+Number_Series,obfuscation,zero_shot,72,FF8754C62BB36F1F,243,243,True,,243,243
+Number_Series,obfuscation,zero_shot,73,A0587C48E984C323,18000,21600,False,,18000,21600
+Number_Series,obfuscation,zero_shot,74,D8BFC66282258C86,18,4,False,,18,4
+Number_Series,obfuscation,zero_shot,75,BA2991E7171C8E9B,3944,10,False,,3944,10
+Number_Series,obfuscation,zero_shot,76,F9CB6CAA7F7BD14F,24,1,False,,24,1
+Number_Series,obfuscation,zero_shot,77,409317144A1B87B6,90,70,False,,90,70
+Number_Series,obfuscation,zero_shot,78,27597752C3E3130C,36,36,True,,36,36
+Number_Series,obfuscation,zero_shot,79,914E06968E93AFE0,158,159,False,,158,159
+Number_Series,obfuscation,zero_shot,80,D882B5E6BAFC67D8,131,131,True,,131,131
+Number_Series,obfuscation,zero_shot,81,269095347408DA76,25,25,True,,25,25
+Number_Series,obfuscation,zero_shot,82,9374223C6EEFB34E,190,268,False,,190,268
+Number_Series,obfuscation,zero_shot,83,A6CAA86A60556317,17,18,False,,17,18
+Number_Series,obfuscation,zero_shot,84,5C38D047812EF796,3944,1578,False,,3944,1578
+Number_Series,obfuscation,zero_shot,85,391B6D036BA2E8B7,594,462,False,,594,462
+Number_Series,obfuscation,zero_shot,86,156F09FC2FBCDAF9,228,1,False,,228,1
+Number_Series,obfuscation,zero_shot,87,A63A66844D90F3F4,582,1,False,,582,1
+Number_Series,obfuscation,zero_shot,88,F3777DC04B6114C9,4841,12,False,,4841,12
+Number_Series,obfuscation,zero_shot,89,035EA0B3E0DDC368,131,137.5,False,,131,137.5
+Number_Series,obfuscation,zero_shot,90,E6E63FDCF487BA8C,90,77,False,,90,77
+Number_Series,obfuscation,zero_shot,91,A82AF6CE818C5F8C,704,1,False,,704,1
+Number_Series,obfuscation,zero_shot,92,5BA0461FE6E24A36,30,12,False,,30,12
+Number_Series,obfuscation,zero_shot,93,E08927B8C6E0AA90,220,196,False,,220,196
+Number_Series,obfuscation,zero_shot,94,177A3B7664EE8C84,767 771,5,False,,767 771,5
+Number_Series,obfuscation,zero_shot,95,11DD02D0CAEF8EC6,9,12,False,,9,12
+Number_Series,obfuscation,zero_shot,96,10E562A00E5F7616,251.8,100,False,,251.8,100
+Number_Series,obfuscation,zero_shot,97,B66CBC94A1EBCD6C,441,16,False,,441,16
+Number_Series,obfuscation,zero_shot,98,05E7FEAC36C16B0E,24,24,True,,24,24
+Number_Series,obfuscation,zero_shot,99,980ED6E5BF8B0EA4,30,30,True,,30,30
+Number_Series,obfuscation,zero_shot,100,82EA829AF4056F8B,243,1,False,,243,1
