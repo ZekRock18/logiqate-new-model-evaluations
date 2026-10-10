@@ -1,0 +1,1314 @@
+dataset,variant,setting,row_number,response_id,prompt,ground_truth,benchmark_order
+FOL,obfuscation,zero_shot,51,605365A270FD52AB,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It costs US $205 to take the GRE test. ETS provides financial aid to those GRE applicants who prove economic hardship. Economic hardship refers to difficulty caused by having too little money or too few resources. Tom lives in a single-parent family. His dad has been out of work for more than a year.
+Conclusion: There is no financial aid available for the GRE test.
+Answer:",FALSE,1
+FOL,obfuscation,zero_shot,52,404832606BEEDC1E,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It is not the case that not being among the most active players in major tennis implies not being ranked highly by the Women's Tennis Association. It is not true that there exists someone who did not lose to Iga Świątek and is not ranked highly by the Women's Tennis Association. It cannot be the case that there is a female tennis player at Roland Garros 2022 who did not lose to Iga Świątek. It is not true that it is not the case that either female or male tennis players at Roland Garros 2022 did not participate. If someone is a male tennis player at Roland Garros 2022, then it is necessary that they did not defeat Rafael Nadal. It is not true that Coco Gauff is a male tennis player at Roland Garros 2022 if Coco Gauff is ranked highly by the Women's Tennis Association or has not lost to Rafael Nadal.
+Conclusion: Coco Gauff is among the most active players in major tennis.
+Answer:",FALSE,2
+FOL,obfuscation,zero_shot,53,35D50601BB7F7AF5,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: The cost to take the GRE is such that it is not the case that not costing less than three times seventy plus five US dollars. In every conceivable situation where a person experiences economic struggle, ETS's offering of monetary support manifests as it is not the instance that struggle exists and no support. Every individual within a family where one parent exists or insufficient resources are present is enveloped by a condition not allowing the absence of hardship. Tom is within the scope of those dwelling in a scenario with either a sole parental figure or financial inadequacies, making it not possible to refute the existence of hardship. Negating the realm where Tom's paternal guardian maintains employment for over twelve months aligns with numerous financial inadequacies he faces.
+Conclusion: Tom can apply for financial aid from ETS to take the GRE test.
+Answer:",TRUE,3
+FOL,obfuscation,zero_shot,54,58994DF26E347328,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It is not the case that there exists an entity which is simultaneously a hawk that lands. There exists at least one creature such that it both belongs to the bird category and fulfills the conditions necessary to be labeled as a hawk.
+Conclusion: All birds land
+Answer:",FALSE,4
+FOL,obfuscation,zero_shot,55,17D02905EDAC2313,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: [BG] Books contain tons of knowledge. [BG] When a person reads a book, that person gains knowledge. [BG] If a person gains knowledge, they become smarter. Harry read the book “Walden” by Henry Thoreau.
+Conclusion: Harry is smarter than before.
+Answer:",TRUE,5
+FOL,obfuscation,zero_shot,56,1B296263D54E3A82,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: Susan flies to LGA airport. The departure and arrival can not be the same airport. John flies from LGA airport.
+Conclusion: John flies to LGA airport.
+Answer:",FALSE,6
+FOL,obfuscation,zero_shot,57,27584BC575A85FB0,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: All horses have hooves. No humans have hooves.
+Conclusion: Some humans are horses.
+Answer:",FALSE,7
+FOL,obfuscation,zero_shot,58,0578F0407A2E047E,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It is not the case that some entity exists which is a mammal and not an animal. It cannot happen that there exists something which is a monkey and not a mammal. Either it is not the case that everything is a bird, or some things are indeed monkeys. If it is not the case that birds do not exist, then some entities must necessarily fly. If something is an animal, then it is impossible for it not to breathe. Something cannot fly unless it contradicts the absence of wings. Provided Rock is neither airborne nor avian, Rock does not engage in either the act of flying or the process of respiration.
+Conclusion: Rock has wings.
+Answer:",FALSE,8
+FOL,obfuscation,zero_shot,59,3233D1870DC87426,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It is not the case that if someone is not among the most active players in major tennis, then they are ranked highly by the Women's Tennis Association. If it is not the case that someone is ranked highly by the Women's Tennis Association, then it is not the case that they lost to Iga Świątek. It is not the case that there exists a female tennis player at Roland Garros 2022 who did not lose to Iga Świątek. It is not true that neither female tennis players at Roland Garros 2022 nor male tennis players at Roland Garros 2022 exist. There does not exist a male tennis player at Roland Garros 2022 such that it is not the case they lost to Rafael Nadal. If Coco Gauff is a player for whom it is not the case that she is not ranked highly by the Women's Tennis Association or she did not lose to Rafael Nadal, then she is not a player for whom it is not the case that she is not a male tennis player at Roland Garros 2022.
+Conclusion: Coco Gauff is not a player who lost to Iga Świątek or one of the most active players in major tennis.
+Answer:",FALSE,9
+FOL,obfuscation,zero_shot,60,948AC412B08B9FFC,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: If people are twins or triplets, then they spend a lot of time hanging out with and playing with their siblings. If people have siblings who are the same age, then they are twins or triplets. If people complain often about annoying siblings, then they have siblings who are the same age. If people do not live at home regularly, then they do not develop strong bonds with their family members. If people spend a lot of time hanging out with and playing with their siblings, then they often did not live at home regularly. Luke is either both a twin or triplet and develops strong bonds with his family members, or he neither is a twin or triplet nor develops strong bonds with his family members.
+Conclusion: Luke complains often about annoying siblings.
+Answer:",FALSE,10
+FOL,obfuscation,zero_shot,61,6D88351246C8A533,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: The necessary monetary exchange for engaging in the GRE assessment is not less than two hundred and five U.S. dollars. Should an entity demonstrate financial insufficiency as defined, then, and only then, does ETS contemplate the provision of economic assistance. Difficulties arising from a deficiency in monetary possessions or inadequate resources categorize themselves under economic hardship. In the scenario where Tom's familial structuring lacks a dual parental presence, economic difficulties might ensue. A temporal span exceeding one annual cycle has been marked by the absence of employment, affecting Tom's paternal figure.
+Conclusion: There is no financial aid available for the GRE test.
+Answer:",FALSE,11
+FOL,obfuscation,zero_shot,62,F8CAAF8DD5F4229E,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It is not the case that not in every instance can it be the situation where neither Spring, Summer, Fall nor Winter fails to be considered a season. For any entity desiring an extended period of leisure, the non-occurrence of their affection for summer would imply that the entity does not, in fact, harbor such a vacation wish. It cannot be doubted that there fails to exist a state where Emma harbors no affection for the season characterized as summer. If it were the case that Mia loves the same season as Emma, then the situation would contradict the initially assumed premise, thus proving to be false. The situation is contradictory if it's not the case that whenever James desires an extensive holiday, he must indeed possess an affinity for summer.
+Conclusion: James's favorite season is summer.
+Answer:",TRUE,12
+FOL,obfuscation,zero_shot,63,CDADD2CCD7846009,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: Symphony No. 9 is a music piece. Composers write music pieces. Beethoven wrote Symphony No. 9. Vienna Music Society premiered Symphony No. 9. Vienna Music Society is an orchestra. Beethoven leads the Vienna Music Society. Orchestras are led by conductors.
+Conclusion: Some orchestras premiered music pieces.
+Answer:",TRUE,13
+FOL,obfuscation,zero_shot,64,F955131DDA8F6003,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: All vehicle registration plates in Istanbul begin with the number 34. Plates that do not begin with the number 34 are not from Istanbul. Joe's vehicle registration plate is from Istanbul. Tom's license plate begins with the number 35. [BG] If a license plate begins with the number 35, then it does not begin with the number 34.
+Conclusion: Tom's license plate is from Istanbul.
+Answer:",FALSE,14
+FOL,obfuscation,zero_shot,65,5A56DDEA19C1A8CB,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: If a player is ranked highly by the Women's Tennis Association, then they are among the most active players in major tennis. Everyone who lost to Iga Świątek is ranked highly by the Women's Tennis Association. All female tennis players at Roland Garros 2022 lost to Iga Świątek. Either female tennis players at Roland Garros 2022 or male tennis players at Roland Garros 2022. All male tennis players at Roland Garros 2022 lost to Rafael Nadal. If Coco Gauff is a player who is ranked highly by the Women's Tennis Association or a player who lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.
+Conclusion: Coco Gauff is among the most active players in major tennis.
+Answer:",FALSE,15
+FOL,obfuscation,zero_shot,66,6ABF33FF4FBDB407,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: There does not exist a design style by Zaha Hadid that is not timeless. It is not the case that all mass product designs are not lacking timelessness. It is not the case that neither Zaha Hadid's design style nor Kelly Wearstler's design style. For any design that is under Kelly Wearstler’s style, it is evocative, or it is not a design style by Kelly Wearstler. If it is not the case that a design is dreamy, then it is not a design style by Kelly Wearstler. If it is the case that a design by Max is timeless, then the design by Max is a mass product design, or it is not the case that the design by Max is non-evocative.
+Conclusion: A design by Max is either evocative or dreamy.
+Answer:",FALSE,16
+FOL,obfuscation,zero_shot,67,C9842BE3D2654E72,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It is not the case that there exists an instance where not engaging in breeding back while also not involving artificial selection for the same does occur. If one were to assume that Heck cattle do not exist or aurochs never did, then breeding back in the 1920s to resemble the latter through some Heck cattle existence becomes a paradox. There is no instance where not being an animal is equivalent to being a Heck cattle. Should the hypothetical case where aurochs do not exist arise, then no animal could be logically described as such. In a strange universe not a single creature resembling an extinct one cannot be negated to some bred-back animal corresponding to another creature.
+Conclusion: Some Heck cattle are artificially selected.
+Answer:",TRUE,17
+FOL,obfuscation,zero_shot,68,E34092DEF71114F0,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: Ailton Silva, born in 1995, is commonly known as Ailton. Ailton is a football player who was loaned out to Braga. Ailton Silva is a Brazillian footballer who plays for Nautico. Nautico is a football club along with Braga. Fluminense is a football club.
+Conclusion: Ailton Silva foes not play for a football club.
+Answer:",FALSE,18
+FOL,obfuscation,zero_shot,69,B0C09FF4B939D53D,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It is not the case that Susan does not arrive at LGA airport without departing from another airport. It is not true that there exists an instance where one both departs from and arrives at the same location. It is not the case that John does not originate his journey from LGA airport.
+Conclusion: John flies to LGA airport.
+Answer:",FALSE,19
+FOL,obfuscation,zero_shot,70,FF0424AED09E8838,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: All rabbits are cute. Some turtles exist. An animal is either a rabbit or a squirrel. If something is skittish, then it is not still. All squirrels are skittish. Rock is still.
+Conclusion: If Rock is not both a turtle and a squirrel, then Rock is either cute or skittish.
+Answer:",TRUE,20
+FOL,obfuscation,zero_shot,71,E34A52D1FBE4BC5C,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: There does not exist an entity such that it is both digital media and it is not the case that it is not analog. It is not the case that there exists something that is printed text and not analog. For everything, if it fails to be a streaming service, it must also fail to be non-digital. It is not the case that an object can be a hardcover book without being it is and printed text it is the case. If it is the case that 1984 is not a hardcover book, then necessarily it is not the case that 1984 is a streaming service.
+Conclusion: 1984 is a streaming service.
+Answer:",FALSE,21
+FOL,obfuscation,zero_shot,72,3CC61F8C53F71DC6,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: Pets are allowed in some managed buildings. [BG] A deposit is required to rent an apartment in a managed building. The security deposit can be either equal to one month's rent or more. Fluffy is Tom's cat. Cats are pets. The Olive Garden is a managed building. The monthly rent at the Olive Garden is $2000. Tom will rent an apartment in a managed building if and only if he is allowed to move in with Fluffy, and the security deposit is no more than $1500. 2000$ is more than $1500.
+Conclusion: Tom will rent an apartment in The Olive Garden.
+Answer:",FALSE,22
+FOL,obfuscation,zero_shot,73,38D31829646EC84E,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: Within the boundaries of Montana lies a city identified as Billings. The inclusion of Helena, Missoula, and Butte within Montana is not false. It is a truth that if White Sulphur Springs is a city in a state, then Butte is also a city in that same state. It is not the case that Pierre is a city in the state of Montana. For every state, it holds that if Butte is a city therein, Pierre most certainly is not a city therein as well.
+Conclusion: Butte and Pierre are in the same state.
+Answer:",FALSE,23
+FOL,obfuscation,zero_shot,74,D9CCBB72FB7F6D75,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: All of Zaha Hadid's design styles are timeless. No mass product design is timeless. Either Zaha Hadid's design style or Kelly Wearstler's design style. All of Kelly Wearstler's design styles are evocative. All of Kelly Wearstler's design styles are dreamy. If a design by Max is timeless, then a design by Max is a mass product design and evocative.
+Conclusion: A design by Max is either evocative or dreamy.
+Answer:",FALSE,24
+FOL,obfuscation,zero_shot,75,9C228AAA30177D1F,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It is not the case that every event avoids being both not happy and not sad. It is not true that no single happening contains the non-existence of an occurrence that it is not happy.
+Conclusion: All events are sad.
+Answer:",FALSE,25
+FOL,obfuscation,zero_shot,76,78B2FD90FC5A9083,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It is not the case that there is some entity which is a mammal but not an animal. There does not exist a context where something is a monkey yet not a mammal. If there is an instance where an entity is neither a monkey nor a bird, it is not the case that the entity is both a monkey and a bird. If a creature is not capable of flight, it cannot be called a bird. There is no existence in which an animal survives without breathing. In a scenario where an entity lacks wings, it must be that it cannot engage in flying. If Rock happens to fly or is recognized as a bird, then it must be that Rock engages in breathing.
+Conclusion: Rock does not have wings.
+Answer:",FALSE,26
+FOL,obfuscation,zero_shot,77,80572B0B4017F74F,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: In the context of specific dwelling complexes, it is not the case that no pets find acceptance. In scenarios encompassing managed abodes, the requirement of deposits is affirmed through absence of exception. A requisite sum, equal to or surpassing a monthly charge, manifests as a security amount. Tom's feline, known as Fluffy, inhabits the category of cats. To categorize as a pet, a creature aligns if it is the case that it is a cat. The structure referred to as The Olive Garden is identified among managed edifices. A stipulated expense of $2000 aligns with The Olive Garden's leasing charge. For Tom's acceptance into a managed abode, bi-conditional acceptance of Fluffy's presence against resisting security burdens arises if Fluffy's inclusion meets fiscal constraints. A fiscal figure of $2000 resists categorization under $1500 limits.
+Conclusion: Tom will rent an apartment in The Olive Garden.
+Answer:",FALSE,27
+FOL,obfuscation,zero_shot,78,AA2CC0E5CE81E90F,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: Provided an entity is not something Jane dislikes, it is not the case that it exhibits barking behavior. There does not exist a howling creature that eludes inclusion in Jane's universe of disdain, which is not appropriable to the category of dogs. The absence of leaping predisposes one to the realm of disfavor by Jane. The negation of motion via appendages is equivalent to lack of elevation. Absent terricolous nature implies nonexistence of fundamental extremities. KiKi's simultaneous non-jumping and appendage-deprivation leads to either terrain-bound nature or limb-acquisition being inevitable.
+Conclusion: KiKi neither barks nor is a dog.
+Answer:",TRUE,28
+FOL,obfuscation,zero_shot,79,E19B395EC4D7CE5B,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: Every instance within the realm of natural language processing inherently necessitates a scenario in which it cannot be that both it fails to be a language generation task and simultaneously not a language understanding task while not failing to be one or the other. For every undertaking classifiable within natural language processing that does not culminate in the absence of a text sequence output, it is inconceivable not to consider it a language generation task. It is not possible for machine translation to not engage in processes classified under natural language processing. One cannot conceive a world where machine translation does not yield an outcome that must negate its being anything other than a text sequence.
+Conclusion: Machine translation is a language generation task.
+Answer:",TRUE,29
+FOL,obfuscation,zero_shot,80,FE2080D5EEB9332C,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It is not the case that there exists a person who has a wedding and does not have at least one child. If a person does not travel to Paris for their honeymoon, then it is not the case that they have a wedding. It is not the case that some weddings in July do not belong to people who travel to Paris for their honeymoon. It is not the case that all weddings that are well-attended in July are nonexistent. It is not true that John has at least one child if John travels to Paris for his honeymoon or has a wedding. If a wedding is not well-attended for John, then either John does not have a wedding in July or John does not travel to Paris for their honeymoon.
+Conclusion: John does not have a wedding that is well-attended.
+Answer:",TRUE,30
+FOL,obfuscation,zero_shot,81,3DC6C74802EF9888,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It is not the case that there exists an entity which embodies the quality of being both a bakery and spicy. If anything is not a bakery, then it is not the case that it is a cupcake. Should it be that an entity is not spicy, then it cannot be considered a hotpot. It is undeniable that for any product of Baked by Melissa, being a cupcake is inevitable. In the situation where dried Thai chilies are avoided by considering them not spicy nor bakeries, it leads to a scenario where either they are a hotpot or their spiciness is an unavoidable conclusion.
+Conclusion: Dried Thai chilies are neither a product of Baked by Melissa nor a bakery.
+Answer:",TRUE,31
+FOL,obfuscation,zero_shot,82,8E49DDBDE3CAD54E,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: A podcast is not a novel. [BG] If a person is born in American City, the person is American. [BG] If a book is novel and it is written by a person, then the person is a novel writer. Dani Shapiro is an American writer. Family History is written by Dani Shapiro. Family History is a novel written in 2003. Dani Shapiro created a podcast called Family Secrets. [BG] Boston is an American city.
+Conclusion: Dani Shapiro is a novel writer.
+Answer:",TRUE,32
+FOL,obfuscation,zero_shot,83,2D97772776DB120D,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: No digital media are analog. Every printed text is analog. All streaming services are digital. If an object is a hardcover book then it is printed text. If 1984 is a streaming service, then 1984 is a hardcover book.
+Conclusion: 1984 is a streaming service.
+Answer:",FALSE,33
+FOL,obfuscation,zero_shot,84,1896E2506E622439,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: Should it not be the case that members of Pappy's star in Badults and Badults is a British Sitcom series, it cannot be denied that Badults stars members of Pappy's if it is a series. It is certainly not the case that Badults failed to pilot in July 2013 and simultaneously piloted not on BBC Three. The possibility that Badults was known by 'The Secret Dude Society' implies it is unfounded that it was never the working title. If Andrew Collins was indeed not the script editor for Badults, then it must be that he was indeed the script editor.
+Conclusion: Andrew Collins was the script editor for a series with the working title ""The Secret Dude Society"".
+Answer:",TRUE,34
+FOL,obfuscation,zero_shot,85,9D17EDB9B88B4B7A,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It costs US $205 to take the GRE test. ETS provides financial aid to those GRE applicants who prove economic hardship. Economic hardship refers to difficulty caused by having too little money or too few resources. Tom lives in a single-parent family. His dad has been out of work for more than a year.
+Conclusion: It cost below US $300 to take the GRE test.
+Answer:",TRUE,35
+FOL,obfuscation,zero_shot,86,1081BABB01811048,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: Heinrich Scmidt was a Nazi German politician. Heeinrich Scmidt was also a member of the Prussian State Parliament and the Nazi Reichstag.
+Conclusion: Heinrich Schmidt was either German or Russian.
+Answer:",TRUE,36
+FOL,obfuscation,zero_shot,87,FE374FDA150C19A9,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: [BG] The Olympic games is a sporting event. The last Olympic games was in Tokyo. The United States won the most medals in Tokyo.
+Conclusion: The last Olympic games were not in Tokyo.
+Answer:",FALSE,37
+FOL,obfuscation,zero_shot,88,565051FA90D515BA,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: The entity recognized as 'Stranger Things' and the condition of widespread acclaim are both attributable to the same streaming platform identifier. For every conceivable element, the happening of mass approval and its alignment with the criteria of a streaming title provide a situation where the individual Karen seeks unbroken observance. A streaming service entity corresponds with Karen's observance exactly when and only when it also corresponds with her act of digital storage. The situation that involves Karen refraining from digital storage concerning the entity 'Black Mirror' is true. The title 'Black Mirror' holds the designation of being a streaming service rendering. In all cases, the condition of Karen's observance regarding a streaming entity implies that such an entity is conveyed to Lisa.
+Conclusion: ""Black Mirror"" is popular.
+Answer:",FALSE,38
+FOL,obfuscation,zero_shot,89,6115199E894858C5,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It cannot be that there exists someone who eats salads regularly and is not conscious about their health, or it is not the case they are unaware of their eating habits. If it is not the case that people eat salads regularly, then it is not true that they grew up in health-conscious childhood homes. Either it is false that a person has fulfilled their nutritional daily intake, or it cannot be that they did not grow up in homes that were health-conscious. If people have good relationships with their parents, then it cannot be that they have both conscious eating habits and fulfill their nutritional intakes. There is nobody who visits the gym daily and fails to fulfill their necessary nutritional intake. Taylor either did not grow up in a health-conscious childhood home or does not have a good relationship with her parents, or it is false that she both grew up in such a home and maintains good parental relationships.
+Conclusion: Taylor visits the gym at least once a day.
+Answer:",FALSE,39
+FOL,obfuscation,zero_shot,90,5CEB7BA5ADF927A0,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: If something is a deadly disease, then its survival rate is low. All severe cancers are deadly diseases. Bile duct cancer is a severe cancer. All Cholangiocarcinoma is bile duct cancer. No one with mild flu has a low survival rate. If colorectal cancer is a bile duct cancer and the survival rate is low, then colorectal cancer is not a bile duct cancer.
+Conclusion: If colorectal cancer is a bile duct cancer or a Cholangiocarcinoma, then colorectal cancer is a bile duct cancer and a mild flu.
+Answer:",TRUE,40
+FOL,obfuscation,zero_shot,91,CF13FC0067D4BDA3,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: If a player is ranked highly by the Women's Tennis Association, then they are among the most active players in major tennis. Everyone who lost to Iga Świątek is ranked highly by the Women's Tennis Association. All female tennis players at Roland Garros 2022 lost to Iga Świątek. Either female tennis players at Roland Garros 2022 or male tennis players at Roland Garros 2022. All male tennis players at Roland Garros 2022 lost to Rafael Nadal. If Coco Gauff is a player who is ranked highly by the Women's Tennis Association or a player who lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.
+Conclusion: Coco Gauff is not a player who lost to Iga Świątek or one of the most active players in major tennis.
+Answer:",FALSE,41
+FOL,obfuscation,zero_shot,92,314BB08CE029937A,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: The Picuris Mountains are a mountain range in New Mexico or Texas. Juan de Onate visited the Picuris Mountains. The Harding Pegmatite Mine, located in the Picuris Mountains, was donated. There are no mountain ranges in texas that have mines which have been donated.
+Conclusion: Juan de Onate visited a mountain range in New Mexico.
+Answer:",TRUE,42
+FOL,obfuscation,zero_shot,93,1C5355167C656261,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: All people who eat salads regularly are very conscious about their health and eating habits. All people who grew up in health-conscious childhood homes eat salads regularly. All people who fulfill their nutritional daily intakes grew up in health-conscious childhood homes. If people have good relationships with their parents, then they fulfill their nutritional daily intakes. If people have good relationships with their parents, then they do not eat salads regularly. If people visit the gym at least once a day, then they always fulfill their daily nutritional intakes. It is either both true that Taylor grew up in a health-conscious childhood home and she has a good relationship with her parents, or it is true that Taylor neither grew up in a health-conscious childhood home nor has a good relationship with her parents.
+Conclusion: Taylor neither grew up in a health-conscious childhood home nor does she visit the gym at least once a day.
+Answer:",TRUE,43
+FOL,obfuscation,zero_shot,94,460AE8CA8A25D4A7,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: If an animal barks, then Jane does not like it. All dogs are animals that bark. If an animal jumps, then Jane likes it. If an animal has legs, then it jumps. If an animal is terricolous, then it has legs. If KiKi neither jumps nor has legs, then KiKi is terricolous or has legs.
+Conclusion: KiKi neither barks nor is a dog.
+Answer:",FALSE,44
+FOL,obfuscation,zero_shot,95,54A1C71BDB8E210C,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: Not all individuals devoid of offspring are exempt from hosting a wedding. The negation of some travelers not venturing to Paris for a wedding implies their attendance. For every ceremony unassociated with Paris in July, the converse implies its absence. It is false that only a minority of July ceremonies lack ample attendance. Should it be the case that John does not possess offspring, the outcome is that it is not true he avoids both Paris and conjugal ties. In the case that John's ceremony lacks July timing, the biconditionality ensures non-attendance at Paris or alternative outcomes manifest.
+Conclusion: John has neither a wedding that is well-attended nor does he travel to Paris for his honeymoon.
+Answer:",TRUE,45
+FOL,obfuscation,zero_shot,96,003AF192C5205303,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: Some basketball players are not American. All basketball players are tall. If someone is tall, they wear large shoes. If someone wears large shoes, they wear large-sized clothes. Yuri does not wear large-size clothes.
+Conclusion: If Yuri does not wear large shoes, then Yuri is an American basketball player.
+Answer:",FALSE,46
+FOL,obfuscation,zero_shot,97,042DF9325759B97A,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It is not the case that a plunger fails to suck if it does not exist as something that does not suck or is not a plunger. For every x, either it is not true that we have a vacuum or x is sucked, and the negation of x not being sucked would imply it being a vacuum without contradiction. If there are no vampires that do not suck, then any vampire that exists does indeed suck by nature of not being a vampire that does not suck. Under no circumstances can it be true that space lacks the qualities of a vacuum and simultaneously does not suck as a vacuum does. A duster is not an appliance that does not reside within a household unless it is contradicted by it not being a sucker, ensuring the double negation of it being a sucking entity within households.
+Conclusion: If something is a household appliance, it sucks.
+Answer:",FALSE,47
+FOL,obfuscation,zero_shot,98,E884ED4DAF63DD3F,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: A hawk never lands. Some birds are hawks.
+Conclusion: All birds land
+Answer:",FALSE,48
+FOL,obfuscation,zero_shot,99,8E326766CF921B38,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It is not the case that there exists a creature such that it is a rabbit and not cute. It is not the case that there do not exist any entities that are turtles. For all beings, it is either not a rabbit or not not a squirrel. Anything that is skittish does not hold the state of being still. All entities that are squirrels are such that they are either not not skittish or not skittish. It is not the case that Rock lacks the property of being still.
+Conclusion: If Rock is not both a turtle and a squirrel, then Rock is either cute or skittish.
+Answer:",FALSE,49
+FOL,obfuscation,zero_shot,100,8B9208626EC082BF,"Respond with exactly one word without any additional information: TRUE or FALSE.
+
+Premise: It is not the case that the absence of the Olympic games implies their non-sporting nature. If one assumes it is false Tokyo was the location, then it is false the last Olympic event took place elsewhere. It is not true that the United States did not secure the highest medal count in Tokyo or that no other country did.
+Conclusion: The last Olympic games were not in Tokyo.
+Answer:",FALSE,50
+Blood_Relation,obfuscation_l1,zero_shot,51,54EDAB3B59174D03,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: B is grandson of E, who is not mother of P, D is wife of P, who is father of B ,C is mother of S, who is brother of P ,How is E related to S?
+Answer:",grandmother,51
+Blood_Relation,obfuscation_l1,zero_shot,52,D8580A4681A30938,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A, B, C, D, E, and F are the six children who are playing football A and E are siblings F is E's younger sister ,C is A's uncle's only child B and D are the sisters of C's cousin's father, What is the relationship between D and A?
+Answer:",sister,52
+Blood_Relation,obfuscation_l1,zero_shot,53,73CFC6AB22B7E409,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A is the sister of B, B's mother is C ,C's father is D, D's mother is E, So, whats the connection between A and D?
+Answer:",granddaughter,53
+Blood_Relation,obfuscation_l1,zero_shot,54,404D09F484CDFFA9,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Abhishek is son of Amitabh's father's sister, Prakash is son of Teji who is mother of Vikash and grandmother of Amitabh, Harivansh is father of Neela and grandfather of Abhishek, Teji is wife of Harivansh,How is Abhishek related to Teji??
+Answer:",grandson,54
+Blood_Relation,obfuscation_l1,zero_shot,55,621CC78242A4B7BE,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing towards a man, a woman said, His mother is the only daughter of my mother, How is the woman related to the man?
+Answer:",mother,55
+Blood_Relation,obfuscation_l1,zero_shot,56,0A281D8F73FB691C,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: B and C are siblings, M has two children and he is son of E, who is fatherinlaw of H ,H has only one son ,C is not granddaughter of E, How is H related to M?
+Answer:",brother-in-law,56
+Blood_Relation,obfuscation_l1,zero_shot,57,3CD5D003DF91468E,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: B is the grandfather of G, G is the father of E, how is B related to E?
+Answer:",great-grandfather,57
+Blood_Relation,obfuscation_l1,zero_shot,58,C497BE3749968F8D,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: B is the father's mother's father inlaw's son of G, G is the mother's son's father of E, how is B related to E?
+Answer:",great-grandfather,58
+Blood_Relation,obfuscation_l1,zero_shot,59,0655A40CD2286CD8,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A man said The girl I met yesterday is the daughter of the brother of my uncle,what is the relation of the man to the the girl?
+Answer:",cousin,59
+Blood_Relation,obfuscation_l1,zero_shot,60,B01C0614D9580AEC,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A man said The girl I met yesterday is the daughter of the brother of my father's brother's wife's daughter's father,what is the relation of the man to the the girl?
+Answer:",cousin,60
+Blood_Relation,obfuscation_l1,zero_shot,61,2318BC377B47A52C,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A is the daughter of D, C is the son of D, how is A related to C
+Answer:",sister,61
+Blood_Relation,obfuscation_l1,zero_shot,62,9973871BD774A477,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Introducing Sonia, Aamir says, She is the wife of only nephew of only brother of my mother, How Sonia is related to Aamir?
+Answer:",wife,62
+Blood_Relation,obfuscation_l1,zero_shot,63,71F794209321297F,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a person, Deepak said, His only brother is the grandfather's only son of my daughter's father ,How is the person related to Deepak
+Answer:",brother,63
+Blood_Relation,obfuscation_l1,zero_shot,64,1459EB0C33645ED3,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: If N says, P's father O is the only son of my fatherinlaw C, then how is R, who is the sister of P, related to C
+Answer:",granddaughter,64
+Blood_Relation,obfuscation_l1,zero_shot,65,A517C5DC2A21DB7F,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing towards a girl, Abhisek says, This girl is the daughter of only a child of my father What is the relation of Abhisek's wife to that girl?
+Answer:",aunt,65
+Blood_Relation,obfuscation_l1,zero_shot,66,82A5E1CB52005E84,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: J is sister of T, T is married to D, D is father of R ,M is son of H, T is motherinlaw of H, D has only one son and no daughter. J is married of B, L is daughter of B, How is J related to R?
+Answer:",aunt,66
+Blood_Relation,obfuscation_l1,zero_shot,67,B0922E6A5849A2EB,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a photograph Lata says, He is the son of the only son of my grandfather, How is the man in the photograph related to Lata?
+Answer:",brother,67
+Blood_Relation,obfuscation_l1,zero_shot,68,3B3A42CC58923F61,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: His father's wife is the only granddaughter of my mother's mother inlaw, a Reena stated, pointing to a man What is the relationship between that man and Reena?
+Answer:",brother,68
+Blood_Relation,obfuscation_l1,zero_shot,69,DFB12910A50D80C0,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a man a woman said His mother's only son is my grandfather's only son,who is that man to the woman?
+Answer:",son,69
+Blood_Relation,obfuscation_l1,zero_shot,70,0FE305552324784A,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a person, Deepak said, His greatgrandfather's only grandson is the father of my daughter's father How is the person related to Deepak.
+Answer:",father,70
+Blood_Relation,obfuscation_l1,zero_shot,71,55168869431D363A,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: If Amitabh says, Ritik's greatgrandfather's only grandson's daughter inlaw is the only daughter of my grandmother's only daughter inlaw, how is Amitabh related to Ritik?
+Answer:",great-grandfather,71
+Blood_Relation,obfuscation_l1,zero_shot,72,5BAA01E8D95F724E,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: P who is V's motherin law's husband's grandfather's grandson's daughter says to L Your mother R is the younger sister of my father who is the third child of who is J to P
+Answer:",grandfather,72
+Blood_Relation,obfuscation_l1,zero_shot,73,B480729974AD9100,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a girl Sandeep said, She is the daughter of the only brotherinlaw of my father How is sandeep related to the girl
+Answer:",brother,73
+Blood_Relation,obfuscation_l1,zero_shot,74,AA526797E8F46331,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: His mother is the only daughter of my greatgrandfather's only grandson's wife, a Reena stated, pointing to a man What is the relationship between that man and Reena?
+Answer:",brother,74
+Blood_Relation,obfuscation_l1,zero_shot,75,128C39F38C88FA4D,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: When Anup saw Sandeep, he recalled, He is the son of the father of my motherinlaw's granddaughter's mother ,Who is Sandeep to Anup?
+Answer:",son,75
+Blood_Relation,obfuscation_l1,zero_shot,76,61EDEF0A27F9F7D8,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing towards a person in a photograph S said He is the only son of the father of my sisterinlaw's husband whom he is pointing?
+Answer:",brother,76
+Blood_Relation,obfuscation_l1,zero_shot,77,1727307E896A90D4,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Abhishek is son of Amitabh's father's sister Prakash is son of Teji who is mother of Vikash and greatgrandfather's only grandson's wife of Amitabh,Harivansh is father of Neela and grandfather of Abhishek, Teji is wife of Harivansh.How is Abhishek related to Teji ?
+Answer:",grandson,77
+Blood_Relation,obfuscation_l1,zero_shot,78,9F62B4BBE2562FAD,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: J is greatgrandfather's only grandson's daughter of T ,T is married to D ,D is husband of R's wife, M is son of H, T is motherinlaw of H, D has only one son and no daughter. J is married of B ,L is daughter of B How is J related to R?
+Answer:",great-granddaughter,78
+Blood_Relation,obfuscation_l1,zero_shot,79,F5B16A07EB64F10B,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A, B, C, I, J and K are six family members, J is son of I, who is not the mother of J, B is brother of I, K and I are a married couple. C is daughter of K, who is sister of A. How many female members are there in the family?
+Answer:",3,79
+Blood_Relation,obfuscation_l1,zero_shot,80,336D4BC84D66514F,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: She is the wife of my grandfather's son's brother, who is she to me?
+Answer:",aunt,80
+Blood_Relation,obfuscation_l1,zero_shot,81,0700F86A35410C13,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a boy, a woman said, His mother is the only daughter of my mother ,How is the woman related to the boy
+Answer:",mother,81
+Blood_Relation,obfuscation_l1,zero_shot,82,B1E6ED2959C86957,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: If A is the brother of B B is the sister of C and C is the father of D, how D is related to A?
+Answer:",niece,82
+Blood_Relation,obfuscation_l1,zero_shot,83,EADDF97CAC49C102,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: B is grandson of E, who is not mother of P ,D is wife of P, who is father of B, C is mother of S, who is brother of P, How is S related to D?
+Answer:",brother-in-law,83
+Blood_Relation,obfuscation_l1,zero_shot,84,9D917F4498D2F8FA,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: J is sister of T, T is married to D ,D is father of R, M is son of H ,T is motherinlaw of H, D has only one son and no daughter. J is married of B, L is daughter of B ,How is M related to D?
+Answer:",grandson,84
+Blood_Relation,obfuscation_l1,zero_shot,85,46152E15B04713E9,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: In a family there are three fathers, two brothers, two sisters, one husband, one wife, two brothersinlaw, two daughters, three sons, three cousins, two nephews, one greatgrandfather's only son and a brother's mother granddaughter,How many aunts are there in the family?
+Answer:",1,85
+Blood_Relation,obfuscation_l1,zero_shot,86,FBEC53CD1F156B69,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing towards a person in a photograph S said He is the only son of the father of my sister's brother,whom he is pointing?
+Answer:",brother,86
+Blood_Relation,obfuscation_l1,zero_shot,87,152619F2086C2D27,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: J is sister of T ,T is married to D, D is father of R ,M is son of H. T is motherinlaw of H, D has only one son and no daughter J is married of B, L is motherinlaw's granddaughter of B ,How is L related to T?
+Answer:",granddaughter,87
+Blood_Relation,obfuscation_l1,zero_shot,88,A6A6069D23DF125A,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A is the niece of B's only paternal uncle ,B's mother is C, C's father is D, D's mother is E So, whats the connection between A and D?
+Answer:",granddaughter,88
+Blood_Relation,obfuscation_l1,zero_shot,89,A8EFBFED6FD76B8A,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Introducing a man, a woman said His mother is the only daughter of my father, How is the man related to the women?
+Answer:",son,89
+Blood_Relation,obfuscation_l1,zero_shot,90,C2E9E4C6B519B440,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a photograph A said, He is the son of the only son of my greatgrandfather's only son How is the man in the photograph related to A?
+Answer:",brother,90
+Blood_Relation,obfuscation_l1,zero_shot,91,8AC819C8FEEEC2FB,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a man a woman said His mother's only son is my father,who is that man to the woman?
+Answer:",father,91
+Blood_Relation,obfuscation_l1,zero_shot,92,8D87F384E78B20EE,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A's son B is married with C whose sister D is married to E the greatgrandfather's only grandson's daughterinlaw's husband of B, How D is related to A?
+Answer:",grandmother,92
+Blood_Relation,obfuscation_l1,zero_shot,93,8361B0E22FDE7205,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a lady, S said, She is the daughter of the only child of my grandmother, How is the lady related to S?
+Answer:",sister,93
+Blood_Relation,obfuscation_l1,zero_shot,94,883760E586209DE3,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: P is granddaughter of A, who is married to W ,M is brotherinlaw of A, who has two daughters but no son, R is cousin of Q and brother of P, U and V are sonsinlaw of W, V has two daughters and one son U has one son and one daughter T and S are the daughters of X D is also the member of this family How is T related to W according to the given information
+Answer:",granddaughter,94
+Blood_Relation,obfuscation_l1,zero_shot,95,46850AE180A3C198,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Introducing a woman, S said, She is the mother of the only daughter of my son How that woman is related to S
+Answer:",daughter-in-law,95
+Blood_Relation,obfuscation_l1,zero_shot,96,2EDA62090C90D27C,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A, B, C, I, J and K are six family members J is son of I, who is not the mother of J, B is sisterinlaw's husband of I, K and I are a married couple C is daughter of K, who is sister of A How many female members are there in the family
+Answer:",3,96
+Blood_Relation,obfuscation_l1,zero_shot,97,5785A7F93DD0BBC4,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A man said The girl I met yesterday is the daughter of the greatgrandfather's only grandson's daughterinlaw's husband of my uncle,what is the relation of the man to the the girl?
+Answer:",father,97
+Blood_Relation,obfuscation_l1,zero_shot,98,DB058F72E47FFEE4,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A, B, C, I, J and K are six family members J is son of I, who is not the mother of J, B is greatgrandfather's only grandson's daughterinlaw's husband of I .K and I are a married couple, C is daughter of K, who is sister of A How many female members are there in the family
+Answer:",3,98
+Blood_Relation,obfuscation_l1,zero_shot,99,86099CE1BA0382B7,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing a photograph X said to his friend Y, She is the only daughter of the father of my greatgrandfather's only grandson's wife, How X is related to the person of photograph?
+Answer:",grandson,99
+Blood_Relation,obfuscation_l1,zero_shot,100,25404196ECF57259,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a lady, S said, She is the mother's granddaughter of the only child of my grandmother, How is the lady related to S?
+Answer:",daughter,100
+Blood_Relation,obfuscation_l2,zero_shot,101,A26577C5DE74650D,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: His mother is the only daughter of my mother, a Reena stated, pointing to a man What is the relationship between that man and Reena?
+Answer:",father,101
+Blood_Relation,obfuscation_l2,zero_shot,102,07EF5591616A5314,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Introducing Asha to guests, Bhaskar said, Her greatgrandfather's only grandson is the only son of my greatgrand father's daughter inlaw's only son, How is Asha related to Bhaskar?
+Answer:",daughter,102
+Blood_Relation,obfuscation_l2,zero_shot,103,1062F0B4A21FF41B,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a photograph A said, He is the son of the only son of my father's father's wife's son, How is the man in the photograph related to A?
+Answer:",brother,103
+Blood_Relation,obfuscation_l2,zero_shot,104,777AD611C46295A3,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: The person is the father of the brother of my sister,who is the person to me?
+Answer:",father,104
+Blood_Relation,obfuscation_l2,zero_shot,105,D6177347F2700F59,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing towards a boy, Veena said, He is the son of only son of my father's father, How is that boy related to Veena
+Answer:",brother,105
+Blood_Relation,obfuscation_l2,zero_shot,106,3A3D26B605D4ABF7,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A, B, C, D, E, and F are the six children who are playing football A and E are siblings F is E's younger sister, C is A's uncle's only child , B and D are the sisters of C's father's brother, What is the relationship between D and A?
+Answer:",aunt,106
+Blood_Relation,obfuscation_l2,zero_shot,107,CBA415997025E0D8,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing towards a boy, Veena said, He is the son of only son of my greatgrandfather's only son ,How is that boy related to Veena.
+Answer:",brother,107
+Blood_Relation,obfuscation_l2,zero_shot,108,13CE491CFD6EE16B,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a boy, a woman said, His mother is the only granddaughter of my mother's motherinlaw, How is the woman related to the boy.
+Answer:",mother,108
+Blood_Relation,obfuscation_l2,zero_shot,109,DFC44CC067EE488E,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a lady a person said, The son of her only brother is the greatgrandfather's only grandson's daughterinlaw's mother's soninlaw of my wife, How is the lady related to the person?
+Answer:",aunt,109
+Blood_Relation,obfuscation_l2,zero_shot,110,8AAE0F62510F4312,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Looking at a photo Kabir said She is the only daughter of my father's only son,who is that girl to Kabir?
+Answer:",daughter,110
+Blood_Relation,obfuscation_l2,zero_shot,111,998E91F5697BD005,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Introducing Sonia, Aamir says, She is the wife of only nephew of greatgrandfather's only grandson's daughterinlaw's husband of my mother, How Sonia is related to Aamir
+Answer:",sister-in-law,111
+Blood_Relation,obfuscation_l2,zero_shot,112,FE46E896805319E3,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a boy, a woman said, His mother is the only granddaughter of my grandmother ,How is the woman related to the boy
+Answer:",mother,112
+Blood_Relation,obfuscation_l2,zero_shot,113,F87B39132B82ADB1,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: She is the wife of my father's son,who is she to me?
+Answer:",wife,113
+Blood_Relation,obfuscation_l2,zero_shot,114,2BB04EA9B88E49DD,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A, B, C, D, E, and F are the six children who are playing football A and E are siblings F is E's younger sister C is A's uncle's only child B and D are the sisters of C's father's greatgrandfather's only grandson What is the relationship between D and A?
+Answer:",aunt,114
+Blood_Relation,obfuscation_l2,zero_shot,115,A1CA646EF6178994,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: B is grandson of E, who is not mother of P, D is wife of P, who is father of B ,C is mother of S, who is greatgrandfather's only grandson's daughterinlaw's husband of P, How is S related to D?
+Answer:",brother-in-law,115
+Blood_Relation,obfuscation_l2,zero_shot,116,F95684F2EAE2A33C,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: In a family there are three fathers, two brothers, two sisters, one husband, one wife, two brothersinlaw, two daughters, three sons, three cousins, two brother's son, one grandfather and a niece,How many father's sisters are there in the family
+Answer:",2,116
+Blood_Relation,obfuscation_l2,zero_shot,117,FF1E0BCAE635AEFB,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a photograph Lata says, He is the son of the only son of my greatgrandfather's only son, How is the man in the photograph related to Lata?
+Answer:",brother,117
+Blood_Relation,obfuscation_l2,zero_shot,118,1B5272F471A3664E,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing towards a person in a photograph S said He is the only son of the father of my greatgrandfather's only grandson's wife's sisterinlaw's niece's brother,whom he is pointing?
+Answer:",brother,118
+Blood_Relation,obfuscation_l2,zero_shot,119,112766228F381CE7,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: B and C are siblings M has two children and he is son of E, who is fatherinlaw of H, H has only one son C is not son's daughter of E, How is H related to M?
+Answer:",wife,119
+Blood_Relation,obfuscation_l2,zero_shot,120,FE54A0DF16D6A308,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: P who is V's daughter says to L Your mother R is the younger sister of my father who is the third child of J,who is J to P?
+Answer:",grandfather,120
+Blood_Relation,obfuscation_l2,zero_shot,121,76EDB1DAC5163A34,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a boy in the photograph Reena said, He is the only son of the only child of my greatgrandfather's only son's wife's son's mother, How Reena is related to that boy?
+Answer:",sister,121
+Blood_Relation,obfuscation_l2,zero_shot,122,3D7E41FCBFBB7537,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing towards Ritka, Nirdosh said, I am the only son of her grandmother's grandson ,How is Ritka related to Nirdosh
+Answer:",brother,122
+Blood_Relation,obfuscation_l2,zero_shot,123,DEFCD00CFEAAE08D,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A is the mother's granddaughter of D, C is the greatgrandmother's only daughter inlaw's grandson of D, how is A related to C?
+Answer:",cousin,123
+Blood_Relation,obfuscation_l2,zero_shot,124,DACDDD83A29CFC3D,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A is the father of F, D is the mother of F, what is the relation of A to D?
+Answer:",husband,124
+Blood_Relation,obfuscation_l2,zero_shot,125,4C1F8DA490017CEF,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: B and C are siblings M has two children and he is son of E, who is father of H's spouse ,Hhas only one son C is not granddaughter of E ,How is H related to M?
+Answer:",brother-in-law,125
+Blood_Relation,obfuscation_l2,zero_shot,126,BB9A471699128AD7,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A's son B is married with C whose sister D is married to E the brother of B, How D is related to A?
+Answer:",daughter-in-law,126
+Blood_Relation,obfuscation_l2,zero_shot,127,AE3F0BCFD9AF4AAA,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A, B, C, I, J and K are six family members, J is son of I, who is not the mother of J, B is brother of I, K and I are a married couple ,C is daughter of K, who is sister of A, How is J related to C?
+Answer:",brother,127
+Blood_Relation,obfuscation_l2,zero_shot,128,C48EF0079CD176D1,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing towards a man, a woman said, His mother is the only daughter of my father's wife ,How is the woman related to the man?
+Answer:",mother,128
+Blood_Relation,obfuscation_l2,zero_shot,129,3BF7182877B5F7EE,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Abhishek is son of Amitabhs father's sister Prakash is son of Teji who is mother of Vikash and grandmother of Amitabh Harivansh is grandfather's only son of Neela and grandfather of Abhishek ,Teji is wife of Harivansh,How is Abhishek related to Teji??
+Answer:",grandson,129
+Blood_Relation,obfuscation_l2,zero_shot,130,4F9FD182B2EEDCE6,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: The person is the father of the sisterinlaw's husband of my sister, Who is the person to me?
+Answer:",father,130
+Blood_Relation,obfuscation_l2,zero_shot,131,4124AD24F8A48FE9,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a girl in the picture, Salman said, Her mother's brother is the only son of my greatgrandfather's only daughter inlaw ,How is the girls mother's mother related to Salman?
+Answer:",grandmother,131
+Blood_Relation,obfuscation_l2,zero_shot,132,6035647664598B51,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: G is the sister of B, B is the father of F, how is G related to F?
+Answer:",aunt,132
+Blood_Relation,obfuscation_l2,zero_shot,133,69719BED85C5A1C9,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: J is sister of T, T is married to D, D is grandfather's only son of R, M is son of H, T is motherinlaw of H ,D has only one son and no daughter ,J is married of B, L is daughter of B ,How is M related to D?
+Answer:",grandson,133
+Blood_Relation,obfuscation_l2,zero_shot,134,943861E4E4262B16,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Introducing a woman, S said, She is the mother of the motherinlaw's only granddaughter of my son's wife, How that woman is related to S?
+Answer:",mother-in-law,134
+Blood_Relation,obfuscation_l2,zero_shot,135,80824AE994D48E84,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Introducing Sonia, Aamir says, She is the mother of only nephew's daughter of only brotherinlaw of my mother's husband How Sonia is related to Aamir?
+Answer:",sister-in-law,135
+Blood_Relation,obfuscation_l2,zero_shot,136,6444CCDDD2633D7A,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing towards Ritka, Nirdosh said, I am the only son of her mother's son ,How is Ritka related to Nirdosh?
+Answer:",aunt,136
+Blood_Relation,obfuscation_l2,zero_shot,137,19D38506BD72F780,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: J is sister of T ,T is married to D, D is grandfather's only son of R, M is son of H, T is motherinlaw of H ,D has only one son and no daughter. J is married of B, L is daughter of B, How is J related to R?
+Answer:",aunt,137
+Blood_Relation,obfuscation_l2,zero_shot,138,FBF382B2670B26CC,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: If A is the sisterinlaw's husband of B B is the sister of C and C is the father of D, how D is related to A
+Answer:",uncle,138
+Blood_Relation,obfuscation_l2,zero_shot,139,BA8B35C41D532319,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: A's son B is married with C whose sister D is married to E the sisterinlaw's husband of B How D is related to A?
+Answer:",daughter-in-law,139
+Blood_Relation,obfuscation_l2,zero_shot,140,CFF4E0ECA0153B4E,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: B is grandson of E, who is not mother of P ,D is wife of P, who is father of B, C is mother of S, who is greatgrandfather's only grandson's daughterinlaw's husband of P, How is E related to S?
+Answer:",mother,140
+Blood_Relation,obfuscation_l2,zero_shot,141,20F96C9DD86F7C46,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: If Amitabh says, Ritik's mother is the only daughter of my mother, how is Amitabh related to Ritik?
+Answer:",uncle,141
+Blood_Relation,obfuscation_l2,zero_shot,142,DA3E3C28F842A027,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing to a lady, S said, She is the daughter of the only child of my greatgrandfather's only daughter inlaw, How is the lady related to S
+Answer:",aunt,142
+Blood_Relation,obfuscation_l2,zero_shot,143,A3F83B842D0A73F9,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: If P is the greatgrandfather's only grandson's daughterinlaw's husband of the son of Q's son, how is P related to Q
+Answer:",grandson,143
+Blood_Relation,obfuscation_l2,zero_shot,144,009A56365ECACA43,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: When Anup saw Sandeep, he recalled, He is the son of the father of my mother's only granddaughter's mother, Who is Sandeep to Anup
+Answer:",brother,144
+Blood_Relation,obfuscation_l2,zero_shot,145,D0035EE0FD4939F0,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: B is grandson of E, who is not mother of P, D is wife of P, who is father of B ,C is mother of S, who is sisterinlaw's husband of P, How is S related to D?
+Answer:",son,145
+Blood_Relation,obfuscation_l2,zero_shot,146,3A8FFEE3A6F2C622,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: The person is the father of the younger brother of my greatgrandfather's only grandson's daughter Who is the person to me?
+Answer:",father,146
+Blood_Relation,obfuscation_l2,zero_shot,147,FF602E199A1DCCD0,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Introducing a man, a woman said His drand mother's only son's wife is the only granddaughter of my grandfather, How is the man related to the women
+Answer:",mother,147
+Blood_Relation,obfuscation_l2,zero_shot,148,416D7F2634690FA9,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: G is the greatgrandfather's only grandson's daughter of B, B is the only maternal uncle of G's daughter, how is G related to F?
+Answer:",sister,148
+Blood_Relation,obfuscation_l2,zero_shot,149,84B51353FC3437B7,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: Pointing towards a girl, Abhisek says, This girl is the daughter of only a child of my grandfather's only son What is the relation of Abhisek's wife to that girl?
+Answer:",mother,149
+Blood_Relation,obfuscation_l2,zero_shot,150,C74F6A1FD57D0FEB,"Respond with only the answer (one word/two word etc.). Do not output any additional information and explanation.
+
+Question: In a family there are three fathers, two brothers, two sisters, one husband, one wife, two brothersinlaw, two daughters, three sons, three cousins, two nephews, one grandfather and a niece.How many aunts are there in the family?
+Answer:",2,150
+Direction_Sense,obfuscation,zero_shot,51,88A2281299CB4699,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: An individual begins at a reference point and moves 10 meters along the positive y-axis. They then rotate 90° clockwise and traverse 5 meters. Next, they rotate another 90° clockwise and move 10 meters. Finally, they rotate 90° clockwise once more and walk 5 meters. Determine the compass direction of their final position relative to the starting point.
+Answer:",at starting point,151
+Direction_Sense,obfuscation,zero_shot,52,85BC55487EF7E2E1,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A person moves 12 km North, then 7 km South, and finally 5 km East.Find the distance and direction from the start.
+Answer:",7.07 km North-East,152
+Direction_Sense,obfuscation,zero_shot,53,818FA87D2BFFAF59,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A man is standing facing north. First, he rotates half a turn clockwise, but then immediately undoes part of that by turning a quarter-turn to the left. Next, he shifts his body through a complete spin to the left, then adds half a turn right, and finally corrects slightly with a quarter-turn left. To finish, he once more moves rightward, this time taking half a turn, and then adjusts with a leftward quarter-turn. After all these twists, in which cardinal direction does he finally stand?
+Answer:",West,153
+Direction_Sense,obfuscation,zero_shot,54,A2ACD59D508FDEBA,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A man walks 5 km East, then 5 km North, 5 km West, and finally 5 km South. Find his final location relative to the start.
+Answer:",At starting point,154
+Direction_Sense,obfuscation,zero_shot,55,001F41419FFF5F30,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A person walks 5 km towards south and then turns to the right. After walking 3 km, he turns to the left and walks 4 km. Then he goes back 10 km straight. Now, in which direction is he from the starting place?
+Answer:",North-West,155
+Direction_Sense,obfuscation,zero_shot,56,CAB44E2F274B8196,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A mountaineer begins at point, moves 3 km east, 2 km northeast. Determine straight-line distance
+Answer:",4.85 km,156
+Direction_Sense,obfuscation,zero_shot,57,E196C3A3DA461B07,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A soldier sets off facing east and marches 6 km. Before the next stretch he performs a showy sequence: he spins two full turns clockwise, then reverses one full turn with a single counterclockwise revolution, then finishes that dressing with a quarter-turn counterclockwise — after these motions he walks 9 km. For the final leg he first makes a tidy adjustment by turning one full turn clockwise, then a half-turn counterclockwise, and then a quarter-turn counterclockwise — then he walks 5 km. After completing these staged rotations and marches in order, in which cardinal direction is he from his starting point?
+Answer:",North,157
+Direction_Sense,obfuscation,zero_shot,58,75013926B04B7F20,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A person walks 10 meters towards the north, then turns right and walks 5 meters. He then turns right again and walks 10 meters. Finally, he turns right and walks 5 meters. In which direction is he now from his starting point?
+Answer:",At starting point,158
+Direction_Sense,obfuscation,zero_shot,59,AE80F25645247FDE,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A man starts from a boat on a riverbank and rows 6 km downstream. Then he turns at a 60Â° angle to the river flow and rows 4 km. Finally, he rows straight to the starting point. Find the shortest distance on last leg
+Answer:",8.72 km,159
+Direction_Sense,obfuscation,zero_shot,60,228A4289FD902526,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: Raj starts from his home heading 6 km west toward the market. After covering some distance, he remembers he needs to visit a pharmacy before reaching the market. The pharmacy is located 2 km south and 1 km east of the market’s position. He moves along a diagonal path leading to the pharmacy and then continues along a new direction to reach the market. Determine his net displacement from home.
+Answer:",6 km West,160
+Direction_Sense,obfuscation,zero_shot,61,C571AEEC8935B8C1,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: In a village, a traveler stood at the center of a giant compass, initially facing the 3 o’clock mark (East). The compass had been rotated such that: South-West now points North-East,North-West now points SouthEast .He began tracking the rotations carefully: He first rotated two quarter-turns clockwise, then one quarter-turn anticlockwise, and noted the new South-West direction. Next, he rotated one quarter-turn clockwise, then two quarter-turns anticlockwise, and checked the North-West direction. He then rotated one quarter-turn clockwise, then one quarter-turn anticlockwise, to follow the East direction carefully.Task: Identify the direction?
+Answer:",West,161
+Direction_Sense,obfuscation,zero_shot,62,A11A683E421AB417,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A traveler starts at a reference point, facing 12 o’clock (North). He walks 6 m forward, Rotates 90° clockwise and walks 3 m, Rotates 90° counterclockwise and walks 3 m back (opposite to his current facing direction), Walks 6 m forward, Rotates 90° clockwise and walks 6 m, Rotates 90° clockwise and walks 12 m forward. Question: Determine the straight-line distance and compass direction from the starting point.
+Answer:","9.49 m, South-East",162
+Direction_Sense,obfuscation,zero_shot,63,55331DE1274FE958,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A traveler embarks from a reference point. He moves 5 km along a heading 45Â° northward from west, then after rotations walks 6 km along a heading 30Â° south of west. Determine the straight-line distance from start
+Answer:",10.91 km,163
+Direction_Sense,obfuscation,zero_shot,64,D8D0ECF1A79F9319,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A mountaineer begins at a reference point on a rugged trail, initially oriented toward the rising sun. He first advances 3 km forward along the path.After completing this initial segment, he performs a series of angular adjustments and subtle course corrections, reorienting his trajectory along a heading northeast relative to the original path, and continues 2 km along this new vector. After this carefully choreographed traversal, determine the straight-line distance from his current position back to the original starting point.
+Answer:",4.64 km,164
+Direction_Sense,obfuscation,zero_shot,65,9BC3B26765CFFA96,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A man walks 40 meters towards the north, then turns right and walks 30 meters. He then turns right again and walks 40 meters. Finally, he turns right and walks 30 meters. In which direction is he now from his starting point?
+Answer:",At starting point,165
+Direction_Sense,obfuscation,zero_shot,66,47E5B03090244470,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: Kishen walks 10 km north, then 6 km south, then 3 km east. How far and in which direction is he from his starting point?
+Answer:",5 km North-East,166
+Direction_Sense,obfuscation,zero_shot,67,077B0CF1D186E8C3,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: An individual moves 5 kilometers along the positive x-axis, then proceeds 5 kilometers along the positive y-axis, then moves 5 kilometers along the negative x-axis, and finally traverses 5 kilometers along the negative y-axis. Determine the compass direction of their final position relative to the starting point.
+Answer:",At starting point,167
+Direction_Sense,obfuscation,zero_shot,68,ABB0AADEB10A6D47,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A person walks 50 m East, 30 m North, 50 m West, 30 m South. Find distance
+Answer:","0 m, At starting point",168
+Direction_Sense,obfuscation,zero_shot,69,D0C6D9A687E69300,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A person walks 50 meters towards the east, then turns left and walks 30 meters. He then turns left again and walks 50 meters. Finally, he turns left and walks 30 meters. How far is he from his starting point?
+Answer:","0 m, At starting point",169
+Direction_Sense,obfuscation,zero_shot,70,5F597953A85B2886,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: Kishen places himself so that the 12-o’clock mark of the compass corresponds to the direction he initially faces. To begin the first stretch he performs a theatrical sequence of rotations: three full turns clockwise, then two full turns counterclockwise, then a half-turn clockwise, then two quarter-turns counterclockwise — after all that he walks 10 km. Immediately before the second stretch he again adjusts: one full turn clockwise, then one half-turn counterclockwise, then three quarter-turns clockwise, then a single counterclockwise quarter-turn — then he walks 6 km. Finally, to take the last leg he changes orientation by rotating one half-turn clockwise, then two full turns counterclockwise, then a quarter-turn clockwise — and walks 3 km. After completing these moves in order, how far (in km) and in which direction is Kishen from his starting point?
+Answer:","16.28 km, North-West",170
+Direction_Sense,obfuscation,zero_shot,71,0ECD877D626DD3E4,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A hiker walks 3 km East, 2 km North-East. Find distance
+Answer:",4.64 km,171
+Direction_Sense,obfuscation,zero_shot,72,9FE58D25719C7BE9,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A traveler starts at reference point, moves 50 m east, 30 m north, 50 m west, 30 m south. Determine straight-line distance
+Answer:","0 m, At starting point",172
+Direction_Sense,obfuscation,zero_shot,73,5E083BF5D1A59676,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A man walks 25 meters towards the south, then turns left and walks 15 meters. He then turns left again and walks 25 meters. Finally, he turns left and walks 15 meters. In which direction is he now from his starting point?
+Answer:",At starting point,173
+Direction_Sense,obfuscation,zero_shot,74,B84F4A235B76761C,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: Rahul carefully placed his watch so that the hour hand pointed toward 6 o’clock at 9:00. He observed that the minute hand was pointing toward 3 o’clock at that moment. As the hours passed he followed the hour hand’s movement clockwise. At 12:00 the hour hand pointed toward 9 o’clock, and the minute hand continued to move along the dial. By 2:00 the minute hand was aligned with 12 on the dial (relative to the watch face). Finally, at 2:30 the minute hand pointed straight toward 9 o’clock relative to the original orientation. Where (compass direction) did the minute hand point at 2:30?
+Answer:",East,174
+Direction_Sense,obfuscation,zero_shot,75,E83B948D2E623FFD,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: Rahul carefully placed his watch so that the hour hand pointed South at 9:00. He observed that the minute hand was pointing East at that moment. As the hours passed he followed the hour hand’s movement clockwise. At 12:00 the hour hand pointed West, and the minute hand continued to move. By 2:00 the minute hand was aligned with the 12 on the dial (relative to the watch face). Finally, at 2:30 the minute hand pointed straight to the West relative to the original orientation.Where (compass direction) did the minute hand point at 2:30?
+Answer:",West,175
+Direction_Sense,obfuscation,zero_shot,76,A4B4A8B02FCF14DD,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: Raj starts from his home and walks 6 km west to reach a market. On the way, he realizes he must first visit a pharmacy located 2 km south and 1 km east of his current position. After picking up the medicines, he proceeds to the market. Determine his net displacement from home.
+Answer:","6 km, West",176
+Direction_Sense,obfuscation,zero_shot,77,AEF6222FAEFFF0D6,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A person walks North 10 m, then turns left and walks 10 m, then turns right and walks 20 m. What is the final direction of motion?
+Answer:",North,177
+Direction_Sense,obfuscation,zero_shot,78,5027E0DCEF12B051,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: Rahul placed his timepiece so that at 3:00 P.M. the hour hand points North. In that setup, at 6:45 P.M. which direction will the minute hand point?
+Answer:",South,178
+Direction_Sense,obfuscation,zero_shot,79,573A88DA0445F2F2,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A man walks 15 meters North, then turns left and walks 10 meters. Then left again 15 meters, finally left 10 meters. Find direction from start
+Answer:",At starting point,179
+Direction_Sense,obfuscation,zero_shot,80,A651A86E6E7092F8,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A traveler commences at an origin marker, initially oriented toward the rising sun. He begins with a complex set of rotations: two full clockwise revolutions, followed by one counterclockwise rotation, and a concluding quarter-turn clockwise, before advancing 50 meters straight ahead. For the second segment, he twirls three times clockwise, reverses two counterclockwise spins, and finally performs a quarter-turn left, then proceeds 30 meters forward. On the third leg, he repeats two full clockwise rotations, cancels one with a counterclockwise revolution, and adds a quarter-turn left, moving 50 meters. Finally, he executes one clockwise spin, a half-turn counterclockwise, and a quarter-turn clockwise, then walks 30 meters forward. After completing this intricately choreographed series of rotations and steps, determine the straight-line distance between his final position and the starting point.
+Answer:",80 meters West,180
+Direction_Sense,obfuscation,zero_shot,81,DB9C033AF704B6DF,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A traveler starts at reference, moves 50 m east, 30 m north, 50 m west, 30 m south. Find straight-line distance to start
+Answer:",0 meters,181
+Direction_Sense,obfuscation,zero_shot,82,08367F8B728803C4,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A boy walks 5 km at 45Â° North of West, then 6 km at 30Â° South of West. Find distance from start?
+Answer:",10.91 km,182
+Direction_Sense,obfuscation,zero_shot,83,95A218ED49654954,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A hiker walks 3 km East, then 4 km North, 6 km West, 4 km South. Find direction from start
+Answer:","3 km, West",183
+Direction_Sense,obfuscation,zero_shot,84,BEEDBDA908B1394A,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A person moves 10 km East, then 6 km West, and finally 8 km North. Find the distance and direction from the start.
+Answer:","10.00 km, North-East",184
+Direction_Sense,obfuscation,zero_shot,85,857E8A8E00FA630A,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A person walks 10 km North, then 6 km East. Find distance and direction from start
+Answer:","11.66 km, North-East",185
+Direction_Sense,obfuscation,zero_shot,86,F93B903CC9909671,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A person walks 15 meters towards the north, then turns left and walks 10 meters. He then turns left again and walks 15 meters. Finally, he turns left and walks 10 meters. In which direction is he now from his starting point?
+Answer:",At starting point,186
+Direction_Sense,obfuscation,zero_shot,87,384A1C7803AF12F4,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A navigator stood facing the 1 o’clock mark (North-East) on a compass. He noticed: The compass was rotated so that North-East becomes South.He first mentally rotated one quarter-turn clockwise, then two quarter-turns anticlockwise, and marked the new NE position.Next, he rotated two quarter-turns clockwise, then one quarter-turn anticlockwise, and aligned the South-East direction. Finally, he rotated one quarter-turn clockwise, then one quarter-turn anticlockwise, and examined the North direction .
+Answer:",South,187
+Direction_Sense,obfuscation,zero_shot,88,7C3BEA9D4D477EBC,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: Consider a traveler starting at reference point T. He first proceeds 6 m toward the sunrise to arrive at a temporary waypoint labeled N. Before continuing, he pivots 90° clockwise, then advances 8 m to mark Q. From Q, he twists leftward and moves 5 m to reach S. At S, he turns right and marches 4 m to M. He then heads straight 9 m east to touch L, and at L, he rotates leftward and walks 10 m to G. Now imagine a point X, lying 2 m directly south of N. Using this elaborate path layout, determine the shortest linear distance between G and X.
+Answer:",14 m,188
+Direction_Sense,obfuscation,zero_shot,89,CE66B313ACC10919,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: Starting facing 3 o’clock, he walks 8 km East, then rotates 1 quarter-turn clockwise and walks 5 km South. Next, he rotates 1 quarter-turn counterclockwise and walks 2 km East, then rotates 1 quarter-turn counterclockwise and walks 15 km North.
+Answer:",14.14 km North-East,189
+Direction_Sense,obfuscation,zero_shot,90,DC78C34287314210,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A person is moving north, then he turns to his left and walks 10 meters, then again, he turns right and walks 20 meters, and again, he turns right and walks 15 meters. What is the final direction in which he is moving?
+Answer:",East,190
+Direction_Sense,obfuscation,zero_shot,91,9E6030FD768A4F5A,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A man begins at reference point A, facing the sunrise. First, he performs a flourish: three full clockwise rotations, then immediately undoes two full counterclockwise rotations, after which he walks 20 m forward. Next, to continue, he spins twice clockwise, cancels one with one counterclockwise revolution, and finally executes one quarter-turn left, then walks 30 m. For the third leg, he again twirls three clockwise circles, reverses two counterclockwise, then makes one quarter-turn left, and walks 20 m. Finally, he performs a last set of rotations — one half-turn counterclockwise, one quarter clockwise — then walks 30 m forward. After completing all these choreographed rotations and walks, how far is he from the starting point A?
+Answer:",40 m,191
+Direction_Sense,obfuscation,zero_shot,92,8D30C0DE64158A8C,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A traveler moves 5 km north, then after rotations 6 km east. Determine distance and direction from starting point
+Answer:","7.81 km, North-East",192
+Direction_Sense,obfuscation,zero_shot,93,AAAF1588DCA5C5FE,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A traveler moves 15 m north, then after rotations netting 90 degrees counterclockwise 10 m forward, 15 m forward, 10 m forward. Determine the direction relative to starting point.
+Answer:",North-West,193
+Direction_Sense,obfuscation,zero_shot,94,435D27645987CE18,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A man starts from point A and walks 20 meters towards the east. He then turns left and walks 30 meters. After that, he turns left again and walks 20 meters. Finally, he turns left and walks 30 meters. How far is he from his starting point?
+Answer:","0 m, At starting point",194
+Direction_Sense,obfuscation,zero_shot,95,D576DFE6D22153EC,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: Starting facing 12 o’clock, he walks 6 km North, then rotates 2 quarter-turns clockwise and walks 7 km South. Next, he rotates 2 quarter-turn counterclockwise and walks 6 km North, then rotates 1 quarter-turn clockwise and walks 5 km East.
+Answer:","7.07 km, North-East",195
+Direction_Sense,obfuscation,zero_shot,96,EA3B05AB443E6F31,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: An individual begins at an origin point and moves 12 km along the positive y-axis. Next, they move 15 km along the positive x-axis. From there, they traverse 19 km along the negative x-axis. Finally, they move 15 km along the negative y-axis. Determine the straight-line distance between their final position and the starting point.
+Answer:",5.00 km,196
+Direction_Sense,obfuscation,zero_shot,97,D9884A861F2EA06C,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: Starting from home and facing the 9 o’clock direction, Vikram begins his walk. After covering 2 km forward, he recalls the ticket errand. Instead of heading straight, he first rotates one quarter-turn clockwise, walks 1 km, and then makes another quarter-turn counterclockwise to cover 1 km. This maneuver brings him exactly to the counter. After completing the purchase, he resumes. He initially takes a half-kilometer step eastward, then quickly cancels it with a half-kilometer step back westward. Next, he pivots two quarter-turns clockwise (facing back west again) and proceeds along the remaining stretch, which leads him directly to the bus stop, the same one located 5 km west of home.Distance from starting point?
+Answer:","5.00 km, West",197
+Direction_Sense,obfuscation,zero_shot,98,DE064F7BF4A3D371,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A traveler walks 3 km East, then 2 km North-East. Find distance
+Answer:",4.64 km,198
+Direction_Sense,obfuscation,zero_shot,99,36266196D363BF67,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A person walks 6 km north, then 8 km west, and finally 6 km south. What is the distance from the starting point?
+Answer:","8 km, West",199
+Direction_Sense,obfuscation,zero_shot,100,7981C4360038569B,"Solve this direction and navigation problem step by step.
+Provide only the final answer (distance and/or direction) without any additional explanation.
+Use standard compass directions: North, South, East, West, North-East, North-West, South-East, South-West.
+For distances, include the unit (km, m, blocks) as given in the problem.
+
+Problem: A traveler moves 10 m north, then after rotations netting 90 degrees clockwise moves 5 m, then after rotations netting 90 degrees clockwise moves 10 m, then after rotations netting 90 degrees clockwise moves 5 m. Determine current direction
+Answer:",West,200
+Number_Series,obfuscation,zero_shot,51,A0F2412EB212A240,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+5, 9, 13, 17, 21, ...
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",25,201
+Number_Series,obfuscation,zero_shot,52,C9D76BEF7DD494C5,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+3, 5, 5, 19, 7, 41, 9, ...
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",71,202
+Number_Series,obfuscation,zero_shot,53,0585CD57C0F621B2,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+15, 22, 40, 75, 133, ?
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",220,203
+Number_Series,obfuscation,zero_shot,54,65AEF26A8934BA3E,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+45c48cce2e2d7fbdea1afc51c7c6ad26, 1679091c5a880faf6fb5e6087eb1b2dc, c4ca4238a0b923820dcc509a6f75849b 45c48cce2e2d7fbdea1afc51c7c6ad26, c4ca4238a0b923820dcc509a6f75849b a87ff679a2f3e71d9181a67b7542122c, eccbc87e4b5ce2fe28308fd9f2a7baf3 45c48cce2e2d7fbdea1afc51c7c6ad26, ?
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",37,204
+Number_Series,obfuscation,zero_shot,55,982374A08894BA4D,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+13, 15, 21, 37, 77, 173, ?
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",397,205
+Number_Series,obfuscation,zero_shot,56,25B865259C303CCC,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+Jupiter, Earth, Saturn, Pluto, ?, 15
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",12,206
+Number_Series,obfuscation,zero_shot,57,FB600BD857CE0B3F,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+Venus Jupiter, Earth Earth, 54, 99, Mercury Uranus Pluto, ?
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",300,207
+Number_Series,obfuscation,zero_shot,58,29A409768F98AE94,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+4, 20, 51, 105, ?, 314
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",130,208
+Number_Series,obfuscation,zero_shot,59,C84EA1B8AFCC6781,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+13, Mercury Jupiter, 21, Earth Uranus, 77, 173, ?
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",397,209
+Number_Series,obfuscation,zero_shot,60,F4857CD98AE632FD,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+1, 30, 5, 26, 9, 22, 13, 18, ...
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",17,210
+Number_Series,obfuscation,zero_shot,61,2020596782AC1619,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+Earth Mercury, Mercury Uranus, Venus Saturn, 64.5, ?, 1006.6
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",227,211
+Number_Series,obfuscation,zero_shot,62,331DBCC7B13DB148,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+2048, 516, 1032, 262, ?, 135, 270
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",524,212
+Number_Series,obfuscation,zero_shot,63,15E02568FDE1510F,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+Venus, Mars, Neptune, 775 342, Mercury Mars
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",14,213
+Number_Series,obfuscation,zero_shot,64,31CB5C5F89E1C729,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+c81e728d9d4c2f636f067f89cc14862c, 6, 18, 54, ...
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",162,214
+Number_Series,obfuscation,zero_shot,65,F2755BE5BE39748D,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+6, 11, 18, 27, ...
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",38,215
+Number_Series,obfuscation,zero_shot,66,02AA52D061B13F1A,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+775 564, Earth Venus, 435 767, Uranus Mercury, 564 564, 775 532 435
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",99,216
+Number_Series,obfuscation,zero_shot,67,2A784ABC0A61EE94,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+27, 35, 47, 63, 83, ?
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",107,217
+Number_Series,obfuscation,zero_shot,68,759B31870BEC722A,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+5, 3, 6, 9, ?, 15
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",12,218
+Number_Series,obfuscation,zero_shot,69,DFDD2AEDBF9B38AB,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+11043, 11056, 11045, 11054, 11047, ?
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",11052,219
+Number_Series,obfuscation,zero_shot,70,C3AD1210FBF7BAFF,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+Neptune Venus Mars, Jupiter Saturn Neptune, Uranus Pluto Earth, Jupiter Pluto Uranus, Uranus Saturn Saturn, ?
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",910,220
+Number_Series,obfuscation,zero_shot,71,CB3D06FDBAC0105F,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+2, 4, 8, 10, 14, ...
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",16,221
+Number_Series,obfuscation,zero_shot,72,FF8754C62BB36F1F,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+88, 115, 144, 175, 208, ?
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",243,222
+Number_Series,obfuscation,zero_shot,73,A0587C48E984C323,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+5, 10, 30, 150, 600, 3600
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",18000,223
+Number_Series,obfuscation,zero_shot,74,D8BFC66282258C86,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+435, Venus, 561, 532, 669
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",18,224
+Number_Series,obfuscation,zero_shot,75,BA2991E7171C8E9B,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+Neptune, Earth Pluto, Uranus Pluto, Earth Pluto Mars, Uranus Neptune Pluto, ?
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",3944,225
+Number_Series,obfuscation,zero_shot,76,F9CB6CAA7F7BD14F,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+Pluto, 775 775, Mercury Mars, Mercury Saturn, 775 564, Venus Mercury
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",24,226
+Number_Series,obfuscation,zero_shot,77,409317144A1B87B6,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+10, 45c48cce2e2d7fbdea1afc51c7c6ad26, 60, 45c48cce2e2d7fbdea1afc51c7c6ad26 cfcd208495d565ef66e7dff9f98764da, 70, 66, ...
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",90,227
+Number_Series,obfuscation,zero_shot,78,27597752C3E3130C,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+11, 12, 15, 20, 27, ...
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",36,228
+Number_Series,obfuscation,zero_shot,79,914E06968E93AFE0,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+c4ca4238a0b923820dcc509a6f75849b a87ff679a2f3e71d9181a67b7542122c eccbc87e4b5ce2fe28308fd9f2a7baf3, 151, 158, c4ca4238a0b923820dcc509a6f75849b 8f14e45fceea167a5a36dedd4bea2543 c81e728d9d4c2f636f067f89cc14862c, c4ca4238a0b923820dcc509a6f75849b c9f0f895fb98ab9159f51fd0297e236d c81e728d9d4c2f636f067f89cc14862c, ?
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",158,229
+Number_Series,obfuscation,zero_shot,80,D882B5E6BAFC67D8,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+105, 118, 111.5, 124.5, 118, ?
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",131,230
+Number_Series,obfuscation,zero_shot,81,269095347408DA76,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+50, 45, 40, 35, 30, ...
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",25,231
+Number_Series,obfuscation,zero_shot,82,9374223C6EEFB34E,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+4, 5, 18, 19, 68, 69, ...
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",190,232
+Number_Series,obfuscation,zero_shot,83,A6CAA86A60556317,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+1, 30, 5, c81e728d9d4c2f636f067f89cc14862c 1679091c5a880faf6fb5e6087eb1b2dc, 9, 22, 13, 18, ...
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",17,233
+Number_Series,obfuscation,zero_shot,84,5C38D047812EF796,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+8, 39, 79, 394, 789, ?
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",3944,234
+Number_Series,obfuscation,zero_shot,85,391B6D036BA2E8B7,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+24, 70, 144, 252, 400, ?
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",594,235
+Number_Series,obfuscation,zero_shot,86,156F09FC2FBCDAF9,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+cfcd208495d565ef66e7dff9f98764da, a87ff679a2f3e71d9181a67b7542122c, c4ca4238a0b923820dcc509a6f75849b c81e728d9d4c2f636f067f89cc14862c, 8f14e45fceea167a5a36dedd4bea2543 1679091c5a880faf6fb5e6087eb1b2dc, ?
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",228,236
+Number_Series,obfuscation,zero_shot,87,A63A66844D90F3F4,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+c81e728d9d4c2f636f067f89cc14862c a87ff679a2f3e71d9181a67b7542122c, 8f14e45fceea167a5a36dedd4bea2543 cfcd208495d565ef66e7dff9f98764da, c4ca4238a0b923820dcc509a6f75849b a87ff679a2f3e71d9181a67b7542122c a87ff679a2f3e71d9181a67b7542122c, c81e728d9d4c2f636f067f89cc14862c e4da3b7fbbce2345d7772b0674a318d5 c81e728d9d4c2f636f067f89cc14862c, a87ff679a2f3e71d9181a67b7542122c cfcd208495d565ef66e7dff9f98764da cfcd208495d565ef66e7dff9f98764da, ?
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",582,237
+Number_Series,obfuscation,zero_shot,88,F3777DC04B6114C9,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+5, 36, 191, 966, ?, 24216
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",4841,238
+Number_Series,obfuscation,zero_shot,89,035EA0B3E0DDC368,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+Mercury Sun Jupiter, Mercury Mercury Neptune, 111.5, 124.5, Mercury Mercury Neptune, ?
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",131,239
+Number_Series,obfuscation,zero_shot,90,E6E63FDCF487BA8C,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+10, 9, 60, 90, 70, 66, ...
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",90,240
+Number_Series,obfuscation,zero_shot,91,A82AF6CE818C5F8C,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+c81e728d9d4c2f636f067f89cc14862c, eccbc87e4b5ce2fe28308fd9f2a7baf3, c4ca4238a0b923820dcc509a6f75849b cfcd208495d565ef66e7dff9f98764da, eccbc87e4b5ce2fe28308fd9f2a7baf3 45c48cce2e2d7fbdea1afc51c7c6ad26, 172, ?
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",704,241
+Number_Series,obfuscation,zero_shot,92,5BA0461FE6E24A36,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+561, Saturn, Mercury Venus, Venus Sun
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",30,242
+Number_Series,obfuscation,zero_shot,93,E08927B8C6E0AA90,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+Mercury Jupiter, Venus Venus, 40, Uranus Jupiter, 133, ?
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",220,243
+Number_Series,obfuscation,zero_shot,94,177A3B7664EE8C84,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+561 670, 532 771, 435 670, 669 532, 767 532
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",767 771,244
+Number_Series,obfuscation,zero_shot,95,11DD02D0CAEF8EC6,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+561, 532, 775 435, Saturn Pluto, 532 435 342
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",9,245
+Number_Series,obfuscation,zero_shot,96,10E562A00E5F7616,"You're given a sequence that mixes integers and planet names. The planet names follow a one-to-one code between the digits 0-9 and the Sun plus the nine classical planets (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto in that order, starting with Sun as 0).
+Your task is to decode the sequence, find the arithmetic rule, and predict the next term.
+Sequence:
+31, 17, 26, 64.5, ?, 1006.6
+Ouput:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",251.8,246
+Number_Series,obfuscation,zero_shot,97,B66CBC94A1EBCD6C,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+1, 9, 36, 100, 225, ?
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",441,247
+Number_Series,obfuscation,zero_shot,98,05E7FEAC36C16B0E,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+9, 11, 14, 16, 19, 21, ...
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",24,248
+Number_Series,obfuscation,zero_shot,99,980ED6E5BF8B0EA4,"You're given a sequence mixing:
+1. Planet names (Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, which correspond to digits 0-9 in order).
+2. Numbers that are ASCII-sum encodings of lowercase planet names (e.g., if 'mercury' has ASCII sum 775, this would correspond to Mercury, then to digit 1 based on the planet order).
+If planet names (or decoded planets from ASCII sums) appear consecutively, concatenate their corresponding digits (e.g., Earth Mars -> 34 if Earth is 3rd and Mars 4th after Sun=0).
+Sequence:
+2, 6, 12, 20, ...
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",30,249
+Number_Series,obfuscation,zero_shot,100,82EA829AF4056F8B,"Sequence mixes integers and MD5 hashes of single digits (0-9). You need to determine which hash corresponds to which digit. Decode hash(es) to digit(s) to form a number.
+Sequence:
+c4ca4238a0b923820dcc509a6f75849b, 5, 19, 81, ...
+Output:
+Provide ONLY the numerical next term, and nothing else. Do not output any reasoning or explanation.",243,250

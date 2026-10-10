@@ -1,0 +1,586 @@
+experiment,model,dataset,variant,setting,row_number,response_id,benchmark_order,ground_truth_raw,ground_truth,raw_prediction,prediction,correct,status,error,latency_seconds
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,51,605365A270FD52AB,1,FALSE,false,FALSE,false,True,success,,103.307
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,52,404832606BEEDC1E,2,FALSE,false,TRUE,true,False,success,,0.25
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,53,35D50601BB7F7AF5,3,TRUE,true,TRUE,true,True,success,,0.223
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,54,58994DF26E347328,4,FALSE,false,FALSE,false,True,success,,0.115
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,55,17D02905EDAC2313,5,TRUE,true,TRUE,true,True,success,,0.127
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,56,1B296263D54E3A82,6,FALSE,false,FALSE,false,True,success,,0.1
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,57,27584BC575A85FB0,7,FALSE,false,FALSE,false,True,success,,0.092
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,58,0578F0407A2E047E,8,FALSE,false,FALSE,false,True,success,,0.219
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,59,3233D1870DC87426,9,FALSE,false,TRUE,true,False,success,,0.274
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,60,948AC412B08B9FFC,10,FALSE,false,FALSE,false,True,success,,0.196
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,61,6D88351246C8A533,11,FALSE,false,FALSE,false,True,success,,0.196
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,62,F8CAAF8DD5F4229E,12,TRUE,true,TRUE,true,True,success,,0.227
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,63,CDADD2CCD7846009,13,TRUE,true,TRUE,true,True,success,,0.119
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,64,F955131DDA8F6003,14,FALSE,false,FALSE,false,True,success,,0.138
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,65,5A56DDEA19C1A8CB,15,FALSE,false,TRUE,true,False,success,,0.221
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,66,6ABF33FF4FBDB407,16,FALSE,false,TRUE,true,False,success,,0.223
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,67,C9842BE3D2654E72,17,TRUE,true,FALSE,false,False,success,,0.194
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,68,E34092DEF71114F0,18,FALSE,false,FALSE,false,True,success,,0.141
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,69,B0C09FF4B939D53D,19,FALSE,false,TRUE,true,False,success,,0.136
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,70,FF0424AED09E8838,20,TRUE,true,TRUE,true,True,success,,0.121
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,71,E34A52D1FBE4BC5C,21,FALSE,false,FALSE,false,True,success,,0.193
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,72,3CC61F8C53F71DC6,22,FALSE,false,TRUE,true,False,success,,0.213
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,73,38D31829646EC84E,23,FALSE,false,FALSE,false,True,success,,0.167
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,74,D9CCBB72FB7F6D75,24,FALSE,false,TRUE,true,False,success,,0.152
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,75,9C228AAA30177D1F,25,FALSE,false,FALSE,false,True,success,,0.118
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,76,78B2FD90FC5A9083,26,FALSE,false,TRUE,true,False,success,,0.194
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,77,80572B0B4017F74F,27,FALSE,false,TRUE,true,False,success,,0.244
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,78,AA2CC0E5CE81E90F,28,TRUE,true,TRUE,true,True,success,,0.215
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,79,E19B395EC4D7CE5B,29,TRUE,true,TRUE,true,True,success,,0.191
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,80,FE2080D5EEB9332C,30,TRUE,true,TRUE,true,True,success,,0.227
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,81,3DC6C74802EF9888,31,TRUE,true,TRUE,true,True,success,,0.193
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,82,8E49DDBDE3CAD54E,32,TRUE,true,TRUE,true,True,success,,0.167
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,83,2D97772776DB120D,33,FALSE,false,TRUE,true,False,success,,0.126
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,84,1896E2506E622439,34,TRUE,true,TRUE,true,True,success,,0.205
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,85,9D17EDB9B88B4B7A,35,TRUE,true,FALSE,false,False,success,,0.135
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,86,1081BABB01811048,36,TRUE,true,FALSE,false,False,success,,0.115
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,87,FE374FDA150C19A9,37,FALSE,false,FALSE,false,True,success,,0.103
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,88,565051FA90D515BA,38,FALSE,false,FALSE,false,True,success,,0.197
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,89,6115199E894858C5,39,FALSE,false,TRUE,true,False,success,,0.244
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,90,5CEB7BA5ADF927A0,40,TRUE,true,FALSE,false,False,success,,0.164
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,91,CF13FC0067D4BDA3,41,FALSE,false,TRUE,true,False,success,,0.239
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,92,314BB08CE029937A,42,TRUE,true,TRUE,true,True,success,,0.126
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,93,1C5355167C656261,43,TRUE,true,TRUE,true,True,success,,0.222
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,94,460AE8CA8A25D4A7,44,FALSE,false,TRUE,true,False,success,,0.138
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,95,54A1C71BDB8E210C,45,TRUE,true,TRUE,true,True,success,,0.195
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,96,003AF192C5205303,46,FALSE,false,FALSE,false,True,success,,0.124
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,97,042DF9325759B97A,47,FALSE,false,FALSE,false,True,success,,0.235
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,98,E884ED4DAF63DD3F,48,FALSE,false,FALSE,false,True,success,,0.086
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,99,8E326766CF921B38,49,FALSE,false,TRUE,true,False,success,,0.197
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),FOL,obfuscation,zero_shot,100,8B9208626EC082BF,50,FALSE,false,TRUE,true,False,success,,0.144
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,51,54EDAB3B59174D03,51,grandmother,grandmother,Grandfather.,grandfather,False,success,,0.234
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,52,D8580A4681A30938,52,sister,sister,Cousin,cousin,False,success,,0.192
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,53,73CFC6AB22B7E409,53,granddaughter,granddaughter,Grandmother,grandmother,False,success,,0.156
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,54,404D09F484CDFFA9,54,grandson,grandson,Grandson,grandson,True,success,,0.182
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,55,621CC78242A4B7BE,55,mother,mother,Grandmother.,grandmother,False,success,,0.165
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,56,0A281D8F73FB691C,56,brother-in-law,brother-in-law,Father-in-law,father-in-law,False,success,,0.192
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,57,3CD5D003DF91468E,57,great-grandfather,great-grandfather,Grandfather.,grandfather,False,success,,0.165
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,58,C497BE3749968F8D,58,great-grandfather,great-grandfather,Grandfather,grandfather,False,success,,0.164
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,59,0655A40CD2286CD8,59,cousin,cousin,Niece,niece,False,success,,0.157
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,60,B01C0614D9580AEC,60,cousin,cousin,Niece,niece,False,success,,0.203
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,61,2318BC377B47A52C,61,sister,sister,Siblings,siblings,False,success,,0.134
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,62,9973871BD774A477,62,wife,wife,Sister,sister,False,success,,0.144
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,63,71F794209321297F,63,brother,brother,Grandson,grandson,False,success,,0.157
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,64,1459EB0C33645ED3,64,granddaughter,granddaughter,Daughter,daughter,False,success,,0.145
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,65,A517C5DC2A21DB7F,65,aunt,aunt,Sister,sister,False,success,,0.127
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,66,82A5E1CB52005E84,66,aunt,aunt,Brother-in-law,brother-in-law,False,success,,0.233
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,67,B0922E6A5849A2EB,67,brother,brother,Grandson.,grandson,False,success,,0.169
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,68,3B3A42CC58923F61,68,brother,brother,Grandson,grandson,False,success,,0.15
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,69,DFB12910A50D80C0,69,son,son,Herself's,herself's,False,success,,0.212
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,70,0FE305552324784A,70,father,father,Grandson,grandson,False,success,,0.137
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,71,55168869431D363A,71,great-grandfather,great-grandfather,Brother,brother,False,success,,0.153
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,72,5BAA01E8D95F724E,72,grandfather,grandfather,John,john,False,success,,0.125
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,73,B480729974AD9100,73,brother,brother,Nephew,nephew,False,success,,0.176
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,74,AA526797E8F46331,74,brother,brother,Grandson,grandson,False,success,,0.137
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,75,128C39F38C88FA4D,75,son,son,Grandson,grandson,False,success,,0.169
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,76,61EDEF0A27F9F7D8,76,brother,brother,Himself,himself,False,success,,0.159
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,77,1727307E896A90D4,77,grandson,grandson,Grandson,grandson,True,success,,0.164
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,78,9F62B4BBE2562FAD,78,great-granddaughter,great-granddaughter,Brother-in-law,brother-in-law,False,success,,0.222
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,79,F5B16A07EB64F10B,79,3,3,Three.,three,False,success,,0.165
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,80,336D4BC84D66514F,80,aunt,aunt,Aunt,aunt,True,success,,0.165
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,81,0700F86A35410C13,81,mother,mother,Grandmother.,grandmother,False,success,,0.159
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,82,B1E6ED2959C86957,82,niece,niece,Uncle,uncle,False,success,,0.138
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,83,EADDF97CAC49C102,83,brother-in-law,brother-in-law,Brother,brother,False,success,,0.17
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,84,9D917F4498D2F8FA,84,grandson,grandson,Grandson,grandson,True,success,,0.167
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,85,46152E15B04713E9,85,1,1,None.,none,False,success,,0.16
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,86,FBEC53CD1F156B69,86,brother,brother,Himself,himself,False,success,,0.153
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,87,152619F2086C2D27,87,granddaughter,granddaughter,Granddaughter,granddaughter,True,success,,0.153
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,88,A6A6069D23DF125A,88,granddaughter,granddaughter,Aunt,aunt,False,success,,0.135
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,89,A8EFBFED6FD76B8A,89,son,son,Grandson.,grandson,False,success,,0.154
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,90,C2E9E4C6B519B440,90,brother,brother,Grandson,grandson,False,success,,0.13
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,91,8AC819C8FEEEC2FB,91,father,father,Husband.,husband,False,success,,0.151
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,92,8D87F384E78B20EE,92,grandmother,grandmother,Grandson,grandson,False,success,,0.133
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,93,8361B0E22FDE7205,93,sister,sister,Granddaughter,granddaughter,False,success,,0.13
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,94,883760E586209DE3,94,granddaughter,granddaughter,Daughter,daughter,False,success,,0.194
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,95,46850AE180A3C198,95,daughter-in-law,daughter-in-law,Grandmother,grandmother,False,success,,0.134
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,96,2EDA62090C90D27C,96,3,3,Three,three,False,success,,0.13
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,97,5785A7F93DD0BBC4,97,father,father,Niece,niece,False,success,,0.129
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,98,DB058F72E47FFEE4,98,3,3,Three,three,False,success,,0.149
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,99,86099CE1BA0382B7,99,grandson,grandson,Grandson,grandson,True,success,,0.127
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,100,25404196ECF57259,100,daughter,daughter,Daughter.,daughter,True,success,,0.162
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,101,A26577C5DE74650D,101,father,father,Grandson.,grandson,False,success,,0.154
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,102,07EF5591616A5314,102,daughter,daughter,Daughter,daughter,True,success,,0.147
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,103,1062F0B4A21FF41B,103,brother,brother,Grandson,grandson,False,success,,0.13
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,104,777AD611C46295A3,104,father,father,Brother.,brother,False,success,,0.152
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,105,D6177347F2700F59,105,brother,brother,Veena's grandson,veena's grandson,False,success,,0.196
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,106,3A3D26B605D4ABF7,106,aunt,aunt,Cousin,cousin,False,success,,0.175
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,107,CBA415997025E0D8,107,brother,brother,Veena's grandson.,veena's grandson,False,success,,0.213
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,108,13CE491CFD6EE16B,108,mother,mother,Grandson.,grandson,False,success,,0.161
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,109,DFC44CC067EE488E,109,aunt,aunt,Wife's sister.,wife's sister,False,success,,0.226
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,110,8AAE0F62510F4312,110,daughter,daughter,Kabir's sister.,kabir's sister,False,success,,0.232
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,111,998E91F5697BD005,111,sister-in-law,sister-in-law,Sister,sister,False,success,,0.145
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,112,FE46E896805319E3,112,mother,mother,Grandson,grandson,False,success,,0.131
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,113,F87B39132B82ADB1,113,wife,wife,Daughter-in-law,daughter-in-law,False,success,,0.185
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,114,2BB04EA9B88E49DD,114,aunt,aunt,Aunt,aunt,True,success,,0.148
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,115,A1CA646EF6178994,115,brother-in-law,brother-in-law,Son's,son's,False,success,,0.146
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,116,F95684F2EAE2A33C,116,2,2,None,none,False,success,,0.113
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,117,FF1E0BCAE635AEFB,117,brother,brother,Grandson,grandson,False,success,,0.135
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,118,1B5272F471A3664E,118,brother,brother,Himself,himself,False,success,,0.158
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,119,112766228F381CE7,119,wife,wife,Father-in-law,father-in-law,False,success,,0.168
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,120,FE54A0DF16D6A308,120,grandfather,grandfather,Grandmother.,grandmother,False,success,,0.159
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,121,76EDB1DAC5163A34,121,sister,sister,Grandson.,grandson,False,success,,0.174
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,122,3D7E41FCBFBB7537,122,brother,brother,Granddaughter,granddaughter,False,success,,0.126
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,123,DEFCD00CFEAAE08D,123,cousin,cousin,Granddaughter.,granddaughter,False,success,,0.163
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,124,DACDDD83A29CFC3D,124,husband,husband,Grandparent,grandparent,False,success,,0.128
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,125,4C1F8DA490017CEF,125,brother-in-law,brother-in-law,Grandfather,grandfather,False,success,,0.143
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,126,BB9A471699128AD7,126,daughter-in-law,daughter-in-law,Brother-in-law,brother-in-law,False,success,,0.182
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,127,AE3F0BCFD9AF4AAA,127,brother,brother,Nephew.,nephew,False,success,,0.208
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,128,C48EF0079CD176D1,128,mother,mother,Granddaughter.,granddaughter,False,success,,0.149
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,129,3BF7182877B5F7EE,129,grandson,grandson,Grandson,grandson,True,success,,0.163
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,130,4F9FD182B2EEDCE6,130,father,father,Brotherinlaw,brotherinlaw,False,success,,0.175
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,131,4124AD24F8A48FE9,131,grandmother,grandmother,Salman's aunt.,salman's aunt,False,success,,0.231
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,132,6035647664598B51,132,aunt,aunt,Aunt.,aunt,True,success,,0.148
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,133,69719BED85C5A1C9,133,grandson,grandson,Grandson.,grandson,True,success,,0.215
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,134,943861E4E4262B16,134,mother-in-law,mother-in-law,Grandmother,grandmother,False,success,,0.129
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,135,80824AE994D48E84,135,sister-in-law,sister-in-law,Sister,sister,False,success,,0.139
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,136,6444CCDDD2633D7A,136,aunt,aunt,Grandmother.,grandmother,False,success,,0.163
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,137,19D38506BD72F780,137,aunt,aunt,Granddaughter,granddaughter,False,success,,0.157
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,138,FBF382B2670B26CC,138,uncle,uncle,Uncle,uncle,True,success,,0.134
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,139,BA8B35C41D532319,139,daughter-in-law,daughter-in-law,Niece,niece,False,success,,0.128
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,140,CFF4E0ECA0153B4E,140,mother,mother,Grandmother.,grandmother,False,success,,0.168
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,141,20F96C9DD86F7C46,141,uncle,uncle,Grandfather.,grandfather,False,success,,0.159
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,142,DA3E3C28F842A027,142,aunt,aunt,Granddaughter,granddaughter,False,success,,0.135
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,143,A3F83B842D0A73F9,143,grandson,grandson,Son's son's son.,son's son's son,False,success,,0.237
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,144,009A56365ECACA43,144,brother,brother,Grandson,grandson,False,success,,0.132
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,145,D0035EE0FD4939F0,145,son,son,Brother,brother,False,success,,0.15
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,146,3A8FFEE3A6F2C622,146,father,father,Grandfather,grandfather,False,success,,0.14
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,147,FF602E199A1DCCD0,147,mother,mother,Son-in-law.,son-in-law,False,success,,0.212
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,148,416D7F2634690FA9,148,sister,sister,Grandfather,grandfather,False,success,,0.16
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,149,84B51353FC3437B7,149,mother,mother,Sister,sister,False,success,,0.153
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,150,C74F6A1FD57D0FEB,150,2,2,None,none,False,success,,0.139
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,51,88A2281299CB4699,151,at starting point,at starting point,North-East,north-east,False,success,,0.245
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,52,85BC55487EF7E2E1,152,7.07 km North-East,7.07 km north-east,"North 2 km, North-East","north 2 km, north-east",False,success,,0.282
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,53,818FA87D2BFFAF59,153,West,west,North,north,False,success,,0.178
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,54,A2ACD59D508FDEBA,154,At starting point,at starting point,"East 5 km, then North 5 km, then West 5 km (which cancels out the East 5 km), and finally South 5 km (which cancels out the North 5 km).
+Final location: 0 km South of the start.","east 5 km, then north 5 km, then west 5 km (which cancels out the east 5 km), and finally south 5 km (which cancels out the north 5 km). final location: 0 km south of the start",False,success,,1.713
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,55,001F41419FFF5F30,155,North-West,north-west,North,north,False,success,,0.13
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,56,CAB44E2F274B8196,156,4.85 km,4.85 km,North-East,north-east,False,success,,0.162
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,57,E196C3A3DA461B07,157,North,north,North-East,north-east,False,success,,0.234
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,58,75013926B04B7F20,158,At starting point,at starting point,North-East,north-east,False,success,,0.155
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,59,AE80F25645247FDE,159,8.72 km,8.72 km,North-East 2.5 km,north-east 2.5 km,False,success,,0.296
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,60,228A4289FD902526,160,6 km West,6 km west,North-East 4.5 km,north-east 4.5 km,False,success,,0.33
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,61,C571AEEC8935B8C1,161,West,west,North-East,north-east,False,success,,0.241
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,62,A11A683E421AB417,162,"9.49 m, South-East","9.49 m, south-east","12 km, South-East","12 km, south-east",False,success,,0.307
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,63,55331DE1274FE958,163,10.91 km,10.91 km,"North-East, 7.79 km","north-east, 7.79 km",False,success,,0.343
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,64,D8D0ECF1A79F9319,164,4.64 km,4.64 km,"To solve this problem, we need to break it down into steps.
+
+1. The mountaineer starts at a reference point, oriented towards the rising sun, which is East.
+
+2. He advances 3 km forward along the path, which means he moves 3 km East.
+
+3. Then, he reorients his trajectory along a heading northeast relative to the original path. This means he turns 45 degrees (or 1/4 of a circle) from his original East direction, so he is now moving North-East.
+
+4. He continues 2 km along this new vector, which means he moves 2 km North-East.
+
+Now, let's analyze the situation:
+
+- The mountaineer moved 3 km East initially.
+- Then, he moved 2 km North-East, which can be broken down into 2 km East and 2 km North.
+
+So, the total Eastward movement is 3 km + 2 km = 5 km.
+The total Northward movement is 2 km.
+
+To find the straight-line distance from his current position back to the original starting point, we can use the Pythagorean theorem:
+
+√(5 km)^2 + (2 km)^2 = √(25 km^2 + 4 km^2) = √29 km^2 ≈ 5.385 km
+
+However, this is not the answer we are looking for. We need to find the straight-line distance, which is the hypotenuse of the right-angled triangle formed by the Eastward and Northward movements.
+
+The correct answer is:
+5.385 km","to solve this problem, we need to break it down into steps. 1. the mountaineer starts at a reference point, oriented towards the rising sun, which is east. 2. he advances 3 km forward along the path, which means he moves 3 km east. 3. then, he reorients his trajectory along a heading northeast relative to the original path. this means he turns 45 degrees (or 1/4 of a circle) from his original east direction, so he is now moving north-east. 4. he continues 2 km along this new vector, which means he moves 2 km north-east. now, let's analyze the situation: - the mountaineer moved 3 km east initially. - then, he moved 2 km north-east, which can be broken down into 2 km east and 2 km north. so, the total eastward movement is 3 km + 2 km = 5 km. the total northward movement is 2 km. to find the straight-line distance from his current position back to the original starting point, we can use the pythagorean theorem: √(5 km)^2 + (2 km)^2 = √(25 km^2 + 4 km^2) = √29 km^2 ≈ 5.385 km however, this is not the answer we are looking for. we need to find the straight-line distance, which is the hypotenuse of the right-angled triangle formed by the eastward and northward movements. the correct answer is: 5.385 km",False,success,,10.251
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,65,9BC3B26765CFFA96,165,At starting point,at starting point,North-East,north-east,False,success,,0.259
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,66,47E5B03090244470,166,5 km North-East,5 km north-east,"North-East, 5 km","north-east, 5 km",False,success,,0.253
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,67,077B0CF1D186E8C3,167,At starting point,at starting point,North-West,north-west,False,success,,0.163
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,68,ABB0AADEB10A6D47,168,"0 m, At starting point","0 m, at starting point","East: 0 m
+North: 30 m
+West: 0 m
+South: 0 m
+
+Final: 30 m North",east: 0 m north: 30 m west: 0 m south: 0 m final: 30 m north,False,success,,1.021
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,69,D0C6D9A687E69300,169,"0 m, At starting point","0 m, at starting point",50 meters West,50 meters west,False,success,,0.187
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,70,5F597953A85B2886,170,"16.28 km, North-West","16.28 km, north-west","North-East, 21 km","north-east, 21 km",False,success,,0.401
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,71,0ECD877D626DD3E4,171,4.64 km,4.64 km,"To solve this problem, we need to break it down into steps.
+
+1. IDENTIFY:
+   - Hiker's movement: 3 km East, 2 km North-East
+
+2. STRUCTURE:
+   - Movement 1: 3 km East
+   - Movement 2: 2 km North-East
+
+3. SOLVE:
+   - To find the total distance, we need to combine the two movements.
+   - Since the movements are in different directions, we can use the Pythagorean theorem to find the resultant distance.
+   - First, we need to find the resultant distance of the two movements in the same direction (East-North-East).
+   - We can break down the 2 km North-East movement into its East and North components.
+   - Let's assume the North-East movement is at a 45-degree angle (North-East is at 45 degrees from East).
+   - The East component of the 2 km North-East movement is 2 km * cos(45°) = 1.414 km (approximately).
+   - The North component of the 2 km North-East movement is 2 km * sin(45°) = 1.414 km (approximately).
+   - Now, we can add the East components of the two movements: 3 km + 1.414 km = 4.414 km.
+   - The North component of the 2 km North-East movement is 1.414 km.
+
+4. VERIFY:
+   - The resultant distance is approximately 4.414 km East and 1.414 km North.
+
+However, the problem asks for the distance, not the direction. Since the question doesn't specify which distance to find, I will assume it's asking for the total distance traveled.
+
+FINAL:
+4.414 km","to solve this problem, we need to break it down into steps. 1. identify: - hiker's movement: 3 km east, 2 km north-east 2. structure: - movement 1: 3 km east - movement 2: 2 km north-east 3. solve: - to find the total distance, we need to combine the two movements. - since the movements are in different directions, we can use the pythagorean theorem to find the resultant distance. - first, we need to find the resultant distance of the two movements in the same direction (east-north-east). - we can break down the 2 km north-east movement into its east and north components. - let's assume the north-east movement is at a 45-degree angle (north-east is at 45 degrees from east). - the east component of the 2 km north-east movement is 2 km * cos(45°) = 1.414 km (approximately). - the north component of the 2 km north-east movement is 2 km * sin(45°) = 1.414 km (approximately). - now, we can add the east components of the two movements: 3 km + 1.414 km = 4.414 km. - the north component of the 2 km north-east movement is 1.414 km. 4. verify: - the resultant distance is approximately 4.414 km east and 1.414 km north. however, the problem asks for the distance, not the direction. since the question doesn't specify which distance to find, i will assume it's asking for the total distance traveled. final: 4.414 km",False,success,,12.137
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,72,9FE58D25719C7BE9,172,"0 m, At starting point","0 m, at starting point",0 km,0 km,False,success,,0.255
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,73,5E083BF5D1A59676,173,At starting point,at starting point,North-East,north-east,False,success,,0.148
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,74,B84F4A235B76761C,174,East,east,North-East,north-east,False,success,,0.244
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,75,E83B948D2E623FFD,175,West,west,West,west,True,success,,0.17
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,76,A4B4A8B02FCF14DD,176,"6 km, West","6 km, west","North-East, 5.83 km","north-east, 5.83 km",False,success,,0.355
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,77,AEF6222FAEFFF0D6,177,North,north,North-East,north-east,False,success,,0.139
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,78,5027E0DCEF12B051,178,South,south,North-East,north-east,False,success,,0.155
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,79,573A88DA0445F2F2,179,At starting point,at starting point,North-East,north-east,False,success,,0.162
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,80,A651A86E6E7092F8,180,80 meters West,80 meters west,The final answer is: 80 m,the final answer is: 80 m,False,success,,0.459
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,81,DB9C033AF704B6DF,181,0 meters,0 meters,0 km,0 km,False,success,,0.138
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,82,08367F8B728803C4,182,10.91 km,10.91 km,"North-East, 7.35 km","north-east, 7.35 km",False,success,,0.33
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,83,95A218ED49654954,183,"3 km, West","3 km, west",North-East,north-east,False,success,,0.145
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,84,BEEDBDA908B1394A,184,"10.00 km, North-East","10.00 km, north-east","East 4 km, North 8 km","east 4 km, north 8 km",False,success,,0.364
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,85,857E8A8E00FA630A,185,"11.66 km, North-East","11.66 km, north-east","North-East, 12.5 km","north-east, 12.5 km",False,success,,0.324
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,86,F93B903CC9909671,186,At starting point,at starting point,North-East,north-east,False,success,,0.156
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,87,384A1C7803AF12F4,187,South,south,1.5 km North,1.5 km north,False,success,,0.287
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,88,7C3BEA9D4D477EBC,188,14 m,14 m,The shortest linear distance between G and X is 12 m.,the shortest linear distance between g and x is 12 m,False,success,,0.62
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,89,CE66B313ACC10919,189,14.14 km North-East,14.14 km north-east,5 km North-East,5 km north-east,False,success,,0.228
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,90,DC78C34287314210,190,East,east,North-East,north-east,False,success,,0.172
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,91,9E6030FD768A4F5A,191,40 m,40 m,360 m,360 m,False,success,,0.274
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,92,8D30C0DE64158A8C,192,"7.81 km, North-East","7.81 km, north-east","North-East, 7.07 km","north-east, 7.07 km",False,success,,0.325
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,93,AAAF1588DCA5C5FE,193,North-West,north-west,North-East,north-east,False,success,,0.181
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,94,435D27645987CE18,194,"0 m, At starting point","0 m, at starting point",North-East 10 m,north-east 10 m,False,success,,0.253
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,95,D576DFE6D22153EC,195,"7.07 km, North-East","7.07 km, north-east","6 km North, then 1 km South, then 6 km North.
+
+Final position: 1 km North of the starting point.","6 km north, then 1 km south, then 6 km north. final position: 1 km north of the starting point",False,success,,1.09
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,96,EA3B05AB443E6F31,196,5.00 km,5.00 km,"8 km, South-West","8 km, south-west",False,success,,0.267
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,97,D9884A861F2EA06C,197,"5.00 km, West","5.00 km, west",5 km,5 km,False,success,,0.273
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,98,DE064F7BF4A3D371,198,4.64 km,4.64 km,"North-East, 4.61 km","north-east, 4.61 km",False,success,,0.335
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,99,36266196D363BF67,199,"8 km, West","8 km, west","North 6 km
+West 8 km
+South 6 km
+
+The person ends up 2 km west of the starting point.
+
+2 km West",north 6 km west 8 km south 6 km the person ends up 2 km west of the starting point. 2 km west,False,success,,1.191
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Direction_Sense,obfuscation,zero_shot,100,7981C4360038569B,200,West,west,North-East,north-east,False,success,,0.18
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,51,A0F2412EB212A240,201,25,25,"1. IDENTIFY
+   - Sequence: 5, 9, 13, 17, 21
+   - Planet names: Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto
+   - Code: 0-9 and the 9 planet names
+
+2. STRUCTURE
+   - Convert the sequence into a structured representation:
+     5 = 5 (integer)
+     9 = Mercury (planet name)
+     13 = Venus (planet name)
+     17 = Earth (planet name)
+     21 = Mars (planet name)
+
+   - Identify the pattern:
+     The sequence alternates between integers and planet names.
+     The planet names correspond to the code: 0 = Sun, 1 = Mercury, 2 = Venus, 3 = Earth, 4 = Mars, 5 = Jupiter, 6 = Saturn, 7 = Uranus, 8 = Neptune, 9 = Pluto
+
+   - Connect the relationships:
+     The sequence is a mix of integers and planet names, with the planet names following a one-to-one code.
+
+3. SOLVE
+   - The sequence alternates between integers and planet names.
+   - The planet names correspond to the code: 0 = Sun, 1 = Mercury, 2 = Venus, 3 = Earth, 4 = Mars, 5 = Jupiter, 6 = Saturn, 7 = Uranus, 8 = Neptune, 9 = Pluto
+   - The next term in the sequence should be a planet name, following the code.
+   - The last integer in the sequence was 21, which corresponds to Mars (4).
+   - The next term should be the next planet name in the code, which is Jupiter (5).
+
+4. VERIFY
+   - The sequence is a mix of integers and planet names, with the planet names following a one-to-one code.
+   - The next term in the sequence should be a planet name, following the code.
+
+FINAL:
+The numerical next term is: 5","1. identify - sequence: 5, 9, 13, 17, 21 - planet names: sun, mercury, venus, earth, mars, jupiter, saturn, uranus, neptune, pluto - code: 0-9 and the 9 planet names 2. structure - convert the sequence into a structured representation: 5 = 5 (integer) 9 = mercury (planet name) 13 = venus (planet name) 17 = earth (planet name) 21 = mars (planet name) - identify the pattern: the sequence alternates between integers and planet names. the planet names correspond to the code: 0 = sun, 1 = mercury, 2 = venus, 3 = earth, 4 = mars, 5 = jupiter, 6 = saturn, 7 = uranus, 8 = neptune, 9 = pluto - connect the relationships: the sequence is a mix of integers and planet names, with the planet names following a one-to-one code. 3. solve - the sequence alternates between integers and planet names. - the planet names correspond to the code: 0 = sun, 1 = mercury, 2 = venus, 3 = earth, 4 = mars, 5 = jupiter, 6 = saturn, 7 = uranus, 8 = neptune, 9 = pluto - the next term in the sequence should be a planet name, following the code. - the last integer in the sequence was 21, which corresponds to mars (4). - the next term should be the next planet name in the code, which is jupiter (5). 4. verify - the sequence is a mix of integers and planet names, with the planet names following a one-to-one code. - the next term in the sequence should be a planet name, following the code. final: the numerical next term is: 5",False,success,,15.443
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,52,C9D76BEF7DD494C5,202,71,71,4,4,False,success,,0.38
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,53,0585CD57C0F621B2,203,220,220,"1. IDENTIFY
+   - Sequence: 15, 22, 40, 75, 133, ?
+   - Planet names: Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto
+   - Digits: 0-9
+
+2. STRUCTURE
+   - Convert planet names to digits:
+     Sun = 0, Mercury = 1, Venus = 2, Earth = 3, Mars = 4, Jupiter = 5, Saturn = 6, Uranus = 7, Neptune = 8, Pluto = 9
+   - Convert sequence to planet names:
+     15 = 1 (Mercury) 5 (Jupiter)
+     22 = 2 (Venus) 2 (Venus)
+     40 = 4 (Mars) 0 (Sun)
+     75 = 7 (Uranus) 5 (Jupiter)
+     133 = 1 (Mercury) 3 (Earth) 3 (Earth)
+   - Sequence of planet names: Mercury-Jupiter, Venus-Venus, Mars-Sun, Uranus-Jupiter, Mercury-Earth-Earth
+
+3. SOLVE
+   - Identify the pattern: each term is a pair of planet names, and the second planet in each pair is the same as the first planet in the previous pair.
+   - The sequence of planet names is: Mercury-Jupiter, Venus-Venus, Mars-Sun, Uranus-Jupiter, Mercury-Earth-Earth, ...
+   - The next pair of planet names is: Earth-Earth
+   - Convert Earth-Earth to digits: 3 (Earth) 3 (Earth) = 33
+
+4. VERIFY
+   - The sequence is consistent with the given information.
+
+FINAL:
+33","1. identify - sequence: 15, 22, 40, 75, 133, ? - planet names: sun, mercury, venus, earth, mars, jupiter, saturn, uranus, neptune, pluto - digits: 0-9 2. structure - convert planet names to digits: sun = 0, mercury = 1, venus = 2, earth = 3, mars = 4, jupiter = 5, saturn = 6, uranus = 7, neptune = 8, pluto = 9 - convert sequence to planet names: 15 = 1 (mercury) 5 (jupiter) 22 = 2 (venus) 2 (venus) 40 = 4 (mars) 0 (sun) 75 = 7 (uranus) 5 (jupiter) 133 = 1 (mercury) 3 (earth) 3 (earth) - sequence of planet names: mercury-jupiter, venus-venus, mars-sun, uranus-jupiter, mercury-earth-earth 3. solve - identify the pattern: each term is a pair of planet names, and the second planet in each pair is the same as the first planet in the previous pair. - the sequence of planet names is: mercury-jupiter, venus-venus, mars-sun, uranus-jupiter, mercury-earth-earth, ... - the next pair of planet names is: earth-earth - convert earth-earth to digits: 3 (earth) 3 (earth) = 33 4. verify - the sequence is consistent with the given information. final: 33",False,success,,14.413
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,54,65AEF26A8934BA3E,204,37,37,45,45,False,success,,0.421
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,55,982374A08894BA4D,205,397,397,5,5,False,success,,0.218
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,56,25B865259C303CCC,206,12,12,4,4,False,success,,0.11
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,57,FB600BD857CE0B3F,207,300,300,3,3,False,success,,0.124
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,58,29A409768F98AE94,208,130,130,5,5,False,success,,0.15
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,59,C84EA1B8AFCC6781,209,397,397,5,5,False,success,,0.217
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,60,F4857CD98AE632FD,210,17,17,"1. IDENTIFY
+   - Relevant entities: integers, MD5 hashes
+   - Relevant facts: sequence mixes integers and MD5 hashes
+   - Relevant relation: decoding hash to digit
+   - Relevant quantity: single digits (0-9)
+   - Relevant movement: forming a number
+
+2. STRUCTURE
+   - List the sequence values: 1, 30, 5, 26, 9, 22, 13, 18, ...
+   - Identify candidate transformations or patterns:
+     - MD5 hashes are 32-character hexadecimal strings
+     - Single-digit hashes are 32-character hexadecimal strings with a single digit (0-9) followed by 31 zeros
+     - Integers are not hashes
+
+3. SOLVE
+   - Identify the MD5 hashes: 30, 26, 22, 18
+   - Decode the hashes to digits:
+     - 30 -> 3
+     - 26 -> 2
+     - 22 -> 2
+     - 18 -> 1
+   - Form a number: 321
+
+4. VERIFY
+   - The final answer is consistent with the original problem.
+
+FINAL:
+321","1. identify - relevant entities: integers, md5 hashes - relevant facts: sequence mixes integers and md5 hashes - relevant relation: decoding hash to digit - relevant quantity: single digits (0-9) - relevant movement: forming a number 2. structure - list the sequence values: 1, 30, 5, 26, 9, 22, 13, 18, ... - identify candidate transformations or patterns: - md5 hashes are 32-character hexadecimal strings - single-digit hashes are 32-character hexadecimal strings with a single digit (0-9) followed by 31 zeros - integers are not hashes 3. solve - identify the md5 hashes: 30, 26, 22, 18 - decode the hashes to digits: - 30 -> 3 - 26 -> 2 - 22 -> 2 - 18 -> 1 - form a number: 321 4. verify - the final answer is consistent with the original problem. final: 321",False,success,,9.945
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,61,2020596782AC1619,211,227,227,3,3,False,success,,0.429
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,62,331DBCC7B13DB148,212,524,524,"1. IDENTIFY
+   - Relevant entities: integers, MD5 hashes
+   - Relevant facts: sequence of integers and hashes
+   - Relevant relation: decoding hashes to digits
+   - Relevant condition: forming a number
+
+2. STRUCTURE
+   - List the sequence: 2048, 516, 1032, 262, ?, 135, 270
+   - Identify the hashes: 516, 1032, 262, ?
+   - Connect the hashes to their corresponding digits:
+     - 516 -> 6 (MD5 hash of 6)
+     - 1032 -> 32 (MD5 hash of 3, but 32 is not a single digit)
+     - 262 -> 2 (MD5 hash of 2)
+     - ? -> ? (unknown hash)
+     - 135 -> 5 (MD5 hash of 5)
+     - 270 -> 0 (MD5 hash of 0)
+
+3. SOLVE
+   - The only unknown hash is the one corresponding to the digit 3.
+   - The MD5 hash of 3 is 3e7b5d3a.
+
+4. VERIFY
+   - The sequence is consistent with the original problem.
+
+FINAL:
+3","1. identify - relevant entities: integers, md5 hashes - relevant facts: sequence of integers and hashes - relevant relation: decoding hashes to digits - relevant condition: forming a number 2. structure - list the sequence: 2048, 516, 1032, 262, ?, 135, 270 - identify the hashes: 516, 1032, 262, ? - connect the hashes to their corresponding digits: - 516 -> 6 (md5 hash of 6) - 1032 -> 32 (md5 hash of 3, but 32 is not a single digit) - 262 -> 2 (md5 hash of 2) - ? -> ? (unknown hash) - 135 -> 5 (md5 hash of 5) - 270 -> 0 (md5 hash of 0) 3. solve - the only unknown hash is the one corresponding to the digit 3. - the md5 hash of 3 is 3e7b5d3a. 4. verify - the sequence is consistent with the original problem. final: 3",False,success,,10.8
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,63,15E02568FDE1510F,213,14,14,4,4,False,success,,0.383
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,64,31CB5C5F89E1C729,214,162,162,5,5,False,success,,0.168
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,65,F2755BE5BE39748D,215,38,38,5,5,False,success,,0.252
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,66,02AA52D061B13F1A,216,99,99,4,4,False,success,,0.145
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,67,2A784ABC0A61EE94,217,107,107,4,4,False,success,,0.114
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,68,759B31870BEC722A,218,12,12,"1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167,","1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167",False,success,,21.569
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,69,DFDD2AEDBF9B38AB,219,11052,11052,11059,11059,False,success,,0.43
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,70,C3AD1210FBF7BAFF,220,910,910,5,5,False,success,,0.227
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,71,CB3D06FDBAC0105F,221,16,16,5,5,False,success,,0.252
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,72,FF8754C62BB36F1F,222,243,243,"115
+208
+341",115 208 341,False,success,,0.331
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,73,A0587C48E984C323,223,18000,18000,"5 
+
+1. IDENTIFY
+   - sequence: 5, 10, 30, 150, 600, 3600
+   - hash: MD5 hashes of single digits (0-9)
+
+2. STRUCTURE
+   - list the sequence values: 5, 10, 30, 150, 600, 3600
+   - identify candidate transformations or patterns:
+     - 5 = MD5(5) = 2199302a5a5cccd71c4faec11030e5fe
+     - 10 = MD5(1) = 9bcb (10 is 2*5)
+     - 30 = MD5(3) = 82d (30 is 6*5)
+     - 150 = MD5(1) = 9bcb (150 is 30*5)
+     - 600 = MD5(6) = 3e7 (600 is 120*5)
+     - 3600 = MD5(3) = 82d (3600 is 720*5)
+
+3. SOLVE
+   - 10 = MD5(1) = 9bcb
+   - 30 = MD5(3) = 82d
+   - 150 = MD5(1) = 9bcb
+   - 600 = MD5(6) = 3e7
+   - 3600 = MD5(3) = 82d
+
+4. VERIFY
+   - verified the pattern across the available values
+
+5. FINAL
+   900","5 1. identify - sequence: 5, 10, 30, 150, 600, 3600 - hash: md5 hashes of single digits (0-9) 2. structure - list the sequence values: 5, 10, 30, 150, 600, 3600 - identify candidate transformations or patterns: - 5 = md5(5) = 2199302a5a5cccd71c4faec11030e5fe - 10 = md5(1) = 9bcb (10 is 2*5) - 30 = md5(3) = 82d (30 is 6*5) - 150 = md5(1) = 9bcb (150 is 30*5) - 600 = md5(6) = 3e7 (600 is 120*5) - 3600 = md5(3) = 82d (3600 is 720*5) 3. solve - 10 = md5(1) = 9bcb - 30 = md5(3) = 82d - 150 = md5(1) = 9bcb - 600 = md5(6) = 3e7 - 3600 = md5(3) = 82d 4. verify - verified the pattern across the available values 5. final 900",False,success,,13.597
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,74,D8BFC66282258C86,224,18,18,2,2,False,success,,0.345
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,75,BA2991E7171C8E9B,225,3944,3944,"1. IDENTIFY
+   - Sequence: Neptune, Earth Pluto, Uranus Pluto, Earth Pluto Mars, Uranus Neptune Pluto, ?
+   - Planet names: Neptune, Earth, Pluto, Uranus, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto
+   - Integers: (missing)
+   - Code mapping: Sun = 0, Mercury = 1, Venus = 2, Earth = 3, Mars = 4, Jupiter = 5, Saturn = 6, Uranus = 7, Neptune = 8, Pluto = 9
+
+2. STRUCTURE
+   - Sequence: N, EP, UP, EPM, UNP, ?, ...
+   - Planet names: N = 8, EP = 3, UP = 7, EPM = 4, UNP = 7, ?, ...
+   - Integers: (missing)
+   - Code mapping: N = 8, EP = 3, UP = 7, EPM = 4, UNP = 7, ?, ...
+
+3. SOLVE
+   - The sequence alternates between two patterns: (Planet, Planet Planet) and (Planet Planet, Planet Planet Planet).
+   - The first pattern is: (Planet, Planet Planet) = (N, EP) = (8, 3) = 8 + 3 = 11, (EP, UP) = (3, 7) = 3 + 7 = 10, (UP, EPM) = (7, 4) = 7 + 4 = 11, (EPM, UNP) = (4, 7) = 4 + 7 = 11.
+   - The second pattern is: (Planet Planet, Planet Planet Planet) = (EP, UP) = (3, 7) = 3 + 7 = 10, (UP, EPM) = (7, 4) = 7 + 4 = 11, (EPM, UNP) = (4, 7) = 4 + 7 = 11, (UNP, ?) = (7, ?) = 7 + ? = 11.
+   - The next term is: (UNP, ?) = (7, ?) = 7 + ? = 11, so ? = 11 - 7 = 4.
+
+4","1. identify - sequence: neptune, earth pluto, uranus pluto, earth pluto mars, uranus neptune pluto, ? - planet names: neptune, earth, pluto, uranus, mars, jupiter, saturn, uranus, neptune, pluto - integers: (missing) - code mapping: sun = 0, mercury = 1, venus = 2, earth = 3, mars = 4, jupiter = 5, saturn = 6, uranus = 7, neptune = 8, pluto = 9 2. structure - sequence: n, ep, up, epm, unp, ?, ... - planet names: n = 8, ep = 3, up = 7, epm = 4, unp = 7, ?, ... - integers: (missing) - code mapping: n = 8, ep = 3, up = 7, epm = 4, unp = 7, ?, ... 3. solve - the sequence alternates between two patterns: (planet, planet planet) and (planet planet, planet planet planet). - the first pattern is: (planet, planet planet) = (n, ep) = (8, 3) = 8 + 3 = 11, (ep, up) = (3, 7) = 3 + 7 = 10, (up, epm) = (7, 4) = 7 + 4 = 11, (epm, unp) = (4, 7) = 4 + 7 = 11. - the second pattern is: (planet planet, planet planet planet) = (ep, up) = (3, 7) = 3 + 7 = 10, (up, epm) = (7, 4) = 7 + 4 = 11, (epm, unp) = (4, 7) = 4 + 7 = 11, (unp, ?) = (7, ?) = 7 + ? = 11. - the next term is: (unp, ?) = (7, ?) = 7 + ? = 11, so ? = 11 - 7 = 4. 4",False,success,,19.553
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,76,F9CB6CAA7F7BD14F,226,24,24,4,4,False,success,,0.512
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,77,409317144A1B87B6,227,90,90,"10
+45c48cce2e2d7fbdea1afc51c7c6ad26
+60
+45c48cce2e2d7fbdea1afc51c7c6ad26
+70
+66
+d41d8cd98f00b204e9800998ecf8427e
+80",10 45c48cce2e2d7fbdea1afc51c7c6ad26 60 45c48cce2e2d7fbdea1afc51c7c6ad26 70 66 d41d8cd98f00b204e9800998ecf8427e 80,False,success,,3.021
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,78,27597752C3E3130C,228,36,36,"20 
+
+The sequence is based on the planet names, where each digit corresponds to a planet name. 
+
+11 = Mercury (11)
+12 = Venus (12)
+15 = Mars (15)
+20 = Earth (20)
+27 = Jupiter (27)
+
+The pattern is obtained by adding the corresponding planet's position in the sequence to the previous term.
+
+11 + 1 = 12
+12 + 3 = 15
+15 + 5 = 20
+20 + 7 = 27
+
+The next term is obtained by adding 9 (the position of Neptune) to the previous term:
+27 + 9 = 36
+
+However, the sequence is based on the planet names, and the next term should be a planet name. 
+
+The next planet name is Neptune (36), but the problem asks for the numerical next term, which is 36.","20 the sequence is based on the planet names, where each digit corresponds to a planet name. 11 = mercury (11) 12 = venus (12) 15 = mars (15) 20 = earth (20) 27 = jupiter (27) the pattern is obtained by adding the corresponding planet's position in the sequence to the previous term. 11 + 1 = 12 12 + 3 = 15 15 + 5 = 20 20 + 7 = 27 the next term is obtained by adding 9 (the position of neptune) to the previous term: 27 + 9 = 36 however, the sequence is based on the planet names, and the next term should be a planet name. the next planet name is neptune (36), but the problem asks for the numerical next term, which is 36",False,success,,7.259
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,79,914E06968E93AFE0,229,158,158,"151, 158, 8, 4, 1, 9, 7, 6, 3, 0","151, 158, 8, 4, 1, 9, 7, 6, 3, 0",False,success,,1.468
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,80,D882B5E6BAFC67D8,230,131,131,"105 -> Sun (0) + Mercury (3) = 3
+118 -> Sun (0) + Venus (5) + Earth (3) = 8
+111.5 -> Sun (0) + Mars (4) + Jupiter (7) = 11.5
+124.5 -> Sun (0) + Saturn (9) + Uranus (8) = 17.5
+118 -> Sun (0) + Venus (5) + Earth (3) = 8
+Next term: Sun (0) + Neptune (9) = 9",105 -> sun (0) + mercury (3) = 3 118 -> sun (0) + venus (5) + earth (3) = 8 111.5 -> sun (0) + mars (4) + jupiter (7) = 11.5 124.5 -> sun (0) + saturn (9) + uranus (8) = 17.5 118 -> sun (0) + venus (5) + earth (3) = 8 next term: sun (0) + neptune (9) = 9,False,success,,4.982
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,81,269095347408DA76,231,25,25,4,4,False,success,,0.259
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,82,9374223C6EEFB34E,232,190,190,7,7,False,success,,0.221
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,83,A6CAA86A60556317,233,17,17,4,4,False,success,,0.227
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,84,5C38D047812EF796,234,3944,3944,5,5,False,success,,0.225
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,85,391B6D036BA2E8B7,235,594,594,"1. IDENTIFY
+   - Relevant entities: integers, MD5 hashes
+   - Relevant facts: sequence of numbers
+   - Relevant relation: MD5 hashes correspond to single digits
+   - Relevant condition: form a number from the decoded hashes
+
+2. STRUCTURE
+   - List the sequence values: 24, 70, 144, 252, 400, ?
+   - Identify candidate transformations or patterns:
+     - MD5 hashes of single digits (0-9) are: 0a5d, 1f4d, 2c9a, 3e8b, 4b5c, 5a9d, 6e8b, 7f4d, 8c9a, 9a5d
+     - The sequence values are not directly related to the hashes, but the differences between consecutive values are:
+       - 70 - 24 = 46
+       - 144 - 70 = 74
+       - 252 - 144 = 108
+       - 400 - 252 = 148
+     - The differences are increasing by 28, 34, 40, 40
+
+3. SOLVE
+   - The pattern in the differences is not clear, but we can try to find a match between the sequence values and the MD5 hashes.
+   - The MD5 hash 9a5d corresponds to the digit 9.
+   - The sequence value 400 is close to the MD5 hash 4b5c, which corresponds to the digit 4.
+   - However, the next term in the sequence should be a number that is close to 400 and has a difference of 148 with the previous term.
+   - The MD5 hash 5a9d corresponds to the digit 5, and 400 + 148 = 548, which is close to the MD5 hash 5a9d.
+
+4. VERIFY
+   - The final answer is consistent with the original problem.
+
+FINAL:
+548","1. identify - relevant entities: integers, md5 hashes - relevant facts: sequence of numbers - relevant relation: md5 hashes correspond to single digits - relevant condition: form a number from the decoded hashes 2. structure - list the sequence values: 24, 70, 144, 252, 400, ? - identify candidate transformations or patterns: - md5 hashes of single digits (0-9) are: 0a5d, 1f4d, 2c9a, 3e8b, 4b5c, 5a9d, 6e8b, 7f4d, 8c9a, 9a5d - the sequence values are not directly related to the hashes, but the differences between consecutive values are: - 70 - 24 = 46 - 144 - 70 = 74 - 252 - 144 = 108 - 400 - 252 = 148 - the differences are increasing by 28, 34, 40, 40 3. solve - the pattern in the differences is not clear, but we can try to find a match between the sequence values and the md5 hashes. - the md5 hash 9a5d corresponds to the digit 9. - the sequence value 400 is close to the md5 hash 4b5c, which corresponds to the digit 4. - however, the next term in the sequence should be a number that is close to 400 and has a difference of 148 with the previous term. - the md5 hash 5a9d corresponds to the digit 5, and 400 + 148 = 548, which is close to the md5 hash 5a9d. 4. verify - the final answer is consistent with the original problem. final: 548",False,success,,17.594
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,86,156F09FC2FBCDAF9,236,228,228,8,8,False,success,,0.354
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,87,A63A66844D90F3F4,237,582,582,8,8,False,success,,0.351
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,88,F3777DC04B6114C9,238,4841,4841,4,4,False,success,,0.404
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,89,035EA0B3E0DDC368,239,131,131,3.5,3.5,False,success,,0.289
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,90,E6E63FDCF487BA8C,240,90,90,5,5,False,success,,0.161
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,91,A82AF6CE818C5F8C,241,704,704,4,4,False,success,,0.221
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,92,5BA0461FE6E24A36,242,30,30,4,4,False,success,,0.25
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,93,E08927B8C6E0AA90,243,220,220,"1. IDENTIFY
+   - Sequence: Mercury Jupiter, Venus Venus, 40, Uranus Jupiter, 133, ?
+   - Planet names: Mercury, Jupiter, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto
+   - Integers: 40, 133
+   - Code mapping: Sun (0), Mercury (1), Venus (2), Earth (3), Mars (4), Jupiter (5), Saturn (6), Uranus (7), Neptune (8), Pluto (9)
+
+2. STRUCTURE
+   - Create a mapping of planet names to their corresponding code values:
+     Mercury: 1, Jupiter: 5, Venus: 2, Uranus: 7, Sun: 0
+   - Convert the sequence into a list of code values:
+     1, 5, 2, 2, 40, 7, 5, 133, ?
+
+3. SOLVE
+   - Identify the pattern in the sequence:
+     The sequence alternates between two different patterns:
+       - The first pattern: 1, 5, 2, 2, 7, 5 (Mercury, Jupiter, Venus, Venus, Uranus, Jupiter)
+       - The second pattern: 40, 133 (increasing by 93, then 93)
+   - The next term in the sequence should follow the second pattern:
+     133 + 93 = 226
+
+4. VERIFY
+   - The predicted next term is consistent with the original problem.
+
+FINAL:
+226","1. identify - sequence: mercury jupiter, venus venus, 40, uranus jupiter, 133, ? - planet names: mercury, jupiter, venus, earth, mars, jupiter, saturn, uranus, neptune, pluto - integers: 40, 133 - code mapping: sun (0), mercury (1), venus (2), earth (3), mars (4), jupiter (5), saturn (6), uranus (7), neptune (8), pluto (9) 2. structure - create a mapping of planet names to their corresponding code values: mercury: 1, jupiter: 5, venus: 2, uranus: 7, sun: 0 - convert the sequence into a list of code values: 1, 5, 2, 2, 40, 7, 5, 133, ? 3. solve - identify the pattern in the sequence: the sequence alternates between two different patterns: - the first pattern: 1, 5, 2, 2, 7, 5 (mercury, jupiter, venus, venus, uranus, jupiter) - the second pattern: 40, 133 (increasing by 93, then 93) - the next term in the sequence should follow the second pattern: 133 + 93 = 226 4. verify - the predicted next term is consistent with the original problem. final: 226",False,success,,13.103
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,94,177A3B7664EE8C84,244,767 771,767 771,4 435,4 435,False,success,,0.432
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,95,11DD02D0CAEF8EC6,245,9,9,342,342,False,success,,0.14
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,96,10E562A00E5F7616,246,251.8,251.8,5,5,False,success,,0.224
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,97,B66CBC94A1EBCD6C,247,441,441,"1. IDENTIFY
+   - Relevant entities: integers, MD5 hashes
+   - Relevant facts: sequence of integers and hashes
+   - Relevant relation: sequence of integers and hashes
+   - Relevant condition: decode hash to digit
+
+2. STRUCTURE
+   - List the sequence values: 1, 9, 36, 100, 225, ?
+   - Identify candidate transformations or patterns:
+     - MD5 hashes of single digits (0-9)
+     - Possible pattern: MD5 hash of a single digit
+
+3. SOLVE
+   - Check the sequence values for MD5 hashes of single digits:
+     - 1: MD5(1) = 36
+     - 9: MD5(9) = 100
+     - 36: MD5(6) = 36
+     - 100: MD5(0) = 100
+     - 225: MD5(5) = 225
+   - The next term in the sequence should be the MD5 hash of the next single digit, which is 6.
+
+4. VERIFY
+   - The sequence is consistent with the pattern.
+
+FINAL:
+36","1. identify - relevant entities: integers, md5 hashes - relevant facts: sequence of integers and hashes - relevant relation: sequence of integers and hashes - relevant condition: decode hash to digit 2. structure - list the sequence values: 1, 9, 36, 100, 225, ? - identify candidate transformations or patterns: - md5 hashes of single digits (0-9) - possible pattern: md5 hash of a single digit 3. solve - check the sequence values for md5 hashes of single digits: - 1: md5(1) = 36 - 9: md5(9) = 100 - 36: md5(6) = 36 - 100: md5(0) = 100 - 225: md5(5) = 225 - the next term in the sequence should be the md5 hash of the next single digit, which is 6. 4. verify - the sequence is consistent with the pattern. final: 36",False,success,,9.868
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,98,05E7FEAC36C16B0E,248,24,24,5,5,False,success,,0.332
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,99,980ED6E5BF8B0EA4,249,30,30,5,5,False,success,,0.112
+Structured Decomposition,Ollama: llama3.1:8b (Q4_K_M),Number_Series,obfuscation,zero_shot,100,82EA829AF4056F8B,250,243,243,"c4ca4238a0b923820dcc509a6f75849b = 1 
+
+Next term: 2",c4ca4238a0b923820dcc509a6f75849b = 1 next term: 2,False,success,,1.184

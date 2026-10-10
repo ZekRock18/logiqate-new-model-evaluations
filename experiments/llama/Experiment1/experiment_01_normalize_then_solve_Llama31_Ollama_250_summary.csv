@@ -1,0 +1,6 @@
+dataset,variant,requested,predictions,correct,mean_latency_seconds,accuracy_over_requested_percent,accuracy_among_predictions_percent
+Blood_Relation,obfuscation_l1,50,50,9,0.15132,18.0,18.0
+Blood_Relation,obfuscation_l2,50,50,6,0.15172,12.0,12.0
+Direction_Sense,obfuscation,50,50,2,0.6747,4.0,4.0
+FOL,obfuscation,50,50,29,2.02008,58.0,58.0
+Number_Series,obfuscation,50,50,1,0.26454,2.0,2.0

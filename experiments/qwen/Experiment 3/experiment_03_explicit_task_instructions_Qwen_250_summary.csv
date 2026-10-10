@@ -1,0 +1,6 @@
+dataset,variant,total,correct,accuracy_percent
+Blood_Relation,obfuscation_l1,50,25,50.0
+Blood_Relation,obfuscation_l2,50,21,42.0
+Direction_Sense,obfuscation,50,4,8.0
+FOL,obfuscation,50,38,76.0
+Number_Series,obfuscation,50,12,24.0
