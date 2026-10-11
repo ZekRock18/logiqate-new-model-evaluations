@@ -1,0 +1,358 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "high",
+  "prompt_version": "gpt56-tier1-v1",
+  "fixed_sample_source": "../assigned/sample_manifest.json",
+  "fixed_sample_sha256": "830d095f3484cb795c8dd6e706797a29994097aa1fbbfaf42736814f83aad60a",
+  "questions_per_task": 50,
+  "task_test_item_ids": {
+    "obfus_fol": [
+      "obfus_fol-0004",
+      "obfus_fol-0009",
+      "obfus_fol-0011",
+      "obfus_fol-0013",
+      "obfus_fol-0018",
+      "obfus_fol-0019",
+      "obfus_fol-0022",
+      "obfus_fol-0023",
+      "obfus_fol-0024",
+      "obfus_fol-0025",
+      "obfus_fol-0027",
+      "obfus_fol-0030",
+      "obfus_fol-0032",
+      "obfus_fol-0036",
+      "obfus_fol-0040",
+      "obfus_fol-0041",
+      "obfus_fol-0046",
+      "obfus_fol-0051",
+      "obfus_fol-0052",
+      "obfus_fol-0054",
+      "obfus_fol-0057",
+      "obfus_fol-0059",
+      "obfus_fol-0060",
+      "obfus_fol-0061",
+      "obfus_fol-0062",
+      "obfus_fol-0063",
+      "obfus_fol-0066",
+      "obfus_fol-0072",
+      "obfus_fol-0073",
+      "obfus_fol-0075",
+      "obfus_fol-0076",
+      "obfus_fol-0078",
+      "obfus_fol-0079",
+      "obfus_fol-0082",
+      "obfus_fol-0086",
+      "obfus_fol-0091",
+      "obfus_fol-0093",
+      "obfus_fol-0096",
+      "obfus_fol-0099",
+      "obfus_fol-0101",
+      "obfus_fol-0102",
+      "obfus_fol-0103",
+      "obfus_fol-0104",
+      "obfus_fol-0106",
+      "obfus_fol-0109",
+      "obfus_fol-0112",
+      "obfus_fol-0114",
+      "obfus_fol-0116",
+      "obfus_fol-0117",
+      "obfus_fol-0118"
+    ],
+    "obfus_blood_relation": [
+      "obfus_blood_relation-0003",
+      "obfus_blood_relation-0004",
+      "obfus_blood_relation-0006",
+      "obfus_blood_relation-0008",
+      "obfus_blood_relation-0010",
+      "obfus_blood_relation-0011",
+      "obfus_blood_relation-0012",
+      "obfus_blood_relation-0019",
+      "obfus_blood_relation-0021",
+      "obfus_blood_relation-0023",
+      "obfus_blood_relation-0024",
+      "obfus_blood_relation-0026",
+      "obfus_blood_relation-0028",
+      "obfus_blood_relation-0029",
+      "obfus_blood_relation-0030",
+      "obfus_blood_relation-0031",
+      "obfus_blood_relation-0032",
+      "obfus_blood_relation-0033",
+      "obfus_blood_relation-0034",
+      "obfus_blood_relation-0036",
+      "obfus_blood_relation-0037",
+      "obfus_blood_relation-0039",
+      "obfus_blood_relation-0041",
+      "obfus_blood_relation-0043",
+      "obfus_blood_relation-0046",
+      "obfus_blood_relation-0050",
+      "obfus_blood_relation-0051",
+      "obfus_blood_relation-0052",
+      "obfus_blood_relation-0053",
+      "obfus_blood_relation-0054",
+      "obfus_blood_relation-0058",
+      "obfus_blood_relation-0059",
+      "obfus_blood_relation-0060",
+      "obfus_blood_relation-0061",
+      "obfus_blood_relation-0062",
+      "obfus_blood_relation-0065",
+      "obfus_blood_relation-0069",
+      "obfus_blood_relation-0072",
+      "obfus_blood_relation-0077",
+      "obfus_blood_relation-0078",
+      "obfus_blood_relation-0084",
+      "obfus_blood_relation-0085",
+      "obfus_blood_relation-0086",
+      "obfus_blood_relation-0089",
+      "obfus_blood_relation-0092",
+      "obfus_blood_relation-0095",
+      "obfus_blood_relation-0096",
+      "obfus_blood_relation-0097",
+      "obfus_blood_relation-0101",
+      "obfus_blood_relation-0104"
+    ],
+    "obfus_number_series": [
+      "obfus_number_series-0006",
+      "obfus_number_series-0012",
+      "obfus_number_series-0019",
+      "obfus_number_series-0024",
+      "obfus_number_series-0031",
+      "obfus_number_series-0032",
+      "obfus_number_series-0038",
+      "obfus_number_series-0044",
+      "obfus_number_series-0049",
+      "obfus_number_series-0056",
+      "obfus_number_series-0066",
+      "obfus_number_series-0067",
+      "obfus_number_series-0069",
+      "obfus_number_series-0070",
+      "obfus_number_series-0081",
+      "obfus_number_series-0087",
+      "obfus_number_series-0089",
+      "obfus_number_series-0102",
+      "obfus_number_series-0104",
+      "obfus_number_series-0105",
+      "obfus_number_series-0117",
+      "obfus_number_series-0121",
+      "obfus_number_series-0135",
+      "obfus_number_series-0146",
+      "obfus_number_series-0147",
+      "obfus_number_series-0152",
+      "obfus_number_series-0158",
+      "obfus_number_series-0168",
+      "obfus_number_series-0180",
+      "obfus_number_series-0182",
+      "obfus_number_series-0184",
+      "obfus_number_series-0190",
+      "obfus_number_series-0191",
+      "obfus_number_series-0195",
+      "obfus_number_series-0207",
+      "obfus_number_series-0209",
+      "obfus_number_series-0210",
+      "obfus_number_series-0225",
+      "obfus_number_series-0230",
+      "obfus_number_series-0233",
+      "obfus_number_series-0234",
+      "obfus_number_series-0236",
+      "obfus_number_series-0242",
+      "obfus_number_series-0245",
+      "obfus_number_series-0253",
+      "obfus_number_series-0262",
+      "obfus_number_series-0271",
+      "obfus_number_series-0285",
+      "obfus_number_series-0296",
+      "obfus_number_series-0298"
+    ],
+    "obfus_direction_sense": [
+      "obfus_direction_sense-0000",
+      "obfus_direction_sense-0001",
+      "obfus_direction_sense-0002",
+      "obfus_direction_sense-0003",
+      "obfus_direction_sense-0004",
+      "obfus_direction_sense-0005",
+      "obfus_direction_sense-0008",
+      "obfus_direction_sense-0011",
+      "obfus_direction_sense-0014",
+      "obfus_direction_sense-0022",
+      "obfus_direction_sense-0024",
+      "obfus_direction_sense-0025",
+      "obfus_direction_sense-0026",
+      "obfus_direction_sense-0027",
+      "obfus_direction_sense-0028",
+      "obfus_direction_sense-0038",
+      "obfus_direction_sense-0041",
+      "obfus_direction_sense-0043",
+      "obfus_direction_sense-0048",
+      "obfus_direction_sense-0049",
+      "obfus_direction_sense-0050",
+      "obfus_direction_sense-0051",
+      "obfus_direction_sense-0052",
+      "obfus_direction_sense-0054",
+      "obfus_direction_sense-0057",
+      "obfus_direction_sense-0063",
+      "obfus_direction_sense-0067",
+      "obfus_direction_sense-0071",
+      "obfus_direction_sense-0072",
+      "obfus_direction_sense-0073",
+      "obfus_direction_sense-0075",
+      "obfus_direction_sense-0079",
+      "obfus_direction_sense-0080",
+      "obfus_direction_sense-0081",
+      "obfus_direction_sense-0083",
+      "obfus_direction_sense-0084",
+      "obfus_direction_sense-0085",
+      "obfus_direction_sense-0086",
+      "obfus_direction_sense-0088",
+      "obfus_direction_sense-0090",
+      "obfus_direction_sense-0092",
+      "obfus_direction_sense-0095",
+      "obfus_direction_sense-0099",
+      "obfus_direction_sense-0101",
+      "obfus_direction_sense-0105",
+      "obfus_direction_sense-0107",
+      "obfus_direction_sense-0109",
+      "obfus_direction_sense-0114",
+      "obfus_direction_sense-0119",
+      "obfus_direction_sense-0120"
+    ]
+  },
+  "method_task_matrix": {
+    "normalize_then_solve": {
+      "obfus_fol": [
+        "base",
+        "obfuscation"
+      ],
+      "obfus_blood_relation": [
+        "base",
+        "obfuscation_l1",
+        "obfuscation_l2"
+      ]
+    },
+    "structured_decomposition": {
+      "obfus_blood_relation": [
+        "base",
+        "obfuscation_l1",
+        "obfuscation_l2"
+      ],
+      "obfus_direction_sense": [
+        "base",
+        "obfuscation"
+      ]
+    },
+    "explicit_task_instructions": {
+      "obfus_number_series": [
+        "base",
+        "obfuscation"
+      ],
+      "obfus_direction_sense": [
+        "base",
+        "obfuscation"
+      ]
+    },
+    "chain_of_thought": {
+      "obfus_fol": [
+        "base",
+        "obfuscation"
+      ],
+      "obfus_blood_relation": [
+        "base",
+        "obfuscation_l1",
+        "obfuscation_l2"
+      ],
+      "obfus_number_series": [
+        "base",
+        "obfuscation"
+      ],
+      "obfus_direction_sense": [
+        "base",
+        "obfuscation"
+      ]
+    },
+    "rereading_s2a": {
+      "obfus_fol": [
+        "base",
+        "obfuscation"
+      ],
+      "obfus_blood_relation": [
+        "base",
+        "obfuscation_l2"
+      ]
+    },
+    "self_consistency": {
+      "obfus_fol": [
+        "base",
+        "obfuscation"
+      ],
+      "obfus_blood_relation": [
+        "base",
+        "obfuscation_l1",
+        "obfuscation_l2"
+      ],
+      "obfus_number_series": [
+        "base",
+        "obfuscation"
+      ],
+      "obfus_direction_sense": [
+        "base",
+        "obfuscation"
+      ]
+    },
+    "self_verification_cove": {
+      "obfus_fol": [
+        "base",
+        "obfuscation"
+      ],
+      "obfus_blood_relation": [
+        "base",
+        "obfuscation_l1",
+        "obfuscation_l2"
+      ],
+      "obfus_number_series": [
+        "base",
+        "obfuscation"
+      ],
+      "obfus_direction_sense": [
+        "base",
+        "obfuscation"
+      ]
+    }
+  },
+  "evaluation_units": {
+    "normalize_then_solve": 250,
+    "structured_decomposition": 250,
+    "explicit_task_instructions": 200,
+    "chain_of_thought": 450,
+    "rereading_s2a": 200,
+    "self_consistency": 450,
+    "self_verification_cove": 450
+  },
+  "prepared_queue_rows": {
+    "normalize_then_solve": 250,
+    "structured_decomposition": 250,
+    "explicit_task_instructions": 200,
+    "chain_of_thought": 450,
+    "rereading_s2a": 200,
+    "self_consistency_path_1": 450,
+    "self_consistency_path_2": 450,
+    "self_consistency_path_3": 450,
+    "self_verification_cove_initial": 450
+  },
+  "prepared_model_responses": 3150,
+  "pending_cove_verification_responses": 450,
+  "total_planned_model_responses": 3600,
+  "final_status": "complete",
+  "completed_evaluation_units": 2250,
+  "completed_model_responses": 3600,
+  "dataset_sha256": {
+    "chain_of_thought.csv": "df8559b00776c5aa4c26a4f1dcfcaa7559564fdcf4bd8b831c1efaa6eac44792",
+    "explicit_task_instructions.csv": "62d6eb80a8cc19675e6c91666d458d766e252b10b8cbec2ba016d529c0de5296",
+    "normalize_then_solve.csv": "399801a672ca4cfa77876a18b2e1ddfa0af4ad23c4f3339d22b9eeec946f5a1d",
+    "rereading_s2a.csv": "e32317cb7285fa9f877966fe0a399ae41d29683c9921e64f130156f897d9f52c",
+    "self_consistency_path_1.csv": "6782f388c99b8d52de286cbda9c3a5d12c5dadde9a810f42b2b205212d071462",
+    "self_consistency_path_2.csv": "aa95057d40f9d67640129d3956dd4928e2c302b65a89f276356a1b46f7de436d",
+    "self_consistency_path_3.csv": "46b69b590265da5f32e202dabc04911d7546b9d8679f157f33b1834737a134d0",
+    "self_verification_cove_initial.csv": "b73906b75dff61e1abffef8267ca725cebfad7253d4b166ec9f25d34a6245b97",
+    "self_verification_cove_verification.csv": "aadc07cab44e46f9e3e85da806ae1309ba06cf83a89ea7152911393e229dcac3",
+    "structured_decomposition.csv": "ee5431c73a8e5cc4702a74c842cd7cc7538fcca9410d8de8ad7394a35eb9d861"
+  },
+  "note": "No gold answers or correctness labels are included. CoVe verification is built only after all initial responses are retained."
+}

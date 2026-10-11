@@ -11,7 +11,7 @@
 - Failures: parse failures and no-consensus outcomes remain in the denominator as incorrect.
 - Number Series: selected test items exclude the known non-equivalent transformations.
 
-The [public sample manifest](../experiments/common/data/sample_manifest.json)
+The [public sample manifest](../experiments/deepseek_v4_1_flash_15/shared/data/sample_manifest.json)
 contains item identifiers and the demonstration/test split without answers. The
-[prompt templates](../experiments/common/prompts/prompt_templates.json) are the
+[prompt templates](../experiments/deepseek_v4_1_flash_15/shared/prompts/prompt_templates.json) are the
 frozen prompts used by the run.

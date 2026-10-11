@@ -28,4 +28,10 @@ jobs:
         shell: bash
         run: |
           python -m pip install pytest
-          python -m pytest experiments/common/tests/test_suite.py -q
+          python -m pytest experiments/deepseek_v4_1_flash_15/shared/tests/test_suite.py -q
+          python -m pytest experiments/gpt_5_6_sol_high_50/assigned/tests experiments/gpt_5_6_sol_high_50/tier1/tests -q
+          python -m pytest experiments/gpt_6_sol_medium_50/assigned/tests experiments/gpt_6_sol_medium_50/tier1/tests -q
+          python experiments/gpt_5_6_sol_high_50/assigned/src/publication_audit.py > /dev/null
+          python experiments/gpt_5_6_sol_high_50/tier1/src/publication_audit.py > /dev/null
+          python experiments/gpt_6_sol_medium_50/assigned/src/publication_audit.py > /dev/null
+          python experiments/gpt_6_sol_medium_50/tier1/src/publication_audit.py > /dev/null

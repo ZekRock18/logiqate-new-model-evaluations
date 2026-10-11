@@ -18,5 +18,5 @@ Key observations:
 These are 15-item-per-task pilot estimates. Raw counts should accompany
 percentages, and small differences should not be treated as stable effects.
 
-See the [full aggregate report](../experiments/common/results/REPORT.md) and
-[machine-readable tables](../experiments/common/results/).
+See the [full aggregate report](../experiments/deepseek_v4_1_flash_15/shared/results/REPORT.md) and
+[machine-readable tables](../experiments/deepseek_v4_1_flash_15/shared/results/).

@@ -1,128 +1,32 @@
-# LogiQAte evaluations on new models
+# LogiQAte: evaluations on new models
 
-This repository collects new-model evaluations for *Don't Judge a Book by its
-Cover: Testing LLMs' Robustness Under Logical Obfuscation* (Borah et al., EACL
-2026). Each model is tested on the same fixed sample and stored in its own
-folder with the prompts, raw submitted answers, and scored analysis.
+This repository studies whether prompting can help language models answer questions whose logical structure has been obscured. It extends the work in *Don't Judge a Book by its Cover: Testing LLMs' Robustness Under Logical Obfuscation* (Borah et al., EACL 2026). The repository contains several **different runs**, so do not assume every model used the same sample size or method set.
 
-## Completed models
+**Start with the [model experiment index](experiments/README.md).** Choose a model, then a prompting method. Each guide points to the public inputs, recorded answers, analysis, notebook, and limitations. The [project wiki](wiki/Home.md) explains the broader protocol and lists the public artifacts.
 
-| Model | Responses | Accuracy | ZS degradation | FS degradation | CoT degradation | Report |
-| --- | ---: | ---: | ---: | ---: | ---: | --- |
-| Claude Fable 5.1 High | 1,350/1,350 | 59.48% | -28.46% | -24.84% | -29.18% | [Open report](claude_fable_5.1_high/Result/Analysis/REPORT.md) |
+## What is here?
 
-## Prompt-mitigation experiments
+| Study | Scope | Guide |
+| --- | --- | --- |
+| Claude Fable 5.1 High | 50 questions per task; zero-shot, few-shot, and chain-of-thought evaluation | [Claude report](claude_fable_5.1_high/Result/Analysis/REPORT.md) |
+| DeepSeek-V4.1-Flash | 15-question-per-task prompt-mitigation pilot; three assigned prompts and seven Tier-1 methods | [DeepSeek pilot](experiments/deepseek_v4_1_flash_15/) |
+| GPT-5.6 Sol (high) | 50-question-per-task mitigation study; fresh control, three assigned prompts, seven Tier-1 methods | [GPT-5.6 study](experiments/gpt_5_6_sol_high_50/) |
+| GPT-6 Sol (medium) | Same fixed 50-question sample and method set, with fresh model responses | [GPT-6 study](experiments/gpt_6_sol_medium_50/) |
+| Llama, Phi, Qwen | Supplied runs for selected methods; not all ten methods are present | [Available runs](experiments/README.md) |
 
-The completed [GPT-6 Sol medium full-50 study](experiments/gpt_sol_6_medium_full_50/)
-repeats the three assigned prompting experiments and all seven Tier-1 methods:
-4,800 fresh raw responses, 3,450 scored evaluation units, executed notebooks,
-and publication audits. On the common 250 obfuscated targets, the fresh
-zero-shot control scored 64.0%; obfuscated few-shot scored 64.4%, paired
-few-shot 61.6%, and analogical prompting 48.4%. Its [Tier-1 extension](experiments/gpt_sol_6_medium_full_50/Tier1/)
-reports matched-cell comparisons for all seven methods. The small positive
-changes are descriptive; runtime context and scoring limitations are documented
-in the package.
+On the common 250 obfuscated targets, GPT-6 Sol's fresh zero-shot control scored 160/250 (64.0%). Obfuscated few-shot scored 161/250 (64.4%), paired few-shot 154/250 (61.6%), and analogical prompting 121/250 (48.4%). GPT-5.6 Sol's corresponding control scored 163/250 (65.2%). Its strongest full-matrix Tier-1 result was Chain of Thought at 176/250 (70.4%). These are descriptive results from this repository's scoring rules, **not** claims that a small difference will generalize.
 
-The completed [GPT Sol 5.6 High full-50 study](experiments/gpt_sol_5.6_high_assigned_50/)
-contains 1,200 fresh responses: a 450-response matched zero-shot control and
-three 250-response assigned mitigation conditions. On the shared 250
-obfuscated targets, the corrected control scored 65.2%; obfuscated few-shot and
-analogical prompting each scored 60.0%, while paired base-to-obfuscated
-few-shot scored 61.2%. None improved aggregate accuracy over the fresh
-control. The package includes executed notebooks, public prompts and answers,
-aggregate scoring outputs, provenance, tests and a publication audit.
+## How to read a method folder
 
-Its completed [full-50 Tier-1 extension](experiments/gpt_sol_5.6_high_assigned_50/Tier1/)
-adds all seven prompting methods: 2,250 scored evaluation units from 3,600 raw
-generations. On the complete 250-question obfuscated matrix, Chain of Thought
-scored 176/250 (70.4%), improving on the matched control by 5.2 percentage
-points; Self-Consistency scored 64.8% and CoVe scored 65.2%.
+- **Dataset/input:** the question and prompt given to the model. Public GPT queues have no gold answers.
+- **Result:** the recorded model response. Multi-pass methods retain their separate paths or stages.
+- **Analysis:** aggregate accuracy and matched-control comparisons. Check the denominator and task variants before comparing methods.
+- **Notebook and source:** the procedure used to prepare, run, or inspect the experiment. The GPT packages also contain validation tests and publication audits.
 
-The [`experiments/`](experiments/) section contains the completed 15-item-per-task
-prompt-mitigation study on `deepseek-ai/DeepSeek-V4.1-Flash`. It includes the
-three supervisor-assigned experiments, all seven Tier 1 prompting methods, the
-matched zero-shot control, executed notebooks, aggregate results, public sample
-metadata, versioned prompt templates and validation code.
+Shared controls, manifests, reusable code, and audits sit at the model/package level so large CSVs do not appear twice. Method READMEs link to the exact files. The DeepSeek pilot uses 15 questions per task; the GPT studies use 50. Some Llama, Phi, and Qwen folders contain only three or four methods. Missing methods are not zero scores.
 
-The public package intentionally excludes credentials, private scoring
-manifests, row-level gold-answer files and raw provider transcripts.
+## Reproducibility and release boundary
 
-The version-controlled [project wiki](wiki/Home.md) provides a guided index to
-the protocol, all ten methods, results, reproducibility controls, public logs
-and the complete public-artifact inventory.
+The two GPT studies used Codex model aliases, not dated snapshot-pinned API calls. The runtime did not expose all sampling settings or request IDs; see each run's provenance and context limitations before making cross-model claims. The Claude study has its own [row-by-row runner](claude_fable_5.1_high/run_row_by_row.py) and [report](claude_fable_5.1_high/Result/Analysis/REPORT.md).
 
-Fable has the **4th-smallest mean degradation of 11 models** when placed beside
-the ten models reported in the paper. The full ranked table and comparison
-limitations are in [PAPER_COMPARISON.md](claude_fable_5.1_high/Result/Analysis/PAPER_COMPARISON.md).
-
-## Evaluation design
-
-Every model receives the same 50 underlying questions from each of four task
-families:
-
-- first-order logic: base and obfuscated;
-- blood relations: base, level-1 obfuscation, and level-2 obfuscation;
-- number series: base and obfuscated; and
-- direction sense: base and obfuscated.
-
-Every form is evaluated with zero-shot, few-shot, and chain-of-thought
-prompting. This produces **1,350 response rows per model** from 200 underlying
-questions.
-
-## Repository structure
-
-~~~text
-.
-├── README.md
-└── <model_name>/
-    ├── Dataset/               fixed input CSV files
-    ├── Result/                submitted answers
-    │   └── Analysis/          report, workbook, aggregates, and row evidence
-    ├── START.md               prompt for a coding agent
-    └── run_row_by_row.py      UTF-8-safe durable queue
-~~~
-
-The result CSVs are the raw model submissions. scored_responses.csv records the
-row-level judgment, incorrect_responses.csv isolates failures, summary.json
-provides machine-readable aggregates, and ANALYSIS_REPORT.xlsx is the
-spreadsheet version.
-
-## Validate a completed model
-
-Python 3.10 or newer is recommended. The queue runner uses only the standard
-library, so no package installation or API key is required.
-
-~~~bash
-python -X utf8 claude_fable_5.1_high/run_row_by_row.py status --strict
-~~~
-
-The command must report 1,350/1,350 resolved rows and exit successfully.
-
-## Add another model
-
-Create a new model-named folder with the same four files under Dataset/, a copy
-of run_row_by_row.py, and START.md. Begin with an empty Result/ directory, then
-give START.md to the coding agent being evaluated. The runner checkpoints every
-answer atomically and maintains a recovery journal, so another session can
-safely resume.
-
-Keep these controls consistent across models:
-
-- do not change the sampled rows, prompts, response IDs, or order;
-- let the evaluated model reason about each row itself;
-- do not use regex solvers, hard-coded maps, external decoders, web search, or
-  another model/API;
-- do not show the model an answer key or another model's results; and
-- publish a model folder only after status --strict succeeds and its results
-  have been scored.
-
-## Interpretation warning
-
-The paper evaluates 1,108 underlying questions, while these runs use a fixed
-sample of 50 questions per task. In addition, agent runs process rows
-sequentially in a persistent session rather than through isolated API calls.
-Relative degradation is more useful than raw accuracy for comparison, but these
-runs should be described as an extension—not a strict reproduction of the
-paper's protocol.
-
-No API keys or credentials are included in this repository.
+Public packages intentionally omit API credentials, private answer keys, private scoring manifests, and row-level gold correctness labels. The GPT packages publish prompts, submitted responses, aggregate scores, executed notebooks, and publication audits. These studies extend the paper; they are not a strict reproduction of its full 1,108-question evaluation.
