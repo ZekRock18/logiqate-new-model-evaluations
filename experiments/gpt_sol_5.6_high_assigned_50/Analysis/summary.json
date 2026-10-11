@@ -1,0 +1,38 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "high",
+  "control_responses": 450,
+  "new_responses": 1200,
+  "total_evaluation_units": 1200,
+  "scoring_policy": "Repository canonical task normalizers; direction distance tolerance is 0.05.",
+  "condition_totals": [
+    {
+      "condition": "zero_shot_control",
+      "scope": "obfuscated variants",
+      "correct": 161,
+      "total": 250,
+      "accuracy_pct": 64.4
+    },
+    {
+      "condition": "obf_to_obf_few_shot",
+      "scope": "obfuscated variants",
+      "correct": 150,
+      "total": 250,
+      "accuracy_pct": 60.0
+    },
+    {
+      "condition": "base_to_obf_paired_few_shot",
+      "scope": "obfuscated variants",
+      "correct": 153,
+      "total": 250,
+      "accuracy_pct": 61.2
+    },
+    {
+      "condition": "analogical_prompting",
+      "scope": "obfuscated variants",
+      "correct": 150,
+      "total": 250,
+      "accuracy_pct": 60.0
+    }
+  ]
+}

@@ -13,6 +13,15 @@ folder with the prompts, raw submitted answers, and scored analysis.
 
 ## Prompt-mitigation experiments
 
+The completed [GPT Sol 5.6 High full-50 study](experiments/gpt_sol_5.6_high_assigned_50/)
+contains 1,200 fresh responses: a 450-response matched zero-shot control and
+three 250-response assigned mitigation conditions. On the shared 250
+obfuscated targets, the control scored 64.4%; obfuscated few-shot and
+analogical prompting each scored 60.0%, while paired base-to-obfuscated
+few-shot scored 61.2%. None improved aggregate accuracy over the fresh
+control. The package includes executed notebooks, public prompts and answers,
+aggregate scoring outputs, provenance, tests and a publication audit.
+
 The [`experiments/`](experiments/) section contains the completed 15-item-per-task
 prompt-mitigation study on `deepseek-ai/DeepSeek-V4.1-Flash`. It includes the
 three supervisor-assigned experiments, all seven Tier 1 prompting methods, the

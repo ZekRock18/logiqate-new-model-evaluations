@@ -1,0 +1,16 @@
+{
+  "version": "gpt56-assigned-v1",
+  "final_marker": "FINAL_ANSWER:",
+  "task_instructions": {
+    "obfus_fol": "Determine whether the conclusion is logically entailed by the premises. The final answer must be exactly TRUE or FALSE.",
+    "obfus_blood_relation": "Determine the requested family relationship. The final answer must be one relationship label only.",
+    "obfus_number_series": "Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.",
+    "obfus_direction_sense": "Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit."
+  },
+  "templates": {
+    "zero_shot_control": "{task_instruction}\n\nTARGET PROBLEM\n{question}\n\nDo not show reasoning. The entire response must be exactly one line:\nFINAL_ANSWER: <answer>",
+    "obf_to_obf_few_shot": "The following solved examples come from the obfuscated distribution. Learn the task from them.\n\n{demonstrations}\n\n{task_instruction}\n\nTARGET PROBLEM\n{question}\n\nDo not show reasoning. The entire response must be exactly one line:\nFINAL_ANSWER: <answer>",
+    "base_to_obf_paired_few_shot": "Each demonstration links a clean problem to its logically equivalent obfuscated form. Both forms have the same answer. Learn this invariance and apply it to the target obfuscated problem.\n\n{demonstrations}\n\n{task_instruction}\n\nTARGET OBFUSCATED PROBLEM\n{question}\n\nDo not show reasoning. The entire response must be exactly one line:\nFINAL_ANSWER: <answer>",
+    "analogical_prompting": "First construct or recall one structurally similar problem, solve that analogy, identify the transferable structure, and then solve the target. Keep the analogy concise and do not assume facts absent from the target.\n\n{task_instruction}\n\nTARGET PROBLEM\n{question}\n\nKeep the entire response under 250 words. End with a separate line in exactly this form:\nFINAL_ANSWER: <answer>"
+  }
+}

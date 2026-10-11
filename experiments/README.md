@@ -2,6 +2,17 @@
 
 This directory contains the prompt-level mitigation study for LogiQAte using `deepseek-ai/DeepSeek-V4.1-Flash` through DeepInfra.
 
+## GPT Sol full-50 assigned experiments
+
+[`gpt_sol_5.6_high_assigned_50/`](gpt_sol_5.6_high_assigned_50/) expands the
+three assigned methods to 50 questions per task with `gpt-5.6-sol` at high
+reasoning effort. It contains 1,200 fresh responses, including a 450-response
+matched control. On the common 250 obfuscated targets, the control scored
+161/250 (64.4%); obfuscated few-shot scored 150/250 (60.0%), paired few-shot
+153/250 (61.2%), and analogical prompting 150/250 (60.0%). The package records
+the agent-runtime and context-isolation limitations needed to interpret these
+results.
+
 ## Scope
 
 - 15 deterministic test questions per task, seed `20261006`.

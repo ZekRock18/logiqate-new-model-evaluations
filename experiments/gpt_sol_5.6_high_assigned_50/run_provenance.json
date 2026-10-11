@@ -1,0 +1,26 @@
+{
+  "model": "gpt-5.6-sol",
+  "model_snapshot": null,
+  "reasoning_effort": "high",
+  "execution_mode": "Codex subagent queue with an explicit model override",
+  "provider_request_ids_available": false,
+  "sampling_parameters_available": false,
+  "run_date_utc": "2026-10-11",
+  "prompt_version": "gpt56-assigned-v1",
+  "control": {
+    "status": "fresh matched queue",
+    "responses": 450
+  },
+  "new_conditions": {
+    "zero_shot_control": 450,
+    "obf_to_obf_few_shot": 250,
+    "base_to_obf_paired_few_shot": 250,
+    "analogical_prompting": 250
+  },
+  "dataset_sha256": {
+    "analogical_prompting.csv": "7699ea287aaf2a8ea685564a2b3dcb3f34106393ae9216e31963dadbc8828b58",
+    "base_to_obf_paired_few_shot.csv": "96b2b0f431f6c56f323d1c7d7f63d3b6e545ce9f013c0e2632fe664ef92edaeb",
+    "obf_to_obf_few_shot.csv": "1f0a7947726af2b7a5f190cdd203eeb5db60c91ffb018047bae43d2ba939ab52",
+    "zero_shot_control.csv": "d2e40b290f1aa0e133041c6fc17ba5ff6840438a81d3d0f0eb00ea339d7f0ece"
+  }
+}

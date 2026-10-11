@@ -1,0 +1,16 @@
+condition,task,variant,method_correct,control_correct,total,method_accuracy_pct,control_accuracy_pct,improvement_pp
+analogical_prompting,obfus_blood_relation,obfuscation_l1,34,35,50,68.0,70.0,-2.0
+analogical_prompting,obfus_blood_relation,obfuscation_l2,35,36,50,70.0,72.0,-2.0
+analogical_prompting,obfus_direction_sense,obfuscation,18,18,50,36.0,36.0,0.0
+analogical_prompting,obfus_fol,obfuscation,28,30,50,56.0,60.0,-4.0
+analogical_prompting,obfus_number_series,obfuscation,35,42,50,70.0,84.0,-14.0
+base_to_obf_paired_few_shot,obfus_blood_relation,obfuscation_l1,35,35,50,70.0,70.0,0.0
+base_to_obf_paired_few_shot,obfus_blood_relation,obfuscation_l2,35,36,50,70.0,72.0,-2.0
+base_to_obf_paired_few_shot,obfus_direction_sense,obfuscation,19,18,50,38.0,36.0,2.0
+base_to_obf_paired_few_shot,obfus_fol,obfuscation,31,30,50,62.0,60.0,2.0
+base_to_obf_paired_few_shot,obfus_number_series,obfuscation,33,42,50,66.0,84.0,-18.0
+obf_to_obf_few_shot,obfus_blood_relation,obfuscation_l1,32,35,50,64.0,70.0,-6.0
+obf_to_obf_few_shot,obfus_blood_relation,obfuscation_l2,33,36,50,66.0,72.0,-6.0
+obf_to_obf_few_shot,obfus_direction_sense,obfuscation,18,18,50,36.0,36.0,0.0
+obf_to_obf_few_shot,obfus_fol,obfuscation,30,30,50,60.0,60.0,0.0
+obf_to_obf_few_shot,obfus_number_series,obfuscation,37,42,50,74.0,84.0,-10.0

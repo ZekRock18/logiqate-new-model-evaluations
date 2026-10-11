@@ -20,3 +20,10 @@ Thumbs.db
 *.tmp
 ~$*
 
+# Private evaluation labels and row-level scoring evidence
+**/private_do_not_upload/
+**/answer_key.json
+**/scoring_manifest.json
+**/scored_responses.csv
+**/incorrect_responses.csv
+
