@@ -4,17 +4,21 @@
 
 - [Repository README](../README.md)
 - [Experiment suite README](../experiments/README.md)
+- [Project state and handoff](../PROJECT_MEMORY.md)
+- [GPT-5.6 model guide](../experiments/gpt_5_6_sol_high_50/README.md)
+- [GPT-6 model guide](../experiments/gpt_6_sol_medium_50/README.md)
+- [Llama, Phi, and Qwen model guides](../experiments/README.md)
 - [Shared protocol README](../experiments/deepseek_v4_1_flash_15/shared/README.md)
 - [Aggregate results report](../experiments/deepseek_v4_1_flash_15/shared/results/REPORT.md)
 - [Public logs README](../experiments/deepseek_v4_1_flash_15/provenance/README.md)
 
-## Assigned experiments
+## DeepSeek pilot: assigned experiments
 
 - [Experiment 1](../experiments/deepseek_v4_1_flash_15/assigned/01_obf_to_obf_few_shot/README.md)
 - [Experiment 2](../experiments/deepseek_v4_1_flash_15/assigned/02_base_to_obf_paired_few_shot/README.md)
 - [Experiment 3](../experiments/deepseek_v4_1_flash_15/assigned/03_analogical_prompting/README.md)
 
-## Tier 1 methods
+## DeepSeek pilot: Tier-1 methods
 
 - [Tier 1 index](../experiments/deepseek_v4_1_flash_15/tier1/README.md)
 - [Normalize Then Solve](../experiments/deepseek_v4_1_flash_15/tier1/01_normalize_then_solve/README.md)

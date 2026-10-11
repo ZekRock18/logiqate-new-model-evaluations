@@ -1,4 +1,6 @@
-# Study Protocol
+# DeepSeek pilot study protocol
+
+These settings describe the 15-question DeepSeek pilot, not the later GPT or Ollama runs. For their settings, open the relevant [model guide](../experiments/README.md).
 
 - Model: `deepseek-ai/DeepSeek-V4.1-Flash` through DeepInfra's OpenAI-compatible Chat Completions API.
 - Sample: 15 deterministic test questions per task.

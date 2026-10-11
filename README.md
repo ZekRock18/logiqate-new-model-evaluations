@@ -2,7 +2,7 @@
 
 This repository studies whether prompting can help language models answer questions whose logical structure has been obscured. It extends the work in *Don't Judge a Book by its Cover: Testing LLMs' Robustness Under Logical Obfuscation* (Borah et al., EACL 2026). The repository contains several **different runs**, so do not assume every model used the same sample size or method set.
 
-**Start with the [model experiment index](experiments/README.md).** Choose a model, then a prompting method. Each guide points to the public inputs, recorded answers, analysis, notebook, and limitations. The [project wiki](wiki/Home.md) explains the broader protocol and lists the public artifacts.
+**Start with the [model experiment index](experiments/README.md).** Choose a model, then a prompting method. Each guide points to the public inputs, recorded answers, analysis, notebook, and limitations. The [project wiki](wiki/Home.md) explains the pilot protocol and lists public artifacts. The [project-state note](PROJECT_MEMORY.md) records the current layout, checks, and handoff cautions.
 
 ## What is here?
 

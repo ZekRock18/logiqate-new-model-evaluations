@@ -1,7 +1,9 @@
 # LogiQAte New-Model Evaluations Wiki
 
-This wiki is the guided entry point for the completed prompt-mitigation study
-on `deepseek-ai/DeepSeek-V4.1-Flash`.
+This wiki explains the prompt-mitigation work. Its detailed protocol and
+method pages describe the 15-question DeepSeek pilot. The [model index](../experiments/README.md)
+also covers the later 50-question GPT studies and the available Llama, Phi,
+and Qwen runs; their own READMEs contain the model-specific results.
 
 ## Start here
 
@@ -11,6 +13,7 @@ on `deepseek-ai/DeepSeek-V4.1-Flash`.
 - [Results and interpretation](Results-and-Interpretation.md)
 - [Reproducibility and logs](Reproducibility-and-Logs.md)
 - [Complete public artifact index](Artifact-Index.md)
+- [Current project state and handoff](../PROJECT_MEMORY.md)
 
 The full experiment package lives in [`experiments/`](../experiments/README.md).
 Credentials, private answer keys, row-level scored outputs and raw provider

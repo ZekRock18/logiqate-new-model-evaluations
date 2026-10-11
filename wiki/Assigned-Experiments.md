@@ -1,4 +1,4 @@
-# Three Assigned Experiments
+# Three assigned experiments in the DeepSeek pilot
 
 ## Experiment 1: Obfuscated-to-Obfuscated Few-Shot
 

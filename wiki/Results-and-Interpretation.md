@@ -1,4 +1,4 @@
-# Results and Interpretation
+# DeepSeek pilot results and interpretation
 
 The run completed all 1,035 expected evaluation units. The zero-shot control
 scored 62/135 overall and 25/75 on the obfuscated cells matched to the three

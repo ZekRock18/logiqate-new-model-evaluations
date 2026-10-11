@@ -7,3 +7,4 @@
 - [Results](Results-and-Interpretation.md)
 - [Reproducibility and Logs](Reproducibility-and-Logs.md)
 - [Artifact Index](Artifact-Index.md)
+- [Project State](../PROJECT_MEMORY.md)

@@ -1,4 +1,4 @@
-# Seven Tier 1 Methods
+# Seven Tier-1 methods in the DeepSeek pilot
 
 1. [Normalize Then Solve](../experiments/deepseek_v4_1_flash_15/tier1/01_normalize_then_solve/README.md) — reconstruct a clean representation before solving.
 2. [Structured Decomposition](../experiments/deepseek_v4_1_flash_15/tier1/02_structured_decomposition/README.md) — extract entities, relations and constraints into a fixed structure.
