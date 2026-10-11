@@ -1,0 +1,15 @@
+condition,scope,correct,total,accuracy_pct
+normalize_then_solve,all applicable variants,179,250,71.6
+normalize_then_solve,obfuscated variants,98,150,65.3333
+structured_decomposition,all applicable variants,160,250,64.0
+structured_decomposition,obfuscated variants,92,150,61.3333
+explicit_task_instructions,all applicable variants,140,200,70.0
+explicit_task_instructions,obfuscated variants,69,100,69.0
+chain_of_thought,all applicable variants,312,450,69.3333
+chain_of_thought,obfuscated variants,161,250,64.4
+rereading_s2a,all applicable variants,138,200,69.0
+rereading_s2a,obfuscated variants,60,100,60.0
+self_consistency,all applicable variants,308,450,68.4444
+self_consistency,obfuscated variants,160,250,64.0
+self_verification_cove,all applicable variants,279,450,62.0
+self_verification_cove,obfuscated variants,139,250,55.6

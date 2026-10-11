@@ -1,0 +1,12 @@
+{
+  "self_consistency_evaluations": 450,
+  "self_consistency_raw_paths": 1350,
+  "self_consistency_agreement": {
+    "unanimous": 361,
+    "majority": 63,
+    "none": 26
+  },
+  "cove_evaluations": 450,
+  "cove_raw_passes": 900,
+  "cove_answers_changed": 51
+}

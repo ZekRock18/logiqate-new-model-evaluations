@@ -4,6 +4,16 @@ This directory contains the prompt-level mitigation study for LogiQAte using `de
 
 ## GPT Sol full-50 assigned experiments
 
+[`gpt_sol_6_medium_full_50/`](gpt_sol_6_medium_full_50/) repeats the assigned
+experiments and [seven Tier-1 methods](gpt_sol_6_medium_full_50/Tier1/) on the
+fixed 50-item sample with `gpt-6-sol` at medium reasoning effort. The run has
+4,800 fresh raw responses and 3,450 scored evaluations. On the 250 common
+obfuscated targets, the fresh control scored 160/250 (64.0%), obfuscated
+few-shot 161/250 (64.4%), paired few-shot 154/250 (61.6%), and analogical
+prompting 121/250 (48.4%). The package includes raw responses, executed
+notebooks, analysis, tests, and publication audits. See its caveats on CLI
+batch context and unavailable sampling metadata before comparing models.
+
 [`gpt_sol_5.6_high_assigned_50/`](gpt_sol_5.6_high_assigned_50/) expands the
 three assigned methods to 50 questions per task with `gpt-5.6-sol` at high
 reasoning effort. It contains 1,200 fresh responses, including a 450-response

@@ -13,6 +13,16 @@ folder with the prompts, raw submitted answers, and scored analysis.
 
 ## Prompt-mitigation experiments
 
+The completed [GPT-6 Sol medium full-50 study](experiments/gpt_sol_6_medium_full_50/)
+repeats the three assigned prompting experiments and all seven Tier-1 methods:
+4,800 fresh raw responses, 3,450 scored evaluation units, executed notebooks,
+and publication audits. On the common 250 obfuscated targets, the fresh
+zero-shot control scored 64.0%; obfuscated few-shot scored 64.4%, paired
+few-shot 61.6%, and analogical prompting 48.4%. Its [Tier-1 extension](experiments/gpt_sol_6_medium_full_50/Tier1/)
+reports matched-cell comparisons for all seven methods. The small positive
+changes are descriptive; runtime context and scoring limitations are documented
+in the package.
+
 The completed [GPT Sol 5.6 High full-50 study](experiments/gpt_sol_5.6_high_assigned_50/)
 contains 1,200 fresh responses: a 450-response matched zero-shot control and
 three 250-response assigned mitigation conditions. On the shared 250

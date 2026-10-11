@@ -1,0 +1,37 @@
+{
+  "model": "gpt-6-sol",
+  "model_snapshot": null,
+  "reasoning_effort": "medium",
+  "execution_mode": "Codex subagent queues and isolated Codex CLI batch sessions with explicit model override",
+  "cli_max_items_per_session": 8,
+  "cli_model_reasoning_effort": "medium",
+  "context_isolation_limitation": "Items in a CLI batch share one session; persistent subagents can retain prior queue context.",
+  "assigned_response_retention": "The queue records the model-generated FINAL_ANSWER line. Multi-line analogy process text is not retained.",
+  "response_routes": {
+    "zero_shot_control": "450 Codex subagent responses",
+    "obf_to_obf_few_shot": "250 isolated Codex CLI responses",
+    "base_to_obf_paired_few_shot": "250 isolated Codex CLI responses",
+    "analogical_prompting": "250 isolated Codex CLI responses"
+  },
+  "provider_request_ids_available": false,
+  "sampling_parameters_available": false,
+  "run_date_utc": "2026-10-11",
+  "prompt_version": "gpt6-assigned-v1",
+  "dataset_hash_policy": "SHA-256 after CRLF-to-LF newline normalization",
+  "control": {
+    "status": "fresh matched queue",
+    "responses": 450
+  },
+  "new_conditions": {
+    "zero_shot_control": 450,
+    "obf_to_obf_few_shot": 250,
+    "base_to_obf_paired_few_shot": 250,
+    "analogical_prompting": 250
+  },
+  "dataset_sha256": {
+    "analogical_prompting.csv": "7451da7436d3164ed2e012f1c769aa6938c653f12592ba30018f7435799e4c04",
+    "base_to_obf_paired_few_shot.csv": "1ba28a8c85430a5c4859cc1c604934c064b76c4832cbb9fac14fe46fc060827c",
+    "obf_to_obf_few_shot.csv": "3ee3556bdec9ef2f2a0cc1093e506a93689e15a3987cdaed9c3ed59d63ffff3a",
+    "zero_shot_control.csv": "f8a60c404bdaed571ad027aa6f9e68293bd525433743cffb5d71e8aa1aadf1c4"
+  }
+}

@@ -1,0 +1,2201 @@
+﻿queue,condition,stage,path_index,row_number,response_id,evaluation_id,task,item_id,variant,prompt,depends_on_response_id,model_response
+explicit_task_instructions,explicit_task_instructions,single,,1,gpt6-tier1-explicit_task_instructions-number_series-0006-base,gpt6-tier1-explicit_task_instructions-number_series-0006-base,obfus_number_series,obfus_number_series-0006,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 13, 15, 21, 37, 77, 173, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,2,gpt6-tier1-explicit_task_instructions-number_series-0006-obf,gpt6-tier1-explicit_task_instructions-number_series-0006-obf,obfus_number_series,obfus_number_series-0006,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 13, Mercury Jupiter, 21, Earth Uranus, 77, 173, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,3,gpt6-tier1-explicit_task_instructions-number_series-0012-base,gpt6-tier1-explicit_task_instructions-number_series-0012-base,obfus_number_series,obfus_number_series-0012,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 9, 265, 393, 457, 489, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,4,gpt6-tier1-explicit_task_instructions-number_series-0012-obf,gpt6-tier1-explicit_task_instructions-number_series-0012-obf,obfus_number_series,obfus_number_series-0012,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Pluto, Venus Saturn Jupiter, Earth Pluto Earth, Mars Jupiter Uranus, Mars Neptune Pluto, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,5,gpt6-tier1-explicit_task_instructions-number_series-0019-base,gpt6-tier1-explicit_task_instructions-number_series-0019-base,obfus_number_series,obfus_number_series-0019,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 8, 39, 79, 394, 789, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,6,gpt6-tier1-explicit_task_instructions-number_series-0019-obf,gpt6-tier1-explicit_task_instructions-number_series-0019-obf,obfus_number_series,obfus_number_series-0019,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Neptune, Earth Pluto, Uranus Pluto, Earth Pluto Mars, Uranus Neptune Pluto, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,7,gpt6-tier1-explicit_task_instructions-number_series-0024-base,gpt6-tier1-explicit_task_instructions-number_series-0024-base,obfus_number_series,obfus_number_series-0024,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 31, 17, 26, 64.5, ?, 1006.6
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,8,gpt6-tier1-explicit_task_instructions-number_series-0024-obf,gpt6-tier1-explicit_task_instructions-number_series-0024-obf,obfus_number_series,obfus_number_series-0024,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Earth Mercury, Mercury Uranus, Venus Saturn, 64.5, ?, 1006.6
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,9,gpt6-tier1-explicit_task_instructions-number_series-0031-base,gpt6-tier1-explicit_task_instructions-number_series-0031-base,obfus_number_series,obfus_number_series-0031,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 5, 3, 6, 9, ?, 15
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,10,gpt6-tier1-explicit_task_instructions-number_series-0031-obf,gpt6-tier1-explicit_task_instructions-number_series-0031-obf,obfus_number_series,obfus_number_series-0031,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Jupiter, Earth, Saturn, Pluto, ?, 15
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,11,gpt6-tier1-explicit_task_instructions-number_series-0032-base,gpt6-tier1-explicit_task_instructions-number_series-0032-base,obfus_number_series,obfus_number_series-0032,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 11, 12, 15, 20, 27, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,12,gpt6-tier1-explicit_task_instructions-number_series-0032-obf,gpt6-tier1-explicit_task_instructions-number_series-0032-obf,obfus_number_series,obfus_number_series-0032,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 11, Mercury Venus, 15, 20, 27, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,13,gpt6-tier1-explicit_task_instructions-number_series-0038-base,gpt6-tier1-explicit_task_instructions-number_series-0038-base,obfus_number_series,obfus_number_series-0038,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 3, 4, 7, 8, 11, 12, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,14,gpt6-tier1-explicit_task_instructions-number_series-0038-obf,gpt6-tier1-explicit_task_instructions-number_series-0038-obf,obfus_number_series,obfus_number_series-0038,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 3, Mars, 7, 8, 11, 12, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,15,gpt6-tier1-explicit_task_instructions-number_series-0044-base,gpt6-tier1-explicit_task_instructions-number_series-0044-base,obfus_number_series,obfus_number_series-0044,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 15, 22, 40, 75, 133, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,16,gpt6-tier1-explicit_task_instructions-number_series-0044-obf,gpt6-tier1-explicit_task_instructions-number_series-0044-obf,obfus_number_series,obfus_number_series-0044,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Mercury Jupiter, Venus Venus, 40, Uranus Jupiter, 133, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,17,gpt6-tier1-explicit_task_instructions-number_series-0049-base,gpt6-tier1-explicit_task_instructions-number_series-0049-base,obfus_number_series,obfus_number_series-0049,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 824, 568, 793, 597, 766, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,18,gpt6-tier1-explicit_task_instructions-number_series-0049-obf,gpt6-tier1-explicit_task_instructions-number_series-0049-obf,obfus_number_series,obfus_number_series-0049,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Neptune Venus Mars, Jupiter Saturn Neptune, Uranus Pluto Earth, Jupiter Pluto Uranus, Uranus Saturn Saturn, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,19,gpt6-tier1-explicit_task_instructions-number_series-0056-base,gpt6-tier1-explicit_task_instructions-number_series-0056-base,obfus_number_series,obfus_number_series-0056,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 120, 145, ?, 197, 224, 257
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,20,gpt6-tier1-explicit_task_instructions-number_series-0056-obf,gpt6-tier1-explicit_task_instructions-number_series-0056-obf,obfus_number_series,obfus_number_series-0056,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Mercury Venus Sun, Mercury Mars Jupiter, ?, Mercury Pluto Uranus, Venus Venus Mars, Venus Jupiter Uranus
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,21,gpt6-tier1-explicit_task_instructions-number_series-0066-base,gpt6-tier1-explicit_task_instructions-number_series-0066-base,obfus_number_series,obfus_number_series-0066,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 3, 9, 24, 57, ?, 267, 552
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,22,gpt6-tier1-explicit_task_instructions-number_series-0066-obf,gpt6-tier1-explicit_task_instructions-number_series-0066-obf,obfus_number_series,obfus_number_series-0066,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Earth, 9, Venus Mars, Jupiter Uranus, ?, Venus Saturn Uranus, Jupiter Jupiter Venus
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,23,gpt6-tier1-explicit_task_instructions-number_series-0067-base,gpt6-tier1-explicit_task_instructions-number_series-0067-base,obfus_number_series,obfus_number_series-0067,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 5, 9, 13, 17, 21, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,24,gpt6-tier1-explicit_task_instructions-number_series-0067-obf,gpt6-tier1-explicit_task_instructions-number_series-0067-obf,obfus_number_series,obfus_number_series-0067,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 5, 9, Mercury Earth, Mercury Uranus, 21, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,25,gpt6-tier1-explicit_task_instructions-number_series-0069-base,gpt6-tier1-explicit_task_instructions-number_series-0069-base,obfus_number_series,obfus_number_series-0069,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 105, 118, 111.5, 124.5, 118, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,26,gpt6-tier1-explicit_task_instructions-number_series-0069-obf,gpt6-tier1-explicit_task_instructions-number_series-0069-obf,obfus_number_series,obfus_number_series-0069,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Mercury Sun Jupiter, Mercury Mercury Neptune, 111.5, 124.5, Mercury Mercury Neptune, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,27,gpt6-tier1-explicit_task_instructions-number_series-0070-base,gpt6-tier1-explicit_task_instructions-number_series-0070-base,obfus_number_series,obfus_number_series-0070,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 25, 33, 54, 99, 179, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,28,gpt6-tier1-explicit_task_instructions-number_series-0070-obf,gpt6-tier1-explicit_task_instructions-number_series-0070-obf,obfus_number_series,obfus_number_series-0070,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Venus Jupiter, Earth Earth, 54, 99, Mercury Uranus Pluto, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,29,gpt6-tier1-explicit_task_instructions-number_series-0081-base,gpt6-tier1-explicit_task_instructions-number_series-0081-base,obfus_number_series,obfus_number_series-0081,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 4, 5, 18, 19, 68, 69, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,30,gpt6-tier1-explicit_task_instructions-number_series-0081-obf,gpt6-tier1-explicit_task_instructions-number_series-0081-obf,obfus_number_series,obfus_number_series-0081,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Mars, 5, Mercury Neptune, 19, 68, 69, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,31,gpt6-tier1-explicit_task_instructions-number_series-0087-base,gpt6-tier1-explicit_task_instructions-number_series-0087-base,obfus_number_series,obfus_number_series-0087,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 62, 74, 80, 86, 95, ..., 158
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,32,gpt6-tier1-explicit_task_instructions-number_series-0087-obf,gpt6-tier1-explicit_task_instructions-number_series-0087-obf,obfus_number_series,obfus_number_series-0087,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 62, 74, Neptune Sun, Neptune Saturn, 95, ..., 158
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,33,gpt6-tier1-explicit_task_instructions-number_series-0089-base,gpt6-tier1-explicit_task_instructions-number_series-0089-base,obfus_number_series,obfus_number_series-0089,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 88, 115, 144, 175, 208, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,34,gpt6-tier1-explicit_task_instructions-number_series-0089-obf,gpt6-tier1-explicit_task_instructions-number_series-0089-obf,obfus_number_series,obfus_number_series-0089,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Neptune Neptune, Mercury Mercury Jupiter, Mercury Mars Mars, Mercury Uranus Jupiter, Venus Sun Neptune, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,35,gpt6-tier1-explicit_task_instructions-number_series-0102-base,gpt6-tier1-explicit_task_instructions-number_series-0102-base,obfus_number_series,obfus_number_series-0102,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 19, 32, 48, 71, 99, 134
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,36,gpt6-tier1-explicit_task_instructions-number_series-0102-obf,gpt6-tier1-explicit_task_instructions-number_series-0102-obf,obfus_number_series,obfus_number_series-0102,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 775 564, Earth Venus, 435 767, Uranus Mercury, 564 564, 775 532 435
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,37,gpt6-tier1-explicit_task_instructions-number_series-0104-base,gpt6-tier1-explicit_task_instructions-number_series-0104-base,obfus_number_series,obfus_number_series-0104,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 27, 35, 47, 63, 83, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,38,gpt6-tier1-explicit_task_instructions-number_series-0104-obf,gpt6-tier1-explicit_task_instructions-number_series-0104-obf,obfus_number_series,obfus_number_series-0104,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 561 670, 532 771, 435 670, 669 532, 767 532
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,39,gpt6-tier1-explicit_task_instructions-number_series-0105-base,gpt6-tier1-explicit_task_instructions-number_series-0105-base,obfus_number_series,obfus_number_series-0105,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 133, 207, 353, 501, 741, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,40,gpt6-tier1-explicit_task_instructions-number_series-0105-obf,gpt6-tier1-explicit_task_instructions-number_series-0105-obf,obfus_number_series,obfus_number_series-0105,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 775 532 532, 561 342 670, 532 771 532, 771 342 775, 670 435 775
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,41,gpt6-tier1-explicit_task_instructions-number_series-0117-base,gpt6-tier1-explicit_task_instructions-number_series-0117-base,obfus_number_series,obfus_number_series-0117,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 1, 2, 6, 15, ..., 56, 92
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,42,gpt6-tier1-explicit_task_instructions-number_series-0117-obf,gpt6-tier1-explicit_task_instructions-number_series-0117-obf,obfus_number_series,obfus_number_series-0117,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Mercury, 561, 669, Mercury Jupiter, Jupiter Saturn, Pluto Venus
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,43,gpt6-tier1-explicit_task_instructions-number_series-0121-base,gpt6-tier1-explicit_task_instructions-number_series-0121-base,obfus_number_series,obfus_number_series-0121,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 9, 11, 14, 16, 19, 21, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,44,gpt6-tier1-explicit_task_instructions-number_series-0121-obf,gpt6-tier1-explicit_task_instructions-number_series-0121-obf,obfus_number_series,obfus_number_series-0121,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Pluto, 775 775, Mercury Mars, Mercury Saturn, 775 564, Venus Mercury
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,45,gpt6-tier1-explicit_task_instructions-number_series-0135-base,gpt6-tier1-explicit_task_instructions-number_series-0135-base,obfus_number_series,obfus_number_series-0135,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 13, 17, 26, 42, 67, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,46,gpt6-tier1-explicit_task_instructions-number_series-0135-obf,gpt6-tier1-explicit_task_instructions-number_series-0135-obf,obfus_number_series,obfus_number_series-0135,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Mercury Earth, 775 670, Venus Saturn, 435 561, Saturn Uranus
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,47,gpt6-tier1-explicit_task_instructions-number_series-0146-base,gpt6-tier1-explicit_task_instructions-number_series-0146-base,obfus_number_series,obfus_number_series-0146,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 50, 45, 40, 35, 30, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,48,gpt6-tier1-explicit_task_instructions-number_series-0146-obf,gpt6-tier1-explicit_task_instructions-number_series-0146-obf,obfus_number_series,obfus_number_series-0146,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 771 342, Mars Jupiter, Mars Sun, Earth Jupiter, Earth Sun
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,49,gpt6-tier1-explicit_task_instructions-number_series-0147-base,gpt6-tier1-explicit_task_instructions-number_series-0147-base,obfus_number_series,obfus_number_series-0147,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 132, 156, ?, 210, 240, 272
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,50,gpt6-tier1-explicit_task_instructions-number_series-0147-obf,gpt6-tier1-explicit_task_instructions-number_series-0147-obf,obfus_number_series,obfus_number_series-0147,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Mercury Earth Venus, Mercury Jupiter Saturn, Venus Mercury Sun, 561 435 342, 561 670 561
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,51,gpt6-tier1-explicit_task_instructions-number_series-0152-base,gpt6-tier1-explicit_task_instructions-number_series-0152-base,obfus_number_series,obfus_number_series-0152,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 5, 36, 191, 966, ?, 24216
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,52,gpt6-tier1-explicit_task_instructions-number_series-0152-obf,gpt6-tier1-explicit_task_instructions-number_series-0152-obf,obfus_number_series,obfus_number_series-0152,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 771, 532 669, 775 564 775, 564 669 669, 561 435 561 775 669
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,53,gpt6-tier1-explicit_task_instructions-number_series-0158-base,gpt6-tier1-explicit_task_instructions-number_series-0158-base,obfus_number_series,obfus_number_series-0158,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 6, 11, 18, 27, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,54,gpt6-tier1-explicit_task_instructions-number_series-0158-obf,gpt6-tier1-explicit_task_instructions-number_series-0158-obf,obfus_number_series,obfus_number_series-0158,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Saturn, Mercury Mercury, 775 767, Venus Uranus
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,55,gpt6-tier1-explicit_task_instructions-number_series-0168-base,gpt6-tier1-explicit_task_instructions-number_series-0168-base,obfus_number_series,obfus_number_series-0168,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 11043, 11056, 11045, 11054, 11047, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,56,gpt6-tier1-explicit_task_instructions-number_series-0168-obf,gpt6-tier1-explicit_task_instructions-number_series-0168-obf,obfus_number_series,obfus_number_series-0168,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 775 775 342 435 532, 775 775 342 771 669, Mercury Mercury Sun Mars Jupiter, 775 775 342 771 435, Mercury Mercury Sun Mars Uranus
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,57,gpt6-tier1-explicit_task_instructions-number_series-0180-base,gpt6-tier1-explicit_task_instructions-number_series-0180-base,obfus_number_series,obfus_number_series-0180,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 2, 3, 14, 69, 340, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,58,gpt6-tier1-explicit_task_instructions-number_series-0180-obf,gpt6-tier1-explicit_task_instructions-number_series-0180-obf,obfus_number_series,obfus_number_series-0180,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 561, 532, 775 435, Saturn Pluto, 532 435 342
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,59,gpt6-tier1-explicit_task_instructions-number_series-0182-base,gpt6-tier1-explicit_task_instructions-number_series-0182-base,obfus_number_series,obfus_number_series-0182,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 11, 12, 39, 164, 507, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,60,gpt6-tier1-explicit_task_instructions-number_series-0182-obf,gpt6-tier1-explicit_task_instructions-number_series-0182-obf,obfus_number_series,obfus_number_series-0182,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 775 775, 775 561, 532 564, 775 669 435, 771 342 670
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,61,gpt6-tier1-explicit_task_instructions-number_series-0184-base,gpt6-tier1-explicit_task_instructions-number_series-0184-base,obfus_number_series,obfus_number_series-0184,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 2, 6, 12, 20, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,62,gpt6-tier1-explicit_task_instructions-number_series-0184-obf,gpt6-tier1-explicit_task_instructions-number_series-0184-obf,obfus_number_series,obfus_number_series-0184,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 561, Saturn, Mercury Venus, Venus Sun
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,63,gpt6-tier1-explicit_task_instructions-number_series-0190-base,gpt6-tier1-explicit_task_instructions-number_series-0190-base,obfus_number_series,obfus_number_series-0190,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 4, 2, 2, 3, 6, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,64,gpt6-tier1-explicit_task_instructions-number_series-0190-obf,gpt6-tier1-explicit_task_instructions-number_series-0190-obf,obfus_number_series,obfus_number_series-0190,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 435, Venus, 561, 532, 669
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,65,gpt6-tier1-explicit_task_instructions-number_series-0191-base,gpt6-tier1-explicit_task_instructions-number_series-0191-base,obfus_number_series,obfus_number_series-0191,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 2, 4, 8, 10, 14, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,66,gpt6-tier1-explicit_task_instructions-number_series-0191-obf,gpt6-tier1-explicit_task_instructions-number_series-0191-obf,obfus_number_series,obfus_number_series-0191,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Venus, Mars, Neptune, 775 342, Mercury Mars
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,67,gpt6-tier1-explicit_task_instructions-number_series-0195-base,gpt6-tier1-explicit_task_instructions-number_series-0195-base,obfus_number_series,obfus_number_series-0195,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 2, 12, 36, 80, 150, 252, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,68,gpt6-tier1-explicit_task_instructions-number_series-0195-obf,gpt6-tier1-explicit_task_instructions-number_series-0195-obf,obfus_number_series,obfus_number_series-0195,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: Venus, 775 561, 532 669, Neptune Sun, 775 771 342, Venus Jupiter Venus
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,69,gpt6-tier1-explicit_task_instructions-number_series-0207-base,gpt6-tier1-explicit_task_instructions-number_series-0207-base,obfus_number_series,obfus_number_series-0207,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 5, 10, 30, 150, 600, 3600
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,70,gpt6-tier1-explicit_task_instructions-number_series-0207-obf,gpt6-tier1-explicit_task_instructions-number_series-0207-obf,obfus_number_series,obfus_number_series-0207,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: e4da3b7fbbce2345d7772b0674a318d5, c4ca4238a0b923820dcc509a6f75849b cfcd208495d565ef66e7dff9f98764da, eccbc87e4b5ce2fe28308fd9f2a7baf3 cfcd208495d565ef66e7dff9f98764da, c4ca4238a0b923820dcc509a6f75849b e4da3b7fbbce2345d7772b0674a318d5 cfcd208495d565ef66e7dff9f98764da, 1679091c5a880faf6fb5e6087eb1b2dc cfcd208495d565ef66e7dff9f98764da cfcd208495d565ef66e7dff9f98764da, 3600
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,71,gpt6-tier1-explicit_task_instructions-number_series-0209-base,gpt6-tier1-explicit_task_instructions-number_series-0209-base,obfus_number_series,obfus_number_series-0209,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 4, 20, 51, 105, ?, 314
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,72,gpt6-tier1-explicit_task_instructions-number_series-0209-obf,gpt6-tier1-explicit_task_instructions-number_series-0209-obf,obfus_number_series,obfus_number_series-0209,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: a87ff679a2f3e71d9181a67b7542122c, c81e728d9d4c2f636f067f89cc14862c cfcd208495d565ef66e7dff9f98764da, e4da3b7fbbce2345d7772b0674a318d5 c4ca4238a0b923820dcc509a6f75849b, 105, ?, 314
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,73,gpt6-tier1-explicit_task_instructions-number_series-0210-base,gpt6-tier1-explicit_task_instructions-number_series-0210-base,obfus_number_series,obfus_number_series-0210,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 3, 5, 5, 19, 7, 41, 9, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,74,gpt6-tier1-explicit_task_instructions-number_series-0210-obf,gpt6-tier1-explicit_task_instructions-number_series-0210-obf,obfus_number_series,obfus_number_series-0210,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 3, e4da3b7fbbce2345d7772b0674a318d5, 5, 19, 7, a87ff679a2f3e71d9181a67b7542122c c4ca4238a0b923820dcc509a6f75849b, 9, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,75,gpt6-tier1-explicit_task_instructions-number_series-0225-base,gpt6-tier1-explicit_task_instructions-number_series-0225-base,obfus_number_series,obfus_number_series-0225,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 7, 6, 3, -6, ?, -114
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,76,gpt6-tier1-explicit_task_instructions-number_series-0225-obf,gpt6-tier1-explicit_task_instructions-number_series-0225-obf,obfus_number_series,obfus_number_series-0225,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 8f14e45fceea167a5a36dedd4bea2543, 1679091c5a880faf6fb5e6087eb1b2dc, eccbc87e4b5ce2fe28308fd9f2a7baf3, -6, ?, -114
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,77,gpt6-tier1-explicit_task_instructions-number_series-0230-base,gpt6-tier1-explicit_task_instructions-number_series-0230-base,obfus_number_series,obfus_number_series-0230,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 1, 30, 5, 26, 9, 22, 13, 18, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,78,gpt6-tier1-explicit_task_instructions-number_series-0230-obf,gpt6-tier1-explicit_task_instructions-number_series-0230-obf,obfus_number_series,obfus_number_series-0230,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 1, 30, 5, c81e728d9d4c2f636f067f89cc14862c 1679091c5a880faf6fb5e6087eb1b2dc, 9, 22, 13, 18, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,79,gpt6-tier1-explicit_task_instructions-number_series-0233-base,gpt6-tier1-explicit_task_instructions-number_series-0233-base,obfus_number_series,obfus_number_series-0233,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 1, 9, 36, 100, 225, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,80,gpt6-tier1-explicit_task_instructions-number_series-0233-obf,gpt6-tier1-explicit_task_instructions-number_series-0233-obf,obfus_number_series,obfus_number_series-0233,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 1, 45c48cce2e2d7fbdea1afc51c7c6ad26, eccbc87e4b5ce2fe28308fd9f2a7baf3 1679091c5a880faf6fb5e6087eb1b2dc, c4ca4238a0b923820dcc509a6f75849b cfcd208495d565ef66e7dff9f98764da cfcd208495d565ef66e7dff9f98764da, c81e728d9d4c2f636f067f89cc14862c c81e728d9d4c2f636f067f89cc14862c e4da3b7fbbce2345d7772b0674a318d5, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,81,gpt6-tier1-explicit_task_instructions-number_series-0234-base,gpt6-tier1-explicit_task_instructions-number_series-0234-base,obfus_number_series,obfus_number_series-0234,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 9, 6, 19, 14, 39, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,82,gpt6-tier1-explicit_task_instructions-number_series-0234-obf,gpt6-tier1-explicit_task_instructions-number_series-0234-obf,obfus_number_series,obfus_number_series-0234,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 45c48cce2e2d7fbdea1afc51c7c6ad26, 1679091c5a880faf6fb5e6087eb1b2dc, c4ca4238a0b923820dcc509a6f75849b 45c48cce2e2d7fbdea1afc51c7c6ad26, c4ca4238a0b923820dcc509a6f75849b a87ff679a2f3e71d9181a67b7542122c, eccbc87e4b5ce2fe28308fd9f2a7baf3 45c48cce2e2d7fbdea1afc51c7c6ad26, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,83,gpt6-tier1-explicit_task_instructions-number_series-0236-base,gpt6-tier1-explicit_task_instructions-number_series-0236-base,obfus_number_series,obfus_number_series-0236,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 24, 70, 144, 252, 400, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,84,gpt6-tier1-explicit_task_instructions-number_series-0236-obf,gpt6-tier1-explicit_task_instructions-number_series-0236-obf,obfus_number_series,obfus_number_series-0236,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: c81e728d9d4c2f636f067f89cc14862c a87ff679a2f3e71d9181a67b7542122c, 8f14e45fceea167a5a36dedd4bea2543 cfcd208495d565ef66e7dff9f98764da, c4ca4238a0b923820dcc509a6f75849b a87ff679a2f3e71d9181a67b7542122c a87ff679a2f3e71d9181a67b7542122c, c81e728d9d4c2f636f067f89cc14862c e4da3b7fbbce2345d7772b0674a318d5 c81e728d9d4c2f636f067f89cc14862c, a87ff679a2f3e71d9181a67b7542122c cfcd208495d565ef66e7dff9f98764da cfcd208495d565ef66e7dff9f98764da, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,85,gpt6-tier1-explicit_task_instructions-number_series-0242-base,gpt6-tier1-explicit_task_instructions-number_series-0242-base,obfus_number_series,obfus_number_series-0242,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 10, 9, 60, 90, 70, 66, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,86,gpt6-tier1-explicit_task_instructions-number_series-0242-obf,gpt6-tier1-explicit_task_instructions-number_series-0242-obf,obfus_number_series,obfus_number_series-0242,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 10, 45c48cce2e2d7fbdea1afc51c7c6ad26, 60, 45c48cce2e2d7fbdea1afc51c7c6ad26 cfcd208495d565ef66e7dff9f98764da, 70, 66, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,87,gpt6-tier1-explicit_task_instructions-number_series-0245-base,gpt6-tier1-explicit_task_instructions-number_series-0245-base,obfus_number_series,obfus_number_series-0245,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 2, 3, 10, 39, 172, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,88,gpt6-tier1-explicit_task_instructions-number_series-0245-obf,gpt6-tier1-explicit_task_instructions-number_series-0245-obf,obfus_number_series,obfus_number_series-0245,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: c81e728d9d4c2f636f067f89cc14862c, eccbc87e4b5ce2fe28308fd9f2a7baf3, c4ca4238a0b923820dcc509a6f75849b cfcd208495d565ef66e7dff9f98764da, eccbc87e4b5ce2fe28308fd9f2a7baf3 45c48cce2e2d7fbdea1afc51c7c6ad26, 172, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,89,gpt6-tier1-explicit_task_instructions-number_series-0253-base,gpt6-tier1-explicit_task_instructions-number_series-0253-base,obfus_number_series,obfus_number_series-0253,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 2, 6, 18, 54, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,90,gpt6-tier1-explicit_task_instructions-number_series-0253-obf,gpt6-tier1-explicit_task_instructions-number_series-0253-obf,obfus_number_series,obfus_number_series-0253,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: c81e728d9d4c2f636f067f89cc14862c, 6, 18, 54, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,91,gpt6-tier1-explicit_task_instructions-number_series-0262-base,gpt6-tier1-explicit_task_instructions-number_series-0262-base,obfus_number_series,obfus_number_series-0262,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 1, 5, 19, 81, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,92,gpt6-tier1-explicit_task_instructions-number_series-0262-obf,gpt6-tier1-explicit_task_instructions-number_series-0262-obf,obfus_number_series,obfus_number_series-0262,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: c4ca4238a0b923820dcc509a6f75849b, 5, 19, 81, ...
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,93,gpt6-tier1-explicit_task_instructions-number_series-0271-base,gpt6-tier1-explicit_task_instructions-number_series-0271-base,obfus_number_series,obfus_number_series-0271,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 143, 151, 158, 172, 182, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,94,gpt6-tier1-explicit_task_instructions-number_series-0271-obf,gpt6-tier1-explicit_task_instructions-number_series-0271-obf,obfus_number_series,obfus_number_series-0271,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: c4ca4238a0b923820dcc509a6f75849b a87ff679a2f3e71d9181a67b7542122c eccbc87e4b5ce2fe28308fd9f2a7baf3, 151, 158, c4ca4238a0b923820dcc509a6f75849b 8f14e45fceea167a5a36dedd4bea2543 c81e728d9d4c2f636f067f89cc14862c, c4ca4238a0b923820dcc509a6f75849b c9f0f895fb98ab9159f51fd0297e236d c81e728d9d4c2f636f067f89cc14862c, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,95,gpt6-tier1-explicit_task_instructions-number_series-0285-base,gpt6-tier1-explicit_task_instructions-number_series-0285-base,obfus_number_series,obfus_number_series-0285,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 0, 4, 12, 76, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,96,gpt6-tier1-explicit_task_instructions-number_series-0285-obf,gpt6-tier1-explicit_task_instructions-number_series-0285-obf,obfus_number_series,obfus_number_series-0285,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: cfcd208495d565ef66e7dff9f98764da, a87ff679a2f3e71d9181a67b7542122c, c4ca4238a0b923820dcc509a6f75849b c81e728d9d4c2f636f067f89cc14862c, 8f14e45fceea167a5a36dedd4bea2543 1679091c5a880faf6fb5e6087eb1b2dc, ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,97,gpt6-tier1-explicit_task_instructions-number_series-0296-base,gpt6-tier1-explicit_task_instructions-number_series-0296-base,obfus_number_series,obfus_number_series-0296,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 2048, 516, 1032, 262, ?, 135, 270
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,98,gpt6-tier1-explicit_task_instructions-number_series-0296-obf,gpt6-tier1-explicit_task_instructions-number_series-0296-obf,obfus_number_series,obfus_number_series-0296,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 2048, e4da3b7fbbce2345d7772b0674a318d5 c4ca4238a0b923820dcc509a6f75849b 1679091c5a880faf6fb5e6087eb1b2dc, c4ca4238a0b923820dcc509a6f75849b cfcd208495d565ef66e7dff9f98764da eccbc87e4b5ce2fe28308fd9f2a7baf3 c81e728d9d4c2f636f067f89cc14862c, c81e728d9d4c2f636f067f89cc14862c 1679091c5a880faf6fb5e6087eb1b2dc c81e728d9d4c2f636f067f89cc14862c, ?, c4ca4238a0b923820dcc509a6f75849b eccbc87e4b5ce2fe28308fd9f2a7baf3 e4da3b7fbbce2345d7772b0674a318d5, c81e728d9d4c2f636f067f89cc14862c 8f14e45fceea167a5a36dedd4bea2543 cfcd208495d565ef66e7dff9f98764da
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,99,gpt6-tier1-explicit_task_instructions-number_series-0298-base,gpt6-tier1-explicit_task_instructions-number_series-0298-base,obfus_number_series,obfus_number_series-0298,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: 201, 196, 181, 146, 121, 76, 21
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,100,gpt6-tier1-explicit_task_instructions-number_series-0298-obf,gpt6-tier1-explicit_task_instructions-number_series-0298-obf,obfus_number_series,obfus_number_series-0298,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Identify whether tokens are planet-name digits, ASCII sums of lowercase planet names, or MD5 hashes of single digits. Decode consecutive tokens by concatenating digits before inferring the arithmetic rule.
+
+Decode any symbolic terms, infer the numerical pattern, and determine the next term. The final answer must be one number only.
+
+TARGET PROBLEM
+Sequence: c81e728d9d4c2f636f067f89cc14862c cfcd208495d565ef66e7dff9f98764da c4ca4238a0b923820dcc509a6f75849b, c4ca4238a0b923820dcc509a6f75849b 45c48cce2e2d7fbdea1afc51c7c6ad26 1679091c5a880faf6fb5e6087eb1b2dc, 181, c4ca4238a0b923820dcc509a6f75849b a87ff679a2f3e71d9181a67b7542122c 1679091c5a880faf6fb5e6087eb1b2dc, 121, 76, c81e728d9d4c2f636f067f89cc14862c c4ca4238a0b923820dcc509a6f75849b
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,101,gpt6-tier1-explicit_task_instructions-direction_sense-0000-base,gpt6-tier1-explicit_task_instructions-direction_sense-0000-base,obfus_direction_sense,obfus_direction_sense-0000,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person moves 10 km East, then 6 km West, and finally 8 km North. Find the distance and direction from the start.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,102,gpt6-tier1-explicit_task_instructions-direction_sense-0000-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0000-obf,obfus_direction_sense,obfus_direction_sense-0000,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Beginning facing 3 o’clock, the traveler walks 6 km, rotates 1 quarter-turn clockwise and walks 8 km, then rotates 1 quarter-turn counterclockwise and walks 4 km East, after which they rotate 2 quarter-turns and walk 6 km. Find the net displacement and final facing direction from the origin.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,103,gpt6-tier1-explicit_task_instructions-direction_sense-0001-base,gpt6-tier1-explicit_task_instructions-direction_sense-0001-base,obfus_direction_sense,obfus_direction_sense-0001,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person moves 12 km North, then 7 km South, and finally 5 km East.Find the distance and direction from the start.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,104,gpt6-tier1-explicit_task_instructions-direction_sense-0001-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0001-obf,obfus_direction_sense,obfus_direction_sense-0001,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Starting facing 12 o’clock, he walks 6 km North, then rotates 2 quarter-turns clockwise and walks 7 km South. Next, he rotates 2 quarter-turn counterclockwise and walks 6 km North, then rotates 1 quarter-turn clockwise and walks 5 km East.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,105,gpt6-tier1-explicit_task_instructions-direction_sense-0002-base,gpt6-tier1-explicit_task_instructions-direction_sense-0002-base,obfus_direction_sense,obfus_direction_sense-0002,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person moves 8 km West, then 3 km East, and finally 6 km South.Find the direction .
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,106,gpt6-tier1-explicit_task_instructions-direction_sense-0002-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0002-obf,obfus_direction_sense,obfus_direction_sense-0002,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Starting facing 9 o’clock, he walks 8 km West, then rotates 2 quarter-turns clockwise and walks 3 km East. Next, he rotates 1 quarter-turn clockwise and walks 6 km South.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,107,gpt6-tier1-explicit_task_instructions-direction_sense-0003-base,gpt6-tier1-explicit_task_instructions-direction_sense-0003-base,obfus_direction_sense,obfus_direction_sense-0003,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A per son moves 15 km East, then 5 km West, then 10 km North.Find direction
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,108,gpt6-tier1-explicit_task_instructions-direction_sense-0003-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0003-obf,obfus_direction_sense,obfus_direction_sense-0003,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Starting facing 3 o’clock, he walks 8 km East, then rotates 1 quarter-turn clockwise and walks 5 km South. Next, he rotates 1 quarter-turn counterclockwise and walks 2 km East, then rotates 1 quarter-turn counterclockwise and walks 15 km North.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,109,gpt6-tier1-explicit_task_instructions-direction_sense-0004-base,gpt6-tier1-explicit_task_instructions-direction_sense-0004-base,obfus_direction_sense,obfus_direction_sense-0004,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person moves 9 km West, then 4 km East, and finally 5 km North.Find direction.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,110,gpt6-tier1-explicit_task_instructions-direction_sense-0004-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0004-obf,obfus_direction_sense,obfus_direction_sense-0004,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Starting facing 9 o’clock, he walks 9 km West, then rotates 2 quarter-turns clockwise and walks 4 km East. Next, he rotates 1 quarter-turn counterclockwise and walks 5 km North.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,111,gpt6-tier1-explicit_task_instructions-direction_sense-0005-base,gpt6-tier1-explicit_task_instructions-direction_sense-0005-base,obfus_direction_sense,obfus_direction_sense-0005,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person is moving north, then he turns to his left and walks 10 meters, then again, he turns right and walks 20 meters, and again, he turns right and walks 15 meters. What is the final direction in which he is moving?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,112,gpt6-tier1-explicit_task_instructions-direction_sense-0005-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0005-obf,obfus_direction_sense,obfus_direction_sense-0005,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person starts moving towards the 12 o’clock mark. He first pivots one quarter-turn clockwise, then immediately pivots two quarter-turns anticlockwise, and walks 10 m. Next, he rotates two quarter-turns clockwise, then immediately rotates one quarter-turn anticlockwise, and walks 20 m. Finally, he rotates two quarter-turn clockwise, then rotates one quarter-turn anticlockwise, and walks 15 m. What is the final direction of his movement?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,113,gpt6-tier1-explicit_task_instructions-direction_sense-0008-base,gpt6-tier1-explicit_task_instructions-direction_sense-0008-base,obfus_direction_sense,obfus_direction_sense-0008,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A man is facing North. He turns clockwise, then anticlockwise, and then another in the same direction. Which direction is he facing now?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,114,gpt6-tier1-explicit_task_instructions-direction_sense-0008-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0008-obf,obfus_direction_sense,obfus_direction_sense-0008,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A man is standing facing north. First, he rotates half a turn clockwise, but then immediately undoes part of that by turning a quarter-turn to the left. Next, he shifts his body through a complete spin to the left, then adds half a turn right, and finally corrects slightly with a quarter-turn left. To finish, he once more moves rightward, this time taking half a turn, and then adjusts with a leftward quarter-turn. After all these twists, in which cardinal direction does he finally stand?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,115,gpt6-tier1-explicit_task_instructions-direction_sense-0011-base,gpt6-tier1-explicit_task_instructions-direction_sense-0011-base,obfus_direction_sense,obfus_direction_sense-0011,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person walks 5 km towards south and then turns to the right. After walking 3 km, he turns to the left and walks 4 km. Then he goes back 10 km straight. Now, in which direction is he from the starting place?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,116,gpt6-tier1-explicit_task_instructions-direction_sense-0011-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0011-obf,obfus_direction_sense,obfus_direction_sense-0011,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person starts walking 5 km in the 6 o’clock direction. He then rotates one quarter-turn clockwise twice in succession but immediately cancels one quarter-turn counterclockwise, and walks 3 km. Next, he pivots two quarter-turns counterclockwise, then one quarter-turn clockwise, and walks 4 km. Finally, he retraces his path for 10 km in the direction opposite to his current facing. Determine the direction of his net displacement from the starting point.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,117,gpt6-tier1-explicit_task_instructions-direction_sense-0014-base,gpt6-tier1-explicit_task_instructions-direction_sense-0014-base,obfus_direction_sense,obfus_direction_sense-0014,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person walks North 10 m, then turns left and walks 10 m, then turns right and walks 20 m. What is the final direction of motion?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,118,gpt6-tier1-explicit_task_instructions-direction_sense-0014-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0014-obf,obfus_direction_sense,obfus_direction_sense-0014,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person starts moving towards the 12 o’clock mark. He rotates one quarter-turn clockwise, then one quarter-turn anticlockwise, and walks 10 m. Next, he rotates two quarter-turns anticlockwise, then one quarter-turn clockwise, and walks 10 m. Finally, he rotates two quarter-turn clockwise, then one quarter-turn anticlockwise, and walks 20 m. What is the final direction?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,119,gpt6-tier1-explicit_task_instructions-direction_sense-0022-base,gpt6-tier1-explicit_task_instructions-direction_sense-0022-base,obfus_direction_sense,obfus_direction_sense-0022,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Rahul placed his timepiece so that at 3:00 P.M. the hour hand points North. In that setup, at 6:45 P.M. which direction will the minute hand point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,120,gpt6-tier1-explicit_task_instructions-direction_sense-0022-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0022-obf,obfus_direction_sense,obfus_direction_sense-0022,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Rahul set the clock on the table so that the 3-o’clock mark corresponds to North. Now locate the minute hand for 6:45 P.M. — starting from the north reference, he first turns the minute hand three quarter-turns clockwise, then continues with one quarter-turn clockwise. After that, he spins the hand two full turns clockwise and immediately cancels it with two full turns counterclockwise. In which direction does the minute hand finally point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,121,gpt6-tier1-explicit_task_instructions-direction_sense-0024-base,gpt6-tier1-explicit_task_instructions-direction_sense-0024-base,obfus_direction_sense,obfus_direction_sense-0024,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Rahul carefully placed his watch so that the hour hand pointed South at 9:00. He observed that the minute hand was pointing East at that moment. As the hours passed he followed the hour hand’s movement clockwise. At 12:00 the hour hand pointed West, and the minute hand continued to move. By 2:00 the minute hand was aligned with the 12 on the dial (relative to the watch face). Finally, at 2:30 the minute hand pointed straight to the West relative to the original orientation.Where (compass direction) did the minute hand point at 2:30?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,122,gpt6-tier1-explicit_task_instructions-direction_sense-0024-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0024-obf,obfus_direction_sense,obfus_direction_sense-0024,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Rahul carefully placed his watch so that the hour hand pointed toward 6 o’clock at 9:00. He observed that the minute hand was pointing toward 3 o’clock at that moment. As the hours passed he followed the hour hand’s movement clockwise. At 12:00 the hour hand pointed toward 9 o’clock, and the minute hand continued to move along the dial. By 2:00 the minute hand was aligned with 12 on the dial (relative to the watch face). Finally, at 2:30 the minute hand pointed straight toward 9 o’clock relative to the original orientation. Where (compass direction) did the minute hand point at 2:30?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,123,gpt6-tier1-explicit_task_instructions-direction_sense-0025-base,gpt6-tier1-explicit_task_instructions-direction_sense-0025-base,obfus_direction_sense,obfus_direction_sense-0025,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A navigator is using a modified compass rose. On this compass:North-East now points South,South-East now points West,All other directions are rotated consistently in the same manner. Question: Determine the new direction of North on this modified compass.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,124,gpt6-tier1-explicit_task_instructions-direction_sense-0025-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0025-obf,obfus_direction_sense,obfus_direction_sense-0025,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A navigator stood facing the 1 o’clock mark (North-East) on a compass. He noticed: The compass was rotated so that North-East becomes South.He first mentally rotated one quarter-turn clockwise, then two quarter-turns anticlockwise, and marked the new NE position.Next, he rotated two quarter-turns clockwise, then one quarter-turn anticlockwise, and aligned the South-East direction. Finally, he rotated one quarter-turn clockwise, then one quarter-turn anticlockwise, and examined the North direction .
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,125,gpt6-tier1-explicit_task_instructions-direction_sense-0026-base,gpt6-tier1-explicit_task_instructions-direction_sense-0026-base,obfus_direction_sense,obfus_direction_sense-0026,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: In a village, a giant compass is painted on the ground, but the directions have been remapped: South-West now points North-East,North-West now points South,Other directions follow the same consistent rotation. Task: Identify the direction that the original East now points to on this rotated compass.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,126,gpt6-tier1-explicit_task_instructions-direction_sense-0026-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0026-obf,obfus_direction_sense,obfus_direction_sense-0026,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: In a village, a traveler stood at the center of a giant compass, initially facing the 3 o’clock mark (East). The compass had been rotated such that: South-West now points North-East,North-West now points SouthEast .He began tracking the rotations carefully: He first rotated two quarter-turns clockwise, then one quarter-turn anticlockwise, and noted the new South-West direction. Next, he rotated one quarter-turn clockwise, then two quarter-turns anticlockwise, and checked the North-West direction. He then rotated one quarter-turn clockwise, then one quarter-turn anticlockwise, to follow the East direction carefully.Task: Identify the direction?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,127,gpt6-tier1-explicit_task_instructions-direction_sense-0027-base,gpt6-tier1-explicit_task_instructions-direction_sense-0027-base,obfus_direction_sense,obfus_direction_sense-0027,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: K is 340 m South of L. M is 340 m North of L. Determine the direction of M as seen from K.?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,128,gpt6-tier1-explicit_task_instructions-direction_sense-0027-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0027-obf,obfus_direction_sense,obfus_direction_sense-0027,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: From L, face due north; rotate one half-turn clockwise, then two 180° spins — walk3 40 m to reach K. Return to L, face north; rotate three half-turns clockwise, then one half-turn counterclockwise — walk 340 m to reach M.determine direction of M as seen from K?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,129,gpt6-tier1-explicit_task_instructions-direction_sense-0028-base,gpt6-tier1-explicit_task_instructions-direction_sense-0028-base,obfus_direction_sense,obfus_direction_sense-0028,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: K started at his position, 340 meters south of L, and wanted to see where M was. He first walked 100 meters north and arrived at a small park. Continuing his journey, he moved 50 meters north to reach a street corner, then another 150 meters north to see a fountain. He went 200 meters north to a large tree, and finally, after moving 180 meters north, he arrived at M’s location, who was 340 meters north of L.Determine the direction of M as seen from K.?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,130,gpt6-tier1-explicit_task_instructions-direction_sense-0028-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0028-obf,obfus_direction_sense,obfus_direction_sense-0028,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: K was standing facing the South, 340 meters south of L. He first rotated his view one quarter-turn clockwise, then immediately rotated three quarter-turns anticlockwise, and walked 100 meters.Next, he rotated two quarter-turns clockwise, then one quarter-turn anticlockwise, and walked 50 meters.He then rotated one quarter-turn clockwise, followed by two quarter-turns anticlockwise, and moved 150 meters. After that, he rotated two quarter-turns clockwise, then one quarter-turn anticlockwise, and walked 200 meters.Finally, he rotated one quarter-turn clockwise, then one quarter-turn anticlockwise, and walked 180 meters, reaching M’s position.Determine the direction of M as seen from K.?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,131,gpt6-tier1-explicit_task_instructions-direction_sense-0038-base,gpt6-tier1-explicit_task_instructions-direction_sense-0038-base,obfus_direction_sense,obfus_direction_sense-0038,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Kishen walks 10 km north, then 6 km south, then 3 km east. How far and in which direction is he from his starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,132,gpt6-tier1-explicit_task_instructions-direction_sense-0038-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0038-obf,obfus_direction_sense,obfus_direction_sense-0038,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Kishen places himself so that the 12-o’clock mark of the compass corresponds to the direction he initially faces. To begin the first stretch he performs a theatrical sequence of rotations: three full turns clockwise, then two full turns counterclockwise, then a half-turn clockwise, then two quarter-turns counterclockwise — after all that he walks 10 km. Immediately before the second stretch he again adjusts: one full turn clockwise, then one half-turn counterclockwise, then three quarter-turns clockwise, then a single counterclockwise quarter-turn — then he walks 6 km. Finally, to take the last leg he changes orientation by rotating one half-turn clockwise, then two full turns counterclockwise, then a quarter-turn clockwise — and walks 3 km. After completing these moves in order, how far (in km) and in which direction is Kishen from his starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,133,gpt6-tier1-explicit_task_instructions-direction_sense-0041-base,gpt6-tier1-explicit_task_instructions-direction_sense-0041-base,obfus_direction_sense,obfus_direction_sense-0041,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A man walks 3 km east, then 4 km north, then 6 km west, and finally 4 km south. In which direction is he from the starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,134,gpt6-tier1-explicit_task_instructions-direction_sense-0041-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0041-obf,obfus_direction_sense,obfus_direction_sense-0041,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A man begins his journey by moving 3 km toward the rising sun. Then, instead of continuing, he spins himself in place by performing two complete clockwise circles followed by one quarter-turn anticlockwise, which ultimately makes him face as though he had simply chosen the northern path. Along this alignment, he advances 4 km. Afterwards, he indulges in a flourish: he performs a half revolution to the right and immediately follows with three quarter-turns to the left, leaving him facing just as if he had picked the western road; in this direction, he proceeds 6 km. Lastly, he makes a three-quarter spin clockwise and cancels it with a full revolution anticlockwise, which resolves to facing directly south. Along this bearing, he covers another 4 km. At the end of this elaborate wandering, in which cardinal direction does he stand relative to his initial point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,135,gpt6-tier1-explicit_task_instructions-direction_sense-0043-base,gpt6-tier1-explicit_task_instructions-direction_sense-0043-base,obfus_direction_sense,obfus_direction_sense-0043,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A soldier walks 6 km east, then turns left and walks 9 km. Next he turns right and walks 5 km. In which direction is he from the starting place?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,136,gpt6-tier1-explicit_task_instructions-direction_sense-0043-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0043-obf,obfus_direction_sense,obfus_direction_sense-0043,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A soldier sets off facing east and marches 6 km. Before the next stretch he performs a showy sequence: he spins two full turns clockwise, then reverses one full turn with a single counterclockwise revolution, then finishes that dressing with a quarter-turn counterclockwise — after these motions he walks 9 km. For the final leg he first makes a tidy adjustment by turning one full turn clockwise, then a half-turn counterclockwise, and then a quarter-turn counterclockwise — then he walks 5 km. After completing these staged rotations and marches in order, in which cardinal direction is he from his starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,137,gpt6-tier1-explicit_task_instructions-direction_sense-0048-base,gpt6-tier1-explicit_task_instructions-direction_sense-0048-base,obfus_direction_sense,obfus_direction_sense-0048,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A is 13 m east of D, D is 7 m north of G. Q is 8 m east of G. B is 10 m north of Q. L is 3 m east of B. Four of the following five are alike; find the one that does not belong: BD, LA, LG, AQ, BG
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,138,gpt6-tier1-explicit_task_instructions-direction_sense-0048-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0048-obf,obfus_direction_sense,obfus_direction_sense-0048,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Imagine a reference marker G. From this point, rise 7 m north to reach D, then continue 13 m east to reach A. From G, move 8 m east to arrive at Q, then step 10 m north to locate B. From B, stride 3 m east to place L. Now consider the five line segments BD, LA, LG, AQ, BG. Examine their alignment in terms of vertical and horizontal disposition: four of these segments share a consistent spatial relationship, while one stands out by violating the pattern. Determine the segment that does not belong.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,139,gpt6-tier1-explicit_task_instructions-direction_sense-0049-base,gpt6-tier1-explicit_task_instructions-direction_sense-0049-base,obfus_direction_sense,obfus_direction_sense-0049,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Ani starts at T, walks 6 m east to N, then turns right and walks 8 m to Q. Then left and walks 5 m to S. At S, turn right and walk 4 m to M. Then east 9 m to L. At L, turn left and walk 10 m to G. Question: If point X is 2 m south of N, what is the shortest distance between G and X?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,140,gpt6-tier1-explicit_task_instructions-direction_sense-0049-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0049-obf,obfus_direction_sense,obfus_direction_sense-0049,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Consider a traveler starting at reference point T. He first proceeds 6 m toward the sunrise to arrive at a temporary waypoint labeled N. Before continuing, he pivots 90° clockwise, then advances 8 m to mark Q. From Q, he twists leftward and moves 5 m to reach S. At S, he turns right and marches 4 m to M. He then heads straight 9 m east to touch L, and at L, he rotates leftward and walks 10 m to G. Now imagine a point X, lying 2 m directly south of N. Using this elaborate path layout, determine the shortest linear distance between G and X.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,141,gpt6-tier1-explicit_task_instructions-direction_sense-0050-base,gpt6-tier1-explicit_task_instructions-direction_sense-0050-base,obfus_direction_sense,obfus_direction_sense-0050,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A man starts from point A and walks 20 meters towards the east. He then turns left and walks 30 meters. After that, he turns left again and walks 20 meters. Finally, he turns left and walks 30 meters. How far is he from his starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,142,gpt6-tier1-explicit_task_instructions-direction_sense-0050-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0050-obf,obfus_direction_sense,obfus_direction_sense-0050,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A man begins at reference point A, facing the sunrise. First, he performs a flourish: three full clockwise rotations, then immediately undoes two full counterclockwise rotations, after which he walks 20 m forward. Next, to continue, he spins twice clockwise, cancels one with one counterclockwise revolution, and finally executes one quarter-turn left, then walks 30 m. For the third leg, he again twirls three clockwise circles, reverses two counterclockwise, then makes one quarter-turn left, and walks 20 m. Finally, he performs a last set of rotations — one half-turn counterclockwise, one quarter clockwise — then walks 30 m forward. After completing all these choreographed rotations and walks, how far is he from the starting point A?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,143,gpt6-tier1-explicit_task_instructions-direction_sense-0051-base,gpt6-tier1-explicit_task_instructions-direction_sense-0051-base,obfus_direction_sense,obfus_direction_sense-0051,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A man walks 40 meters towards the north, then turns right and walks 30 meters. He then turns right again and walks 40 meters. Finally, he turns right and walks 30 meters. In which direction is he now from his starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,144,gpt6-tier1-explicit_task_instructions-direction_sense-0051-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0051-obf,obfus_direction_sense,obfus_direction_sense-0051,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler sets off from a reference point, initially oriented toward the zenith. He begins with a sequence of rotations: two full clockwise revolutions, followed by one full counterclockwise rotation, and finishes with four quarter-turns clockwise, then moves 40 meters straight ahead. For the next segment, he executes three clockwise rotations, cancels two counterclockwise spins, and concludes with a quarter-turn right, walking 30 meters forward. On the third leg, he again performs two clockwise revolutions, negates one with a counterclockwise spin, and adds a quarter-turn right, advancing 40 meters. Finally, before the last stretch, he spins once clockwise, full-turn counterclockwise, quarter-turn clockwise, and walks 30 meters forward. Determine the direction in which he is located relative to his starting point
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,145,gpt6-tier1-explicit_task_instructions-direction_sense-0052-base,gpt6-tier1-explicit_task_instructions-direction_sense-0052-base,obfus_direction_sense,obfus_direction_sense-0052,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person walks 10 meters towards the north, then turns right and walks 5 meters. He then turns right again and walks 10 meters. Finally, he turns right and walks 5 meters. In which direction is he now from his starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,146,gpt6-tier1-explicit_task_instructions-direction_sense-0052-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0052-obf,obfus_direction_sense,obfus_direction_sense-0052,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler begins oriented toward the zenith. Leg 1: Two full clockwise revolutions followed by a counterclockwise spin cancel each other, after which he proceeds 10 meters straight ahead. Leg 2: He performs a single clockwise rotation and advances 5 meters forward. Leg 3: Two full clockwise turns, one counterclockwise spin negating a rotation, and a final quarter-turn clockwise precede a 10-meter forward stride. Leg 4: He executes a clockwise turn, a half-turn counterclockwise, then a quarter-turn clockwise, and walks 5 meters to return to his starting point.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,147,gpt6-tier1-explicit_task_instructions-direction_sense-0054-base,gpt6-tier1-explicit_task_instructions-direction_sense-0054-base,obfus_direction_sense,obfus_direction_sense-0054,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A man walks 50 m east, turns left 30 m north, then left 50 m west, finally left 30 m south. How far is he from starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,148,gpt6-tier1-explicit_task_instructions-direction_sense-0054-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0054-obf,obfus_direction_sense,obfus_direction_sense-0054,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler starts facing East. After a series of clockwise and counterclockwise rotations resulting 0 degrees, he moves 50 m forward. He then performs multiple rotations resulting 90 degrees counterclockwise and walks 30 m, continues with more spins resulting 90 degrees counterclockwise walking 50 m, and finally after rotations netting 90 degrees counterclockwise walks 30 m. Determine his distance from the starting point.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,149,gpt6-tier1-explicit_task_instructions-direction_sense-0057-base,gpt6-tier1-explicit_task_instructions-direction_sense-0057-base,obfus_direction_sense,obfus_direction_sense-0057,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A man walks 15 meters North, then turns left and walks 10 meters. Then left again 15 meters, finally left 10 meters. Find direction from start
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,150,gpt6-tier1-explicit_task_instructions-direction_sense-0057-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0057-obf,obfus_direction_sense,obfus_direction_sense-0057,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler moves 15 m north, then after rotations netting 90 degrees counterclockwise 10 m forward, 15 m forward, 10 m forward. Determine the direction relative to starting point.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,151,gpt6-tier1-explicit_task_instructions-direction_sense-0063-base,gpt6-tier1-explicit_task_instructions-direction_sense-0063-base,obfus_direction_sense,obfus_direction_sense-0063,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person walks 10 m North, right 5 m, right 10 m, right 5 m. Find direction
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,152,gpt6-tier1-explicit_task_instructions-direction_sense-0063-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0063-obf,obfus_direction_sense,obfus_direction_sense-0063,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler moves 10 m north, then after rotations netting 90 degrees clockwise moves 5 m, then after rotations netting 90 degrees clockwise moves 10 m, then after rotations netting 90 degrees clockwise moves 5 m. Determine current direction
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,153,gpt6-tier1-explicit_task_instructions-direction_sense-0067-base,gpt6-tier1-explicit_task_instructions-direction_sense-0067-base,obfus_direction_sense,obfus_direction_sense-0067,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Raj starts from his home and walks 6 km west to reach a market. On the way, he realizes he must first visit a pharmacy located 2 km south and 1 km east of his current position. After picking up the medicines, he proceeds to the market. Determine his net displacement from home.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,154,gpt6-tier1-explicit_task_instructions-direction_sense-0067-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0067-obf,obfus_direction_sense,obfus_direction_sense-0067,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Raj starts from his home heading 6 km west toward the market. After covering some distance, he remembers he needs to visit a pharmacy before reaching the market. The pharmacy is located 2 km south and 1 km east of the market’s position. He moves along a diagonal path leading to the pharmacy and then continues along a new direction to reach the market. Determine his net displacement from home.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,155,gpt6-tier1-explicit_task_instructions-direction_sense-0071-base,gpt6-tier1-explicit_task_instructions-direction_sense-0071-base,obfus_direction_sense,obfus_direction_sense-0071,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person walks 15 meters towards the north, then turns left and walks 10 meters. He then turns left again and walks 15 meters. Finally, he turns left and walks 10 meters. In which direction is he now from his starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,156,gpt6-tier1-explicit_task_instructions-direction_sense-0071-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0071-obf,obfus_direction_sense,obfus_direction_sense-0071,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler begins at an origin point, facing toward the zenith. First, he performs a flourish of rotations: two complete clockwise revolutions, followed by one full counterclockwise revolution, and a final quarter-turn clockwise, before advancing 15 m straight ahead. For the next leg, he executes three clockwise turns, cancels two with counterclockwise spins, and finishes with a quarter-turn left, then walks 10 m. Continuing, he again performs two full clockwise rotations, undoes one full counterclockwise, and adds a quarter-turn left, moving 15 m forward. Finally, before the last leg, he twirls once clockwise, counteracts with one half-turn counterclockwise, then a quarter-turn clockwise, and walks 10 m. After completing this intricate series of rotations and steps, determine the cardinal direction in which he stands relative to his starting point.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,157,gpt6-tier1-explicit_task_instructions-direction_sense-0072-base,gpt6-tier1-explicit_task_instructions-direction_sense-0072-base,obfus_direction_sense,obfus_direction_sense-0072,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A man walks 25 meters towards the south, then turns left and walks 15 meters. He then turns left again and walks 25 meters. Finally, he turns left and walks 15 meters. In which direction is he now from his starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,158,gpt6-tier1-explicit_task_instructions-direction_sense-0072-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0072-obf,obfus_direction_sense,obfus_direction_sense-0072,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler sets off from a reference point, initially oriented toward the nadir. First, he performs a complex rotational routine: two full clockwise spins, followed by one counterclockwise revolution, and finishes with a quarter-turn clockwise, then advances 25 m straight ahead. For the next leg, he twirls three times clockwise, counteracts with two counterclockwise spins, and finally rotates a quarter-turn left, then walks 15 m. Continuing, he executes two full clockwise rotations, negates one counterclockwise, and adds a quarter-turn left, proceeding 25 m. Finally, before the last stretch, he performs one clockwise, half-turn counterclockwise, one quarter clockwise, then moves 15 m forward. After completing this carefully choreographed sequence, determine the cardinal direction in which he stands relative to his starting point.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,159,gpt6-tier1-explicit_task_instructions-direction_sense-0073-base,gpt6-tier1-explicit_task_instructions-direction_sense-0073-base,obfus_direction_sense,obfus_direction_sense-0073,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person walks 50 meters towards the east, then turns left and walks 30 meters. He then turns left again and walks 50 meters. Finally, he turns left and walks 30 meters. How far is he from his starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,160,gpt6-tier1-explicit_task_instructions-direction_sense-0073-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0073-obf,obfus_direction_sense,obfus_direction_sense-0073,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler commences at an origin marker, initially oriented toward the rising sun. He begins with a complex set of rotations: two full clockwise revolutions, followed by one counterclockwise rotation, and a concluding quarter-turn clockwise, before advancing 50 meters straight ahead. For the second segment, he twirls three times clockwise, reverses two counterclockwise spins, and finally performs a quarter-turn left, then proceeds 30 meters forward. On the third leg, he repeats two full clockwise rotations, cancels one with a counterclockwise revolution, and adds a quarter-turn left, moving 50 meters. Finally, he executes one clockwise spin, a half-turn counterclockwise, and a quarter-turn clockwise, then walks 30 meters forward. After completing this intricately choreographed series of rotations and steps, determine the straight-line distance between his final position and the starting point.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,161,gpt6-tier1-explicit_task_instructions-direction_sense-0075-base,gpt6-tier1-explicit_task_instructions-direction_sense-0075-base,obfus_direction_sense,obfus_direction_sense-0075,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A hiker walks 3 km along a mountain trail going East, then climbs 2 km along a trail heading North-East. How far is he from the starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,162,gpt6-tier1-explicit_task_instructions-direction_sense-0075-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0075-obf,obfus_direction_sense,obfus_direction_sense-0075,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A mountaineer begins at a reference point on a rugged trail, initially oriented toward the rising sun. He first advances 3 km forward along the path.After completing this initial segment, he performs a series of angular adjustments and subtle course corrections, reorienting his trajectory along a heading northeast relative to the original path, and continues 2 km along this new vector. After this carefully choreographed traversal, determine the straight-line distance from his current position back to the original starting point.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,163,gpt6-tier1-explicit_task_instructions-direction_sense-0079-base,gpt6-tier1-explicit_task_instructions-direction_sense-0079-base,obfus_direction_sense,obfus_direction_sense-0079,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person walks 10 km North, then 6 km East. Find distance and direction from start
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,164,gpt6-tier1-explicit_task_instructions-direction_sense-0079-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0079-obf,obfus_direction_sense,obfus_direction_sense-0079,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler begins at a reference point. He first moves 10 km forward along a northern path, then after rotations and course adjustments moves 6 km along an eastern trajectory. Determine his straight-line distance and direction from start
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,165,gpt6-tier1-explicit_task_instructions-direction_sense-0080-base,gpt6-tier1-explicit_task_instructions-direction_sense-0080-base,obfus_direction_sense,obfus_direction_sense-0080,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A hiker walks 3 km East, then 2 km North-East. Find distance from start?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,166,gpt6-tier1-explicit_task_instructions-direction_sense-0080-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0080-obf,obfus_direction_sense,obfus_direction_sense-0080,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A mountaineer starts at a reference point on a trail. He first advances 3 km east, then after subtle angular adjustments moves 2 km along a northeast vector. Determine the straight-line distance to the starting point
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,167,gpt6-tier1-explicit_task_instructions-direction_sense-0081-base,gpt6-tier1-explicit_task_instructions-direction_sense-0081-base,obfus_direction_sense,obfus_direction_sense-0081,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A boy walks 5 km at 45Â° North of West, then 6 km at 30Â° South of West. Find distance from start?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,168,gpt6-tier1-explicit_task_instructions-direction_sense-0081-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0081-obf,obfus_direction_sense,obfus_direction_sense-0081,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler embarks from a reference point. He moves 5 km along a heading 45Â° northward from west, then after rotations walks 6 km along a heading 30Â° south of west. Determine the straight-line distance from start
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,169,gpt6-tier1-explicit_task_instructions-direction_sense-0083-base,gpt6-tier1-explicit_task_instructions-direction_sense-0083-base,obfus_direction_sense,obfus_direction_sense-0083,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A man starts from a boat on a riverbank and rows 6 km downstream. Then he turns at a 60Â° angle to the river flow and rows 4 km. Finally, he rows straight to the starting point. Find the shortest distance on last leg
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,170,gpt6-tier1-explicit_task_instructions-direction_sense-0083-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0083-obf,obfus_direction_sense,obfus_direction_sense-0083,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A navigator embarks from a riverbank. He first rows 6 km along the current, then after angular rotations rows 4 km at 60Â° to the flow, and finally plans a direct path back. Determine the minimal straight-line distance of the final leg
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,171,gpt6-tier1-explicit_task_instructions-direction_sense-0084-base,gpt6-tier1-explicit_task_instructions-direction_sense-0084-base,obfus_direction_sense,obfus_direction_sense-0084,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A boy walks 5 km North, then 6 km East. Find distance and direction
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,172,gpt6-tier1-explicit_task_instructions-direction_sense-0084-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0084-obf,obfus_direction_sense,obfus_direction_sense-0084,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler moves 5 km north, then after rotations 6 km east. Determine distance and direction from starting point
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,173,gpt6-tier1-explicit_task_instructions-direction_sense-0085-base,gpt6-tier1-explicit_task_instructions-direction_sense-0085-base,obfus_direction_sense,obfus_direction_sense-0085,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A hiker walks 3 km East, then 4 km North, 6 km West, 4 km South. Find direction from start
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,174,gpt6-tier1-explicit_task_instructions-direction_sense-0085-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0085-obf,obfus_direction_sense,obfus_direction_sense-0085,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler starts at a point, moves 3 km east, then 4 km north, 6 km west, 4 km south. Determine direction from starting location
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,175,gpt6-tier1-explicit_task_instructions-direction_sense-0086-base,gpt6-tier1-explicit_task_instructions-direction_sense-0086-base,obfus_direction_sense,obfus_direction_sense-0086,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person walks 50 meters East, 30 meters North, 50 meters West, 30 meters South. Find distance from start
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,176,gpt6-tier1-explicit_task_instructions-direction_sense-0086-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0086-obf,obfus_direction_sense,obfus_direction_sense-0086,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler starts at reference point, moves 50 m east, 30 m north, 50 m west, 30 m south. Determine straight-line distance
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,177,gpt6-tier1-explicit_task_instructions-direction_sense-0088-base,gpt6-tier1-explicit_task_instructions-direction_sense-0088-base,obfus_direction_sense,obfus_direction_sense-0088,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler walks 3 km East, then 2 km North-East. Find distance
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,178,gpt6-tier1-explicit_task_instructions-direction_sense-0088-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0088-obf,obfus_direction_sense,obfus_direction_sense-0088,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A mountaineer starts at reference, moves 3 km east, then 2 km northeast. Determine straight-line distance to start
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,179,gpt6-tier1-explicit_task_instructions-direction_sense-0090-base,gpt6-tier1-explicit_task_instructions-direction_sense-0090-base,obfus_direction_sense,obfus_direction_sense-0090,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A delivery person walks 2 blocks North, 3 blocks East, then 2 blocks South-East. Find distance from start
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,180,gpt6-tier1-explicit_task_instructions-direction_sense-0090-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0090-obf,obfus_direction_sense,obfus_direction_sense-0090,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A courier begins at reference intersection, moves 2 blocks north, 3 blocks east, 2 blocks southeast. Determine straight-line distance
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,181,gpt6-tier1-explicit_task_instructions-direction_sense-0092-base,gpt6-tier1-explicit_task_instructions-direction_sense-0092-base,obfus_direction_sense,obfus_direction_sense-0092,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler moves 3 km East, 4 km North, 6 km West, 4 km South. Find direction from start
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,182,gpt6-tier1-explicit_task_instructions-direction_sense-0092-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0092-obf,obfus_direction_sense,obfus_direction_sense-0092,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A hiker starts at a reference point, moves 3 km east, 4 km north, 6 km west, 4 km south. Determine direction from starting point
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,183,gpt6-tier1-explicit_task_instructions-direction_sense-0095-base,gpt6-tier1-explicit_task_instructions-direction_sense-0095-base,obfus_direction_sense,obfus_direction_sense-0095,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A hiker walks 3 km East, 2 km North-East. Find distance
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,184,gpt6-tier1-explicit_task_instructions-direction_sense-0095-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0095-obf,obfus_direction_sense,obfus_direction_sense-0095,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A mountaineer begins at point, moves 3 km east, 2 km northeast. Determine straight-line distance
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,185,gpt6-tier1-explicit_task_instructions-direction_sense-0099-base,gpt6-tier1-explicit_task_instructions-direction_sense-0099-base,obfus_direction_sense,obfus_direction_sense-0099,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person walks 50 m East, 30 m North, 50 m West, 30 m South. Find distance
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,186,gpt6-tier1-explicit_task_instructions-direction_sense-0099-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0099-obf,obfus_direction_sense,obfus_direction_sense-0099,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler starts at reference, moves 50 m east, 30 m north, 50 m west, 30 m south. Find straight-line distance to start
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,187,gpt6-tier1-explicit_task_instructions-direction_sense-0101-base,gpt6-tier1-explicit_task_instructions-direction_sense-0101-base,obfus_direction_sense,obfus_direction_sense-0101,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Vikram walks 5 km west to reach a bus stop. After 2 km, he remembers he has to buy tickets before arriving at the bus stop. The ticket counter is 1 km north and 1 km east of his current position. After buying the tickets, he continues to the bus stop.Distance from starting point ?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,188,gpt6-tier1-explicit_task_instructions-direction_sense-0101-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0101-obf,obfus_direction_sense,obfus_direction_sense-0101,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: Starting from home and facing the 9 o’clock direction, Vikram begins his walk. After covering 2 km forward, he recalls the ticket errand. Instead of heading straight, he first rotates one quarter-turn clockwise, walks 1 km, and then makes another quarter-turn counterclockwise to cover 1 km. This maneuver brings him exactly to the counter. After completing the purchase, he resumes. He initially takes a half-kilometer step eastward, then quickly cancels it with a half-kilometer step back westward. Next, he pivots two quarter-turns clockwise (facing back west again) and proceeds along the remaining stretch, which leads him directly to the bus stop, the same one located 5 km west of home.Distance from starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,189,gpt6-tier1-explicit_task_instructions-direction_sense-0105-base,gpt6-tier1-explicit_task_instructions-direction_sense-0105-base,obfus_direction_sense,obfus_direction_sense-0105,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person walks 12 km due north, then 15 km due east, after that 19 km due west and then 15 km due south. How far is he from the starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,190,gpt6-tier1-explicit_task_instructions-direction_sense-0105-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0105-obf,obfus_direction_sense,obfus_direction_sense-0105,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: An individual begins at an origin point and moves 12 km along the positive y-axis. Next, they move 15 km along the positive x-axis. From there, they traverse 19 km along the negative x-axis. Finally, they move 15 km along the negative y-axis. Determine the straight-line distance between their final position and the starting point.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,191,gpt6-tier1-explicit_task_instructions-direction_sense-0107-base,gpt6-tier1-explicit_task_instructions-direction_sense-0107-base,obfus_direction_sense,obfus_direction_sense-0107,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person walks 6 km north, then 8 km west, and finally 6 km south. What is the distance from the starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,192,gpt6-tier1-explicit_task_instructions-direction_sense-0107-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0107-obf,obfus_direction_sense,obfus_direction_sense-0107,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: An individual begins at an origin point and moves 6 km along the positive y-axis. They then move 8 km along the negative x-axis. Finally, they traverse 6 km along the negative y-axis. Determine the straight-line distance from their final position to the starting point.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,193,gpt6-tier1-explicit_task_instructions-direction_sense-0109-base,gpt6-tier1-explicit_task_instructions-direction_sense-0109-base,obfus_direction_sense,obfus_direction_sense-0109,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person walks 10 m north, turns right, walks 5 m, turns right again, walks 10 m, and turns right once more, walking 5 m. In which direction is he now from his starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,194,gpt6-tier1-explicit_task_instructions-direction_sense-0109-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0109-obf,obfus_direction_sense,obfus_direction_sense-0109,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: An individual begins at a reference point and moves 10 meters along the positive y-axis. They then rotate 90° clockwise and traverse 5 meters. Next, they rotate another 90° clockwise and move 10 meters. Finally, they rotate 90° clockwise once more and walk 5 meters. Determine the compass direction of their final position relative to the starting point.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,195,gpt6-tier1-explicit_task_instructions-direction_sense-0114-base,gpt6-tier1-explicit_task_instructions-direction_sense-0114-base,obfus_direction_sense,obfus_direction_sense-0114,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A man walks 5 km East, then 5 km North, 5 km West, and finally 5 km South. Find his final location relative to the start.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,196,gpt6-tier1-explicit_task_instructions-direction_sense-0114-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0114-obf,obfus_direction_sense,obfus_direction_sense-0114,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: An individual moves 5 kilometers along the positive x-axis, then proceeds 5 kilometers along the positive y-axis, then moves 5 kilometers along the negative x-axis, and finally traverses 5 kilometers along the negative y-axis. Determine the compass direction of their final position relative to the starting point.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,197,gpt6-tier1-explicit_task_instructions-direction_sense-0119-base,gpt6-tier1-explicit_task_instructions-direction_sense-0119-base,obfus_direction_sense,obfus_direction_sense-0119,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A person walks 12 m north, turns right and walks 9 m, then turns right again and walks 12 m. Where is he now from the starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,198,gpt6-tier1-explicit_task_instructions-direction_sense-0119-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0119-obf,obfus_direction_sense,obfus_direction_sense-0119,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler starts at a reference point, facing 12 o’clock (North). He walks 6 m forward, Rotates 90° clockwise and walks 3 m, Rotates 90° counterclockwise and walks 3 m back (opposite to his current facing direction), Walks 6 m forward, Rotates 90° clockwise and walks 6 m, Rotates 90° clockwise and walks 12 m forward. Question: Determine the straight-line distance and compass direction from the starting point.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,199,gpt6-tier1-explicit_task_instructions-direction_sense-0120-base,gpt6-tier1-explicit_task_instructions-direction_sense-0120-base,obfus_direction_sense,obfus_direction_sense-0120,base,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A man walks 6 km north, then 8 km west, and finally 6 km south. What is the distance from the starting point?
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,
+explicit_task_instructions,explicit_task_instructions,single,,200,gpt6-tier1-explicit_task_instructions-direction_sense-0120-obf,gpt6-tier1-explicit_task_instructions-direction_sense-0120-obf,obfus_direction_sense,obfus_direction_sense-0120,obfuscation,"Apply the task-specific decoding rules before solving the underlying problem.
+
+Normalize clock directions, cancelled rotations, opposite movements, and changes in facing direction before tracking net displacement.
+
+Solve the navigation problem. The final answer must give exactly the direction and/or distance requested, retaining the appropriate unit.
+
+TARGET PROBLEM
+Question: A traveler starts at a reference point, facing 12 o’clock (North). He walks 6 km forward, Rotates 90° counterclockwise and walks 8 km, Rotates 180° and walks 6 km backward. Question: Find the net displacement and direction from the starting point.
+
+Return the full response on one physical line using exactly this structure:
+REASONING: <concise reasoning> || FINAL_ANSWER: <answer>",,

@@ -1,0 +1,134 @@
+{
+  "model": "gpt-6-sol",
+  "reasoning_effort": "medium",
+  "conditions": 7,
+  "task_variant_cells": 45,
+  "evaluation_units": 2250,
+  "raw_model_generations": 3600,
+  "completed_evaluations": 2250,
+  "status_counts": {
+    "answered": 2224,
+    "no_consensus": 26
+  },
+  "scoring_policy": "Parent-package task normalizers with digit/word Blood Relation count equivalence; Direction distance tolerance is 0.05.",
+  "condition_totals": [
+    {
+      "condition": "normalize_then_solve",
+      "scope": "all applicable variants",
+      "correct": 179,
+      "total": 250,
+      "accuracy_pct": 71.6
+    },
+    {
+      "condition": "normalize_then_solve",
+      "scope": "obfuscated variants",
+      "correct": 98,
+      "total": 150,
+      "accuracy_pct": 65.3333
+    },
+    {
+      "condition": "structured_decomposition",
+      "scope": "all applicable variants",
+      "correct": 160,
+      "total": 250,
+      "accuracy_pct": 64.0
+    },
+    {
+      "condition": "structured_decomposition",
+      "scope": "obfuscated variants",
+      "correct": 92,
+      "total": 150,
+      "accuracy_pct": 61.3333
+    },
+    {
+      "condition": "explicit_task_instructions",
+      "scope": "all applicable variants",
+      "correct": 140,
+      "total": 200,
+      "accuracy_pct": 70.0
+    },
+    {
+      "condition": "explicit_task_instructions",
+      "scope": "obfuscated variants",
+      "correct": 69,
+      "total": 100,
+      "accuracy_pct": 69.0
+    },
+    {
+      "condition": "chain_of_thought",
+      "scope": "all applicable variants",
+      "correct": 312,
+      "total": 450,
+      "accuracy_pct": 69.3333
+    },
+    {
+      "condition": "chain_of_thought",
+      "scope": "obfuscated variants",
+      "correct": 161,
+      "total": 250,
+      "accuracy_pct": 64.4
+    },
+    {
+      "condition": "rereading_s2a",
+      "scope": "all applicable variants",
+      "correct": 138,
+      "total": 200,
+      "accuracy_pct": 69.0
+    },
+    {
+      "condition": "rereading_s2a",
+      "scope": "obfuscated variants",
+      "correct": 60,
+      "total": 100,
+      "accuracy_pct": 60.0
+    },
+    {
+      "condition": "self_consistency",
+      "scope": "all applicable variants",
+      "correct": 308,
+      "total": 450,
+      "accuracy_pct": 68.4444
+    },
+    {
+      "condition": "self_consistency",
+      "scope": "obfuscated variants",
+      "correct": 160,
+      "total": 250,
+      "accuracy_pct": 64.0
+    },
+    {
+      "condition": "self_verification_cove",
+      "scope": "all applicable variants",
+      "correct": 279,
+      "total": 450,
+      "accuracy_pct": 62.0
+    },
+    {
+      "condition": "self_verification_cove",
+      "scope": "obfuscated variants",
+      "correct": 139,
+      "total": 250,
+      "accuracy_pct": 55.6
+    }
+  ],
+  "special_metrics": {
+    "self_consistency": {
+      "evaluations": 450,
+      "raw_paths": 1350,
+      "agreement_counts": {
+        "unanimous": 361,
+        "majority": 63,
+        "none": 26
+      },
+      "agreement_rate_pct": 94.2222
+    },
+    "self_verification_cove": {
+      "evaluations": 450,
+      "raw_passes": 900,
+      "answer_changed": 51,
+      "answer_change_rate_pct": 11.3333,
+      "incorrect_to_correct": 3,
+      "correct_to_incorrect": 25
+    }
+  }
+}

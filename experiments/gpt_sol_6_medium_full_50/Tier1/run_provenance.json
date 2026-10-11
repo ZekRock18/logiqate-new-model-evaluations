@@ -1,0 +1,36 @@
+{
+  "model": "gpt-6-sol",
+  "model_snapshot": null,
+  "reasoning_effort": "medium",
+  "execution_mode": "Codex subagent queues and isolated Codex CLI batch sessions",
+  "provider_request_ids_available": false,
+  "sampling_parameters_available": false,
+  "token_telemetry_available": false,
+  "run_date_utc": "2026-10-11",
+  "prompt_version": "gpt6-tier1-v1",
+  "fixed_sample_source": "../sample_manifest.json",
+  "planned_evaluation_units": 2250,
+  "planned_raw_model_generations": 3600,
+  "cli_max_items_per_session": 8,
+  "cli_model_reasoning_effort": "medium",
+  "response_routes": {
+    "normalize_then_solve": "250 Codex subagent responses",
+    "structured_decomposition": "250 isolated Codex CLI responses",
+    "explicit_task_instructions": "200 isolated Codex CLI responses",
+    "chain_of_thought": "450 isolated Codex CLI responses",
+    "rereading_s2a": "200 isolated Codex CLI responses",
+    "self_consistency_path_1": "10 Codex subagent responses followed by 440 isolated Codex CLI responses",
+    "self_consistency_path_2": "450 isolated Codex CLI responses",
+    "self_consistency_path_3": "450 isolated Codex CLI responses",
+    "self_verification_cove_initial": "450 isolated Codex CLI responses",
+    "self_verification_cove_verification": "15 fresh verifier subagent responses followed by 435 isolated Codex CLI responses"
+  },
+  "self_consistency": "Three separately queued paths using distinct workers or isolated CLI sessions.",
+  "self_verification_cove": "Verification prompts are constructed after all initial answers are recorded.",
+  "limitations": [
+    "CLI sessions share context among up to eight items; persistent subagents can retain prior queue context.",
+    "The first 10 self-consistency path 1 items used a worker that had also answered some Normalize Then Solve prompts; the three self-consistency paths remained separate from one another.",
+    "The runtime does not expose a dated model snapshot, sampling controls, provider request IDs, random seeds, or token telemetry.",
+    "The matched control and Tier 1 methods are not time or order controlled."
+  ]
+}

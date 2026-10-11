@@ -1,0 +1,16 @@
+condition,task,variant,both_correct,base_only,method_only,both_wrong,total
+obf_to_obf_few_shot,obfus_fol,obfuscation,29,10,3,8,50
+obf_to_obf_few_shot,obfus_blood_relation,obfuscation_l1,32,6,2,10,50
+obf_to_obf_few_shot,obfus_blood_relation,obfuscation_l2,31,7,2,10,50
+obf_to_obf_few_shot,obfus_number_series,obfuscation,32,6,3,9,50
+obf_to_obf_few_shot,obfus_direction_sense,obfuscation,19,5,8,18,50
+base_to_obf_paired_few_shot,obfus_fol,obfuscation,27,12,3,8,50
+base_to_obf_paired_few_shot,obfus_blood_relation,obfuscation_l1,30,8,2,10,50
+base_to_obf_paired_few_shot,obfus_blood_relation,obfuscation_l2,33,5,3,9,50
+base_to_obf_paired_few_shot,obfus_number_series,obfuscation,32,6,2,10,50
+base_to_obf_paired_few_shot,obfus_direction_sense,obfuscation,17,7,5,21,50
+analogical_prompting,obfus_fol,obfuscation,25,14,3,8,50
+analogical_prompting,obfus_blood_relation,obfuscation_l1,25,13,1,11,50
+analogical_prompting,obfus_blood_relation,obfuscation_l2,16,22,1,11,50
+analogical_prompting,obfus_number_series,obfuscation,26,12,2,10,50
+analogical_prompting,obfus_direction_sense,obfuscation,20,4,2,24,50

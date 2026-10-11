@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "answers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "response_id": {"type": "string"},
+          "model_response": {"type": "string"}
+        },
+        "required": ["response_id", "model_response"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["answers"],
+  "additionalProperties": false
+}

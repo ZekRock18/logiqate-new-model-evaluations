@@ -1,0 +1,25 @@
+model,condition,task,task_title,variant,correct,total,accuracy_pct
+gpt-6-sol,analogical_prompting,obfus_blood_relation,Blood Relation,obfuscation_l1,26,50,52.0
+gpt-6-sol,analogical_prompting,obfus_blood_relation,Blood Relation,obfuscation_l2,17,50,34.0
+gpt-6-sol,analogical_prompting,obfus_direction_sense,Direction Sense,obfuscation,22,50,44.0
+gpt-6-sol,analogical_prompting,obfus_fol,FOL,obfuscation,28,50,56.0
+gpt-6-sol,analogical_prompting,obfus_number_series,Number Series,obfuscation,28,50,56.0
+gpt-6-sol,base_to_obf_paired_few_shot,obfus_blood_relation,Blood Relation,obfuscation_l1,32,50,64.0
+gpt-6-sol,base_to_obf_paired_few_shot,obfus_blood_relation,Blood Relation,obfuscation_l2,36,50,72.0
+gpt-6-sol,base_to_obf_paired_few_shot,obfus_direction_sense,Direction Sense,obfuscation,22,50,44.0
+gpt-6-sol,base_to_obf_paired_few_shot,obfus_fol,FOL,obfuscation,30,50,60.0
+gpt-6-sol,base_to_obf_paired_few_shot,obfus_number_series,Number Series,obfuscation,34,50,68.0
+gpt-6-sol,obf_to_obf_few_shot,obfus_blood_relation,Blood Relation,obfuscation_l1,34,50,68.0
+gpt-6-sol,obf_to_obf_few_shot,obfus_blood_relation,Blood Relation,obfuscation_l2,33,50,66.0
+gpt-6-sol,obf_to_obf_few_shot,obfus_direction_sense,Direction Sense,obfuscation,27,50,54.0
+gpt-6-sol,obf_to_obf_few_shot,obfus_fol,FOL,obfuscation,32,50,64.0
+gpt-6-sol,obf_to_obf_few_shot,obfus_number_series,Number Series,obfuscation,35,50,70.0
+gpt-6-sol,zero_shot_control,obfus_blood_relation,Blood Relation,base,38,50,76.0
+gpt-6-sol,zero_shot_control,obfus_blood_relation,Blood Relation,obfuscation_l1,34,50,68.0
+gpt-6-sol,zero_shot_control,obfus_blood_relation,Blood Relation,obfuscation_l2,36,50,72.0
+gpt-6-sol,zero_shot_control,obfus_direction_sense,Direction Sense,base,24,50,48.0
+gpt-6-sol,zero_shot_control,obfus_direction_sense,Direction Sense,obfuscation,20,50,40.0
+gpt-6-sol,zero_shot_control,obfus_fol,FOL,base,39,50,78.0
+gpt-6-sol,zero_shot_control,obfus_fol,FOL,obfuscation,32,50,64.0
+gpt-6-sol,zero_shot_control,obfus_number_series,Number Series,base,38,50,76.0
+gpt-6-sol,zero_shot_control,obfus_number_series,Number Series,obfuscation,38,50,76.0
