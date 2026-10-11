@@ -3,6 +3,7 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import re
 from pathlib import Path
 
 
@@ -33,8 +34,11 @@ def audit() -> dict:
                 bad_columns[str(path.relative_to(ROOT))] = forbidden
         if path.suffix.lower() in TEXT_SUFFIXES:
             text = path.read_text(encoding="utf-8", errors="ignore")
-            markers = ("gh" + "p_", "s" + "k-")
-            found = [marker for marker in markers if marker in text]
+            patterns = {
+                "github_token": re.compile(r"\bgh" + r"p_[A-Za-z0-9]{20,}"),
+                "openai_style_key": re.compile(r"\bs" + r"k-[A-Za-z0-9_-]{16,}"),
+            }
+            found = [name for name, pattern in patterns.items() if pattern.search(text)]
             if found:
                 secret_markers[str(path.relative_to(ROOT))] = found
     result_counts = {}

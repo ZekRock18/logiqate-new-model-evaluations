@@ -232,6 +232,12 @@ def cmd_answer(args: argparse.Namespace) -> int:
         index = next(
             index for index, row in enumerate(rows) if row["response_id"] == args.response_id
         )
+        existing = rows[index]["model_response"].strip()
+        if existing:
+            if existing == answer:
+                print(f"ALREADY RECORDED {args.response_id}")
+                return 0
+            raise SystemExit(f"refusing to overwrite answered response {args.response_id}")
         append_journal(condition, args.response_id, answer)
         rows[index]["model_response"] = answer
         write_atomic(result, rows)

@@ -1,0 +1,28 @@
+{
+  "model": "gpt-5.6-sol",
+  "model_snapshot": null,
+  "reasoning_effort": "high",
+  "execution_mode": "Codex agent queues with explicit model and reasoning-effort overrides",
+  "provider_request_ids_available": false,
+  "sampling_parameters_available": false,
+  "token_telemetry_available": false,
+  "run_date_utc": "2026-10-11",
+  "prompt_version": "gpt56-tier1-v1",
+  "evaluation_units": 2250,
+  "raw_model_generations": 3600,
+  "control": {
+    "status": "fresh matched queue from parent package",
+    "responses": 450,
+    "obfuscated_correct": 163,
+    "obfuscated_total": 250
+  },
+  "multi_pass_execution": {
+    "self_consistency": "three separately queued blinded workers; 1350 generations",
+    "self_verification_cove": "initial and fresh verifier passes; 900 generations"
+  },
+  "limitations": [
+    "No dated model snapshot, provider request IDs, sampling parameters, random seeds or token telemetry were exposed by the runtime.",
+    "Distinct workers were used for self-consistency paths, but persistent workers do not technically guarantee context isolation between queue items.",
+    "The matched control predates the Tier-1 run, so run-order and time effects are not controlled."
+  ]
+}

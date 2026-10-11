@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import json
+import re
 from pathlib import Path
 
 
@@ -78,8 +79,8 @@ def test_publication_excludes_private_row_labels_and_secrets():
     for path in ROOT.rglob("*"):
         if path.is_file() and path.suffix.lower() in {".py", ".md", ".json", ".ipynb"}:
             text = path.read_text(encoding="utf-8", errors="ignore")
-            assert ("s" + "k-") not in text
-            assert ("gh" + "p_") not in text
+            assert not re.search(r"\bs" + r"k-[A-Za-z0-9_-]{16,}", text)
+            assert not re.search(r"\bgh" + r"p_[A-Za-z0-9]{20,}", text)
 
 
 def test_public_aggregates_exist_without_row_evidence():

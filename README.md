@@ -16,11 +16,17 @@ folder with the prompts, raw submitted answers, and scored analysis.
 The completed [GPT Sol 5.6 High full-50 study](experiments/gpt_sol_5.6_high_assigned_50/)
 contains 1,200 fresh responses: a 450-response matched zero-shot control and
 three 250-response assigned mitigation conditions. On the shared 250
-obfuscated targets, the control scored 64.4%; obfuscated few-shot and
+obfuscated targets, the corrected control scored 65.2%; obfuscated few-shot and
 analogical prompting each scored 60.0%, while paired base-to-obfuscated
 few-shot scored 61.2%. None improved aggregate accuracy over the fresh
 control. The package includes executed notebooks, public prompts and answers,
 aggregate scoring outputs, provenance, tests and a publication audit.
+
+Its completed [full-50 Tier-1 extension](experiments/gpt_sol_5.6_high_assigned_50/Tier1/)
+adds all seven prompting methods: 2,250 scored evaluation units from 3,600 raw
+generations. On the complete 250-question obfuscated matrix, Chain of Thought
+scored 176/250 (70.4%), improving on the matched control by 5.2 percentage
+points; Self-Consistency scored 64.8% and CoVe scored 65.2%.
 
 The [`experiments/`](experiments/) section contains the completed 15-item-per-task
 prompt-mitigation study on `deepseek-ai/DeepSeek-V4.1-Flash`. It includes the

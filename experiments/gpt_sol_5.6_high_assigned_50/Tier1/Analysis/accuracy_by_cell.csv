@@ -1,0 +1,46 @@
+model,condition,task,task_title,variant,correct,total,accuracy_pct,response_or_consensus_failures
+gpt-5.6-sol,normalize_then_solve,obfus_fol,FOL,base,44,50,88.0,0
+gpt-5.6-sol,normalize_then_solve,obfus_fol,FOL,obfuscation,33,50,66.0,0
+gpt-5.6-sol,normalize_then_solve,obfus_blood_relation,Blood Relation,base,39,50,78.0,0
+gpt-5.6-sol,normalize_then_solve,obfus_blood_relation,Blood Relation,obfuscation_l1,34,50,68.0,0
+gpt-5.6-sol,normalize_then_solve,obfus_blood_relation,Blood Relation,obfuscation_l2,31,50,62.0,0
+gpt-5.6-sol,structured_decomposition,obfus_blood_relation,Blood Relation,base,39,50,78.0,0
+gpt-5.6-sol,structured_decomposition,obfus_blood_relation,Blood Relation,obfuscation_l1,34,50,68.0,0
+gpt-5.6-sol,structured_decomposition,obfus_blood_relation,Blood Relation,obfuscation_l2,31,50,62.0,0
+gpt-5.6-sol,structured_decomposition,obfus_direction_sense,Direction Sense,base,23,50,46.0,0
+gpt-5.6-sol,structured_decomposition,obfus_direction_sense,Direction Sense,obfuscation,19,50,38.0,0
+gpt-5.6-sol,explicit_task_instructions,obfus_number_series,Number Series,base,41,50,82.0,0
+gpt-5.6-sol,explicit_task_instructions,obfus_number_series,Number Series,obfuscation,41,50,82.0,0
+gpt-5.6-sol,explicit_task_instructions,obfus_direction_sense,Direction Sense,base,24,50,48.0,0
+gpt-5.6-sol,explicit_task_instructions,obfus_direction_sense,Direction Sense,obfuscation,19,50,38.0,0
+gpt-5.6-sol,chain_of_thought,obfus_fol,FOL,base,43,50,86.0,0
+gpt-5.6-sol,chain_of_thought,obfus_fol,FOL,obfuscation,34,50,68.0,0
+gpt-5.6-sol,chain_of_thought,obfus_blood_relation,Blood Relation,base,42,50,84.0,0
+gpt-5.6-sol,chain_of_thought,obfus_blood_relation,Blood Relation,obfuscation_l1,41,50,82.0,0
+gpt-5.6-sol,chain_of_thought,obfus_blood_relation,Blood Relation,obfuscation_l2,41,50,82.0,0
+gpt-5.6-sol,chain_of_thought,obfus_number_series,Number Series,base,41,50,82.0,0
+gpt-5.6-sol,chain_of_thought,obfus_number_series,Number Series,obfuscation,41,50,82.0,0
+gpt-5.6-sol,chain_of_thought,obfus_direction_sense,Direction Sense,base,24,50,48.0,0
+gpt-5.6-sol,chain_of_thought,obfus_direction_sense,Direction Sense,obfuscation,19,50,38.0,0
+gpt-5.6-sol,rereading_s2a,obfus_fol,FOL,base,42,50,84.0,0
+gpt-5.6-sol,rereading_s2a,obfus_fol,FOL,obfuscation,35,50,70.0,0
+gpt-5.6-sol,rereading_s2a,obfus_blood_relation,Blood Relation,base,38,50,76.0,0
+gpt-5.6-sol,rereading_s2a,obfus_blood_relation,Blood Relation,obfuscation_l2,36,50,72.0,0
+gpt-5.6-sol,self_consistency,obfus_fol,FOL,base,44,50,88.0,0
+gpt-5.6-sol,self_consistency,obfus_fol,FOL,obfuscation,32,50,64.0,0
+gpt-5.6-sol,self_consistency,obfus_blood_relation,Blood Relation,base,39,50,78.0,0
+gpt-5.6-sol,self_consistency,obfus_blood_relation,Blood Relation,obfuscation_l1,35,50,70.0,2
+gpt-5.6-sol,self_consistency,obfus_blood_relation,Blood Relation,obfuscation_l2,34,50,68.0,1
+gpt-5.6-sol,self_consistency,obfus_number_series,Number Series,base,41,50,82.0,2
+gpt-5.6-sol,self_consistency,obfus_number_series,Number Series,obfuscation,41,50,82.0,2
+gpt-5.6-sol,self_consistency,obfus_direction_sense,Direction Sense,base,24,50,48.0,0
+gpt-5.6-sol,self_consistency,obfus_direction_sense,Direction Sense,obfuscation,20,50,40.0,0
+gpt-5.6-sol,self_verification_cove,obfus_fol,FOL,base,41,50,82.0,0
+gpt-5.6-sol,self_verification_cove,obfus_fol,FOL,obfuscation,32,50,64.0,0
+gpt-5.6-sol,self_verification_cove,obfus_blood_relation,Blood Relation,base,38,50,76.0,0
+gpt-5.6-sol,self_verification_cove,obfus_blood_relation,Blood Relation,obfuscation_l1,35,50,70.0,0
+gpt-5.6-sol,self_verification_cove,obfus_blood_relation,Blood Relation,obfuscation_l2,36,50,72.0,0
+gpt-5.6-sol,self_verification_cove,obfus_number_series,Number Series,base,40,50,80.0,0
+gpt-5.6-sol,self_verification_cove,obfus_number_series,Number Series,obfuscation,40,50,80.0,0
+gpt-5.6-sol,self_verification_cove,obfus_direction_sense,Direction Sense,base,24,50,48.0,0
+gpt-5.6-sol,self_verification_cove,obfus_direction_sense,Direction Sense,obfuscation,20,50,40.0,0

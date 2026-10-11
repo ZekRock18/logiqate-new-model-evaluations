@@ -1,0 +1,458 @@
+{
+  "status": "pass",
+  "expected_scored_evaluation_units": 2250,
+  "expected_raw_model_responses": 3600,
+  "violations": [],
+  "incomplete": [],
+  "forbidden_filenames": [],
+  "forbidden_columns": {},
+  "secret_markers": {},
+  "private_paths": {},
+  "manifest": {
+    "present": true,
+    "questions_per_task": 50,
+    "evaluation_units": {
+      "normalize_then_solve": 250,
+      "structured_decomposition": 250,
+      "explicit_task_instructions": 200,
+      "chain_of_thought": 450,
+      "rereading_s2a": 200,
+      "self_consistency": 450,
+      "self_verification_cove": 450
+    },
+    "total_planned_model_responses": 3600
+  },
+  "result_counts": {
+    "normalize_then_solve": {
+      "expected_rows": 250,
+      "dataset_rows": 250,
+      "result_rows": 250,
+      "answered": 250,
+      "final_marker_rows": 250,
+      "immutable_row_mismatches": 0,
+      "unique_response_ids": 250
+    },
+    "structured_decomposition": {
+      "expected_rows": 250,
+      "dataset_rows": 250,
+      "result_rows": 250,
+      "answered": 250,
+      "final_marker_rows": 250,
+      "immutable_row_mismatches": 0,
+      "unique_response_ids": 250
+    },
+    "explicit_task_instructions": {
+      "expected_rows": 200,
+      "dataset_rows": 200,
+      "result_rows": 200,
+      "answered": 200,
+      "final_marker_rows": 200,
+      "immutable_row_mismatches": 0,
+      "unique_response_ids": 200
+    },
+    "chain_of_thought": {
+      "expected_rows": 450,
+      "dataset_rows": 450,
+      "result_rows": 450,
+      "answered": 450,
+      "final_marker_rows": 450,
+      "immutable_row_mismatches": 0,
+      "unique_response_ids": 450
+    },
+    "rereading_s2a": {
+      "expected_rows": 200,
+      "dataset_rows": 200,
+      "result_rows": 200,
+      "answered": 200,
+      "final_marker_rows": 200,
+      "immutable_row_mismatches": 0,
+      "unique_response_ids": 200
+    },
+    "self_consistency_path_1": {
+      "expected_rows": 450,
+      "dataset_rows": 450,
+      "result_rows": 450,
+      "answered": 450,
+      "final_marker_rows": 450,
+      "immutable_row_mismatches": 0,
+      "unique_response_ids": 450
+    },
+    "self_consistency_path_2": {
+      "expected_rows": 450,
+      "dataset_rows": 450,
+      "result_rows": 450,
+      "answered": 450,
+      "final_marker_rows": 450,
+      "immutable_row_mismatches": 0,
+      "unique_response_ids": 450
+    },
+    "self_consistency_path_3": {
+      "expected_rows": 450,
+      "dataset_rows": 450,
+      "result_rows": 450,
+      "answered": 450,
+      "final_marker_rows": 450,
+      "immutable_row_mismatches": 0,
+      "unique_response_ids": 450
+    },
+    "self_verification_cove_initial": {
+      "expected_rows": 450,
+      "dataset_rows": 450,
+      "result_rows": 450,
+      "answered": 450,
+      "final_marker_rows": 450,
+      "immutable_row_mismatches": 0,
+      "unique_response_ids": 450
+    },
+    "self_verification_cove_verification": {
+      "expected_rows": 450,
+      "dataset_rows": 450,
+      "result_rows": 450,
+      "answered": 450,
+      "final_marker_rows": 450,
+      "immutable_row_mismatches": 0,
+      "unique_response_ids": 450
+    }
+  },
+  "journal_reconciliation": {
+    "normalize_then_solve": {
+      "journal_rows": 251,
+      "unique_response_ids": 250,
+      "duplicate_records": 1,
+      "divergent_duplicate_ids": 0,
+      "malformed_records": 0,
+      "result_rows": 250,
+      "answered_result_rows": 250,
+      "unknown_response_ids": 0,
+      "latest_response_mismatches": 0,
+      "metadata_mismatches": 0
+    },
+    "structured_decomposition": {
+      "journal_rows": 250,
+      "unique_response_ids": 250,
+      "duplicate_records": 0,
+      "divergent_duplicate_ids": 0,
+      "malformed_records": 0,
+      "result_rows": 250,
+      "answered_result_rows": 250,
+      "unknown_response_ids": 0,
+      "latest_response_mismatches": 0,
+      "metadata_mismatches": 0
+    },
+    "explicit_task_instructions": {
+      "journal_rows": 201,
+      "unique_response_ids": 200,
+      "duplicate_records": 1,
+      "divergent_duplicate_ids": 0,
+      "malformed_records": 0,
+      "result_rows": 200,
+      "answered_result_rows": 200,
+      "unknown_response_ids": 0,
+      "latest_response_mismatches": 0,
+      "metadata_mismatches": 0
+    },
+    "chain_of_thought": {
+      "journal_rows": 450,
+      "unique_response_ids": 450,
+      "duplicate_records": 0,
+      "divergent_duplicate_ids": 0,
+      "malformed_records": 0,
+      "result_rows": 450,
+      "answered_result_rows": 450,
+      "unknown_response_ids": 0,
+      "latest_response_mismatches": 0,
+      "metadata_mismatches": 0
+    },
+    "rereading_s2a": {
+      "journal_rows": 201,
+      "unique_response_ids": 200,
+      "duplicate_records": 1,
+      "divergent_duplicate_ids": 0,
+      "malformed_records": 0,
+      "result_rows": 200,
+      "answered_result_rows": 200,
+      "unknown_response_ids": 0,
+      "latest_response_mismatches": 0,
+      "metadata_mismatches": 0
+    },
+    "self_consistency_path_1": {
+      "journal_rows": 452,
+      "unique_response_ids": 450,
+      "duplicate_records": 2,
+      "divergent_duplicate_ids": 0,
+      "malformed_records": 0,
+      "result_rows": 450,
+      "answered_result_rows": 450,
+      "unknown_response_ids": 0,
+      "latest_response_mismatches": 0,
+      "metadata_mismatches": 0
+    },
+    "self_consistency_path_2": {
+      "journal_rows": 453,
+      "unique_response_ids": 450,
+      "duplicate_records": 3,
+      "divergent_duplicate_ids": 0,
+      "malformed_records": 0,
+      "result_rows": 450,
+      "answered_result_rows": 450,
+      "unknown_response_ids": 0,
+      "latest_response_mismatches": 0,
+      "metadata_mismatches": 0
+    },
+    "self_consistency_path_3": {
+      "journal_rows": 452,
+      "unique_response_ids": 450,
+      "duplicate_records": 2,
+      "divergent_duplicate_ids": 0,
+      "malformed_records": 0,
+      "result_rows": 450,
+      "answered_result_rows": 450,
+      "unknown_response_ids": 0,
+      "latest_response_mismatches": 0,
+      "metadata_mismatches": 0
+    },
+    "self_verification_cove_initial": {
+      "journal_rows": 450,
+      "unique_response_ids": 450,
+      "duplicate_records": 0,
+      "divergent_duplicate_ids": 0,
+      "malformed_records": 0,
+      "result_rows": 450,
+      "answered_result_rows": 450,
+      "unknown_response_ids": 0,
+      "latest_response_mismatches": 0,
+      "metadata_mismatches": 0
+    },
+    "self_verification_cove_verification": {
+      "journal_rows": 450,
+      "unique_response_ids": 450,
+      "duplicate_records": 0,
+      "divergent_duplicate_ids": 0,
+      "malformed_records": 0,
+      "result_rows": 450,
+      "answered_result_rows": 450,
+      "unknown_response_ids": 0,
+      "latest_response_mismatches": 0,
+      "metadata_mismatches": 0
+    }
+  },
+  "self_consistency_invariants": {
+    "complete": true,
+    "path_rows": {
+      "self_consistency_path_1": 450,
+      "self_consistency_path_2": 450,
+      "self_consistency_path_3": 450
+    },
+    "aligned_evaluations": 450,
+    "identity_mismatches": 0,
+    "prompt_mismatches": 0
+  },
+  "cove_invariants": {
+    "complete": true,
+    "initial_rows": 450,
+    "verification_rows": 450,
+    "aligned_evaluations": 450,
+    "metadata_mismatches": 0,
+    "dependency_mismatches": 0,
+    "prompt_link_mismatches": 0
+  },
+  "notebooks": {
+    "expected": 8,
+    "present": 8,
+    "missing": [],
+    "unexpected": [],
+    "unexecuted_code_cells": {
+      "01_normalize_then_solve.ipynb": 0,
+      "02_structured_decomposition.ipynb": 0,
+      "03_explicit_task_instructions.ipynb": 0,
+      "04_chain_of_thought.ipynb": 0,
+      "05_rereading_s2a.ipynb": 0,
+      "06_self_consistency.ipynb": 0,
+      "07_self_verification_cove.ipynb": 0,
+      "08_aggregate_results.ipynb": 0
+    }
+  },
+  "analysis": {
+    "accuracy_by_cell.csv": {
+      "rows": 45,
+      "columns": [
+        "model",
+        "condition",
+        "task",
+        "task_title",
+        "variant",
+        "correct",
+        "total",
+        "accuracy_pct",
+        "response_or_consensus_failures"
+      ]
+    },
+    "improvement_over_control.csv": {
+      "rows": 25,
+      "columns": [
+        "condition",
+        "task",
+        "variant",
+        "method_correct",
+        "control_correct",
+        "total",
+        "method_accuracy_pct",
+        "control_accuracy_pct",
+        "improvement_pp"
+      ]
+    },
+    "base_obfuscated_gaps.csv": {
+      "rows": 25,
+      "columns": [
+        "condition",
+        "task",
+        "variant",
+        "base_source_condition",
+        "base_correct",
+        "obfuscated_correct",
+        "total",
+        "base_accuracy_pct",
+        "obfuscated_accuracy_pct",
+        "base_minus_obfuscated_pp"
+      ]
+    },
+    "paired_retention.csv": {
+      "rows": 25,
+      "columns": [
+        "condition",
+        "task",
+        "variant",
+        "both_correct",
+        "base_only_correct",
+        "obfuscated_only_correct",
+        "both_wrong",
+        "total",
+        "paired_retention_pct"
+      ]
+    },
+    "condition_totals.csv": {
+      "rows": 14,
+      "columns": [
+        "condition",
+        "scope",
+        "correct",
+        "total",
+        "accuracy_pct"
+      ]
+    },
+    "self_consistency_aggregates.csv": {
+      "rows": 450,
+      "columns": [
+        "condition",
+        "evaluation_id",
+        "task",
+        "item_id",
+        "variant",
+        "path_1_response_id",
+        "path_2_response_id",
+        "path_3_response_id",
+        "path_1_answer",
+        "path_2_answer",
+        "path_3_answer",
+        "path_1_normalized",
+        "path_2_normalized",
+        "path_3_normalized",
+        "winning_votes",
+        "agreement",
+        "final_answer",
+        "status"
+      ],
+      "unique_evaluation_ids": 450,
+      "invalid_vote_rows": 0
+    },
+    "cove_aggregates.csv": {
+      "rows": 450,
+      "columns": [
+        "condition",
+        "evaluation_id",
+        "task",
+        "item_id",
+        "variant",
+        "initial_response_id",
+        "verification_response_id",
+        "initial_answer",
+        "initial_normalized",
+        "final_answer",
+        "final_normalized",
+        "answer_changed",
+        "status"
+      ],
+      "unique_evaluation_ids": 450,
+      "invalid_stage_rows": 0
+    },
+    "summary.json": {
+      "metric_mismatches": {}
+    }
+  },
+  "file_count": 63,
+  "file_sha256": {
+    ".pytest_cache/CACHEDIR.TAG": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    ".pytest_cache/README.md": "420e808d79a6c25d3cda0af33bc4782314a14949866682c68ce8149e89b66b70",
+    ".pytest_cache/v/cache/nodeids": "74235da74d435d02e731a8ce1cae9af791a48b690814269df57105eecd5acfbd",
+    ".pytest_cache/v/cache/stepwise": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "Analysis/accuracy_by_cell.csv": "f12d9c285cde743bf7305108e2fe05a6548280858cb5071cba4b6645b64e2e34",
+    "Analysis/aggregation_summary.json": "3be749b3a8cb19da51bac099cc27b1a3451a4e8f42aba22e3ebbb36f5bc6739c",
+    "Analysis/base_obfuscated_gaps.csv": "01a15aefa54ef9ad6505628d5f3610945c6ebc00dcfcc4de11c09aacbf4e45f4",
+    "Analysis/condition_totals.csv": "88e233fdd7dda8d998fa71ebdeb8b998a662bdcacb39e82af43f2f85c8dd849b",
+    "Analysis/cove_aggregates.csv": "2b204d54e68a6ba791adbe75bb8a7ec02050daa49efd93c628b049f77e0446ee",
+    "Analysis/improvement_over_control.csv": "eaca64be9383d0ed758a8c9913edeb4960212931e83c846f39b059849dfae8cf",
+    "Analysis/paired_retention.csv": "9189213146574062cccafe2afbae262aa6b46ae4e14c1a11f7ac0b34ce8b8cc9",
+    "Analysis/REPORT.md": "e2f0fbb528c3ac367c22689dc20b06efd0cd7701af6b303c03f667cfbceff822",
+    "Analysis/self_consistency_aggregates.csv": "aef4764e6285ccaf42894d0ac37a33097debe9db2271d46ac3eb2d6b58e1efd6",
+    "Analysis/summary.json": "ca72757649da4f3016083649172374397ebf243ca6bd130951869208b7cc2e0e",
+    "Dataset/chain_of_thought.csv": "df8559b00776c5aa4c26a4f1dcfcaa7559564fdcf4bd8b831c1efaa6eac44792",
+    "Dataset/explicit_task_instructions.csv": "62d6eb80a8cc19675e6c91666d458d766e252b10b8cbec2ba016d529c0de5296",
+    "Dataset/normalize_then_solve.csv": "399801a672ca4cfa77876a18b2e1ddfa0af4ad23c4f3339d22b9eeec946f5a1d",
+    "Dataset/rereading_s2a.csv": "e32317cb7285fa9f877966fe0a399ae41d29683c9921e64f130156f897d9f52c",
+    "Dataset/self_consistency_path_1.csv": "6782f388c99b8d52de286cbda9c3a5d12c5dadde9a810f42b2b205212d071462",
+    "Dataset/self_consistency_path_2.csv": "aa95057d40f9d67640129d3956dd4928e2c302b65a89f276356a1b46f7de436d",
+    "Dataset/self_consistency_path_3.csv": "46b69b590265da5f32e202dabc04911d7546b9d8679f157f33b1834737a134d0",
+    "Dataset/self_verification_cove_initial.csv": "b73906b75dff61e1abffef8267ca725cebfad7253d4b166ec9f25d34a6245b97",
+    "Dataset/self_verification_cove_verification.csv": "aadc07cab44e46f9e3e85da806ae1309ba06cf83a89ea7152911393e229dcac3",
+    "Dataset/structured_decomposition.csv": "ee5431c73a8e5cc4702a74c842cd7cc7538fcca9410d8de8ad7394a35eb9d861",
+    "notebooks/01_normalize_then_solve.ipynb": "fb836dff688efec8daddabe6c947aa1120388bee6ba35a5920e78b8285e6464c",
+    "notebooks/02_structured_decomposition.ipynb": "23005d51366730bd79c86a735bd4667c9a68801746e3a8c142f89e6237f23399",
+    "notebooks/03_explicit_task_instructions.ipynb": "7f5e6b6d06a5a7573f5111f449b75922816207db1c9fa81d24cb2e968c0a5d6d",
+    "notebooks/04_chain_of_thought.ipynb": "bf3baf3befd19f3b26841b0cb1f36d413b4f933eff5eb7d42afdd64596da836c",
+    "notebooks/05_rereading_s2a.ipynb": "00636fb66b3f28bf2dd03dd4913be3e02f4cdfed977e39e2b331f3a8a6f29fa6",
+    "notebooks/06_self_consistency.ipynb": "d5fc58351009c7fbbae1145d9622f0ecd9e94080577c0983e28a1777f84abf73",
+    "notebooks/07_self_verification_cove.ipynb": "594ba49e3408c5892b91abbcf867d12ae0d028fe98d3d6cdb44b27273c2f5ef1",
+    "notebooks/08_aggregate_results.ipynb": "f63f8aae8e200d7832e29d40ebfce7becce129d8fd1d6a2c6f509998e548594c",
+    "prompts/tier1_prompt_templates.json": "823af14094633849100623e57fb0d45029bfeaec48b6f466feee00bb3da3e208",
+    "README.md": "ff54694d91c24cab3730f4059e2f0d20c2409e1d72f3fd3fd18a5ab2a4c0bd1b",
+    "Result/_answer_journal_chain_of_thought.jsonl": "ea664606055e4d259ca9f9824247d9c4d64d1963648fee59d3377f30d94f3491",
+    "Result/_answer_journal_explicit_task_instructions.jsonl": "78788b2a62fecc852a0b7976f250612b1ac7ebf20b1212532168b20b867a62a4",
+    "Result/_answer_journal_normalize_then_solve.jsonl": "76e3887d46b84405d85e337585073ba3c816f6d31fd6cf20f3bc602093997ba1",
+    "Result/_answer_journal_rereading_s2a.jsonl": "beec49c7f4d4312ff070d11078166fc36c6581c3e3fad3d075e151b8c51caabc",
+    "Result/_answer_journal_self_consistency_path_1.jsonl": "55946b8ceccde2c3de9293c06f2b1b9b70bb2e05b558687cdc963e3bf1464a79",
+    "Result/_answer_journal_self_consistency_path_2.jsonl": "e1f44d9528c19fa341b577629b463d09713c82f9d21feb18c362b90a0fa979b3",
+    "Result/_answer_journal_self_consistency_path_3.jsonl": "69630ee0bb94864196b0eafe40c671677561ce3e20bc582d035d9b91447ef935",
+    "Result/_answer_journal_self_verification_cove_initial.jsonl": "7463296750092910a1980934ca1761bdf8ae2adeb90906463fd05196858b8384",
+    "Result/_answer_journal_self_verification_cove_verification.jsonl": "fb2ace322a8d3e12705804b5899c3b77d860c0f32b815ad75585340fd0a2878e",
+    "Result/_answer_journal_structured_decomposition.jsonl": "27903b1ad83e631e32db7eeb67fc8fcefd2832075f6c87aca8ed9ef473a0b505",
+    "Result/chain_of_thought.csv": "97c252452f56e23e8560abf3206c2339fb019c3f86609d13d1dadd1ce8e505fd",
+    "Result/explicit_task_instructions.csv": "a5bf654bde88f8f10eefd41f225eb8cd5900689311074d25c9252730f867a96d",
+    "Result/normalize_then_solve.csv": "c2a636f4e0cfa088638b00ee1f9a7f96f63a44a19d99d7bb21abca05ed3013b9",
+    "Result/rereading_s2a.csv": "ca8f76cb05b0cada9a8a003d9885bc5940a4e60f1a5fa59a8d9291e2c1fe68d7",
+    "Result/self_consistency_path_1.csv": "eb2fef832b1d074fad8a72f5708c2a51a57657b8802405560fd461278a9cde77",
+    "Result/self_consistency_path_2.csv": "2c3ceb2642cdccddde35836b593562cc15ba25148ab4b0c64996b62cf5117fb6",
+    "Result/self_consistency_path_3.csv": "e7fe47f088e2b3403c8a30b2740b56ec4de065e55fb78a54d636f6a386807ec3",
+    "Result/self_verification_cove_initial.csv": "14569f9afbd61f2bb4d4df67f8c6bd8f8fdd4d61b9db451ddac42925a756bcc9",
+    "Result/self_verification_cove_verification.csv": "e89fb75c003155188ae9201b5754d01f2b026616b1ae51c5c212259f7fc95b04",
+    "Result/structured_decomposition.csv": "2ac3977cd33a2e36e8fc69ac7458641756e47523b3d491628b32be0c17e9e0b3",
+    "run_provenance.json": "4606c74ceae8f5ddd5bbc5974d4fcb65d5324f4581cc68804316567570873bc3",
+    "run_queue.py": "1a9b55b4e0644a664f9c3cc8dac1f9244535e26a7f08c62877fb929864c13baf",
+    "src/aggregate.py": "53129ff0ff78a31a5cdb315bdca5bf7c09c6ae8537647cd8d2ef2daefe1f1253",
+    "src/make_notebooks.py": "539a4e353c2cbf0d83533138f31c69d8fe7630fe9c1b7e5cbbf4387033571669",
+    "src/prepare.py": "b0ffdbc50ce6868aaad17ec6b7f2c027a450ef3edd927bab35a9c8f078a88d49",
+    "src/publication_audit.py": "0f71a63229f1f2ea5104ebd164d23344a3f52ec9f7d0b0514dcef5277b353005",
+    "src/score.py": "1c5ab05eccee5c60dc34a0ae47371aebea6ebdf721083459c19827e3b73e776a",
+    "tests/test_tier1.py": "a69fba467e42b48f82cd7f96f96d30b43b8b8a59674857929da50936d104f342",
+    "tier1_manifest.json": "7d42a5416b9ccca1080064f8d202d24a5a3cfe2b4db775cf90ab7dab8582ac72"
+  }
+}

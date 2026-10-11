@@ -7,11 +7,18 @@ This directory contains the prompt-level mitigation study for LogiQAte using `de
 [`gpt_sol_5.6_high_assigned_50/`](gpt_sol_5.6_high_assigned_50/) expands the
 three assigned methods to 50 questions per task with `gpt-5.6-sol` at high
 reasoning effort. It contains 1,200 fresh responses, including a 450-response
-matched control. On the common 250 obfuscated targets, the control scored
-161/250 (64.4%); obfuscated few-shot scored 150/250 (60.0%), paired few-shot
+matched control. On the common 250 obfuscated targets, the corrected control
+scored 163/250 (65.2%); obfuscated few-shot scored 150/250 (60.0%), paired few-shot
 153/250 (61.2%), and analogical prompting 150/250 (60.0%). The package records
 the agent-runtime and context-isolation limitations needed to interpret these
 results.
+
+The package's [`Tier1/`](gpt_sol_5.6_high_assigned_50/Tier1/) extension runs all
+seven Tier-1 methods on their full 50-item matrices: 2,250 scored evaluations
+and 3,600 raw generations. Chain of Thought was the strongest method evaluated
+on all 250 obfuscated targets at 176/250 (70.4%), a +5.2-point change from the
+matched zero-shot control. The extension includes all raw responses, executed
+notebooks, aggregates, tests and a publication audit.
 
 ## Scope
 

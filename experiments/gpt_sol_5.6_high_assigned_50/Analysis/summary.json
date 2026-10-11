@@ -4,14 +4,14 @@
   "control_responses": 450,
   "new_responses": 1200,
   "total_evaluation_units": 1200,
-  "scoring_policy": "Repository canonical task normalizers; direction distance tolerance is 0.05.",
+  "scoring_policy": "Repository task normalizers with digit/word Blood Relation count equivalence; Direction distance tolerance is 0.05.",
   "condition_totals": [
     {
       "condition": "zero_shot_control",
       "scope": "obfuscated variants",
-      "correct": 161,
+      "correct": 163,
       "total": 250,
-      "accuracy_pct": 64.4
+      "accuracy_pct": 65.2
     },
     {
       "condition": "obf_to_obf_few_shot",

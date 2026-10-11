@@ -19,6 +19,7 @@ venv/
 Thumbs.db
 *.tmp
 ~$*
+**/Result/.*.lock
 
 # Private evaluation labels and row-level scoring evidence
 **/private_do_not_upload/

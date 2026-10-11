@@ -1,5 +1,5 @@
 condition,scope,correct,total,accuracy_pct
-zero_shot_control,obfuscated variants,161,250,64.4
+zero_shot_control,obfuscated variants,163,250,65.2
 obf_to_obf_few_shot,obfuscated variants,150,250,60.0
 base_to_obf_paired_few_shot,obfuscated variants,153,250,61.2
 analogical_prompting,obfuscated variants,150,250,60.0

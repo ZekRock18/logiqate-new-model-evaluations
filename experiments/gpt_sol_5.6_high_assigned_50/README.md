@@ -35,6 +35,13 @@ Private answer keys and row-level scored evidence are deliberately excluded.
 Only aggregates are published. The queue workers must not inspect another
 model's outputs, an answer key, or the analysis directory while answering.
 
+The completed [`Tier1/`](Tier1/) extension evaluates all seven Tier-1 methods
+on the same fixed sample. It contains 2,250 scored evaluation units backed by
+3,600 raw generations. Chain of Thought scored 176/250 (70.4%) on the full
+obfuscated matrix, compared with 163/250 (65.2%) for the matched zero-shot
+control. See the Tier-1 README for the different method matrices and the
+limitations on direct cross-method comparisons.
+
 ## Model-identity limitation
 
 This is an agent-runtime evaluation, not an OpenAI API Batch run. The runtime

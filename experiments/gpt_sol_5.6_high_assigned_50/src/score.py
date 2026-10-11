@@ -65,7 +65,23 @@ def normalise_fol(text: str) -> str:
 
 
 def normalise_blood(text: str) -> str:
-    return re.sub(r"[^A-Z]", "", squash(final_answer(text)))
+    value = squash(final_answer(text))
+    count_aliases = {
+        "0": "0", "ZERO": "0",
+        "1": "1", "ONE": "1",
+        "2": "2", "TWO": "2",
+        "3": "3", "THREE": "3",
+        "4": "4", "FOUR": "4",
+        "5": "5", "FIVE": "5",
+        "6": "6", "SIX": "6",
+        "7": "7", "SEVEN": "7",
+        "8": "8", "EIGHT": "8",
+        "9": "9", "NINE": "9",
+        "10": "10", "TEN": "10",
+    }
+    if value in count_aliases:
+        return count_aliases[value]
+    return re.sub(r"[^A-Z]", "", value)
 
 
 def normalise_series(text: str) -> str:
@@ -108,6 +124,8 @@ NORMALISERS = {
 def correct(task: str, prediction: str, gold: str) -> bool:
     pred = NORMALISERS[task](prediction)
     truth = NORMALISERS[task](gold)
+    if not pred or not truth:
+        return False
     if pred == truth:
         return True
     if task != "obfus_direction_sense":
@@ -255,7 +273,7 @@ def score(source_root: Path) -> dict:
         "control_responses": 450,
         "new_responses": 1200,
         "total_evaluation_units": 1200,
-        "scoring_policy": "Repository canonical task normalizers; direction distance tolerance is 0.05.",
+        "scoring_policy": "Repository task normalizers with digit/word Blood Relation count equivalence; Direction distance tolerance is 0.05.",
         "condition_totals": condition_totals,
         "private_row_evidence": str(private_scored),
     }
