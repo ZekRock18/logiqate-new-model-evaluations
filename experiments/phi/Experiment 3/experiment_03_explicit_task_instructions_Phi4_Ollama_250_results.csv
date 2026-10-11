@@ -1,0 +1,957 @@
+experiment,model,dataset,variant,setting,row_number,response_id,benchmark_order,ground_truth_raw,ground_truth,raw_prediction,prediction,correct,status,error,latency_seconds
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,51,605365A270FD52AB,1,FALSE,false,FALSE,false,True,success,,135.634
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,52,404832606BEEDC1E,2,FALSE,false,TRUE,true,False,success,,0.413
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,53,35D50601BB7F7AF5,3,TRUE,true,TRUE,true,True,success,,0.428
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,54,58994DF26E347328,4,FALSE,false,FALSE,false,True,success,,0.239
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,55,17D02905EDAC2313,5,TRUE,true,TRUE,true,True,success,,0.208
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,56,1B296263D54E3A82,6,FALSE,false,FALSE,false,True,success,,0.168
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,57,27584BC575A85FB0,7,FALSE,false,FALSE,false,True,success,,0.154
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,58,0578F0407A2E047E,8,FALSE,false,FALSE,false,True,success,,0.332
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,59,3233D1870DC87426,9,FALSE,false,TRUE,true,False,success,,0.458
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,60,948AC412B08B9FFC,10,FALSE,false,FALSE,false,True,success,,0.401
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,61,6D88351246C8A533,11,FALSE,false,FALSE,false,True,success,,0.386
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,62,F8CAAF8DD5F4229E,12,TRUE,true,TRUE,true,True,success,,0.371
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,63,CDADD2CCD7846009,13,TRUE,true,TRUE,true,True,success,,0.261
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,64,F955131DDA8F6003,14,FALSE,false,FALSE,false,True,success,,0.233
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,65,5A56DDEA19C1A8CB,15,FALSE,false,TRUE,true,False,success,,0.371
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,66,6ABF33FF4FBDB407,16,FALSE,false,TRUE,true,False,success,,0.421
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,67,C9842BE3D2654E72,17,TRUE,true,TRUE,true,True,success,,0.421
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,68,E34092DEF71114F0,18,FALSE,false,FALSE,false,True,success,,0.274
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,69,B0C09FF4B939D53D,19,FALSE,false,FALSE,false,True,success,,0.21
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,70,FF0424AED09E8838,20,TRUE,true,TRUE,true,True,success,,0.209
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,71,E34A52D1FBE4BC5C,21,FALSE,false,FALSE,false,True,success,,0.334
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,72,3CC61F8C53F71DC6,22,FALSE,false,FALSE,false,True,success,,0.333
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,73,38D31829646EC84E,23,FALSE,false,FALSE,false,True,success,,0.275
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,74,D9CCBB72FB7F6D75,24,FALSE,false,TRUE,true,False,success,,0.255
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,75,9C228AAA30177D1F,25,FALSE,false,FALSE,false,True,success,,0.192
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,76,78B2FD90FC5A9083,26,FALSE,false,TRUE,true,False,success,,0.335
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,77,80572B0B4017F74F,27,FALSE,false,FALSE,false,True,success,,0.463
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,78,AA2CC0E5CE81E90F,28,TRUE,true,TRUE,true,True,success,,0.391
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,79,E19B395EC4D7CE5B,29,TRUE,true,TRUE,true,True,success,,0.337
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,80,FE2080D5EEB9332C,30,TRUE,true,TRUE,true,True,success,,0.379
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,81,3DC6C74802EF9888,31,TRUE,true,TRUE,true,True,success,,0.435
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,82,8E49DDBDE3CAD54E,32,TRUE,true,TRUE,true,True,success,,0.311
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,83,2D97772776DB120D,33,FALSE,false,FALSE,false,True,success,,0.221
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,84,1896E2506E622439,34,TRUE,true,TRUE,true,True,success,,0.342
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,85,9D17EDB9B88B4B7A,35,TRUE,true,TRUE,true,True,success,,0.334
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,86,1081BABB01811048,36,TRUE,true,TRUE,true,True,success,,0.197
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,87,FE374FDA150C19A9,37,FALSE,false,FALSE,false,True,success,,0.176
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,88,565051FA90D515BA,38,FALSE,false,FALSE,false,True,success,,0.385
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,89,6115199E894858C5,39,FALSE,false,FALSE,false,True,success,,0.509
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,90,5CEB7BA5ADF927A0,40,TRUE,true,FALSE,false,False,success,,0.347
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,91,CF13FC0067D4BDA3,41,FALSE,false,TRUE,true,False,success,,0.379
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,92,314BB08CE029937A,42,TRUE,true,TRUE,true,True,success,,0.288
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,93,1C5355167C656261,43,TRUE,true,FALSE,false,False,success,,0.383
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,94,460AE8CA8A25D4A7,44,FALSE,false,TRUE,true,False,success,,0.306
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,95,54A1C71BDB8E210C,45,TRUE,true,FALSE,false,False,success,,0.343
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,96,003AF192C5205303,46,FALSE,false,FALSE,false,True,success,,0.211
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,97,042DF9325759B97A,47,FALSE,false,FALSE,false,True,success,,0.387
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,98,E884ED4DAF63DD3F,48,FALSE,false,FALSE,false,True,success,,0.211
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,99,8E326766CF921B38,49,FALSE,false,TRUE,true,False,success,,0.339
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),FOL,obfuscation,zero_shot,100,8B9208626EC082BF,50,FALSE,false,FALSE,false,True,success,,0.216
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,51,54EDAB3B59174D03,51,grandmother,grandmother,Grandmother,grandmother,True,success,,0.517
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,52,D8580A4681A30938,52,sister,sister,"Sister
+
+(Note: The answer is derived from the relationships described: F is E's younger sister, making E and F siblings. A and E are siblings, so A and F are also siblings. C is A's uncle's only child, making C A's cousin. B and D are sisters of C's cousin's father, who is A's father. Therefore, B and D are A's aunts, making D A's aunt.)","sister (note: the answer is derived from the relationships described: f is e's younger sister, making e and f siblings. a and e are siblings, so a and f are also siblings. c is a's uncle's only child, making c a's cousin. b and d are sisters of c's cousin's father, who is a's father. therefore, b and d are a's aunts, making d a's aunt.)",False,success,,6.008
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,53,73CFC6AB22B7E409,53,granddaughter,granddaughter,Granddaughter,granddaughter,True,success,,0.376
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,54,404D09F484CDFFA9,54,grandson,grandson,Granddaughter,granddaughter,False,success,,0.351
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,55,621CC78242A4B7BE,55,mother,mother,Mother,mother,True,success,,0.241
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,56,0A281D8F73FB691C,56,brother-in-law,brother-in-law,Mother-in-law.,mother-in-law,False,success,,0.395
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,57,3CD5D003DF91468E,57,great-grandfather,great-grandfather,Grandfather.,grandfather,False,success,,0.3
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,58,C497BE3749968F8D,58,great-grandfather,great-grandfather,Cousin,cousin,False,success,,0.374
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,59,0655A40CD2286CD8,59,cousin,cousin,Cousin,cousin,True,success,,0.379
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,60,B01C0614D9580AEC,60,cousin,cousin,Cousin,cousin,True,success,,0.363
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,61,2318BC377B47A52C,61,sister,sister,Sister,sister,True,success,,0.301
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,62,9973871BD774A477,62,wife,wife,"Sister-in-law
+
+(Note: Sonia is the wife of Aamir's cousin, who is the nephew of Aamir's maternal uncle, making Sonia Aamir's sister-in-law.)","sister-in-law (note: sonia is the wife of aamir's cousin, who is the nephew of aamir's maternal uncle, making sonia aamir's sister-in-law.)",False,success,,2.733
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,63,71F794209321297F,63,brother,brother,Deepak's son.,deepak's son,False,success,,0.444
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,64,1459EB0C33645ED3,64,granddaughter,granddaughter,Daughter-in-law,daughter-in-law,False,success,,0.444
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,65,A517C5DC2A21DB7F,65,aunt,aunt,Aunt,aunt,True,success,,0.317
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,66,82A5E1CB52005E84,66,aunt,aunt,"Aunt
+
+(Note: The answer is based on the relationships provided: J is the sister of T, who is married to D. D is the father of R, making J the aunt of R.)","aunt (note: the answer is based on the relationships provided: j is the sister of t, who is married to d. d is the father of r, making j the aunt of r.)",False,success,,2.884
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,67,B0922E6A5849A2EB,67,brother,brother,Lata's son.,lata's son,False,success,,0.447
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,68,3B3A42CC58923F61,68,brother,brother,Cousin,cousin,False,success,,0.387
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,69,DFB12910A50D80C0,69,son,son,Son,son,True,success,,0.244
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,70,0FE305552324784A,70,father,father,Deepak's son.,deepak's son,False,success,,0.451
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,71,55168869431D363A,71,great-grandfather,great-grandfather,Cousin,cousin,False,success,,0.386
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,72,5BAA01E8D95F724E,72,grandfather,grandfather,Aunt,aunt,False,success,,0.339
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,73,B480729974AD9100,73,brother,brother,Sister-in-law,sister-in-law,False,success,,0.464
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,74,AA526797E8F46331,74,brother,brother,Cousin,cousin,False,success,,0.389
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,75,128C39F38C88FA4D,75,son,son,Sandeep is Anup's son.,sandeep is anup's son,False,success,,0.731
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,76,61EDEF0A27F9F7D8,76,brother,brother,S's brother-in-law.,s's brother-in-law,False,success,,0.526
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,77,1727307E896A90D4,77,grandson,grandson,Grandson,grandson,True,success,,0.379
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,78,9F62B4BBE2562FAD,78,great-granddaughter,great-granddaughter,"Sister-in-law
+
+(Note: The answer is derived from the relationships and connections established in the problem statement.)",sister-in-law (note: the answer is derived from the relationships and connections established in the problem statement.),False,success,,1.674
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,79,F5B16A07EB64F10B,79,3,3,Three,three,False,success,,0.3
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,80,336D4BC84D66514F,80,aunt,aunt,Aunt's wife,aunt's wife,False,success,,0.448
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,81,0700F86A35410C13,81,mother,mother,Grandmother,grandmother,False,success,,0.324
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,82,B1E6ED2959C86957,82,niece,niece,Nephew/Niece (depending on D's gender),nephew/niece (depending on d's gender),False,success,,0.939
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,83,EADDF97CAC49C102,83,brother-in-law,brother-in-law,Sister-in-law.,sister-in-law,False,success,,0.489
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,84,9D917F4498D2F8FA,84,grandson,grandson,"Grandson
+
+(Note: The answer is derived from the relationships: D is the father of R, and since D has only one son and no daughter, R must be the son. M is the son of H, and T is the mother-in-law of H, making H the spouse of T. Therefore, M is the child of T and H, making M the grandson of D.)","grandson (note: the answer is derived from the relationships: d is the father of r, and since d has only one son and no daughter, r must be the son. m is the son of h, and t is the mother-in-law of h, making h the spouse of t. therefore, m is the child of t and h, making m the grandson of d.)",False,success,,5.764
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,85,46152E15B04713E9,85,1,1,Two,two,False,success,,0.345
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,86,FBEC53CD1F156B69,86,brother,brother,S's brother.,s's brother,False,success,,0.403
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,87,152619F2086C2D27,87,granddaughter,granddaughter,L is the granddaughter of T.,l is the granddaughter of t,False,success,,0.668
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,88,A6A6069D23DF125A,88,granddaughter,granddaughter,"Cousin
+
+(Note: A is the daughter of B's paternal uncle, making A and B first cousins. Since D is B's maternal grandfather, A and D are first cousins once removed.)","cousin (note: a is the daughter of b's paternal uncle, making a and b first cousins. since d is b's maternal grandfather, a and d are first cousins once removed.)",False,success,,3.037
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,89,A8EFBFED6FD76B8A,89,son,son,Son,son,True,success,,0.262
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,90,C2E9E4C6B519B440,90,brother,brother,Aunt's son (or cousin).,aunt's son (or cousin),False,success,,0.721
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,91,8AC819C8FEEEC2FB,91,father,father,Son,son,False,success,,0.256
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,92,8D87F384E78B20EE,92,grandmother,grandmother,Cousin,cousin,False,success,,0.412
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,93,8361B0E22FDE7205,93,sister,sister,Sister,sister,True,success,,0.337
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,94,883760E586209DE3,94,granddaughter,granddaughter,Granddaughter,granddaughter,True,success,,0.42
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,95,46850AE180A3C198,95,daughter-in-law,daughter-in-law,Sister-in-law,sister-in-law,False,success,,0.492
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,96,2EDA62090C90D27C,96,3,3,Three,three,False,success,,0.317
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,97,5785A7F93DD0BBC4,97,father,father,Cousin,cousin,False,success,,0.421
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,98,DB058F72E47FFEE4,98,3,3,Three,three,False,success,,0.326
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,99,86099CE1BA0382B7,99,grandson,grandson,X's cousin's wife.,x's cousin's wife,False,success,,0.578
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l1,zero_shot,100,25404196ECF57259,100,daughter,daughter,Sister,sister,False,success,,0.347
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,101,A26577C5DE74650D,101,father,father,Son,son,False,success,,0.274
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,102,07EF5591616A5314,102,daughter,daughter,"Aunt
+
+(Note: The answer is derived from the logical deduction of the relationships described in the statement.)",aunt (note: the answer is derived from the logical deduction of the relationships described in the statement.),False,success,,1.734
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,103,1062F0B4A21FF41B,103,brother,brother,Aunt's son,aunt's son,False,success,,0.51
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,104,777AD611C46295A3,104,father,father,Father,father,True,success,,0.254
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,105,D6177347F2700F59,105,brother,brother,Nephew,nephew,False,success,,0.432
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,106,3A3D26B605D4ABF7,106,aunt,aunt,"Cousin
+
+(Note: The answer is based on the relationships described: A and E are siblings, F is E's younger sister, C is A's uncle's only child, and B and D are the sisters of C's father's brother, making D a cousin to A.)","cousin (note: the answer is based on the relationships described: a and e are siblings, f is e's younger sister, c is a's uncle's only child, and b and d are the sisters of c's father's brother, making d a cousin to a.)",False,success,,4.647
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,107,CBA415997025E0D8,107,brother,brother,Veena's grandson.,veena's grandson,False,success,,0.522
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,108,13CE491CFD6EE16B,108,mother,mother,Aunt,aunt,False,success,,0.361
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,109,DFC44CC067EE488E,109,aunt,aunt,Sister-in-law.,sister-in-law,False,success,,0.539
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,110,8AAE0F62510F4312,110,daughter,daughter,Kabir's daughter.,kabir's daughter,False,success,,0.598
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,111,998E91F5697BD005,111,sister-in-law,sister-in-law,"Sister-in-law
+
+(Note: The answer is derived by following the chain of relationships described in the question.)",sister-in-law (note: the answer is derived by following the chain of relationships described in the question.),False,success,,1.889
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,112,FE46E896805319E3,112,mother,mother,Mother,mother,True,success,,0.284
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,113,F87B39132B82ADB1,113,wife,wife,Sister-in-law,sister-in-law,False,success,,0.493
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,114,2BB04EA9B88E49DD,114,aunt,aunt,Cousins.,cousins,False,success,,0.487
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,115,A1CA646EF6178994,115,brother-in-law,brother-in-law,S is son-in-law of D.,s is son-in-law of d,False,success,,0.784
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,116,F95684F2EAE2A33C,116,2,2,Two,two,False,success,,0.308
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,117,FF1E0BCAE635AEFB,117,brother,brother,Nephew,nephew,False,success,,0.449
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,118,1B5272F471A3664E,118,brother,brother,S's son.,s's son,False,success,,0.468
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,119,112766228F381CE7,119,wife,wife,Mother-in-law.,mother-in-law,False,success,,0.464
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,120,FE54A0DF16D6A308,120,grandfather,grandfather,Grandfather.,grandfather,True,success,,0.372
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,121,76EDB1DAC5163A34,121,sister,sister,Sister,sister,True,success,,0.383
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,122,3D7E41FCBFBB7537,122,brother,brother,Sister,sister,False,success,,0.358
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,123,DEFCD00CFEAAE08D,123,cousin,cousin,"Cousin
+
+(Note: The answer is based on the relationships described: A is the granddaughter of D's mother, making A the great-grandchild of D's mother. C is the grandson of D's great-grandmother's only daughter-in-law, which also makes C a great-grandchild of D's mother. Therefore, A and C are cousins.)","cousin (note: the answer is based on the relationships described: a is the granddaughter of d's mother, making a the great-grandchild of d's mother. c is the grandson of d's great-grandmother's only daughter-in-law, which also makes c a great-grandchild of d's mother. therefore, a and c are cousins.)",False,success,,5.863
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,124,DACDDD83A29CFC3D,124,husband,husband,Spouse,spouse,False,success,,0.269
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,125,4C1F8DA490017CEF,125,brother-in-law,brother-in-law,Spouse,spouse,False,success,,0.376
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,126,BB9A471699128AD7,126,daughter-in-law,daughter-in-law,Daughter-in-law,daughter-in-law,True,success,,0.516
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,127,AE3F0BCFD9AF4AAA,127,brother,brother,"Cousin
+
+(Note: J is the son of I, and I is married to K. C is the daughter of K. Therefore, J and C are siblings, making them cousins to each other through their parents I and K.)","cousin (note: j is the son of i, and i is married to k. c is the daughter of k. therefore, j and c are siblings, making them cousins to each other through their parents i and k.)",False,success,,3.885
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,128,C48EF0079CD176D1,128,mother,mother,Mother,mother,True,success,,0.275
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,129,3BF7182877B5F7EE,129,grandson,grandson,Grandson,grandson,True,success,,0.394
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,130,4F9FD182B2EEDCE6,130,father,father,Brother-in-law,brother-in-law,False,success,,0.494
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,131,4124AD24F8A48FE9,131,grandmother,grandmother,Aunt,aunt,False,success,,0.379
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,132,6035647664598B51,132,aunt,aunt,Aunt,aunt,True,success,,0.34
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,133,69719BED85C5A1C9,133,grandson,grandson,"Grandson
+
+(Note: The answer is derived from the relationships: D is the father of T, who is the mother-in-law of H. M is the son of H, making M the grandson of D.)","grandson (note: the answer is derived from the relationships: d is the father of t, who is the mother-in-law of h. m is the son of h, making m the grandson of d.)",False,success,,3.43
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,134,943861E4E4262B16,134,mother-in-law,mother-in-law,Sister-in-law,sister-in-law,False,success,,0.5
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,135,80824AE994D48E84,135,sister-in-law,sister-in-law,Sister-in-law,sister-in-law,True,success,,0.498
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,136,6444CCDDD2633D7A,136,aunt,aunt,Sister,sister,False,success,,0.347
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,137,19D38506BD72F780,137,aunt,aunt,"Aunt
+
+(Note: The answer is derived from the relationships: J is the sister of T, who is married to D. D is the only son of R, making D R's son. Therefore, J is R's daughter, and since R is J's father, J is R's daughter. However, since the question asks how J is related to R, and considering the context of the relationships, J is R's daughter, making her R's daughter. But in terms of how J is related to R's grandchild, R, J is R's daughter, making her R's daughter. However, in terms of how J is related to R's grandchild, R, J is R's daughter, making her R's daughter. But in terms of how J is related to R's grandchild, R, J is R's daughter, making her R's aunt to R's grandchild, R. Therefore, J is R's daughter, making her R's daughter. But in terms of how J is related to R's grandchild, R, J is R's daughter, making her R's aunt to R's grandchild, R. Therefore, J is R's daughter, making her R's daughter. But in terms of how J is related to R's grandchild, R, J is R's daughter, making her R's aunt to R's grandchild, R. Therefore, J is R's daughter, making her R's aunt to R's grandchild, R. Therefore, J is R's daughter, making her R's aunt to R's grandchild, R. Therefore, J is R's daughter, making her R's aunt to R's grandchild, R. Therefore, J is R's daughter, making her R's aunt to R's grandchild, R. Therefore, J is R's daughter, making her R's aunt to R's grandchild, R. Therefore, J is R's aunt.)","aunt (note: the answer is derived from the relationships: j is the sister of t, who is married to d. d is the only son of r, making d r's son. therefore, j is r's daughter, and since r is j's father, j is r's daughter. however, since the question asks how j is related to r, and considering the context of the relationships, j is r's daughter, making her r's daughter. but in terms of how j is related to r's grandchild, r, j is r's daughter, making her r's daughter. however, in terms of how j is related to r's grandchild, r, j is r's daughter, making her r's daughter. but in terms of how j is related to r's grandchild, r, j is r's daughter, making her r's aunt to r's grandchild, r. therefore, j is r's daughter, making her r's daughter. but in terms of how j is related to r's grandchild, r, j is r's daughter, making her r's aunt to r's grandchild, r. therefore, j is r's daughter, making her r's daughter. but in terms of how j is related to r's grandchild, r, j is r's daughter, making her r's aunt to r's grandchild, r. therefore, j is r's daughter, making her r's aunt to r's grandchild, r. therefore, j is r's daughter, making her r's aunt to r's grandchild, r. therefore, j is r's daughter, making her r's aunt to r's grandchild, r. therefore, j is r's daughter, making her r's aunt to r's grandchild, r. therefore, j is r's daughter, making her r's aunt to r's grandchild, r. therefore, j is r's aunt.)",False,success,,29.308
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,138,FBF382B2670B26CC,138,uncle,uncle,Aunt's husband's son.,aunt's husband's son,False,success,,0.721
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,139,BA8B35C41D532319,139,daughter-in-law,daughter-in-law,Daughter-in-law,daughter-in-law,True,success,,0.482
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,140,CFF4E0ECA0153B4E,140,mother,mother,Grandmother-in-law.,grandmother-in-law,False,success,,0.501
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,141,20F96C9DD86F7C46,141,uncle,uncle,Father,father,False,success,,0.259
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,142,DA3E3C28F842A027,142,aunt,aunt,Sister-in-law,sister-in-law,False,success,,0.497
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,143,A3F83B842D0A73F9,143,grandson,grandson,P is Q's son.,p is q's son,False,success,,0.552
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,144,009A56365ECACA43,144,brother,brother,Sandeep is Anup's son.,sandeep is anup's son,False,success,,0.774
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,145,D0035EE0FD4939F0,145,son,son,Sister-in-law.,sister-in-law,False,success,,0.511
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,146,3A8FFEE3A6F2C622,146,father,father,Uncle,uncle,False,success,,0.337
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,147,FF602E199A1DCCD0,147,mother,mother,Son,son,False,success,,0.263
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,148,416D7F2634690FA9,148,sister,sister,G is F's father.,g is f's father,False,success,,0.564
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,149,84B51353FC3437B7,149,mother,mother,Aunt,aunt,False,success,,0.358
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Blood_Relation,obfuscation_l2,zero_shot,150,C74F6A1FD57D0FEB,150,2,2,Two,two,False,success,,0.289
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,51,88A2281299CB4699,151,at starting point,at starting point,North-West,north-west,False,success,,0.648
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,52,85BC55487EF7E2E1,152,7.07 km North-East,7.07 km north-east,"10 km, North-East","10 km, north-east",False,success,,0.488
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,53,818FA87D2BFFAF59,153,West,west,North-West,north-west,False,success,,0.365
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,54,A2ACD59D508FDEBA,154,At starting point,at starting point,The final location relative to the start is the same as the starting point.,the final location relative to the start is the same as the starting point,False,success,,1.232
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,55,001F41419FFF5F30,155,North-West,north-west,South-West,south-west,False,success,,0.294
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,56,CAB44E2F274B8196,156,4.85 km,4.85 km,2.24 km,2.24 km,False,success,,0.474
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,57,E196C3A3DA461B07,157,North,north,South-East,south-east,False,success,,0.44
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,58,75013926B04B7F20,158,At starting point,at starting point,North-South (He is at the starting point),north-south (he is at the starting point),False,success,,0.963
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,59,AE80F25645247FDE,159,8.72 km,8.72 km,5 km,5 km,False,success,,0.371
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,60,228A4289FD902526,160,6 km West,6 km west,"5 km, South-West","5 km, south-west",False,success,,0.546
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,61,C571AEEC8935B8C1,161,West,west,East-West,east-west,False,success,,0.441
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,62,A11A683E421AB417,162,"9.49 m, South-East","9.49 m, south-east","9 m, South-East","9 m, south-east",False,success,,0.672
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,63,55331DE1274FE958,163,10.91 km,10.91 km,4.47 km,4.47 km,False,success,,0.513
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,64,D8D0ECF1A79F9319,164,4.64 km,4.64 km,"3.61 km
+
+(Note: The straight-line distance is calculated using the Pythagorean theorem, considering the movements as vectors: 3 km east and 2 km northeast, which translates to 1 km north and 1.41 km east. The resultant vector is then calculated from these components.)","3.61 km (note: the straight-line distance is calculated using the pythagorean theorem, considering the movements as vectors: 3 km east and 2 km northeast, which translates to 1 km north and 1.41 km east. the resultant vector is then calculated from these components.)",False,success,,4.764
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,65,9BC3B26765CFFA96,165,At starting point,at starting point,North-South (He is at the starting point),north-south (he is at the starting point),False,success,,0.972
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,66,47E5B03090244470,166,5 km North-East,5 km north-east,5 km North-East,5 km north-east,True,success,,0.498
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,67,077B0CF1D186E8C3,167,At starting point,at starting point,"North, South, East, West, North-East, North-West, South-East, South-West
+
+Final Answer: North","north, south, east, west, north-east, north-west, south-east, south-west final answer: north",False,success,,1.971
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,68,ABB0AADEB10A6D47,168,"0 m, At starting point","0 m, at starting point",0 m,0 m,False,success,,0.268
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,69,D0C6D9A687E69300,169,"0 m, At starting point","0 m, at starting point",0 meters,0 meters,False,success,,0.374
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,70,5F597953A85B2886,170,"16.28 km, North-West","16.28 km, north-west",Kishen is 7 km in the North-East direction from his starting point.,kishen is 7 km in the north-east direction from his starting point,False,success,,1.655
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,71,0ECD877D626DD3E4,171,4.64 km,4.64 km,3.61 km,3.61 km,False,success,,0.549
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,72,9FE58D25719C7BE9,172,"0 m, At starting point","0 m, at starting point",0 m,0 m,False,success,,0.345
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,73,5E083BF5D1A59676,173,At starting point,at starting point,North,north,False,success,,0.298
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,74,B84F4A235B76761C,174,East,east,"South-West
+
+(Note: The problem involves understanding the orientation of the watch face and how the hands move relative to it. At 2:30, the minute hand points to 9 on the watch face, which, given the initial orientation, corresponds to the South-West direction.)","south-west (note: the problem involves understanding the orientation of the watch face and how the hands move relative to it. at 2:30, the minute hand points to 9 on the watch face, which, given the initial orientation, corresponds to the south-west direction.)",False,success,,4.556
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,75,E83B948D2E623FFD,175,West,west,"West
+
+(Note: The minute hand's position at 2:30 is determined relative to the original orientation of the watch, where it was initially pointing East at 9:00. By 2:30, it has moved to point West.)","west (note: the minute hand's position at 2:30 is determined relative to the original orientation of the watch, where it was initially pointing east at 9:00. by 2:30, it has moved to point west.)",False,success,,4.023
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,76,A4B4A8B02FCF14DD,176,"6 km, West","6 km, west","11 km, South-West","11 km, south-west",False,success,,0.625
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,77,AEF6222FAEFFF0D6,177,North,north,East,east,False,success,,0.278
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,78,5027E0DCEF12B051,178,South,south,"South-West
+
+(Note: The timepiece is rotated such that 3:00 P.M. aligns with North. At 6:45 P.M., the minute hand points at the 9 on a standard clock, which is West. Given the initial rotation, West corresponds to South-West in this setup.)","south-west (note: the timepiece is rotated such that 3:00 p.m. aligns with north. at 6:45 p.m., the minute hand points at the 9 on a standard clock, which is west. given the initial rotation, west corresponds to south-west in this setup.)",False,success,,4.938
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,79,573A88DA0445F2F2,179,At starting point,at starting point,North,north,False,success,,0.197
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,80,A651A86E6E7092F8,180,80 meters West,80 meters west,100 meters,100 meters,False,success,,0.567
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,81,DB9C033AF704B6DF,181,0 meters,0 meters,0 m,0 m,False,success,,0.355
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,82,08367F8B728803C4,182,10.91 km,10.91 km,4.5 km,4.5 km,False,success,,0.5
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,83,95A218ED49654954,183,"3 km, West","3 km, west",West,west,False,success,,0.269
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,84,BEEDBDA908B1394A,184,"10.00 km, North-East","10.00 km, north-east",5 km North-East,5 km north-east,False,success,,0.497
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,85,857E8A8E00FA630A,185,"11.66 km, North-East","11.66 km, north-east","11 km, North-East","11 km, north-east",False,success,,0.553
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,86,F93B903CC9909671,186,At starting point,at starting point,"Starting Point: Assume the starting point is at the origin (0, 0).
+
+1. Walk 15 meters north: 
+   - Displacement: (0, +15)
+
+2. Turn left (west) and walk 10 meters:
+   - Displacement: (-10, +15)
+
+3. Turn left (south) and walk 15 meters:
+   - Displacement: (-10, 0)
+
+4. Turn left (east) and walk 10 meters:
+   - Displacement: (0, 0)
+
+Final Position: (0, 0)
+
+Direction from starting point: At the starting point.
+
+Answer: At the starting point.","starting point: assume the starting point is at the origin (0, 0). 1. walk 15 meters north: - displacement: (0, +15) 2. turn left (west) and walk 10 meters: - displacement: (-10, +15) 3. turn left (south) and walk 15 meters: - displacement: (-10, 0) 4. turn left (east) and walk 10 meters: - displacement: (0, 0) final position: (0, 0) direction from starting point: at the starting point. answer: at the starting point",False,success,,10.31
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,87,384A1C7803AF12F4,187,South,south,The navigator ends up facing North.,the navigator ends up facing north,False,success,,0.728
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,88,7C3BEA9D4D477EBC,188,14 m,14 m,11 m,11 m,False,success,,0.526
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,89,CE66B313ACC10919,189,14.14 km North-East,14.14 km north-east,"Final position: 5 km East, 10 km North of the starting point.
+
+Distance from starting point: 11.18 km (approximately).
+
+Direction from starting point: North-East.","final position: 5 km east, 10 km north of the starting point. distance from starting point: 11.18 km (approximately). direction from starting point: north-east",False,success,,3.014
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,90,DC78C34287314210,190,East,east,East,east,True,success,,0.22
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,91,9E6030FD768A4F5A,191,40 m,40 m,50 m,50 m,False,success,,0.557
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,92,8D30C0DE64158A8C,192,"7.81 km, North-East","7.81 km, north-east","10 km, North-East","10 km, north-east",False,success,,0.557
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,93,AAAF1588DCA5C5FE,193,North-West,north-west,North-East,north-east,False,success,,0.345
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,94,435D27645987CE18,194,"0 m, At starting point","0 m, at starting point",0 meters,0 meters,False,success,,0.393
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,95,D576DFE6D22153EC,195,"7.07 km, North-East","7.07 km, north-east",5 km East,5 km east,False,success,,0.47
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,96,EA3B05AB443E6F31,196,5.00 km,5.00 km,13 km,13 km,False,success,,0.398
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,97,D9884A861F2EA06C,197,"5.00 km, West","5.00 km, west",5 km West,5 km west,False,success,,0.637
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,98,DE064F7BF4A3D371,198,4.64 km,4.64 km,3.61 km,3.61 km,False,success,,0.476
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,99,36266196D363BF67,199,"8 km, West","8 km, west",8 km,8 km,False,success,,0.344
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Direction_Sense,obfuscation,zero_shot,100,7981C4360038569B,200,West,west,West,west,True,success,,0.289
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,51,A0F2412EB212A240,201,25,25,29,29,False,success,,0.539
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,52,C9D76BEF7DD494C5,202,71,71,11,11,False,success,,0.294
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,53,0585CD57C0F621B2,203,220,220,"To solve this problem, we need to decode the sequence and identify the arithmetic rule governing it.
+
+1. **Identify the Pattern:**
+   - The sequence given is: 15, 22, 40, 75, 133, ?
+   - Let's calculate the differences between consecutive terms:
+     - 22 - 15 = 7
+     - 40 - 22 = 18
+     - 75 - 40 = 35
+     - 133 - 75 = 58
+
+2. **Analyze the Differences:**
+   - The differences are: 7, 18, 35, 58
+   - Let's calculate the differences of these differences:
+     - 18 - 7 = 11
+     - 35 - 18 = 17
+     - 58 - 35 = 23
+
+3. **Identify the Second-Level Pattern:**
+   - The second-level differences are: 11, 17, 23
+   - These differences increase by 6 each time (17 - 11 = 6, 23 - 17 = 6).
+
+4. **Predict the Next Difference:**
+   - The next difference in the second-level differences should be 23 + 6 = 29.
+   - Therefore, the next first-level difference should be 58 + 29 = 87.
+
+5. **Calculate the Next Term:**
+   - Add this difference to the last term in the sequence: 133 + 87 = 220
+
+Thus, the next term in the sequence is:
+
+220","to solve this problem, we need to decode the sequence and identify the arithmetic rule governing it. 1. **identify the pattern:** - the sequence given is: 15, 22, 40, 75, 133, ? - let's calculate the differences between consecutive terms: - 22 - 15 = 7 - 40 - 22 = 18 - 75 - 40 = 35 - 133 - 75 = 58 2. **analyze the differences:** - the differences are: 7, 18, 35, 58 - let's calculate the differences of these differences: - 18 - 7 = 11 - 35 - 18 = 17 - 58 - 35 = 23 3. **identify the second-level pattern:** - the second-level differences are: 11, 17, 23 - these differences increase by 6 each time (17 - 11 = 6, 23 - 17 = 6). 4. **predict the next difference:** - the next difference in the second-level differences should be 23 + 6 = 29. - therefore, the next first-level difference should be 58 + 29 = 87. 5. **calculate the next term:** - add this difference to the last term in the sequence: 133 + 87 = 220 thus, the next term in the sequence is: 220",False,success,,24.469
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,54,65AEF26A8934BA3E,204,37,37,3,3,False,success,,0.633
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,55,982374A08894BA4D,205,397,397,"Neptune (8)  
+Next number: 389  
+
+389",neptune (8) next number: 389 389,False,success,,1.169
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,56,25B865259C303CCC,206,12,12,Mercury,mercury,False,success,,0.274
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,57,FB600BD857CE0B3F,207,300,300,108,108,False,success,,0.199
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,58,29A409768F98AE94,208,130,130,e10adc3949ba59abbe56e057f20f883e,e10adc3949ba59abbe56e057f20f883e,False,success,,1.473
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,59,C84EA1B8AFCC6781,209,397,397,Pluto,pluto,False,success,,0.441
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,60,F4857CD98AE632FD,210,17,17,17,17,True,success,,0.291
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,61,2020596782AC1619,211,227,227,Pluto,pluto,False,success,,0.443
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,62,331DBCC7B13DB148,212,524,524,131,131,False,success,,0.304
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,63,15E02568FDE1510F,213,14,14,34,34,False,success,,0.411
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,64,31CB5C5F89E1C729,214,162,162,324,324,False,success,,0.292
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,65,F2755BE5BE39748D,215,38,38,"To solve this problem, we need to decode the sequence using the given rules and find the next term.
+
+1. **Identify the pattern:**
+   - The sequence given is: 6, 11, 18, 27, ...
+   - Let's look at the differences between consecutive terms:
+     - 11 - 6 = 5
+     - 18 - 11 = 7
+     - 27 - 18 = 9
+   - The differences are increasing by 2 each time (5, 7, 9).
+
+2. **Predict the next difference:**
+   - Following the pattern, the next difference should be 9 + 2 = 11.
+
+3. **Calculate the next term:**
+   - Add this difference to the last term in the sequence:
+     - 27 + 11 = 38
+
+Thus, the next term in the sequence is 38.","to solve this problem, we need to decode the sequence using the given rules and find the next term. 1. **identify the pattern:** - the sequence given is: 6, 11, 18, 27, ... - let's look at the differences between consecutive terms: - 11 - 6 = 5 - 18 - 11 = 7 - 27 - 18 = 9 - the differences are increasing by 2 each time (5, 7, 9). 2. **predict the next difference:** - following the pattern, the next difference should be 9 + 2 = 11. 3. **calculate the next term:** - add this difference to the last term in the sequence: - 27 + 11 = 38 thus, the next term in the sequence is 38",False,success,,14.414
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,66,02AA52D061B13F1A,216,99,99,34,34,False,success,,0.216
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,67,2A784ABC0A61EE94,217,107,107,"To solve this problem, we need to identify the pattern in the given sequence: 27, 35, 47, 63, 83, and determine the next term.
+
+1. **Identify the Pattern:**
+   - Calculate the differences between consecutive terms:
+     - 35 - 27 = 8
+     - 47 - 35 = 12
+     - 63 - 47 = 16
+     - 83 - 63 = 20
+
+2. **Analyze the Differences:**
+   - The differences are: 8, 12, 16, 20.
+   - These differences increase by 4 each time (12 - 8 = 4, 16 - 12 = 4, 20 - 16 = 4).
+
+3. **Predict the Next Difference:**
+   - Following the pattern, the next difference should be 20 + 4 = 24.
+
+4. **Calculate the Next Term:**
+   - Add the next difference to the last term in the sequence:
+     - 83 + 24 = 107
+
+Thus, the next term in the sequence is 107.","to solve this problem, we need to identify the pattern in the given sequence: 27, 35, 47, 63, 83, and determine the next term. 1. **identify the pattern:** - calculate the differences between consecutive terms: - 35 - 27 = 8 - 47 - 35 = 12 - 63 - 47 = 16 - 83 - 63 = 20 2. **analyze the differences:** - the differences are: 8, 12, 16, 20. - these differences increase by 4 each time (12 - 8 = 4, 16 - 12 = 4, 20 - 16 = 4). 3. **predict the next difference:** - following the pattern, the next difference should be 20 + 4 = 24. 4. **calculate the next term:** - add the next difference to the last term in the sequence: - 83 + 24 = 107 thus, the next term in the sequence is 107",False,success,,17.831
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,68,759B31870BEC722A,218,12,12,"Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto
+
+The sequence given is: 5, 3, 6, 9, ?, 15
+
+Let's decode the sequence using the planet code:
+
+- 5 corresponds to Jupiter
+- 3 corresponds to Mars
+- 6 corresponds to Saturn
+- 9 corresponds to Uranus
+- ? corresponds to Neptune
+- 15 corresponds to Pluto
+
+Now, let's look at the numerical sequence: 5, 3, 6, 9, ?, 15
+
+The differences between consecutive numbers are:
+
+- 3 - 5 = -2
+- 6 - 3 = 3
+- 9 - 6 = 3
+- ? - 9 = ?
+- 15 - ? = ?
+
+The pattern in differences is: -2, 3, 3, ?, ?
+
+Continuing the pattern, the next difference should be 3:
+
+- ? - 9 = 3
+- ? = 9 + 3 = 12
+
+Thus, the missing number is 12.
+
+Therefore, the next term in the sequence is:
+
+12","mercury, venus, earth, mars, jupiter, saturn, uranus, neptune, pluto the sequence given is: 5, 3, 6, 9, ?, 15 let's decode the sequence using the planet code: - 5 corresponds to jupiter - 3 corresponds to mars - 6 corresponds to saturn - 9 corresponds to uranus - ? corresponds to neptune - 15 corresponds to pluto now, let's look at the numerical sequence: 5, 3, 6, 9, ?, 15 the differences between consecutive numbers are: - 3 - 5 = -2 - 6 - 3 = 3 - 9 - 6 = 3 - ? - 9 = ? - 15 - ? = ? the pattern in differences is: -2, 3, 3, ?, ? continuing the pattern, the next difference should be 3: - ? - 9 = 3 - ? = 9 + 3 = 12 thus, the missing number is 12. therefore, the next term in the sequence is: 12",False,success,,18.257
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,69,DFDD2AEDBF9B38AB,219,11052,11052,11049,11049,False,success,,0.379
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,70,C3AD1210FBF7BAFF,220,910,910,"Pluto, Mars, Mars, Neptune, Uranus, Uranus, Saturn, Neptune, Jupiter, Mars, Mars, Uranus, Uranus, Saturn, Saturn, Neptune, Jupiter, Pluto, Earth, Jupiter, Pluto, Uranus, Uranus, Saturn, Saturn, Neptune, Jupiter, Mars, Mars, Uranus, Uranus, Saturn, Saturn, Neptune, Jupiter, Pluto, Earth, Jupiter, Pluto, Uranus, Uranus, Saturn, Saturn, Neptune, Jupiter, Mars, Mars, Uranus, Uranus, Saturn, Saturn, Neptune, Jupiter, Pluto, Earth, Jupiter, Pluto, Uranus, Uranus, Saturn, Saturn, Neptune, Jupiter, Mars, Mars, Uranus, Uranus, Saturn, Saturn, Neptune, Jupiter, Pluto, Earth
+
+The next term is: Mars","pluto, mars, mars, neptune, uranus, uranus, saturn, neptune, jupiter, mars, mars, uranus, uranus, saturn, saturn, neptune, jupiter, pluto, earth, jupiter, pluto, uranus, uranus, saturn, saturn, neptune, jupiter, mars, mars, uranus, uranus, saturn, saturn, neptune, jupiter, pluto, earth, jupiter, pluto, uranus, uranus, saturn, saturn, neptune, jupiter, mars, mars, uranus, uranus, saturn, saturn, neptune, jupiter, pluto, earth, jupiter, pluto, uranus, uranus, saturn, saturn, neptune, jupiter, mars, mars, uranus, uranus, saturn, saturn, neptune, jupiter, pluto, earth the next term is: mars",False,success,,12.834
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,71,CB3D06FDBAC0105F,221,16,16,"To solve this problem, we need to identify the pattern in the given sequence: 2, 4, 8, 10, 14, ...
+
+1. **Identify the Pattern:**
+   - Look at the differences between consecutive terms:
+     - 4 - 2 = 2
+     - 8 - 4 = 4
+     - 10 - 8 = 2
+     - 14 - 10 = 4
+
+   - The differences alternate between 2 and 4.
+
+2. **Predict the Next Term:**
+   - Following the pattern of alternating differences (2, 4, 2, 4, ...), the next difference should be 2.
+
+3. **Calculate the Next Term:**
+   - Add the next difference (2) to the last term (14):
+     - 14 + 2 = 16
+
+Therefore, the next term in the sequence is 16.","to solve this problem, we need to identify the pattern in the given sequence: 2, 4, 8, 10, 14, ... 1. **identify the pattern:** - look at the differences between consecutive terms: - 4 - 2 = 2 - 8 - 4 = 4 - 10 - 8 = 2 - 14 - 10 = 4 - the differences alternate between 2 and 4. 2. **predict the next term:** - following the pattern of alternating differences (2, 4, 2, 4, ...), the next difference should be 2. 3. **calculate the next term:** - add the next difference (2) to the last term (14): - 14 + 2 = 16 therefore, the next term in the sequence is 16",False,success,,14.74
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,72,FF8754C62BB36F1F,222,243,243,214,214,False,success,,0.3
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,73,A0587C48E984C323,223,18000,18000,18000,18000,True,success,,0.364
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,74,D8BFC66282258C86,224,18,18,"To solve this problem, we need to decode the sequence using the given rules:
+
+1. **Planet Names to Digits:**
+   - Sun = 0
+   - Mercury = 1
+   - Venus = 2
+   - Earth = 3
+   - Mars = 4
+   - Jupiter = 5
+   - Saturn = 6
+   - Uranus = 7
+   - Neptune = 8
+   - Pluto = 9
+
+2. **ASCII Sum Encoding:**
+   - Calculate the ASCII sum of each lowercase planet name:
+     - mercury = 109 + 101 + 114 + 99 + 117 + 114 + 121 = 775
+     - venus = 118 + 101 + 110 + 117 + 115 = 565
+     - earth = 101 + 114 + 116 + 104 = 435
+     - mars = 109 + 97 + 114 + 115 = 435
+     - jupiter = 106 + 117 + 112 + 105 + 116 + 101 + 114 = 871
+     - saturn = 115 + 97 + 116 + 117 + 110 = 555
+     - uranus = 117 + 114 + 97 + 110 + 117 + 115 = 760
+     - neptune = 110 + 101 + 112 + 116 + 117 + 101 = 657
+     - pluto = 112 + 108 + 117 + 116 + 111 = 564
+
+3. **Sequence Analysis:**
+   - 435: Earth (3)
+   - Venus (2)
+   - 561: This is not a direct ASCII sum, but let's check:
+     - 561 is close to Saturn (555), but not exact. Let's assume it's a transformation.
+   - 532: This is not a direct ASCII sum, but let's check:
+     - 532 is close to Mars (435) + 97 (ASCII of 'a'), suggesting a transformation.
+   - 669: This is not a direct ASCII sum, but let's check:
+     - 669 is close to Neptune (657) + 12, suggesting a transformation.
+
+4. **Pattern Identification:**
+   - The sequence seems to alternate between numbers and planet names.
+   - The numbers might be transformations","to solve this problem, we need to decode the sequence using the given rules: 1. **planet names to digits:** - sun = 0 - mercury = 1 - venus = 2 - earth = 3 - mars = 4 - jupiter = 5 - saturn = 6 - uranus = 7 - neptune = 8 - pluto = 9 2. **ascii sum encoding:** - calculate the ascii sum of each lowercase planet name: - mercury = 109 + 101 + 114 + 99 + 117 + 114 + 121 = 775 - venus = 118 + 101 + 110 + 117 + 115 = 565 - earth = 101 + 114 + 116 + 104 = 435 - mars = 109 + 97 + 114 + 115 = 435 - jupiter = 106 + 117 + 112 + 105 + 116 + 101 + 114 = 871 - saturn = 115 + 97 + 116 + 117 + 110 = 555 - uranus = 117 + 114 + 97 + 110 + 117 + 115 = 760 - neptune = 110 + 101 + 112 + 116 + 117 + 101 = 657 - pluto = 112 + 108 + 117 + 116 + 111 = 564 3. **sequence analysis:** - 435: earth (3) - venus (2) - 561: this is not a direct ascii sum, but let's check: - 561 is close to saturn (555), but not exact. let's assume it's a transformation. - 532: this is not a direct ascii sum, but let's check: - 532 is close to mars (435) + 97 (ascii of 'a'), suggesting a transformation. - 669: this is not a direct ascii sum, but let's check: - 669 is close to neptune (657) + 12, suggesting a transformation. 4. **pattern identification:** - the sequence seems to alternate between numbers and planet names. - the numbers might be transformations",False,success,,37.759
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,75,BA2991E7171C8E9B,225,3944,3944,"Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Mars, Jupiter, Saturn, Uranus,","saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus, neptune, pluto, mars, jupiter, saturn, uranus",False,success,,37.7
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,76,F9CB6CAA7F7BD14F,226,24,24,"To solve this problem, we need to decode the sequence using the given rules and find the next term.
+
+1. **Planet to Digit Mapping:**
+   - Sun = 0
+   - Mercury = 1
+   - Venus = 2
+   - Earth = 3
+   - Mars = 4
+   - Jupiter = 5
+   - Saturn = 6
+   - Uranus = 7
+   - Neptune = 8
+   - Pluto = 9
+
+2. **ASCII Sum Decoding:**
+   - 'mercury' has an ASCII sum of 775, which corresponds to Mercury (1).
+   - 'saturn' has an ASCII sum of 564, which corresponds to Saturn (6).
+
+3. **Sequence Analysis:**
+   - Pluto = 9
+   - 775 775 = Mercury Mercury = 11
+   - Mercury Mars = 14
+   - Mercury Saturn = 16
+   - 775 564 = Mercury Saturn = 16
+   - Venus Mercury = 21
+
+4. **Pattern Identification:**
+   - The sequence is: 9, 11, 14, 16, 16, 21
+
+5. **Finding the Next Term:**
+   - The differences between consecutive terms are: 2, 3, 2, 0, 5
+   - The pattern in differences is: +2, +3, +2, +0, +5
+   - Following this pattern, the next difference should be +3 (since the pattern seems to repeat or follow a cycle).
+
+6. **Calculating the Next Term:**
+   - Last term is 21, and adding the next difference of 3 gives us 24.
+
+Therefore, the next term in the sequence is:
+
+24","to solve this problem, we need to decode the sequence using the given rules and find the next term. 1. **planet to digit mapping:** - sun = 0 - mercury = 1 - venus = 2 - earth = 3 - mars = 4 - jupiter = 5 - saturn = 6 - uranus = 7 - neptune = 8 - pluto = 9 2. **ascii sum decoding:** - 'mercury' has an ascii sum of 775, which corresponds to mercury (1). - 'saturn' has an ascii sum of 564, which corresponds to saturn (6). 3. **sequence analysis:** - pluto = 9 - 775 775 = mercury mercury = 11 - mercury mars = 14 - mercury saturn = 16 - 775 564 = mercury saturn = 16 - venus mercury = 21 4. **pattern identification:** - the sequence is: 9, 11, 14, 16, 16, 21 5. **finding the next term:** - the differences between consecutive terms are: 2, 3, 2, 0, 5 - the pattern in differences is: +2, +3, +2, +0, +5 - following this pattern, the next difference should be +3 (since the pattern seems to repeat or follow a cycle). 6. **calculating the next term:** - last term is 21, and adding the next difference of 3 gives us 24. therefore, the next term in the sequence is: 24",False,success,,28.066
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,77,409317144A1B87B6,227,90,90,80,80,False,success,,0.485
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,78,27597752C3E3130C,228,36,36,29,29,False,success,,0.281
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,79,914E06968E93AFE0,229,158,158,0,0,False,success,,0.523
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,80,D882B5E6BAFC67D8,230,131,131,"Neptune (8)  
+118 (Mercury)  
+124.5 (Jupiter)  
+118 (Mercury)  
+132.5 (Saturn)  
+
+132.5",neptune (8) 118 (mercury) 124.5 (jupiter) 118 (mercury) 132.5 (saturn) 132.5,False,success,,2.991
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,81,269095347408DA76,231,25,25,"To solve this problem, we need to identify the pattern in the given sequence: 50, 45, 40, 35, 30, ...
+
+1. **Identify the Pattern:**
+   - The sequence decreases by 5 each time:
+     - 50 to 45: decrease by 5
+     - 45 to 40: decrease by 5
+     - 40 to 35: decrease by 5
+     - 35 to 30: decrease by 5
+
+2. **Apply the Pattern:**
+   - Continuing this pattern, the next term after 30 would be:
+     - 30 - 5 = 25
+
+Thus, the next term in the sequence is 25.","to solve this problem, we need to identify the pattern in the given sequence: 50, 45, 40, 35, 30, ... 1. **identify the pattern:** - the sequence decreases by 5 each time: - 50 to 45: decrease by 5 - 45 to 40: decrease by 5 - 40 to 35: decrease by 5 - 35 to 30: decrease by 5 2. **apply the pattern:** - continuing this pattern, the next term after 30 would be: - 30 - 5 = 25 thus, the next term in the sequence is 25",False,success,,11.446
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,82,9374223C6EEFB34E,232,190,190,"Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto
+
+The sequence given is: 4, 5, 18, 19, 68, 69, ...
+
+Let's decode the sequence using the planet code:
+
+- 4 corresponds to Mars
+- 5 corresponds to Venus
+- 18 corresponds to Saturn
+- 19 corresponds to Uranus
+- 68 corresponds to Neptune
+- 69 corresponds to Pluto
+
+Now, let's look at the pattern in the sequence:
+
+1. 4 (Mars) to 5 (Venus): Increase by 1
+2. 5 (Venus) to 18 (Saturn): Increase by 13
+3. 18 (Saturn) to 19 (Uranus): Increase by 1
+4. 19 (Uranus) to 68 (Neptune): Increase by 49
+5. 68 (Neptune) to 69 (Pluto): Increase by 1
+
+The pattern alternates between adding 1 and adding a square of an odd number:
+
+- 1 (1^2)
+- 13 (3^2 + 4)
+- 1 (1^2)
+- 49 (7^2)
+- 1 (1^2)
+
+Following this pattern, the next increase should be 9^2 = 81.
+
+So, the next term after 69 is 69 + 81 = 150.
+
+Therefore, the next term in the sequence is:
+
+150","mercury, venus, earth, mars, jupiter, saturn, uranus, neptune, pluto the sequence given is: 4, 5, 18, 19, 68, 69, ... let's decode the sequence using the planet code: - 4 corresponds to mars - 5 corresponds to venus - 18 corresponds to saturn - 19 corresponds to uranus - 68 corresponds to neptune - 69 corresponds to pluto now, let's look at the pattern in the sequence: 1. 4 (mars) to 5 (venus): increase by 1 2. 5 (venus) to 18 (saturn): increase by 13 3. 18 (saturn) to 19 (uranus): increase by 1 4. 19 (uranus) to 68 (neptune): increase by 49 5. 68 (neptune) to 69 (pluto): increase by 1 the pattern alternates between adding 1 and adding a square of an odd number: - 1 (1^2) - 13 (3^2 + 4) - 1 (1^2) - 49 (7^2) - 1 (1^2) following this pattern, the next increase should be 9^2 = 81. so, the next term after 69 is 69 + 81 = 150. therefore, the next term in the sequence is: 150",False,success,,23.986
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,83,A6CAA86A60556317,233,17,17,11,11,False,success,,0.375
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,84,5C38D047812EF796,234,3944,3944,Pluto,pluto,False,success,,0.447
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,85,391B6D036BA2E8B7,235,594,594,"The sequence provided is: 24, 70, 144, 252, 400, ?
+
+To find the pattern, let's first examine the differences between consecutive terms:
+
+- 70 - 24 = 46
+- 144 - 70 = 74
+- 252 - 144 = 108
+- 400 - 252 = 148
+
+Now, let's look at the differences between these differences:
+
+- 74 - 46 = 28
+- 108 - 74 = 34
+- 148 - 108 = 40
+
+The second-level differences are increasing by 6 each time (28, 34, 40). If this pattern continues, the next difference should be:
+
+- 40 + 6 = 46
+
+Adding this to the last first-level difference:
+
+- 148 + 46 = 194
+
+Now, add this to the last term in the sequence:
+
+- 400 + 194 = 594
+
+Thus, the next term in the sequence is 594.","the sequence provided is: 24, 70, 144, 252, 400, ? to find the pattern, let's first examine the differences between consecutive terms: - 70 - 24 = 46 - 144 - 70 = 74 - 252 - 144 = 108 - 400 - 252 = 148 now, let's look at the differences between these differences: - 74 - 46 = 28 - 108 - 74 = 34 - 148 - 108 = 40 the second-level differences are increasing by 6 each time (28, 34, 40). if this pattern continues, the next difference should be: - 40 + 6 = 46 adding this to the last first-level difference: - 148 + 46 = 194 now, add this to the last term in the sequence: - 400 + 194 = 594 thus, the next term in the sequence is 594",False,success,,16.104
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,86,156F09FC2FBCDAF9,236,228,228,9,9,False,success,,0.437
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,87,A63A66844D90F3F4,237,582,582,5,5,False,success,,0.568
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,88,F3777DC04B6114C9,238,4841,4841,"To solve this problem, we need to decode the sequence using the given rules:
+
+1. **Planet Names to Digits:**
+   - Sun = 0
+   - Mercury = 1
+   - Venus = 2
+   - Earth = 3
+   - Mars = 4
+   - Jupiter = 5
+   - Saturn = 6
+   - Uranus = 7
+   - Neptune = 8
+   - Pluto = 9
+
+2. **ASCII Sum Encoding:**
+   - Calculate the ASCII sum of each lowercase planet name:
+     - sun = 432
+     - mercury = 775
+     - venus = 532
+     - earth = 532
+     - mars = 436
+     - jupiter = 767
+     - saturn = 732
+     - uranus = 732
+     - neptune = 748
+     - pluto = 542
+
+3. **Sequence Analysis:**
+   - 5: Corresponds to Jupiter (5th planet).
+   - 36: Corresponds to Earth Mars (3 and 4 concatenated).
+   - 191: ASCII sum of 'neptune' (748), but 191 is not directly 748. Let's check:
+     - 191 is the ASCII sum of 'mercury' (775) minus 84 (8th letter 'h' in 'mercury').
+   - 966: ASCII sum of 'saturn' (732) plus 234 (3rd letter 'e' in 'earth' and 4th letter 'r' in 'earth' = 101 + 114 = 215, but 966 is not directly 732 + 215. Let's check:
+     - 966 is the ASCII sum of 'uranus' (732) plus 234 (9th letter 'u' in 'uranus' and 10th letter 's' in 'uranus' = 117 + 115 = 232, but 966 is not directly 732 + 232. Let's check:
+     - 966 is the ASCII sum of 'saturn' (732) plus 234 (3rd letter 'a' in 'saturn' and 4th letter 't' in 'saturn' = 97 + 116 = 213, but 966 is not directly 732 + 213. Let's check:
+     - 966 is","to solve this problem, we need to decode the sequence using the given rules: 1. **planet names to digits:** - sun = 0 - mercury = 1 - venus = 2 - earth = 3 - mars = 4 - jupiter = 5 - saturn = 6 - uranus = 7 - neptune = 8 - pluto = 9 2. **ascii sum encoding:** - calculate the ascii sum of each lowercase planet name: - sun = 432 - mercury = 775 - venus = 532 - earth = 532 - mars = 436 - jupiter = 767 - saturn = 732 - uranus = 732 - neptune = 748 - pluto = 542 3. **sequence analysis:** - 5: corresponds to jupiter (5th planet). - 36: corresponds to earth mars (3 and 4 concatenated). - 191: ascii sum of 'neptune' (748), but 191 is not directly 748. let's check: - 191 is the ascii sum of 'mercury' (775) minus 84 (8th letter 'h' in 'mercury'). - 966: ascii sum of 'saturn' (732) plus 234 (3rd letter 'e' in 'earth' and 4th letter 'r' in 'earth' = 101 + 114 = 215, but 966 is not directly 732 + 215. let's check: - 966 is the ascii sum of 'uranus' (732) plus 234 (9th letter 'u' in 'uranus' and 10th letter 's' in 'uranus' = 117 + 115 = 232, but 966 is not directly 732 + 232. let's check: - 966 is the ascii sum of 'saturn' (732) plus 234 (3rd letter 'a' in 'saturn' and 4th letter 't' in 'saturn' = 97 + 116 = 213, but 966 is not directly 732 + 213. let's check: - 966 is",False,success,,37.911
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,89,035EA0B3E0DDC368,239,131,131,"Mercury Sun Jupiter = 1 0 2  
+Mercury Mercury Neptune = 1 1 8  
+111.5  
+124.5  
+Mercury Mercury Neptune = 1 1 8  
+
+The sequence alternates between coded planet names and numbers. The numbers increase by 13 (111.5 + 13 = 124.5). The pattern suggests the next number should be 124.5 + 13 = 137.5.
+
+137.5",mercury sun jupiter = 1 0 2 mercury mercury neptune = 1 1 8 111.5 124.5 mercury mercury neptune = 1 1 8 the sequence alternates between coded planet names and numbers. the numbers increase by 13 (111.5 + 13 = 124.5). the pattern suggests the next number should be 124.5 + 13 = 137.5. 137.5,False,success,,7.698
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,90,E6E63FDCF487BA8C,240,90,90,"The sequence provided is: 10, 9, 60, 90, 70, 66, ...
+
+To solve this, we need to identify the pattern and determine the next term.
+
+1. **Identify the pattern:**
+   - The sequence alternates between integers and MD5 hashes of single digits.
+   - The integers are: 10, 9, 60, 90, 70, 66.
+   - The MD5 hashes correspond to single digits (0-9).
+
+2. **Decode the MD5 hashes:**
+   - We need to find which MD5 hash corresponds to which digit. However, since no hashes are provided in the sequence, we assume the sequence is purely numerical for now.
+
+3. **Analyze the numerical pattern:**
+   - Look at the differences between consecutive terms:
+     - 10 to 9: -1
+     - 9 to 60: +51
+     - 60 to 90: +30
+     - 90 to 70: -20
+     - 70 to 66: -4
+
+4. **Identify the pattern in differences:**
+   - The differences are: -1, +51, +30, -20, -4.
+   - There is no simple arithmetic progression, but observe:
+     - The differences alternate in sign: negative, positive, positive, negative, negative.
+     - The absolute values of differences: 1, 51, 30, 20, 4.
+
+5. **Predict the next difference:**
+   - Following the alternating sign pattern, the next difference should be positive.
+   - The absolute values of differences seem to decrease: 51, 30, 20, 4.
+   - A plausible next absolute difference could be smaller than 4, possibly 2.
+
+6. **Calculate the next term:**
+   - Current term is 66.
+   - Predicted difference is +2 (positive and smaller than 4).
+   - Next term = 66 + 2 = 68.
+
+Therefore, the next term in the sequence is:
+
+68","the sequence provided is: 10, 9, 60, 90, 70, 66, ... to solve this, we need to identify the pattern and determine the next term. 1. **identify the pattern:** - the sequence alternates between integers and md5 hashes of single digits. - the integers are: 10, 9, 60, 90, 70, 66. - the md5 hashes correspond to single digits (0-9). 2. **decode the md5 hashes:** - we need to find which md5 hash corresponds to which digit. however, since no hashes are provided in the sequence, we assume the sequence is purely numerical for now. 3. **analyze the numerical pattern:** - look at the differences between consecutive terms: - 10 to 9: -1 - 9 to 60: +51 - 60 to 90: +30 - 90 to 70: -20 - 70 to 66: -4 4. **identify the pattern in differences:** - the differences are: -1, +51, +30, -20, -4. - there is no simple arithmetic progression, but observe: - the differences alternate in sign: negative, positive, positive, negative, negative. - the absolute values of differences: 1, 51, 30, 20, 4. 5. **predict the next difference:** - following the alternating sign pattern, the next difference should be positive. - the absolute values of differences seem to decrease: 51, 30, 20, 4. - a plausible next absolute difference could be smaller than 4, possibly 2. 6. **calculate the next term:** - current term is 66. - predicted difference is +2 (positive and smaller than 4). - next term = 66 + 2 = 68. therefore, the next term in the sequence is: 68",False,success,,32.904
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,91,A82AF6CE818C5F8C,241,704,704,172,172,False,success,,0.553
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,92,5BA0461FE6E24A36,242,30,30,"To solve this problem, we need to decode the sequence using the given rules:
+
+1. **Planet to Digit Mapping:**
+   - Sun = 0
+   - Mercury = 1
+   - Venus = 2
+   - Earth = 3
+   - Mars = 4
+   - Jupiter = 5
+   - Saturn = 6
+   - Uranus = 7
+   - Neptune = 8
+   - Pluto = 9
+
+2. **ASCII Sum Encoding:**
+   - Calculate the ASCII sum for each lowercase planet name:
+     - mercury = 109 + 101 + 114 + 99 + 117 + 114 + 121 = 775
+     - venus = 118 + 101 + 110 + 117 + 115 = 565
+     - sun = 115 + 117 + 110 = 342
+     - saturn = 115 + 97 + 116 + 117 + 114 + 110 = 669
+     - mercury = 775 (as calculated above)
+     - venus = 565 (as calculated above)
+
+3. **Mapping ASCII Sums to Digits:**
+   - 775 (mercury) = 1
+   - 565 (venus) = 2
+   - 342 (sun) = 0
+   - 669 (saturn) = 6
+
+4. **Sequence Analysis:**
+   - 561: No planet name, so it remains 561.
+   - Saturn = 6
+   - Mercury Venus: Concatenate digits for Mercury (1) and Venus (2) to get 12.
+   - Venus Sun: Concatenate digits for Venus (2) and Sun (0) to get 20.
+
+5. **Determine the Next Term:**
+   - The sequence so far is: 561, 6, 12, 20.
+   - The pattern involves concatenating digits of consecutive planet names.
+   - After Venus Sun (20), the next logical step is to continue with the next planet name in the sequence.
+   - The next planet after Sun is Mercury, so we concatenate Sun (0) and Mercury (1) to get 01.
+
+Thus, the next term in the sequence is:
+
+01","to solve this problem, we need to decode the sequence using the given rules: 1. **planet to digit mapping:** - sun = 0 - mercury = 1 - venus = 2 - earth = 3 - mars = 4 - jupiter = 5 - saturn = 6 - uranus = 7 - neptune = 8 - pluto = 9 2. **ascii sum encoding:** - calculate the ascii sum for each lowercase planet name: - mercury = 109 + 101 + 114 + 99 + 117 + 114 + 121 = 775 - venus = 118 + 101 + 110 + 117 + 115 = 565 - sun = 115 + 117 + 110 = 342 - saturn = 115 + 97 + 116 + 117 + 114 + 110 = 669 - mercury = 775 (as calculated above) - venus = 565 (as calculated above) 3. **mapping ascii sums to digits:** - 775 (mercury) = 1 - 565 (venus) = 2 - 342 (sun) = 0 - 669 (saturn) = 6 4. **sequence analysis:** - 561: no planet name, so it remains 561. - saturn = 6 - mercury venus: concatenate digits for mercury (1) and venus (2) to get 12. - venus sun: concatenate digits for venus (2) and sun (0) to get 20. 5. **determine the next term:** - the sequence so far is: 561, 6, 12, 20. - the pattern involves concatenating digits of consecutive planet names. - after venus sun (20), the next logical step is to continue with the next planet name in the sequence. - the next planet after sun is mercury, so we concatenate sun (0) and mercury (1) to get 01. thus, the next term in the sequence is: 01",False,success,,35.738
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,93,E08927B8C6E0AA90,243,220,220,"Neptune (8)  
+Jupiter (5)  
+Venus (2)  
+Venus (2)  
+40  
+Uranus (7)  
+Jupiter (5)  
+133  
+
+Convert planet names to numbers:
+- Mercury (1)
+- Jupiter (5)
+- Venus (2)
+- Uranus (7)
+
+Sequence with numbers:
+1, 5, 2, 2, 40, 7, 5, 133
+
+Identify the pattern:
+- 1 to 5: +4
+- 5 to 2: -3
+- 2 to 2: +0
+- 2 to 40: +38
+- 40 to 7: -33
+- 7 to 5: -2
+- 5 to 133: +128
+
+Pattern in differences:
+- +4, -3, +0, +38, -33, -2, +128
+
+Notice the pattern in differences:
+- Alternating between adding and subtracting
+- The differences themselves follow a pattern: 4, 3, 0, 38, 33, 2, 128
+
+Next difference:
+- The differences are increasing by a factor of approximately 10 each time (4, 3, 0, 38, 33, 2, 128)
+- The next difference should be -126 (since 128 - 254 = -126, following the alternating pattern)
+
+Calculate the next term:
+- 133 - 126 = 7
+
+Convert 7 back to a planet:
+- 7 corresponds to Uranus
+
+Thus, the next term in the sequence is Uranus.
+
+Convert Uranus back to its numerical value:
+- Uranus = 7
+
+Final answer:
+7","neptune (8) jupiter (5) venus (2) venus (2) 40 uranus (7) jupiter (5) 133 convert planet names to numbers: - mercury (1) - jupiter (5) - venus (2) - uranus (7) sequence with numbers: 1, 5, 2, 2, 40, 7, 5, 133 identify the pattern: - 1 to 5: +4 - 5 to 2: -3 - 2 to 2: +0 - 2 to 40: +38 - 40 to 7: -33 - 7 to 5: -2 - 5 to 133: +128 pattern in differences: - +4, -3, +0, +38, -33, -2, +128 notice the pattern in differences: - alternating between adding and subtracting - the differences themselves follow a pattern: 4, 3, 0, 38, 33, 2, 128 next difference: - the differences are increasing by a factor of approximately 10 each time (4, 3, 0, 38, 33, 2, 128) - the next difference should be -126 (since 128 - 254 = -126, following the alternating pattern) calculate the next term: - 133 - 126 = 7 convert 7 back to a planet: - 7 corresponds to uranus thus, the next term in the sequence is uranus. convert uranus back to its numerical value: - uranus = 7 final answer: 7",False,success,,27.807
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,94,177A3B7664EE8C84,244,767 771,767 771,"The sequence provided is a mix of numbers and planet names, where each planet corresponds to a digit from 0 to 9. The sequence is:
+
+1. 561 670
+2. 532 771
+3. 435 670
+4. 669 532
+5. 767 532
+
+To find the next term, we need to decode the sequence:
+
+- **561**: 
+  - 5 corresponds to Jupiter.
+  - 6 corresponds to Saturn.
+  - 1 corresponds to Mercury.
+  - Concatenated: Jupiter Saturn Mercury = 678
+
+- **670**:
+  - 6 corresponds to Saturn.
+  - 7 corresponds to Uranus.
+  - 0 corresponds to Sun.
+  - Concatenated: Saturn Uranus Sun = 670
+
+- **532**:
+  - 5 corresponds to Jupiter.
+  - 3 corresponds to Earth.
+  - 2 corresponds to Venus.
+  - Concatenated: Jupiter Earth Venus = 532
+
+- **771**:
+  - 7 corresponds to Uranus.
+  - 7 corresponds to Uranus.
+  - 1 corresponds to Mercury.
+  - Concatenated: Uranus Uranus Mercury = 771
+
+- **435**:
+  - 4 corresponds to Mars.
+  - 3 corresponds to Earth.
+  - 5 corresponds to Jupiter.
+  - Concatenated: Mars Earth Jupiter = 435
+
+- **670** (repeated):
+  - Saturn Uranus Sun = 670
+
+- **669**:
+  - 6 corresponds to Saturn.
+  - 6 corresponds to Saturn.
+  - 9 corresponds to Neptune.
+  - Concatenated: Saturn Saturn Neptune = 669
+
+- **532** (repeated):
+  - Jupiter Earth Venus = 532
+
+- **767**:
+  - 7 corresponds to Uranus.
+  - 6 corresponds to Saturn.
+  - 7 corresponds to Uranus.
+  - Concatenated: Uranus Saturn Uranus = 767
+
+- **532** (repeated):
+  - Jupiter Earth Venus = 532
+
+The pattern involves alternating between a unique number and a repeated number. The repeated number is 670, 532, 670, 532, 532. The unique numbers are 561, 532, 435, 669, 767.
+
+The next unique number after 767 should follow the pattern of the sequence.","the sequence provided is a mix of numbers and planet names, where each planet corresponds to a digit from 0 to 9. the sequence is: 1. 561 670 2. 532 771 3. 435 670 4. 669 532 5. 767 532 to find the next term, we need to decode the sequence: - **561**: - 5 corresponds to jupiter. - 6 corresponds to saturn. - 1 corresponds to mercury. - concatenated: jupiter saturn mercury = 678 - **670**: - 6 corresponds to saturn. - 7 corresponds to uranus. - 0 corresponds to sun. - concatenated: saturn uranus sun = 670 - **532**: - 5 corresponds to jupiter. - 3 corresponds to earth. - 2 corresponds to venus. - concatenated: jupiter earth venus = 532 - **771**: - 7 corresponds to uranus. - 7 corresponds to uranus. - 1 corresponds to mercury. - concatenated: uranus uranus mercury = 771 - **435**: - 4 corresponds to mars. - 3 corresponds to earth. - 5 corresponds to jupiter. - concatenated: mars earth jupiter = 435 - **670** (repeated): - saturn uranus sun = 670 - **669**: - 6 corresponds to saturn. - 6 corresponds to saturn. - 9 corresponds to neptune. - concatenated: saturn saturn neptune = 669 - **532** (repeated): - jupiter earth venus = 532 - **767**: - 7 corresponds to uranus. - 6 corresponds to saturn. - 7 corresponds to uranus. - concatenated: uranus saturn uranus = 767 - **532** (repeated): - jupiter earth venus = 532 the pattern involves alternating between a unique number and a repeated number. the repeated number is 670, 532, 670, 532, 532. the unique numbers are 561, 532, 435, 669, 767. the next unique number after 767 should follow the pattern of the sequence",False,success,,37.972
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,95,11DD02D0CAEF8EC6,245,9,9,"To solve this problem, we need to decode the sequence using the given rules and find the next term.
+
+1. **Identify the sequence elements:**
+   - 561, 532, 775, 435, Saturn Pluto, 532, 435, 342
+
+2. **Decode the numbers using ASCII sums:**
+   - 561: Not a direct ASCII sum, so it's a number.
+   - 532: Not a direct ASCII sum, so it's a number.
+   - 775: ASCII sum of 'mercury' (775), corresponds to Mercury (1).
+   - 435: Not a direct ASCII sum, so it's a number.
+   - Saturn Pluto: Corresponds to digits 6 (Saturn) and 9 (Pluto), concatenated as 69.
+   - 532: Not a direct ASCII sum, so it's a number.
+   - 435: Not a direct ASCII sum, so it's a number.
+   - 342: Not a direct ASCII sum, so it's a number.
+
+3. **Identify the pattern:**
+   - The sequence alternates between numbers and planet codes.
+   - The numbers 561, 532, 435, 532, 435, 342 do not follow a clear arithmetic or geometric pattern.
+   - The planet codes are 775 (Mercury), Saturn Pluto (69), and these are interspersed with numbers.
+
+4. **Determine the next term:**
+   - After 342, the pattern suggests another planet code should follow.
+   - The sequence of planet codes so far is Mercury (1) and Saturn Pluto (69).
+   - The next logical planet code after Saturn Pluto (69) would be the next in the planet order after Pluto, which is Sun (0).
+
+5. **Convert the next planet code:**
+   - Sun corresponds to 0.
+
+Thus, the next term in the sequence is:
+
+0","to solve this problem, we need to decode the sequence using the given rules and find the next term. 1. **identify the sequence elements:** - 561, 532, 775, 435, saturn pluto, 532, 435, 342 2. **decode the numbers using ascii sums:** - 561: not a direct ascii sum, so it's a number. - 532: not a direct ascii sum, so it's a number. - 775: ascii sum of 'mercury' (775), corresponds to mercury (1). - 435: not a direct ascii sum, so it's a number. - saturn pluto: corresponds to digits 6 (saturn) and 9 (pluto), concatenated as 69. - 532: not a direct ascii sum, so it's a number. - 435: not a direct ascii sum, so it's a number. - 342: not a direct ascii sum, so it's a number. 3. **identify the pattern:** - the sequence alternates between numbers and planet codes. - the numbers 561, 532, 435, 532, 435, 342 do not follow a clear arithmetic or geometric pattern. - the planet codes are 775 (mercury), saturn pluto (69), and these are interspersed with numbers. 4. **determine the next term:** - after 342, the pattern suggests another planet code should follow. - the sequence of planet codes so far is mercury (1) and saturn pluto (69). - the next logical planet code after saturn pluto (69) would be the next in the planet order after pluto, which is sun (0). 5. **convert the next planet code:** - sun corresponds to 0. thus, the next term in the sequence is: 0",False,success,,30.489
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,96,10E562A00E5F7616,246,251.8,251.8,"To solve this problem, we need to decode the sequence and identify the arithmetic rule governing it. The sequence provided is:
+
+31, 17, 26, 64.5, ?, 1006.6
+
+First, let's examine the differences between consecutive terms:
+
+1. 17 - 31 = -14
+2. 26 - 17 = 9
+3. 64.5 - 26 = 38.5
+
+Next, let's look at the differences between these differences:
+
+1. 9 - (-14) = 23
+2. 38.5 - 9 = 29.5
+
+Now, let's examine the differences between these second-level differences:
+
+1. 29.5 - 23 = 6.5
+
+The differences between the differences are increasing by 6.5. Let's apply this pattern to find the next difference:
+
+1. Next difference = 29.5 + 6.5 = 36
+
+Now, add this difference to the last first-level difference:
+
+1. Next first-level difference = 38.5 + 36 = 74.5
+
+Finally, add this to the last term in the sequence to find the missing term:
+
+1. Missing term = 64.5 + 74.5 = 139
+
+Thus, the next term in the sequence is:
+
+139","to solve this problem, we need to decode the sequence and identify the arithmetic rule governing it. the sequence provided is: 31, 17, 26, 64.5, ?, 1006.6 first, let's examine the differences between consecutive terms: 1. 17 - 31 = -14 2. 26 - 17 = 9 3. 64.5 - 26 = 38.5 next, let's look at the differences between these differences: 1. 9 - (-14) = 23 2. 38.5 - 9 = 29.5 now, let's examine the differences between these second-level differences: 1. 29.5 - 23 = 6.5 the differences between the differences are increasing by 6.5. let's apply this pattern to find the next difference: 1. next difference = 29.5 + 6.5 = 36 now, add this difference to the last first-level difference: 1. next first-level difference = 38.5 + 36 = 74.5 finally, add this to the last term in the sequence to find the missing term: 1. missing term = 64.5 + 74.5 = 139 thus, the next term in the sequence is: 139",False,success,,21.307
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,97,B66CBC94A1EBCD6C,247,441,441,169,169,False,success,,0.341
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,98,05E7FEAC36C16B0E,248,24,24,"To solve this problem, we need to decode the sequence using the given rules:
+
+1. **Planet Names to Digits:**
+   - Sun = 0
+   - Mercury = 1
+   - Venus = 2
+   - Earth = 3
+   - Mars = 4
+   - Jupiter = 5
+   - Saturn = 6
+   - Uranus = 7
+   - Neptune = 8
+   - Pluto = 9
+
+2. **ASCII Sum Encoding:**
+   - Calculate the ASCII sum of each lowercase planet name:
+     - sun = 432
+     - mercury = 775
+     - venus = 532
+     - earth = 532
+     - mars = 436
+     - jupiter = 767
+     - saturn = 732
+     - uranus = 714
+     - neptune = 758
+     - pluto = 545
+
+3. **Mapping ASCII Sums to Digits:**
+   - Find the corresponding digit for each ASCII sum based on the planet order:
+     - 432 (sun) -> 0
+     - 775 (mercury) -> 1
+     - 532 (venus/earth) -> 2 or 3
+     - 436 (mars) -> 4
+     - 767 (jupiter) -> 5
+     - 732 (saturn) -> 6
+     - 714 (uranus) -> 7
+     - 758 (neptune) -> 8
+     - 545 (pluto) -> 9
+
+4. **Sequence Analysis:**
+   - Given sequence: 9, 11, 14, 16, 19, 21, ...
+   - Convert each number to a pair of digits:
+     - 9 -> Pluto (9)
+     - 11 -> 1 1 -> Mercury Mercury (11)
+     - 14 -> 1 4 -> Mercury Mars (14)
+     - 16 -> 1 6 -> Mercury Saturn (16)
+     - 19 -> 1 9 -> Mercury Pluto (19)
+     - 21 -> 2 1 -> Venus Mercury (21)
+
+5. **Pattern Identification:**
+   - The sequence alternates between starting with Mercury (1) and then increments the second digit by 1 each time:
+     - 9 (Pluto)
+     - 11","to solve this problem, we need to decode the sequence using the given rules: 1. **planet names to digits:** - sun = 0 - mercury = 1 - venus = 2 - earth = 3 - mars = 4 - jupiter = 5 - saturn = 6 - uranus = 7 - neptune = 8 - pluto = 9 2. **ascii sum encoding:** - calculate the ascii sum of each lowercase planet name: - sun = 432 - mercury = 775 - venus = 532 - earth = 532 - mars = 436 - jupiter = 767 - saturn = 732 - uranus = 714 - neptune = 758 - pluto = 545 3. **mapping ascii sums to digits:** - find the corresponding digit for each ascii sum based on the planet order: - 432 (sun) -> 0 - 775 (mercury) -> 1 - 532 (venus/earth) -> 2 or 3 - 436 (mars) -> 4 - 767 (jupiter) -> 5 - 732 (saturn) -> 6 - 714 (uranus) -> 7 - 758 (neptune) -> 8 - 545 (pluto) -> 9 4. **sequence analysis:** - given sequence: 9, 11, 14, 16, 19, 21, ... - convert each number to a pair of digits: - 9 -> pluto (9) - 11 -> 1 1 -> mercury mercury (11) - 14 -> 1 4 -> mercury mars (14) - 16 -> 1 6 -> mercury saturn (16) - 19 -> 1 9 -> mercury pluto (19) - 21 -> 2 1 -> venus mercury (21) 5. **pattern identification:** - the sequence alternates between starting with mercury (1) and then increments the second digit by 1 each time: - 9 (pluto) - 11",False,success,,37.987
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,99,980ED6E5BF8B0EA4,249,30,30,"The sequence provided is 2, 6, 12, 20, ...
+
+To identify the pattern, let's examine the differences between consecutive terms:
+
+- 6 - 2 = 4
+- 12 - 6 = 6
+- 20 - 12 = 8
+
+The differences are increasing by 2 each time (4, 6, 8). This suggests that the next difference should be 10.
+
+Adding this difference to the last term in the sequence:
+
+20 + 10 = 30
+
+Thus, the next term in the sequence is 30.","the sequence provided is 2, 6, 12, 20, ... to identify the pattern, let's examine the differences between consecutive terms: - 6 - 2 = 4 - 12 - 6 = 6 - 20 - 12 = 8 the differences are increasing by 2 each time (4, 6, 8). this suggests that the next difference should be 10. adding this difference to the last term in the sequence: 20 + 10 = 30 thus, the next term in the sequence is 30",False,success,,9.366
+Explicit Task Instructions,Ollama: Microsoft Phi-4 14B (Q4_K_M),Number_Series,obfuscation,zero_shot,100,82EA829AF4056F8B,250,243,243,97,97,False,success,,0.318
