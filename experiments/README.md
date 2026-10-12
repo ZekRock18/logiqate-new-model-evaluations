@@ -2,6 +2,11 @@
 
 Start with a model folder, then open the method you want to inspect. A method guide links directly to its inputs, recorded responses, notebook, and scored output. Model-level `assigned/` and `tier1/` packages keep shared controls, manifests, code, and audits together so the runs remain reproducible without duplicating large CSVs.
 
+## Cross-model summary tables
+
+- [Zero-shot results across all models](zero_shot_results.md) — obfuscated-variant accuracy by task, model, and overall.
+- [Mitigation technique results across all models](mitigation_results.md) — assigned and Tier-1 methods on obfuscated variants, with matched zero-shot controls.
+
 | Model run | Sample and available work | Start here |
 | --- | --- | --- |
 | DeepSeek-V4.1-Flash | 15-question pilot; three assigned prompts and seven Tier-1 methods | [DeepSeek guide](deepseek_v4_1_flash_15/) |
